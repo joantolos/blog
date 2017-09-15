@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/theCodeThatShouldNotBe/"
 linktitle = ""
 title = "The code that should not be"
-type = "draft"
+type = "post"
 +++
 
 
