@@ -38,7 +38,7 @@ They way it usually goes, once the developer goes over the frustration, comes th
 
 ## The mythical feature to be
 
-_"Well, let´s keep it for the future"._ That is tempting, and sometimes hard to avoid but let´s think about it. You will have to maintain code that it is not used. You will have to keep the tests updated and that implementation will be taken into account when the whole design of the application evolves. That little part left there _for the future_ may affect to the implementation of actual needed features. Some newcomer to the project could see the feature and think that we are really selling fruits. Why shouldn't he? At the end of the day, the code tells the story and it is clear that we are selling fruits. Well... wrong, it is only apples dude.
+_"Well, let's keep it for the future"._ That is tempting, and sometimes hard to avoid but let's think about it. You will have to maintain code that it is not used. You will have to keep the tests updated and that implementation will be taken into account when the whole design of the application evolves. That little part left there _for the future_ may affect to the implementation of actual needed features. Some newcomer to the project could see the feature and think that we are really selling fruits. Why shouldn't he? At the end of the day, the code tells the story and it is clear that we are selling fruits. Well... wrong, it is only apples dude.
 
 ## Commented code
 
