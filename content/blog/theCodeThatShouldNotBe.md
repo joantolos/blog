@@ -54,7 +54,7 @@ _But maybe someday, we will be asked to sell fruits._ That is what GIT is for (o
 
 There is some tendency to avoid deleting code. Specially when is good clean code. But for that case, less is always better:
 
-**The only code that never fails, is the one that don´t exist.**
+**The only code that never fails, is the one that don't exist.**
 
 We could say the say the same thing for all the tasks related to the code:
 
