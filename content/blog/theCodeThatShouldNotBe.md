@@ -32,6 +32,7 @@ Was it really?
 * Second of all, if you feel like your coding was a waste of time just because that code will not run on production, maybe you did something wrong. Every coding opportunity should be fulfilling and be use to learn. More important, every time you code, you should left the code cleaner than you found it. This whole minor (sometimes huge) refactors will see the light of production. Some other developer will benefit from that so you already did something good for the team, and so for the project.
 
 * Third, your code does not have any purpose by _itself_. Your code is only worth as it is useful for the client. You may think that balancing that binary tree on that particular way is super clever, elegant and nice, every one thinks that. Well, every _developer_ will think that.
+<<<<<<< HEAD
 But if it does not add value to the costumer (even when the costumer is other developers), that beautiful binary tree solution is worthless.
 
 They way it usually goes, once the developer goes over the frustration, comes the next phase:
@@ -39,6 +40,15 @@ They way it usually goes, once the developer goes over the frustration, comes th
 ## The mythical feature to be
 
 _"Well, let's keep it for the future"._ That is tempting, and sometimes hard to avoid but let's think about it. You will have to maintain code that it is not used. You will have to keep the tests updated and that implementation will be taken into account when the whole design of the application evolves. That little part left there _for the future_ may affect to the implementation of actual needed features. Some newcomer to the project could see the feature and think that we are really selling fruits. Why shouldn't he? At the end of the day, the code tells the story and it is clear that we are selling fruits. Well... wrong, it is only apples dude.
+=======
+What if it does not add value to the costumer (even when the costumer is other developers), that beautiful binary tree solution is worthless.
+
+They way it usually goes, once the developer goes over the frustration, then comes the next phase:
+
+## The mythical feature to be
+
+_"Well, let´s keep it for the future"._ That is tempting, and sometimes hard to avoid but let´s think about it. You will have to maintain code that it is not used. You will have to keep the tests updated and that implementation will be taken into account when the whole design of the application evolves. That little part left there _for the future_ may affect to the implementation of actual needed features. Some newcomer to the project could see the feature and think that we are really selling fruits. Why shouldn't he? At the end of the day, the code tells the story and it is clear that we are selling fruits. Well... wrong, it is only apples dude.
+>>>>>>> ba8888b26804431184273da77f08373e7db17557
 
 ## Commented code
 
