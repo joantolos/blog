@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/gradleTask/"
 linktitle = ""
 title = "One task to rule them all"
-type = "draft"
+type = "post"
 +++
 
 Trying to learn a little bit more about how Gradle deals with tasks and how to execute them in an specific order.
@@ -180,17 +180,74 @@ You can use Java classes inside your build and use Groovy to perform actions wit
 
 That made me think that we are not using Gradle as it is supposed to be used. The copy task, the depends, the possibility of define classes... all this toolbox is offered to you in order to define the build of your project. You are not supposed to execute a Java program and then expect to collect the results of that program to execute another one. This is more a task for an SSH script, again, **Gradle is a building tool.**
 
+# Compromise solution
 
+At that point I had a lot of questions about this project:
 
-# Conclusion
+* Is the use of files strictly necessary?
+* Why the producer and consumer should behave as an standalone program?
+* How this process will be executed or deployed?
+
+Before going deep on the whole program purpose and doubt the design I want to provide a solution so my college can go on with the project. Finally, I found a solution that could be implemented right away:
+
+On the consumer build.gradle file we can add the following task:
+
+    task process(type: JavaExec) {
+        dependsOn ':producer:produce'
+        main = 'com.joantolos.gradle.file.consumer.ConsumerApp'
+        classpath = sourceSets.main.runtimeClasspath
+    }
+
+This task depends on the _produce_ task inside the build.gradle on the producer, which looks like that:
+
+    task produce(type: JavaExec) {
+        main = 'com.joantolos.gradle.file.producer.ProducerApp'
+        classpath = sourceSets.main.runtimeClasspath
+
+        doLast {
+            String lastFile = new File(outputFolder).listFiles().findAll { filePattern.matcher(it.name) }?.sort { -it.lastModified() }?.head()?.getName()
+            FileUtils.copyFileToDirectory(new File(outputFolder + lastFile), new File(inputFolder))
+            println('File copied from ' + outputFolder + ' to ' + inputFolder + ": "+lastFile)
+        }
+    }
+
+Here we have the magic, or the tricky part. Using the Copy type task from Gradle was giving problems because of the evaluation against the execution so I tried to copy the files some other way and that's is when Apache Commons come to help. We can use **FileUtils** from Apache Commons IO library to copy the file and mark this procedure as "doLast" inside the produce task.
+
+Now we have arrived at the solution only with two Gradle tasks added. You can find the POC of the whole experiment here:
+
+{{< url-link "Gradle Producer/Consumer POC" "https://github.com/joantolos/gradle-file-selector" >}}
+
+Even with the project working, I wasn't happy with the final solution... Mixing two executions of Java programs with some scripting magic is something that I don't find simple to understand. The main question is:
+
+**Where is the logic about finding the latest file modified matching a name described?**
+
+It is not explicitly described anywhere on the code, that after the producer does it's thing, there is a "candidate file selection" process after. It is hidden, obfuscated on the Gradle task. If a new coder joins the team tomorrow, he or she must debug and inspect the Gradle tasks in order to understand what the program does. To me, this is a big problem. The code should tell the story of what it does simply _reading_ it, that is why is written in a programming _language_ whatever it is.
 
 # The Batch Processor solution
 
+Why not make explicit the logic of the program, by creating a new module named "batch" with do the batch process that we are implemented on the Gradle tasks:
 
+{{< img-post path="/img/gradleTask/" file="gradleTaskNewLayout.png" alt="Module layout" type="center" >}}
+
+* Produce the files
+* Move one of them
+* Consume it
+
+How many "type of files" do we have? I mean, the substring that we have to match with the file name is kind of a type of batch processor right?
+
+So, now with a single task that compiles the whole logic and a Java class where you can _read_ what is doing:
+
+    this.producer.produce();
+    FileUtils.copyFileToDirectory(getOutputFile(outputPath), new File(inputPath));
+    this.consumer.consume();
+
+Produce, copy and consume, simple as that. This Batch class is more simple to understand, maintain and extend. For example, we can convert this class into a service if necessary (and discard the main method). It is an entry point for the logic associated with the file processing. That way we can identify patterns like, is it worth it to have a single class (or service) for every type of file? Or we can go on with a generic single one?
 
 # The Next Step solution
 
 Files suck. I mean having to write and read files from disk, you face a lot of inconvenient stuff like concurrency, input/output exceptions, folders location, etc... Besides, writing files to disk is expensive and slow.
+
+I would strongly recommend to get rid of the files. This type of batch processors scream for some kind of queue system, where the producer writes into de queue that the content is ready and the consumer listen to the queue and start processing. But if this solution is overkill for this exact situation, it is still worth it trying not to use the files. Maybe writing a byte array into a database or something less _heavy_.
 
 ### Fonts:
 
