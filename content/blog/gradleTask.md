@@ -213,9 +213,7 @@ This task depends on the _produce_ task inside the build.gradle on the producer,
 
 Here we have the magic, or the tricky part. Using the Copy type task from Gradle was giving problems because of the evaluation against the execution so I tried to copy the files some other way and that's is when Apache Commons come to help. We can use **FileUtils** from Apache Commons IO library to copy the file and mark this procedure as "doLast" inside the produce task.
 
-Now we have arrived at the solution only with two Gradle tasks added. You can find the POC of the whole experiment here:
-
-{{< url-link "Gradle Producer/Consumer POC" "https://github.com/joantolos/gradle-file-selector" >}}
+Now we have arrived at the solution only with two Gradle tasks added. You can find the POC of the whole experiment here: {{< url-link "Gradle Producer/Consumer POC" "https://github.com/joantolos/gradle-file-selector" >}}
 
 Even with the project working, I wasn't happy with the final solution... Mixing two executions of Java programs with some scripting magic is something that I don't find simple to understand. The main question is:
 
