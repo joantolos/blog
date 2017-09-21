@@ -11,7 +11,7 @@ title = "Artificial Intelligence (Part One)"
 type = "draft"
 +++
 
-I am going to study an introduction to Artificial Intelligence (AI) and I want to share my learning experience. This will be a series of post (minimum of five), and all of them compiled should serve as an introduction.
+I am going to study an introduction to Artificial Intelligence (AI) and I want to share my learning experience. This will be a series of post, minimum of five.
 
 # History
 
