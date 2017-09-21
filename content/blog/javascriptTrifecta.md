@@ -8,7 +8,8 @@ featuredalt = ""
 featuredpath = "/img/javascriptTrifecta/"
 linktitle = ""
 title = "Javascript Trifecta"
-type = "post"
+type = "draft
+"
 
 +++
 
