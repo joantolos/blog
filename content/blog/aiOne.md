@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/aiOne/"
 linktitle = ""
 title = "Artificial Intelligence (Part One)"
-type = "draft"
+type = "post"
 +++
 
 I am going to study an introduction to Artificial Intelligence (AI) and I want to share my learning experience. This will be a series of post, minimum of five.
@@ -42,7 +42,19 @@ Concepts like _uncertainty_ and _non precision_ started to be taken into account
 
 # Definitions and points of view
 
+There is not a single definition of AI but a lot of them according different points of view. We are going to consider AI as a computer science field and how the different programs and applications define it.
 
+The goals of the different programs will lead to different definitions:
+
+* The goal of the program can be obtain an specific **conduct** or to obtain an specific **reasoning**. This **conduct/reasoning** pair makes the _first dimension_.
+* On the other hand, it is required that the programs are **correct**. You can measure this correction comparing the performance with the performance on actual people or compared against an ideal concept of intelligence. This ideal is named _**rationality.**_ The way we measure the correction is the _second dimension_.
+
+Using these two dimensions, there are four possible visions for the goals and so, four possible definitions:
+
+1. **Act like people: The Turing test.** This definition is based on the proposal by **{{< url-link "Alan Turing" "https://en.wikipedia.org/wiki/Turing_test" >}}** defining intelligence as an operational way: A conduct is intelligence when has enough level to confuse a human interlocutor.
+1. **Reason like people: The cognitive model.** In this definition, not only the result is important but also how it is obtained. The goal is for the process to be similar to the one made by humans. **{{< url-link "The General Problem Solver." "https://en.wikipedia.org/wiki/General_Problem_Solver" >}}**
+1. **Reason rationally: The thoughts laws.** This point of view is based on considering what it means to think correctly or, what is equivalent, know when a new fact can be deduced logically from the knowledge of what is available.
+1. **Act rationally: The rational agent.**
 
 ## Some applications
 
