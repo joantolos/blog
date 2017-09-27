@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/aiOne/"
 linktitle = ""
 title = "Artificial Intelligence (Part One)"
-type = "post"
+type = "draft"
 +++
 
 I am going to study an introduction to Artificial Intelligence (AI) and I want to share my learning experience. This will be a series of post, minimum of five.
