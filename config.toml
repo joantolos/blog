@@ -1,4 +1,4 @@
-baseurl = "http://www.joantolos.com/blog"
+baseurl = "http://www.joantolos.com"
 languageCode = "en-us"
 title = "Joan Tolos"
 theme = "hugo-future-imperfect"
