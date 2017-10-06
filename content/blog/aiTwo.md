@@ -17,11 +17,28 @@ At that point, we can see how to **formulate a problem** defining the _state spa
 
 # State space and problem representation
 
-# Compliance with restrictions and planning
+We have to create a model of the problem. This process will usually follow the steps:
 
-# The importance of proper representation and the cost
+1. Environment modeling
+  We define an **STATE** as the world representation in a specific state.
+  We have to deduce on our system...
+    * What is an state?
+    * What are the possible states?
+    * How do we represent an state?
+2. Actions modeling
+  We call **ACTIONS** as the way to move from an state to another and the **BRANCHING FACTOR** as the number of actions that can be applied on an specific state.
+  Then we can define the **STATE SPACE** which is the group of possible states and the group of actions.
 
-# Lisp implementation of the linear jigsaw puzzle
+  Here an STATE SPACE representation for the linear jigsaw puzzle problem:
+
+  {{< img-post path="/img/ai/" file="stateSpace.png" alt="Module layout" type="center" >}}
+
+3. Problem definition
+  We can define the problem as the **initial state** and the **goal function**.
+
+# Building a solution
+
+We define the **solution** as the road through the _space state_ graph where, given an _initial state_, it will satisfy the _goal function._
 
 ### Fonts:
 
