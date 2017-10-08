@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/ai/"
 linktitle = ""
 title = "Artificial Intelligence (Part Two)"
-type = "draft"
+type = "post"
 +++
 
 {{< url-link "We have stablished" "http://www.joantolos.com/blog/aione/" >}} that intelligent activity is reached thought the use of **symbols** to represent the problem domain, **operations** over this patterns and **search** to select a solution from the possibilities.
@@ -39,6 +39,40 @@ We have to create a model of the problem. This process will usually follow the s
 # Building a solution
 
 We define the **solution** as the road through the _space state_ graph where, given an _initial state_, it will satisfy the _goal function._
+
+The search algorithm chooses a node and consider the possible actions that can be applied. Each one of this actions creates a new steps group. This made the representation of the data structure as a tree, a searching tree.
+
+{{< img-post path="/img/ai/" file="tree.png" alt="Tree layout" type="center" >}}
+
+For the implementation we need the _data structure_ for the tree and the _functions_ for build and operate with the tree, that will define the following steps:
+
+1. **Node Representation**
+
+    A node will contain:
+  * id
+  * parent id
+  * how is generated
+  * state
+  * additional info
+1. **Data Structure**
+  * Already expanded nodes (List)
+  * Nodes to expand (Queue with priority)
+      * Apply selection operation
+      * Add nodes to the structure
+1. **Algorithm**
+  {{< img-post path="/img/ai/" file="algorithm.png" alt="Tree layout" type="center" >}}
+
+# Not informed search strategies
+
+The search strategy is defined by the following questions:
+
+* Which node we have to expand?
+* How to sort the not-expanded nodes?
+
+1. **Amplitude search**
+{{< img-post path="/img/ai/" file="amplitudeSearch.png" alt="Amplitude search" type="center" >}}
+1. **Deep search**
+{{< img-post path="/img/ai/" file="deepSearch.png" alt="Deep search" type="center" >}}
 
 ### Fonts:
 
