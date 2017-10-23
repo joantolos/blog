@@ -16,9 +16,10 @@ I had to develop a service with the **{{< url-link "Node.js" "https://nodejs.org
 
 I am not so fluent on Javascript so I had to compile information in order to have the proper tools to be able to code with TDD from day one.
 
-# Mocha: Javascript test framework
+# Mocha and Chai: Javascript test framework
 
 https://mochajs.org
+http://chaijs.com/
 
 # Nock: Mocking library for Node.js
 
