@@ -112,7 +112,7 @@ This is a representation of the A* algorithm on pseudo-code:
     	input the start node S and the set of GOALS of goal nodes;
     	OPEN <- {S}
     	G[S] <- 0;
-    	H[S] <- null;
+    	PRED[S] <- null;
     	found <- false;
 
     	while OPEN is not empty and found is false do
