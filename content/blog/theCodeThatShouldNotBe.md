@@ -34,7 +34,7 @@ Was it really?
 * Third, your code does not have any purpose by _itself_. Your code is only worth as it is useful for the client. You may think that balancing that binary tree on that particular way is super clever, elegant and nice, every one thinks that. Well, every _developer_ will think that.
 But if it does not add value to the costumer (even when the costumer is other developers), that beautiful binary tree solution is worthless.
 
-They way it usually goes, once the developer goes over the frustration, comes the next phase:
+The way it usually goes, once the developer goes over the frustration, comes the next phase:
 
 ## The mythical feature to be
 
