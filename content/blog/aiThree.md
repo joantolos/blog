@@ -8,10 +8,23 @@ featuredalt = ""
 featuredpath = "/img/ai/"
 linktitle = ""
 title = "Artificial Intelligence (Part Three)"
-type = "draft"
+type = "post"
 +++
 
+The knowledge system solve the problems using an intense knowledge of the application field. The knowledge base, the inference system and the user interface are the components associated.
 
+Building that kind of a system requires a big investment in time and resources and it has to be carefully evaluated if it is worth it.
+
+You should only build a knowledge system when:
+
+* The usual programming techniques can not solve the problem.
+* There are experts that have a good structured knowledge of the system domain.
+* We don´t always have human experience on the environments where the knowledge is needed.
+
+If there is a point to build a knowledge system, then you have to build a **model.**
+
+A model is an abstraction used for specific goals. When we know the model goal, we can do an approximation of the phenomena we want to model. It represents a structured way to understand the entities and the processes that allows to build the solution on the real world.
+The model allows has to understand better the process and also be able to predict.
 
 ### Systems based on rules
 
