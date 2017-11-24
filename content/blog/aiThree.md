@@ -15,9 +15,52 @@ type = "draft"
 
 ### Systems based on rules
 
+These systems are used mostly to solve problems of _classification_ and _diagnose_. There are based on **facts** and **rules**
+
+* Facts: Knowledge about the objects of the system.
+* Rules: Establish the relation between the objects.
+  * Follow this format: **IF** [_premise_] **THEN** [_conclusion_] where both premise and conclusion are assertions of the facts.
+
+Using the facts and rules, the inference system extract conclusions about the knowledge base which can be concluding new facts or assert the certainty of a fact.
+
+**Rule system architecture**
+
+{{< img-post path="/img/ai/" file="ruleSystemArchitecture.png" alt="Rule system architecture" type="center" >}}
+
+* **Rules base:** First formal aspect of the representation. It contains de group of **rules**, the info of the domain.
+* **Working memory:** Second formal aspect of the representation. It contains the group of **facts** which are temporary and relative to the specific problem trying to solve.
+* **Interpret:** It is the inference aspect, it concludes new facts.
+
+About the cyclic system of inference:
+
+{{< img-post path="/img/ai/" file="inference.png" alt="Inference" type="center" >}}
+
+* **Recovery:** Selects the rules that we can apply. The selected sub group is named _conflict set_.
+* **Refinement:** Selects a rule from the sub group.
+* **Execution:** Applies the rule.
+
+The cycle ends once it has been proven whatever it is we are trying to prove or the conflict set is empty. So, we have a goal (a solution state) and a search problem (the group of rules). We can apply the search strategies {{< url-link "explained before." "http://www.joantolos.com/blog/aitwo/" >}}
+
+**Strategies for drive the search**
+
+* Textual order
+* Refractoriness
+* Recency
+* Specificity
+
+**Strategies for doing the inference**
+
+* Forward reasoning
+
+We start from the knowledge and start applying the rules until the goal is reached. To know if we can apply a rule, we look to the _precedent_. If it is fulfilled, it is added to the work memory the rule conclusions.
+
+* Backward reasoning
+
+We start from the goal and select the rules that fulfill the goal.
+
 ### Systems with structured representation
 
-The structured representation allows to _relate_ the units from which the knowledge is defined. This is accomplished modelling the interconnections between the objects of the domain. Some of this representations are:
+The structured representation allows to _relate_ the units from which the knowledge is defined. This is accomplished modeling the interconnections between the objects of the domain. Some of this representations are:
 
 * Frames
 * Semantic networks
