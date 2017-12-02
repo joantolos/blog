@@ -24,15 +24,13 @@ For those not familiar with the concept of _kata_ in programming, I can not make
 
 I have some recurrent katas that I repeat from time to time, you can find a lot of proposals on the Internet to have fun with.
 
-I will not send this solution to Codurance, nor do I expect feedback from them. I only found the exercise interesting and wanted to share the experience.
-
 # Sandro Mancuso and Codurance
 
 I first met {{< url-link "Sandro Mancuso" "https://twitter.com/sandromancuso?lang=es" >}} at the {{< url-link "Barcelona Java Conf" "http://www.jbcnconf.com" >}} of 2017. He gave the closing keynote and then I attended a TDD workshop that he made. The closing keynote was particularly inspiring and made my buy his book {{< url-link "The Software Craftsman: Professionalism, Pragmatism, Pride" "https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501/ref=sr_1_1?ie=UTF8&qid=1512140001&sr=8-1&keywords=sandro+mancuso" >}} (actually it was a present from my wife).
 
 I really enjoyed the book and I can not recommend it enough so if you don't have it, get one copy soon.
 
-While I was reading the book, a couple of colleges from a previous job told me that they were working with Codurance (the consultant company co-founded by Mancuso) on their current project. They spoke very well of their experience and told me about an Open House event that Codurance was having on their Barcelona offices.
+While I was reading the book, a couple of colleges from a previous job (Mike and Marc) told me that they were working with Codurance (the consultant company co-founded by Mancuso) on their current project. They spoke very well of their experience and told me about an Open House event that Codurance was having on their Barcelona offices.
 
 I decided to go to met with them and catch up. I also was enjoying the book so I though it was a good idea do a little bit of networking.
 
@@ -41,6 +39,18 @@ At the event, Sandro was explaining how the company works, how is the recruitmen
 One of the tools they use, is a programming exercise that the applicant can do in about two weeks and then submit for them to check. They compromise in actually checking the code and give an informed feedback, so they take their time. It is like have a pair programming session with a delay. The feedback is not only _"ok, you did good, you can come for the next round"_ or _"sorry, your code is not good enough"_ but they actually take time to check the code and give useful feedback like _"you may want to use inheritance on that class"_ or _"maybe you should consider this pattern instead"_. Like a real pair programming session. And then you may make the next round of the process or not, but you **always** are going to receive a useful feedback so you can improve.
 
 That is really nice. Well... it shouldn't be nice, it should be a **standard**. If a candidate is investing time on make what he or she thinks is the best solution, why the company can not invest the same time?
+
+# The social networking kata
+
+I found several kata exercice on Sandro Mancuso GitHub and decided to do the Social Network one.
+
+This is my implementation of the exercice, on my GitHub.
+
+I know it can be improved a lot more but you have to stop somewhere. I code it in about three days in spare time.
+
+# The take over
+
+I will not send this solution to Codurance, nor do I expect feedback from them. I only found the exercise interesting and wanted to share the experience.
 
 There are a few more katas on the Sandro Mancuso’s GitHub page, some of them with fun rules like _Only one dot for line_, _Not a single ELSE sentence on the code_ and things like that. Really nice gimnastics and practice exercices. 
 
