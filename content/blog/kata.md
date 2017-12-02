@@ -26,7 +26,7 @@ I have some recurrent katas that I repeat from time to time, you can find a lot 
 
 # Sandro Mancuso and Codurance
 
-I first met {{< url-link "Sandro Mancuso" "https://twitter.com/sandromancuso?lang=es" >}} at the {{< url-link "Barcelona Java Conf" "http://www.jbcnconf.com" >}} of 2017. He gave the closing keynote and then I attended a TDD workshop that he made. The closing keynote was particularly inspiring and made my buy his book {{< url-link "The Software Craftsman: Professionalism, Pragmatism, Pride" "https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501/ref=sr_1_1?ie=UTF8&qid=1512140001&sr=8-1&keywords=sandro+mancuso" >}} (actually it was a present from my wife).
+I first met {{< url-link "Sandro Mancuso" "https://twitter.com/sandromancuso?lang=es" >}} at the {{< url-link "Barcelona Java Conf" "http://www.jbcnconf.com" >}} of 2017. He gave the closing keynote and then I attended a TDD workshop that he made. The closing keynote was particularly inspiring and made me buy his book {{< url-link "The Software Craftsman: Professionalism, Pragmatism, Pride" "https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501/ref=sr_1_1?ie=UTF8&qid=1512140001&sr=8-1&keywords=sandro+mancuso" >}} (actually it was a present from my wife).
 
 I really enjoyed the book and I can not recommend it enough so if you don't have it, get one copy soon.
 
@@ -39,6 +39,8 @@ At the event, Sandro was explaining how the company works, how is the recruitmen
 One of the tools they use, is a programming exercise that the applicant can do in about two weeks and then submit for them to check. They compromise in actually checking the code and give an informed feedback, so they take their time. It is like have a pair programming session with a delay. The feedback is not only _"ok, you did good, you can come for the next round"_ or _"sorry, your code is not good enough"_ but they actually take time to check the code and give useful feedback like _"you may want to use inheritance on that class"_ or _"maybe you should consider this pattern instead"_. Like a real pair programming session. And then you may make the next round of the process or not, but you **always** are going to receive a useful feedback so you can improve.
 
 That is really nice. Well... it shouldn't be nice, it should be a **standard**. If a candidate is investing time on make what he or she thinks is the best solution, why the company can not invest the same time?
+
+As a software engineer, I have suffered ridiculous job offers, asking for technologies obsolete five yeara ago and making interviews with “teach leads” with no technical background whatsoever. It is refreshing seeing people that actually **care**.
 
 # The social networking kata
 
