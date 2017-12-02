@@ -42,6 +42,10 @@ One of the tools they use, is a programming exercise that the applicant can do i
 
 That is really nice. Well... it shouldn't be nice, it should be a **standard**. If a candidate is investing time on make what he or she thinks is the best solution, why the company can not invest the same time?
 
+There are a few more katas on the Sandro Mancuso’s GitHub page, some of them with fun rules like _Only one dot for line_, _Not a single ELSE sentence on the code_ and things like that. Really nice gimnastics and practice exercices. 
+
+We have to keep our craft sharp if we want to become better coders. I am going to solve katas more regularly so I can keep improving. 
+
 ### Fonts:
 
 * _{{< url-link "Code Kata" "http://codekata.com" >}}_
