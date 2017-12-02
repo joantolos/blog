@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/kata/"
 linktitle = ""
 title = "Social Networking Kata"
-type = "draft"
+type = "post"
 
 +++
 
@@ -30,7 +30,7 @@ I first met {{< url-link "Sandro Mancuso" "https://twitter.com/sandromancuso?lan
 
 I really enjoyed the book and I can not recommend it enough so if you don't have it, get one copy soon.
 
-While I was reading the book, a couple of colleges from a previous job (Mike and Marc) told me that they were working with Codurance (the consultant company co-founded by Mancuso) on their current project. They spoke very well of their experience and told me about an Open House event that Codurance was having on their Barcelona offices.
+While I was reading the book, a couple of colleges from a previous job ( {{< url-link "Mike" "https://twitter.com/MikeGonYe" >}} and {{< url-link "Marc" "https://twitter.com/marcvege" >}}) told me that they were working with Codurance (the consultant company co-founded by Mancuso) on their current project. They spoke very well of their experience and told me about an {{< url-link "Open House event" "https://codurance.com/events/2017-08-02-barcelona-careers-open-house/" >}} that Codurance was having on their Barcelona offices.
 
 I decided to go to met with them and catch up. I also was enjoying the book so I though it was a good idea do a little bit of networking.
 
@@ -42,9 +42,9 @@ That is really nice. Well... it shouldn't be nice, it should be a **standard**. 
 
 # The social networking kata
 
-I found several kata exercice on Sandro Mancuso GitHub and decided to do the Social Network one.
+I found several kata exercise on Sandro Mancuso GitHub and decided to do the {{< url-link "Social Network" "https://github.com/sandromancuso/social_networking_kata" >}} one.
 
-This is my implementation of the exercice, on my GitHub.
+This is my implementation of the exercise, {{< url-link "on my GitHub." "https://github.com/joantolos/kata-social-networking" >}}
 
 I know it can be improved a lot more but you have to stop somewhere. I code it in about three days in spare time.
 
@@ -52,9 +52,9 @@ I know it can be improved a lot more but you have to stop somewhere. I code it i
 
 I will not send this solution to Codurance, nor do I expect feedback from them. I only found the exercise interesting and wanted to share the experience.
 
-There are a few more katas on the Sandro Mancuso’s GitHub page, some of them with fun rules like _Only one dot for line_, _Not a single ELSE sentence on the code_ and things like that. Really nice gimnastics and practice exercices. 
+There are a few more katas on the Sandro Mancuso’s GitHub page, some of them with fun rules like _Only one dot for line_, _Not a single ELSE sentence on the code_ and things like that. Really nice gymnastics and practice exercises.
 
-We have to keep our craft sharp if we want to become better coders. I am going to solve katas more regularly so I can keep improving. 
+We have to keep our craft sharp if we want to become better coders. I am going to solve katas more regularly so I can keep improving.
 
 ### Fonts:
 
