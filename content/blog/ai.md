@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/ai/"
 linktitle = ""
 title = "Artificial Intelligence"
-type = "post"
+type = "draft"
 +++
 
 I have done an introduction to Artificial Intelligence (AI) course and I want to share my learning experience. This post covers my notes and summaries of the content of the course.
