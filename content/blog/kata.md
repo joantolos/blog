@@ -58,7 +58,7 @@ There are a few more katas on the Sandro Mancuso’s GitHub page, some of them w
 
 We have to keep our craft sharp if we want to become better coders. I am going to solve katas more regularly so I can keep improving.
 
-### Fonts:
+### References:
 
 * _{{< url-link "Code Kata" "http://codekata.com" >}}_
 * _{{< url-link "Sandro Mancuso GitHub" "https://github.com/sandromancuso" >}}_

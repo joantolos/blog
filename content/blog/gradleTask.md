@@ -247,7 +247,7 @@ Files suck. I mean having to write and read files from disk, you face a lot of i
 
 I would strongly recommend to get rid of the files. This type of batch processors scream for some kind of queue system, where the producer writes into de queue that the content is ready and the consumer listen to the queue and start processing. But if this solution is overkill for this exact situation, it is still worth it trying not to use the files. Maybe writing a byte array into a database or something less _heavy_.
 
-### Fonts:
+### References:
 
 * _{{< url-link "Blog Tricky Android" "http://trickyandroid.com/gradle-tip-3-tasks-ordering/" >}}_
 

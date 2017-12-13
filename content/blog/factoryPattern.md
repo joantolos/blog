@@ -16,6 +16,6 @@ type = "draft"
 
 
 
-# Fonts:
+# References:
 
 * _{{< url-link "D Zone: The Factory Pattern Using Lambda Expressions in Java 8" "https://dzone.com/articles/factory-pattern-using-lambda-expression-in-java-8" >}}_

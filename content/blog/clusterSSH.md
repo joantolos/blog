@@ -50,7 +50,7 @@ A little video seeing it in action:
 
 [![CSSHX tool for Mac OS](/img/clusterSSH/clusterSSHScreenshot.png)](https://youtu.be/qHXbeCvHRR8"CSSHX tool for Mac OS")
 
-### Fonts:
+### References:
 
 * _{{< url-link "Blog Carlos Buenosvinos" "https://carlosbuenosvinos.com/3-commands-for-working-with-remote-machines/" >}}_
 * _{{< url-link "HomeBrew for Mac" "http://brew.sh/" >}}_

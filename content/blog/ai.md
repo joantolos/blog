@@ -551,7 +551,7 @@ If we have n input variables, X1,..., Xn, we build one rule for each tuple (t1,a
 
     if X1 is t1,a and X2 is t2,b and X3 is t3,c and ... and Xn is tn,z then Y is tY,o
 
-### Fonts:
+### References:
 
 * _{{< url-link "UOC - Intel·ligència artificial" "http://estudios.uoc.edu/es/asignaturas-libres/informatica-multimedia-telecomunicacion/inteligencia-artificial/presentacion#_euocuc322detallpreus_WAR_euocentrega2portlet_INSTANCE_MSj1_detallpreus" >}}_
 

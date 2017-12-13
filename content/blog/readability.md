@@ -78,6 +78,6 @@ Remember, we are writing in a _language_. Yes, the code is compiled or interpret
 
 I know you would probably implement that couple of features in a single beautiful code line in another language because _"Java is unnecessary verbose"_ and that's fine. Good for you and your flawless technique. Go have fun and conquer the world with your lovely language... but you are missing the point which is to illustrate a case. I happen to be coding in Java nowadays so that's what I use for my examples. I am not interested in the _language war_. As I said before _{{< url-link "on this very blog" "http://www.joantolos.com/blog/testdrivenarchitecture//" >}}_, it is our responsibility as coders to find the correct tool for the correct problem. I don't wear the Java t-shirt or any other for that matter. I prefer to wear the "Clean Code" t-shirt and that is language-agnostic.
 
-### Fonts:
+### References:
 
 * _{{< url-link "Clean Code, Robert C. Martin" "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?s=books&ie=UTF8&qid=1504887424&sr=1-1&keywords=clean+code" >}}_    
