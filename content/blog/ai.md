@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["AI","UOC"]
+categories = ["AI","UOC","Long Read"]
 date = "2017-12-05"
 description = "An introduction to AI"
 featured = "ai.png"
@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/ai/"
 linktitle = ""
 title = "Artificial Intelligence"
-type = "draft"
+type = "post"
 +++
 
 I have done an introduction to Artificial Intelligence (AI) course and I want to share my learning experience. This post covers my notes and summaries of the content of the course.
@@ -371,13 +371,185 @@ To solve that problem, we can use the {{< url-link "topological sorting algorith
 
 The case based reasoning is formed on the idea of using previous experiences and solve new situations in a similar way that we solved the previous ones.
 
-O
+There is a Case Data Base storing pass experiences in form of _cases_. Each case is composed by a situation and a solution. In order to solve the new situation, you try to adapt an old solution to the new problem.
+This kind of systems are suited for problems involving _design, diagnose and planning_. The definition is not made by rules or frameworks but by **operations.**
 
 #### Inferential Aspects
 
-### Model based Systems
+The inferential is composed by four steps:
 
-#### Inferential Aspects
+* Retrieval
+* Reuse
+* Revision
+* Retain
+
+{{< img-post path="/img/ai/" file="inferentialAspectCaseBased.png" alt="Inferential Aspect Case Based" type="center" >}}
+
+### Model based Systems inferential Aspects
+
+The model based systems knowledge is based on cause/effect relations.
+
+A model-based diagnostics system must find the set of failures most likely to explain the behaviour that is observed in the system.
+To do so, it raises different alternatives and rejects those that do not match with the model and maintain those that are corroborated by the model.
+
+### Fuzzy Logic Systems
+
+Based on rules defined on _fuzzy groups_ terms. Considering the rule system that we know:
+
+**IF** [_premise_] **THEN** [_conclusion_] now both premise and conclusion are fuzzy groups.
+
+Fuzzy Groups:
+
+* CERTAINLY YES
+* POSSIBLY YES
+* CANNOT SAY
+* POSSIBLY NO
+* CERTAINLY NO
+
+We can think of the fuzzy groups as a _generalization_ of the regular groups, because the regular groups are boolean so a particular case of the fuzzy groups.
+
+To represent a fuzzy models, there are several ways, being the most important one the **membership function**. Which declare for each element of the domain, which are on the group and which are not.
+
+It is a boolean function that when applied to the elements of the domain, returns it's pertinence (or not) to the group.
+
+A visual example of membership function representing the fuzzy group _"approximately zero"_ named **μZ**
+
+    μZ(x)=1/(1+x2)
+
+{{< img-post path="/img/ai/" file="membershipFunction.png" alt="Membership function" type="left" >}}
+
+The fuzzy model allow you to define concepts in which it is not easy (or it is not possible) clearly define a point where to separate between those elements that are of the concept and those that are not. Some classic examples are those related with temperature (such as cold, hot or heat) or height (high or low).
+
+<br><br>
+<br><br>
+
+Another example. We can consider the threshold 1,79m to consider a person _tall_. The membership function to model the concept is:
+
+{{< img-post path="/img/ai/" file="membershipFunctionHeight.png" alt="Membership function for height" type="center" >}}
+
+#### Operations over fuzzy sets:
+
+##### Negation
+
+Considering the membership function μA(x), we can define the negation as: μnoA(x) = N(μA(x)) where N(1)=0 and N(0)=1
+
+But this is not enough, because the membership function is not boolean. We need to define N (named outline conditions) as N: [0,1] → [0,1]
+
+We can also consider that the negation of the negation must be the original: N(N(a))=a for all a values [0,1]
+
+Summing up:
+
+The negation function is N: [0,1] → [0,1] satisfying all these conditions:
+
+1. **OUTLINE CONDITION:** N(0)=1 i N(1)=0
+1. **MONOTONY:** for all a,b on [0,1], if a≤b then N(a)≥N(b)
+1. **INVOLUTION:** for all a in [0,1], N(N(a))=a
+
+Using the height example:
+
+{{< img-post path="/img/ai/" file="membershipFunctionNoHeight.png" alt="Membership function for height" type="center" >}}
+
+##### Union
+
+Now we have two sets each one of it with it's own membership function, so if we consider **μA** and **μB**, we want to calculate the union **μA∪B**
+
+As we did with the negation function N in that case we are going to use the union function S which is named **t-conorm**
+
+    μA ∪ B(x) = S(μA(x), μB(x))
+
+μA ∪ B(x) is a membership function as well, so S is a function that due two values on the interval [0,1] returns another on the same interval, so:
+
+The t-conorm function S: [0,1] x [0,1] → [0,1] satisfying the conditions:
+
+1. **COMMUTATIVITY:** S(a,b) = S(b,a)
+1. **ASSOCIATIVITY:** S(a,S(b,c)) = S(S(a,b),c)
+1. **MONOTONY:** if a≤c and b≤d then S(a,b) ≤ S(c,d)
+1. **NEUTRAL ELEMENT:** S(a,0)=a
+
+where a, b, c and d are values on the interval [0,1]
+
+Using the height example:
+
+{{< img-post path="/img/ai/" file="membershipFunctionUnionHeight.png" alt="Membership function for height" type="center" >}}
+
+##### intersection
+
+With a similar way we can define the intersection function:  μA ∩ B(x) = T(μA(x), μB(x))
+
+This time the T function is called **t-norm:**
+
+T:[0,1] x [0,1] → [0,1] satisfying the conditions:
+
+1. **COMMUTATIVITY:** T(a,b) = T(b,a)
+1. **ASSOCIATIVITY:** T(a,T(b,c)) = T(T(a,b),c)
+1. **MONOTONY:** if a≤c and b≤d then T(a,b) ≤ T(c,d)
+1. **NEUTRAL ELEMENT:** T(a,0)=a
+
+where a, b, c and d are values on the interval [0,1]
+
+Again, with the height example:
+
+{{< img-post path="/img/ai/" file="membershipFunctionIntersectionHeight.png" alt="Membership function for height" type="center" >}}
+
+#### Building a fuzzy system:
+
+Any knowledge based system, should consider the group of **rules** to cover all the domain of the system. For that, we consider the Error **(ε)** and the Error Increment **(Δε)**
+
+We will build the rules in a way that his premise be fulfilled only in the region that corresponds to him. To
+achieve this we must demand that the values of the error and of the increase of the error are in the corresponding portion of their domain. Thus, if A and B are sub-regions of the domain of ε i of Δε, then the rule:
+
+    if ε is A i Δε is B then the control variable...
+
+Following that structure, generally:
+
+    if X1 is t1,a and X2 is t2,b and X3 is t3,c i ... i Xn is tn,z then Y is tY,o
+
+#### Linguistic variables:
+
+A variable whose values are words or sentences in a natural or artificial language. Can be represented as:
+
+    <X, LX, UX, SX>
+
+* **X** -> Linguistic variable name
+* **L** -> Linguistic values that variable X can have
+* **U** -> Universe where the variable has values
+* **S** -> Semantic function giving sense to the linguistic values
+
+Example:
+
+    <temperature, Ltemperature=[cold,warm,hot], Utemperature=[-50,50], Stemperature>
+
+Where Stemperature is:
+
+    Stemperature (cold) = μcold
+    Stemperature (warm) = μwarm
+    Stemperature (hot) = μhot
+
+Being **μhot**, **μwarm** and **μcold**:
+
+{{< img-post path="/img/ai/" file="membershipFunctionTemperature.png" alt="Membership function for temperature" type="left" >}}
+
+{{< img-post path="/img/ai/" file="membershipFunctionTemperatureGraphic.png" alt="Membership function for temperature" type="left" >}}
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+#### Variable selection and rules construction:
+
+Considering what we just saw:
+
+* Linguistic terms
+* Membership Functions (with graphs)
+* Rules
+
+We have to choose the input variables and the output variables. Then for each of these variables, it's linguistic terms, the universe and the fuzzy sets.
+
+If we have n input variables, X1,..., Xn, we build one rule for each tuple (t1,a, t2,b, t3,c, ..., tn,z) where ti,j is a linguistic term of Xi (si ti,j ∈ LXi) a rule like:
+
+    if X1 is t1,a and X2 is t2,b and X3 is t3,c and ... and Xn is tn,z then Y is tY,o
 
 ### Fonts:
 
@@ -396,3 +568,7 @@ O
 * _Vicenç Torra i Reventós. Sistemes basats en el coneixement_
 
 * _{{< url-link "Stefik, M. (1995). Introduction to Knowledge Systems. Morgan Kauffman." "https://www.amazon.es/Introduction-Knowledge-Systems-Mark-Stefik-ebook/dp/B01H5GQH7G/ref=sr_1_1?ie=UTF8&qid=1511341998&sr=8-1&keywords=Introduction+to+Knowledge+Systems" >}}_
+
+* _Vicenç Torra i Reventós. Incertesa i raonament aproximat_
+
+* _{{< url-link "Tutorial Point: Fuzzy Logic Systems" "https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_fuzzy_logic_systems.htm" >}}_

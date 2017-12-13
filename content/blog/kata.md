@@ -40,13 +40,13 @@ One of the tools they use, is a programming exercise that the applicant can do i
 
 That is really nice. Well... it shouldn't be nice, it should be a **standard**. If a candidate is investing time on make what he or she thinks is the best solution, why the company can not invest the same time?
 
-As a software engineer, I have suffered ridiculous job offers, asking for technologies obsolete five yeara ago and making interviews with “teach leads” with no technical background whatsoever. It is refreshing seeing people that actually **care**.
+As a software engineer, I have suffered ridiculous job offers, asking for technologies obsolete five years ago and making interviews with “teach leads” with no technical background whatsoever. It is refreshing seeing people that actually **care**.
 
 # The social networking kata
 
 I found several kata exercise on Sandro Mancuso GitHub and decided to do the {{< url-link "Social Network" "https://github.com/sandromancuso/social_networking_kata" >}} one.
 
-This is my implementation of the exercise, {{< url-link "on my GitHub." "https://github.com/joantolos/kata-social-networking" >}}
+This is my implementation of the exercise, **{{< url-link "on my GitHub." "https://github.com/joantolos/kata-social-networking" >}}**
 
 I know it can be improved a lot more but you have to stop somewhere. I code it in about three days in spare time.
 
