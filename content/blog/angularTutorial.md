@@ -371,6 +371,10 @@ You will run the build, then the tests, and then you can start the application:
 * We have deployed the application on Heroku
 * We have included the tests on the build.
 
+The code including all the modifications is available on my GitHub:
+
+https://github.com/joantolos/angular-tour-of-heroes
+
 # Thanks:
 
 Special thanks to {{< url-link "Pedro Mosquera" "https://www.linkedin.com/in/pedromosquerat/" >}} who helped me a lot dealing with Angular.
