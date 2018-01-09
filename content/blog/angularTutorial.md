@@ -2,12 +2,12 @@
 author = "Joan Tolos"
 categories = ["Angular", "Tutorial", "Heroku", "Typescript"]
 date = "2018-01-05"
-description = "Deploying the Angular 'Tour of heroes' tutorial on Heroku"
+description = "Deploying the Angular 'Tour of heroes' tutorial on Heroku with tests"
 featured = "pic01.png"
 featuredalt = ""
 featuredpath = "/img/angularTutorial/"
 linktitle = ""
-title = "Angular deployment on Heroku"
+title = "Angular tutorial extended"
 type = "post"
 +++
 
