@@ -11,7 +11,7 @@ title = "Angular tutorial extended"
 type = "post"
 +++
 
-If you follow the **{{< url-link "Angular tutorial" "https://angular.io/tutorial/" >}}**, you will start building the **'Tour of Heroes'** App to learn the basics from Angular. I always struggle with front-end frameworks so I decided to do the tutorial as we are switching to Angular 5 on my current project. I really recommend to do the tutorial.
+If you follow the **{{< url-link "Angular tutorial" "https://angular.io/tutorial/" >}}**, you will start building the **'Tour of Heroes'** App and learn the basics from Angular. I always struggle with front-end frameworks so I decided to do the tutorial as we are switching to Angular 5 on my current project. I really recommend to do the tutorial.
 
 Other than my usual struggle with Javascript, I have to say that TypeScript comes more natural and "logic" to me. The tutorial is pretty well made and covers all the basics for a CRUD application that it can be used as **seed** for similar web applications.
 
@@ -141,9 +141,7 @@ Without adding any new tests, if you run
 
 You have to see the following:
 
-{{< img-post path="/img/angularTutorial/" file="tests.png" alt="Tests passing" type="left" >}}
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+{{< img-post path="/img/angularTutorial/" file="tests.png" alt="Tests passing" type="center" >}}
 
 These are the default tests _'should create'_ that the Angular CLI define, all passing. Doing this practice of adding the dependency on the test and keep them aligned with the production code, you can start coding TDD style right away.
 
@@ -166,7 +164,7 @@ The angular client creates a default app with some end to end testing framework 
       });
     });
 
-This is a very cool feature overall because, how I see it, this could be used to define the **Behaviour** of the application, or the BDD tests definition. And the other specific test spec will be the unit testing of that specific piece of code. Now you can add a new layer of abstraction to code meaningful tests from a product point of view.
+This is a very cool feature overall because, how I see it, this could be used to define the **behaviour** of the application, or the BDD tests definition. And the other specific test spec will be the unit testing of that specific piece of code. Now you can add a new layer of abstraction to code meaningful tests from a product point of view.
 
 To execute, just type:
 
@@ -194,7 +192,7 @@ Which will "eject" the _webpack.config.js_ file used by Angular CLI _as is_. Now
 
 # Deployment on Heroku
 
-Heroku is a Platform As A Service
+**{{< url-link "Heroku" "http://www.heroku.com" >}}** is a Platform As A Service that lets you build and deploy apps in a very easy and direct way. I use Heroku for almost every proof of concept that I do, in fact, this very site is hosted there.
 
 The original tutorial application used the Angular CLI to make the build and the deployment on your localhost. Then we have separated the webpack building process from the client, so we can run it independently. Now we have a way to run the build on Heroku.
 But on the server side, you will need some embedded server to serve the pages. The most used is {{< url-link "Express for NodeJS" "https://expressjs.com/" >}}. So, first of all let's include the dependency (and fix some others):
