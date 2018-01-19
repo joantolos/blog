@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["TDD","BDD","Architecture", "Test", "Design", "JBCNConf"]
+categories = ["TDD","BDD","Architecture", "Test", "Design", "JBCNConf","kata"]
 date = "2017-12-01"
 description = "Kata solving practice"
 featured = "kata.png"
