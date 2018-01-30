@@ -66,7 +66,7 @@ That is the part that I love, in groovy you can do loops like this:
 
 Which will print "Groovy Rules!" five times.
 
-So, want I want is for the player one to score n times and the player two to score another n times, and then ask for the pretty score so I can check if it is the expected.
+So, what I want is for the player one to score n times and the player two to score another n times, and then ask for the pretty score so I can check if it is the expected.
 
     playerOneScore.times{game.scorePoint(1)}
     playerTwoScore.times{game.scorePoint(2)}
