@@ -18,8 +18,8 @@ Behavior-driven development (BDD) is a software development process that emerged
 
 ## BDD tools
 
-Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialized software tools to support the development process. Although these tools are often developed specifically for use in BDD projects, they can be seen as specialized forms of the tooling that supports test-driven development. The tools serve to add automation to the ubiquitous language that is a central theme of BDD. [font: wikipedia]
- 
+Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialised software tools to support the development process. Although these tools are often developed specifically for use in BDD projects, they can be seen as specialised forms of the tooling that supports test-driven development. The tools serve to add automation to the ubiquitous language that is a central theme of BDD. [font: wikipedia]
+
 In the project that I am current working on, we have been using Cucumber as a BDD tool. These are the steps usually followed by the team:
 
 {{< img-post path="/img/cucumber/" file="bddRoles.png" alt="BDD Roles" type="center" >}}
@@ -33,7 +33,7 @@ In the project that I am current working on, we have been using Cucumber as a BD
 ## Take over
 
 If you want to start using Cucumber in your project, you can start by looking to this simple POC I wrote:
- 
+
 {{< url-link "Cucumber POC" "https://git.sami.int.thomsonreuters.com/joan.tolos/cucumber-poc" >}}
- 
+
 It contains the basics to install cucumber on your code and start using it. Hope this helps other developers to communicate better with Product Owners and Business Analysts and achieve the project goals.
