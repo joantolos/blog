@@ -146,7 +146,7 @@ The first possibility (more tests needed) is also very useful because most of th
 
 ## The habit
 
-I have develop this habit, where I start implementing a feature, which means writing some tests, and browse the test coverage report from time to time while implementing. The report allows me to identify possible points where I need more tests (which usually leads to a change on the design), and to detect code that is not used, which usually means that this specific implementation can be improved. Like the existence of mutable variables, change a loop into a stream and things like that.
+I have developed this habit, where I start implementing a feature, which means writing some tests, and browse the test coverage report from time to time while implementing. The report allows me to identify possible points where I need more tests (which usually leads to a change on the design), and to detect code that is not used, which usually means that this specific implementation can be improved. Like the existence of mutable variables, change a loop into a stream and things like that.
 
 This is how I use the test coverage, forget the final number. Just browse through your code and seek ways to improve it.
 
