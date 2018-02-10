@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "/img/hateJob/"
 linktitle = ""
 title = "Why do you hate your job?"
-type = "post"
+type = "draft"
 
 +++
 
