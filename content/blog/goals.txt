@@ -2,12 +2,12 @@
 author = "Joan Tolos"
 categories = ["Psychology", "Goals"]
 date = "2018-12-31"
-description = "My goals"
+description = "The reassuring feeling of accomplishment"
 featured = "pic01.png"
 featuredalt = ""
-featuredpath = "/img/cucumber/"
+featuredpath = "/img/goals/"
 linktitle = ""
-title = "Cucumber, Java and BDD"
+title = "The power of 'check'"
 type = "post"
 
 +++
@@ -37,3 +37,10 @@ If you want to start using Cucumber in your project, you can start by looking to
 {{< url-link "Cucumber POC" "https://git.sami.int.thomsonreuters.com/joan.tolos/cucumber-poc" >}}
 
 It contains the basics to install cucumber on your code and start using it. Hope this helps other developers to communicate better with Product Owners and Business Analysts and achieve the project goals.
+
+https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode
+Photo by Michael Semensohn / CC BY 2.0
+
+### References:
+
+* _Photo by {{< url-link "Franco Fedeli" "https://www.flickr.com/photos/rossomalpelo2/15845541556/in/photolist-q9dxsm-8x6sh1-ofjXsg-eSxJUD-4U7vep-mpBunr-zBQQiz-4U7vqP-8SyvnE-6myVt7-79eWtZ-aBvwNs-4U7vav-e8VVrT-ePgt8V-dPC1Wp-ifN24s-4U7uY2-7xb9up-9G5XQB-6pe85q-eYqvhB-8Ndr9w-pTYKUn-23AEgFb-oshQBU-dGp3YU-uANN62-EHKy4a-6wZgfV-cpEegE-jibRf1-skQS9k-eTCJki-jzAbbL-617NAv-jydcp7-jWC6M-4UbJpo-4UbJcj-7rVhiM-connrL-5mTp5G-6wRUr-WiXWrs-86DDjY-qc47Pa-byqwrS-7hMgGR-b2NjCZ" >}} / {{< url-link "CC BY 2.0" "https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode" >}}_
