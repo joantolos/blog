@@ -12,9 +12,13 @@ type = "post"
 
 +++
 
-Every time I have to do some official paperwork like renew my id or passport - things like that - I wonder what kind of experience I am going to have.
+_“Between 2011 and 2012 the polling company Gallup conducted the most detailed study ever carried out of how people across the world feel about their work. They studied millions of workers across 142 countries. They found that 13 percent of people say they are **engaged** in their jobs, which means they are 'enthusiastic about, and committed to their work and contribute to their organisation in a positive manner.'
+Against them, 63 percent say they are **not engaged**, which is defined as 'sleepwalking through their workday, putting time (but not energy or passion) into their work.'
+And a further 24 percent are **actively disengaged.** They, Gallup explained, 'aren’t just unhappy at work; they're busy acting out their unhappiness. Every day, these workers undermine what their engaged co-workers accomplish... Actively disengaged employees are more or less out to damage their company.' (Extracted from **Lost Connections** by Johann Hari. This material may be protected by copyright.)_
 
-I want to explain two instances of experiences like that and then I would like to share some thoughts:
+Are you **engaged**, **disengaged** or **actively disengaged** in your job?
+
+I would like to explain two instances of experiences dealing with actively disengaged people at the work place.
 
 # Simple id renewal
 
@@ -71,3 +75,5 @@ The rest will come.
 ### References:
 
 * _{{< url-link "The Software Craftsman: Professionalism, Pragmatism, Pride" "https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501/ref=sr_1_1?ie=UTF8&qid=1512140001&sr=8-1&keywords=sandro+mancuso" >}}_
+
+* _{{< url-link "Lost Connections" "https://www.amazon.com/Lost-Connections-Uncovering-Depression-Unexpected/dp/163286830X/ref=sr_1_1?ie=UTF8&qid=1519565933&sr=8-1&keywords=lost+connections" >}}_
