@@ -1,0 +1,66 @@
++++
+author = "Joan Tolos"
+categories = ["Psychology", "Goals"]
+date = "2018-03-10"
+description = "How I make time for everything I want to do"
+featured = "pic01.png"
+featuredalt = ""
+featuredpath = "/img/doIt/"
+linktitle = ""
+title = "How do I do it?"
+type = "post"
++++
+
+From time to time somebody ask me *_how do I do it_* meaning, how I manage to do all the things that I do besides the normal activity of work and family.
+
+Here the things that I do on my spare time:
+
+* Read books
+* Write blog posts
+* Play guitar
+* Work on my pet project
+* Exercise
+
+So people ask me, how I _have_ the time to do that things. As if somebody can _have_ time. Time is something you make, not something you have. I have adopted several habits to make time for things that I like in a kind of subconscious manner. I have been including changes in my life and new routines inadvertently, little by little. Only when I get asked about it, I can recapitulate and figure out all the little things.
+
+# Use productivity apps
+
+I am writing this post (really the first draft) in an {{< url-link "Evernote" "https://evernote.com" >}} note that later will post on the repository for the blog code. I use it for both work related and personal stuff notes. Evernote just changed my life, I am not sure that I could work comfortably without it.
+
+I also use {{< url-link "Wunderlist" "https://www.wunderlist.com" >}} to keep TO-DO lists synchronised with my wife like groceries shopping list. That way, if any of us notice that we need to shop something, just add it to the list and the other one can see it in real time. Sometimes I am at the supermarket ticking items on the list adding them to my shopping cart and my wife is at home looking at the refrigerator and adding "mayonnaise" to the list. I can see it appear right away.
+
+I use {{< url-link "Coach Me" "https://www.coach.me" >}} which is a little app that the Twitter team started a long time a go and I feel it's not having as much success as expected because it has not improved or change for a long time. But I like it and I use it.
+It's about goals and habits tracking so for example, if you want to develop the habit for call your mom for often, you just add the habit "Call mom and dad" and you tick every time you do it. The app prompts you with suggestions and greetings when you reach certain milestones. It’s my little motivation app. It also has social-media capabilities like you can follow other people with the same goals and motivate each other. I don’t know any person that it uses it, so I don’t follow anybody and nobody follows me. I just like to feel ‘the power of click’ and mark a task as ‘done’ which is super rewarding.
+
+Use a social media aggregator like {{< url-link "Buffer" "https://buffer.com" >}} to post on several places at the same time. I only use it for Facebook, Twitter and LinkedIn which are the social media places that I use. It is a powerful tool that can be use by a community manager with lots of options, I just use it for replication, nothing fancy.
+
+If you google "productivity apps", I am sure you can find lots of options that can fit your needs.
+
+# Listen to podcasts
+
+# Configure your ebooks app
+Change Facebook for medium or vox
+
+# Enjoy your hobby
+
+In my case, is playing guitar.
+
+Intrínseco against extrinsect
+
+{{< img-post path="/img/doIt/" file="cartoon.png" alt="Tree layout" type="center" >}}
+
+# Meditate
+
+# Quit something
+
+Of course.
+
+Nothing is free. You have to renounce to something, that is just a fact. In my case, when my first child was born, after a few months I realised that I left following my soccer team. I had no idea anymore of who was playing, when was the next match or nothing. It came natural to me, I think that the left over activities in your life just appear as you need more time for other things.
+
+By the way, I don't play video games anymore. Again, just naturally, I didn't realise when I stopped playing, it came naturally.
+
+Just start doing what you (really) want to do, and the things that doesn't have place in your life anymore, will just leave. I had a great time playing video games a long time a go. Today, it is not for me anymore, no trauma.
+
+## References:
+
+* _Photo by {{< url-link "Stocksnap" "https://stocksnap.io/photo/1HDO9I6J22" >}}_
