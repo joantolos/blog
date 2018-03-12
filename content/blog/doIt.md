@@ -80,6 +80,8 @@ _Cartoon credit: {{< url-link "Paco Sordo" "http://www.facebook.com/pacosordoill
 * "What are you doing?" "I am drawing a house and a dog. I love drawing."
 * "A dog this? The anatomy, the perspective, everything wrong! And that leg? Is larger than the other. That colour there is not right, it is saturated." "I don't care, I just draw because is fun"
 
+Nothing else to add.
+
 # Meditate
 
 There is a lot of information on the Internet about how to do it and the benefits it carries. You can use apps or multiple options to start. It's easier than it sounds.
