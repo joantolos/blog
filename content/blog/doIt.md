@@ -60,18 +60,31 @@ Some people I discovered listening to podcast include author Lawrence Krauss, au
 Listening to podcast is a wonderful way of make the best of your time.
 
 # Configure your ebooks app
-Change Facebook for medium or vox
+
+When I buy a new book, I also buy the ebook and put it on my phone. It is not so comfortable to read on the phone screen but I just use it on the spare time during commute, waiting on an unexpected line, etc. Think of it like this... those times where you look at Facebook or Twitter on your phone, I have changed them for reading my current book. Then when I go home, just update my physical book and go on reading from there.
+
+Think of how many times you check Facebook (or any other social media) a day. Now think what would happen if you invested all that time on reading an interesting book.
 
 # Enjoy your hobby
 
-In my case, is playing guitar.
+It is important to do some activity that it just brings you joy with any other pretension. In my case, is playing guitar and making music. I don't do it for likes, I don't want to sell a golden record, I do it for it's intrinsic value. I record songs and put them on {{< url-link "SoundCloud" "https://soundcloud.com/joantolos" >}} and {{< url-link "YouTube" "https://www.youtube.com/channel/UC1fa6SHZiEj3Kuj7L6YJcTw" >}} but the only playbacks are mine (and maybe my father). That's ok, I put them there just to be able to hear them anywhere, anytime.
 
-Intrínseco against extrinsect
+Consider a child playing. If you are able to observe how he or she plays without him or her noticing, you will see how the child looses on the game. It doesn't matter if the game has any sense... an astronaut can be flying through the space driving a car shaped like a monkey. Nothing else matters than the game itself. The child is not taking into account if the role game is accurate, if it is doing it "right", if the batteries run out or anything. It is completely engaged with the game.
+
+Cultivate that activity that makes you feel like a child again. If you like to run, forget about the extrinsic rewards and enjoy the experience. Whatever is is, drawing, build models... don't do it for the reward, the experience is the reward itself. Look at this fantastic cartoon by {{< url-link "Paco Sordo" "http://www.facebook.com/pacosordoillustration" >}} that illustrates the point perfectly:
 
 {{< img-post path="/img/doIt/" file="cartoon.png" alt="Paco Sordo Cartoon">}}
 _Cartoon credit: {{< url-link "Paco Sordo" "http://www.facebook.com/pacosordoillustration" >}}_
 
+* "Ey! It is yourself from the future, I have to tell you something important! In 2018 you are going to... Hello?"
+* "What are you doing?" "I am drawing a house and a dog. I love drawing."
+* "A dog this? The anatomy, the perspective, everything wrong! And that leg? Is larger than the other. That colour there is not right, it is saturated." "I don't care, I just draw because is fun"
+
 # Meditate
+
+There is a lot of information on the Internet about how to do it and the benefits it carries. You can use apps or multiple options to start. It's easier than it sounds.
+
+I do it on the bus while going to work. Granted, people look at you a little weird when see you seated with your eyes closed when you are clearly not sleeping, but I can live with taht. Then I do it later again before going to sleep. It just works, clears your mind and makes you feel better on the long run. It is an activity that takes time to work and see the benefits, just give it a chance.
 
 # Quit something
 
@@ -79,9 +92,9 @@ Of course.
 
 Nothing is free. You have to renounce to something, that is just a fact. In my case, when my first child was born, after a few months I realised that I left following my soccer team. I had no idea anymore of who was playing, when was the next match or nothing. It came natural to me, I think that the left over activities in your life just appear as you need more time for other things.
 
-By the way, I don't play video games anymore. Again, just naturally, I didn't realise when I stopped playing, it came naturally.
+By the way, I don't play video games anymore. Again, just naturally, I didn't realise when I stopped playing, it came naturally. I had a great time playing video games a long time a go. Today, it is not for me anymore, no trauma.
 
-Just start doing what you (really) want to do, and the things that doesn't have place in your life anymore, will just leave. I had a great time playing video games a long time a go. Today, it is not for me anymore, no trauma.
+Just start doing what you (really) want to do, and the things that doesn't have place in your life anymore, will just leave.
 
 ## References:
 

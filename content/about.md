@@ -5,7 +5,7 @@ date = "2018-02-28"
 
 I define myself as father, husband, coder and guitar fool. In that order.
 
-I enjoy every day the overwhelming energy and will of my son. I am passionate about coding, I like to read, share with others, learn and try new things whenever I have the chance. As a software developer I believe in:
+I enjoy every day the overwhelming energy and will of my son and daughter. I am passionate about coding, I like to read, share with others, learn and try new things whenever I have the chance. As a software developer I believe in:
 
 * **Responsibility**
 * **Not hiding** things under the rug
