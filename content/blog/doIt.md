@@ -86,7 +86,7 @@ Nothing else to add.
 
 There is a lot of information on the Internet about how to do it and the benefits it carries. You can use apps or multiple options to start. It's easier than it sounds.
 
-I do it on the bus while going to work. Granted, people look at you a little weird when see you seated with your eyes closed when you are clearly not sleeping, but I can live with taht. Then I do it later again before going to sleep. It just works, clears your mind and makes you feel better on the long run. It is an activity that takes time to work and see the benefits, just give it a chance.
+I do it on the bus while going to work. Granted, people look at you a little weird when see you seated with your eyes closed when you are clearly not sleeping, but I can live with that. Then I do it later again before going to sleep. It just works, clears your mind and makes you feel better on the long run. It is an activity that takes time to work and see the benefits, just give it a chance.
 
 # Quit something
 
