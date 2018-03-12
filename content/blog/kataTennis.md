@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["kata","tdd","tennis","test"]
+categories = ["Kata","TDD","Tennis","Test"]
 date = "2018-01-19"
 description = "My implementation in Java of the Tennis Kata"
 featured = "kataTennis.png"

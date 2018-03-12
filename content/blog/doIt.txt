@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Psychology", "Goals"]
+categories = ["Psychology", "Goals", "Productivity"]
 date = "2018-03-10"
 description = "How I make time for everything I want to do"
 featured = "pic01.png"
@@ -38,28 +38,24 @@ If you google "productivity apps", I am sure you can find lots of options that c
 
 # Listen to podcasts
 
-I have loved radio forever. Since I was a child, I remember taping my favorites shows (mostly comedy) and enjoyig them on my walkman on the way to high school. This operation now is super easy with podcasts. Is radio on demand it has all the benefits from radio and none of the inconvenience.
+I have loved radio forever. Since I was a child, I remember taping my favourites shows (mostly comedy) and enjoying them on my walkman on the way to high school. This operation now is super easy with podcasts. Is radio on demand it has all the benefits from radio and none of the inconvenience.
 
-Is in fact, better than regular radio because no big network has to be behind the program to succed.
+Is in fact, better than regular radio because no big network has to be behind the program to succeed.
 
 I learn a lot from podcast, and I listen to them any opportunity I have. These are the podcasts that I’m listening right now:
 
-* WTF Podcast with Marc Maron
-* Star talk radio with Neil De Grass Tyson
-* Joe Rogan experience
-* Software engineering radio
-* Parenting with Moncrief
-* Monday morning podcast with Bill Burr
+* {{< url-link "WTF Podcast with Marc Maron" "http://www.wtfpod.com/" >}}
+* {{< url-link "Star talk radio with Neil De Grass Tyson" "https://www.startalkradio.net/" >}}
+* {{< url-link "Joe Rogan experience" "http://podcasts.joerogan.net/" >}}
+* {{< url-link "Software engineering radio" "http://www.se-radio.net/" >}}
+* {{< url-link "Parenting with Moncrieff" "http://www.newstalk.com/podcasts/Moncrieff/Parenting/" >}}
+* {{< url-link "Monday morning podcast with Bill Burr" "http://billburr.com/podcast-2/" >}}
+
+{{< img-post path="/img/doIt/" file="podcast.png" alt="Podcast">}}
 
 As you can see, mostly comedy and science. These podcast episodes sometimes leads me to a book, a record, a movie... is just an amazing source of references.
 
-Some people I discovered listening to podcast:
-
-* Author Lawerence Krass
-* Author Johann Hari
-* Musician Kamasi Washington
-
-And a big etc... those are just from the top of my head. It is usuall to stop the playback to make a note about some reference that I liked.
+Some people I discovered listening to podcast include author Lawrence Krauss, author Johann Hari, musician Kamasi Washington... and a big etc. Those are just from the top of my head. It is usual for me to stop the playback to make a note about some reference that I liked.
 
 Listening to podcast is a wonderful way of make the best of your time.
 
@@ -72,7 +68,8 @@ In my case, is playing guitar.
 
 Intrínseco against extrinsect
 
-{{< img-post path="/img/doIt/" file="cartoon.png" alt="Tree layout" type="center" >}}
+{{< img-post path="/img/doIt/" file="cartoon.png" alt="Paco Sordo Cartoon">}}
+_Cartoon credit: {{< url-link "Paco Sordo" "http://www.facebook.com/pacosordoillustration" >}}_
 
 # Meditate
 
@@ -88,4 +85,5 @@ Just start doing what you (really) want to do, and the things that doesn't have 
 
 ## References:
 
-* _Photo by {{< url-link "Stocksnap" "https://stocksnap.io/photo/1HDO9I6J22" >}}_
+* _Photo by {{< url-link "Stocksnap" "https://stocksnap.io/photo/CSY3W6JPKX" >}}_
+* _Cartoon by {{< url-link "Paco Sordo" "http://www.facebook.com/pacosordoillustration" >}}_
