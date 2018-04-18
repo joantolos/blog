@@ -76,12 +76,6 @@ Cultivate that activity that makes you feel like a child again. If you like to r
 {{< img-post path="/img/doIt/" file="cartoon.png" alt="Paco Sordo Cartoon">}}
 _Cartoon credit: {{< url-link "Paco Sordo" "http://www.facebook.com/pacosordoillustration" >}}_
 
-* "Ey! It is yourself from the future, I have to tell you something important! In 2018 you are going to... Hello?"
-* "What are you doing?" "I am drawing a house and a dog. I love drawing."
-* "A dog this? The anatomy, the perspective, everything wrong! And that leg? Is larger than the other. That colour there is not right, it is saturated." "I don't care, I just draw because is fun"
-
-Nothing else to add.
-
 # Meditate
 
 There is a lot of information on the Internet about how to do it and the benefits it carries. You can use apps or multiple options to start. It's easier than it sounds.
@@ -97,6 +91,10 @@ Nothing is free. You have to renounce to something, that is just a fact. In my c
 By the way, I don't play video games anymore. Again, just naturally, I didn't realise when I stopped playing, it came naturally. I had a great time playing video games a long time a go. Today, it is not for me anymore, no trauma.
 
 Just start doing what you (really) want to do, and the things that doesn't have place in your life anymore, will just leave.
+
+# I screw up a lot
+
+That is a fact. I forget things, sometimes mess up appointments and a long list... It is going to happen, just allow a little room to mess up things, and make your peace with it.
 
 ## References:
 
