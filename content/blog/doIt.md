@@ -88,13 +88,13 @@ Of course.
 
 Nothing is free. You have to renounce to something, that is just a fact. In my case, when my first child was born, after a few months I realised that I left following my soccer team. I had no idea anymore of who was playing, when was the next match or nothing. It came natural to me, I think that the left over activities in your life just appear as you need more time for other things.
 
-By the way, I don't play video games anymore. Again, just naturally, I didn't realise when I stopped playing, it came naturally. I had a great time playing video games a long time a go. Today, it is not for me anymore, no trauma.
+By the way, I don't play video games anymore. Again, just naturally, I didn't realise when I stopped playing, it came naturally. I had a great time playing video games a long time ago. Today, it is not for me anymore, no trauma.
 
 Just start doing what you (really) want to do, and the things that doesn't have place in your life anymore, will just leave.
 
 # I screw up a lot
 
-That is a fact. I forget things, sometimes mess up appointments and a long list... It is going to happen, just allow a little room to mess things up, and make your peace with it.
+That is a fact (if you don't believe me, ask my wife). I forget things, sometimes mess up appointments and a long list... It is going to happen, just allow a little room to mess things up, and make your peace with it.
 
 ## References:
 
