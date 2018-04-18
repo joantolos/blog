@@ -94,7 +94,8 @@ Just start doing what you (really) want to do, and the things that doesn't have 
 
 # I screw up a lot
 
-That is a fact (if you don't believe me, ask my wife). I forget things, sometimes mess up appointments and a long list... It is going to happen, just allow a little room to mess things up, and make your peace with it.
+That is a fact (ask my wife if you don't believe me). 
+I forget things, sometimes mess up appointments and a long list... It is going to happen, just allow a little room to mess things up, and make your peace with it.
 
 ## References:
 
