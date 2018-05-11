@@ -1,0 +1,37 @@
++++
+author = "Joan Tolos"
+categories = ["Ethics","Productivity","Psychology"]
+date = "2018-05-09"
+description = "3 reasons why you shouldn't read this post"
+featured = "pic01.png"
+featuredalt = ""
+featuredpath = "/img/quickFix/"
+linktitle = ""
+title = "Quick fix society"
+type = "post"
++++
+
+* Reason one: This is a click bait
+* Reason two: Headlines starting with numbers are more attractive
+* Reason three:
+
+Quick and easy search:
+
+http://lmgtfy.com/?t=i&q=quick+and+easy
+
+5 Easy Tricks to Help You Write Catchy Headlines
+
+https://goinswriter.com/catchy-headlines/
+
+The quick fix society
+4 reasons why you shouldn’t read this post
+   The clic bait:
+   The 20 coolest vintage British amps
+
+Food, Uber, Netflix, Spotify... We want it all and we want it now. But, it is now always the right time?
+
+We don't want to
+
+### References:
+
+* _Photo by {{< url-link "Marc Kleen" "https://unsplash.com/photos/X4H8JXNYBVQ" >}} on {{< url-link "Unsplash" "https://unsplash.com" >}}_
