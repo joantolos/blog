@@ -7,7 +7,7 @@ featured = "pic01.png"
 featuredalt = ""
 featuredpath = "/img/quickFix/"
 linktitle = ""
-title = "Quick fix society"
+title = "The quick fix society"
 type = "post"
 +++
 
@@ -15,23 +15,21 @@ type = "post"
 * Reason two: Headlines starting with numbers are more attractive
 * Reason three:
 
+Food, Uber, Netflix, Spotify... As the song said... _"We want it all and we want it now."_ But, it is now always the right time?
+
+Examples:
+* 3 Tips to fins awesome inspiration
+* The 4 areas I split my time into maximise success
+* 3 reasons why I embrace being a generalist
+* 4 Simple tips I´ve used to craft my personal brand
+* 3 things that are wrong with DevOps today
+* 3 areas you have to make time for to find success
+
 Quick and easy search:
 
 http://lmgtfy.com/?t=i&q=quick+and+easy
 
-5 Easy Tricks to Help You Write Catchy Headlines
-
-https://goinswriter.com/catchy-headlines/
-
-The quick fix society
-4 reasons why you shouldn’t read this post
-   The clic bait:
-   The 20 coolest vintage British amps
-
-Food, Uber, Netflix, Spotify... We want it all and we want it now. But, it is now always the right time?
-
-We don't want to
-
 ### References:
 
 * _Photo by {{< url-link "Marc Kleen" "https://unsplash.com/photos/X4H8JXNYBVQ" >}} on {{< url-link "Unsplash" "https://unsplash.com" >}}_
+* _5 Easy Tricks to Help You Write Catchy Headlines {{< url-link "Catchy Headlines" "https://goinswriter.com/catchy-headlines/" >}}_
