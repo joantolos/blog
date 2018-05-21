@@ -15,21 +15,35 @@ type = "post"
 * Reason two: Headlines starting with numbers are more attractive
 * Reason three:
 
-Food, Uber, Netflix, Spotify... As the song said... _"We want it all and we want it now."_ But, it is now always the right time?
+Food, Uber, Netflix, Spotify... As the song said... _"We want it all and we want it now."_ But, it is **now** always the **right time?** Can everything we need, be packed into a five minutes digested pills?
 
-Examples:
-* 3 Tips to fins awesome inspiration
-* The 4 areas I split my time into maximise success
+I recently stumbled upon an article explaining the techniques behind a good headline. These days it looks like social media interactions are starting to have a bad reputation, so it is hip to abandon them or hide over the most used catch phrase _"I just read articles."_ If you think that consuming articles (let's call them posts) on social media is freeing you from the social engineering that they apply to fulfill their business model, you are up to a big surprise.
+
+There are techniques to make you click to those articles so you can see the advertisement they have for you. Of course, those are known as _click baits_. Everyone knows that, but take a moment to consider the word _bait_: They are _fishing_ for you. And we are biting, of course we are. One of those tricks is start the headline with a number, examples:
+
+* 3 Tips to find awesome inspiration
+* The 4 areas I split my time into maximize success
 * 3 reasons why I embrace being a generalist
-* 4 Simple tips I´ve used to craft my personal brand
-* 3 things that are wrong with DevOps today
-* 3 areas you have to make time for to find success
+* 4 Simple tips I've used to craft my personal brand
+* 3 Things that are wrong with DevOps today
+* 3 Areas you have to make time for to find success
 
-Quick and easy search:
+Those are real headlines I compiled from several social media feeds. And, I have to admit, they look attractive, worth a click.
 
-http://lmgtfy.com/?t=i&q=quick+and+easy
+But take a closer look to the content of the bait... three simple tricks, four steps to win, a fantastic easy (and of course) **quick** recipe for success. And why this headlines are so attractive? Because they appeal to an inner need to get things. A lot of them, quick an easy.
+
+## Quick and easy
+
+Look what you get if you Google _"quick and easy"_ and look for images:
+
+{{< img-post path="/img/quickFix/" file="quickAndEasy.png" alt="Istanbul on console" type="center" >}}
+
+Is it just me or the overall images look a lot like food? If you don't believe just try it: http://lmgtfy.com/?t=i&q=quick+and+easy
+
+Take a minute to consider... Google (so, all of us, the collective intelligence) answers with food, when you ask for _quick and easy._ What does it say about our society?
 
 ### References:
 
 * _Photo by {{< url-link "Marc Kleen" "https://unsplash.com/photos/X4H8JXNYBVQ" >}} on {{< url-link "Unsplash" "https://unsplash.com" >}}_
-* _5 Easy Tricks to Help You Write Catchy Headlines {{< url-link "Catchy Headlines" "https://goinswriter.com/catchy-headlines/" >}}_
+* _{{< url-link "5 Easy Tricks to Help You Write Catchy Headlines" "https://goinswriter.com/catchy-headlines/" >}}_
+* _{{< url-link "6 tools to help you do TDD with NodeJS" "http://www.joantolos.com/blog/javascripttrifecta/" >}}_
