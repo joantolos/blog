@@ -17,7 +17,7 @@ I recently stumbled upon an article explaining the techniques behind a good head
 
 There are techniques to make you click to those articles so you can see the advertisement they have for you. Of course, those are known as _click baits_. Everyone knows that, but take a moment to consider the word _bait_: They are _fishing_ for you. And we are biting, of course we are.
 
-One of those tricks is start the headline with a number. I actually try it with a post of my own that was meant to be "Javascript Trifecta" but I renamed it to "6 tools to help you do TDD with NodeJS". And actually it got a better response than other similar posts that I've made. Some other examples:
+One of those tricks is start the headline with a number. I actually try it with a post of my own that was meant to be "Javascript Trifecta" but I renamed it to _{{< url-link "6 tools to help you do TDD with NodeJS" "http://www.joantolos.com/blog/javascripttrifecta/" >}}_. And actually it got a better response than other similar posts that I've made. Some other examples:
 
 > 3 Tips to find awesome inspiration
 
@@ -49,22 +49,22 @@ Take a minute to consider... Google (so, all of us, the collective intelligence)
 
 If I take a look back and think about what I have accomplish in my life, nothing has been easy. My career, family, hobbies and entertainments; are enjoyable thanks to hours and hours of hard work and dedication.
 
-I read books to improve in my programming skills so I can provide more value in my job place. I expend a lot of time thinking how I can improve my time with my family and make it one of more quality. Again, reading books, asking other people that know more than me, connecting with others and the community. Feeding from multiple sources of knowledge and wise advise. All of that is far from “quick and easy”. It requires dedication and discipline.
+I read books to improve my programming skills so I can provide more value in my job place. I expend a lot of thinking about how can I improve my time with my family and make it one of more quality. Again, reading books, asking other people that know more than me, connecting with others and the community. Feeding from multiple sources of knowledge and wise advise. All of that is far from “quick and easy”. It requires dedication and discipline.
 
-But the rewards are worth it. I have a job that fulfil my expectations, I go to work happy every morning. I enjoy a beautiful family and have a blast playing guitar and making music on my spare time. Expect that all of this will come easy, just because you follow some “magic steps” is kind of naive and childish.
+But the rewards are worth it. I have a job that fulfil my expectations, I go to work happy every morning. I enjoy a beautiful family and have a blast playing guitar and making music on my spare time. Expecting that all of this will come easy, just because you follow some “magic steps” is kind of naive and childish.
 
 ## Success as a consequence
 
 I think that success is a consequence, not a goal. If you aim purely for success, you are starting wrong. If you aim for excellence on the job, good team work, provide value, keep the client in mind, you will have success as a **consequence**. No doubt about it.
 
-It’s like kids today who say they want to _become famous_. Not being a successful artist, a singer or whatever, but to be famous. Most of the artist I follow (mostly musicians) see the fame as something they have to deal with and not really enjoyable.
+It's like kids today who say they want to _become famous_. Not being a successful artist, a singer or whatever, but to be famous. Most of the artists I follow (mostly musicians) see the fame as something they have to deal with and not really enjoyable.
 
 Those quick fixes, are aiming to a quick success, they are encouraging you to take a shortcut, as if there were any.
-You want to eat a tasty meal, but you don’t want to take the time to buy the ingredients, learn the craft, cook the recipe... Instead you follow the _*3 steps to make the best salad*_ and you end up with some quick fix that will satisfy you for about twenty minutes. And then what? To the next fix you go.
+You want to eat a tasty meal, but you don't want to take the time to buy the ingredients, learn the craft, cook the recipe... Instead you follow the _*3 steps to make the best salad*_ and you end up with some quick fix that will satisfy you for about twenty minutes. And then what? To the next fix you go.
 
 You want to enjoy music but you won't follow an artist career from it's beginning and slowly increment your knowledge, socking on it's message until you understand the latest release. Instead of that, you go to Spotify and swallow the few single pills specially tailored “to your taste”.
 
-And then what do you do with these extra value time that these marvellous advantages provide you? You use it to **consume** more. Ordering your delivery food gives you extra time to click on the next episode on Netflix. But soon this will be not enough and you will need another show to follow, and so it goes fix after fix after fix...
+And then what do you do with this extra value time that these marvellous advantages provide you? You use it to **consume** more. Ordering your delivery food gives you extra time... to click on the next episode on Netflix. But soon this will be not enough and you will need another show to follow, and so it goes fix after fix after fix...
 
 ## Wake up: It's not gonna happen
 
