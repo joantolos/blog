@@ -152,7 +152,7 @@ or you can add the generation on your build script so every time you run your te
       "functions": 80,
       "branches": 80,
       "include": [
-        "src/**/*.js"
+        "src/*/*.js"
       ],
       "reporter": [
         "text",
@@ -172,9 +172,97 @@ Then you can see your familiar coverage report:
 Nock can be used to test modules that perform HTTP requests in isolation.
 For instance, if a module performs HTTP requests to a CouchDB server or makes HTTP requests to the Amazon API, you can test that module in isolation.
 
+This is a library to mock any combination of http request that you can imagine. The usage is simple, the best way to understand it is with an example.
+
+There is a free API available on GitHub called {{< url-link "the GitBug Jobs API" "https://jobs.github.com/api" >}} which provides information about the job offers available on GitHub. Some example call is the following:
+
+https://jobs.github.com/positions.json?description=java&location=barcelona
+
+Which will retrieve a response like this one:
+
+    [
+       {
+          id:"3d0c8c86-5a78-11e8-9dac-d37aab551739",
+          created_at:"Fri May 18 08:49:59 UTC 2018",
+          title:"Front-end Jedi ",
+          location:"Barcelona, Spain",
+          type:"Full Time",
+          description:"Job description trunked for the article purpose",
+          how_to_apply:"https://marfeel.bamboohr.com/jobs/view.php?id=1",
+          company:"Marfeel",
+          company_url:null,
+          company_logo:"http://github-jobs.s3.amazonaws.com/2618f276-5a78-11e8-802d-263daf7f08b9.png",
+          url:"http://jobs.github.com/positions/3d0c8c86-5a78-11e8-9dac-d37aab551739"
+       },
+       {
+          id:"f9080d9e-26dd-11e8-97ec-50dc22333a0f",
+          created_at:"Sun May 13 17:13:09 UTC 2018",
+          title:"Java Backend Developer",
+          location:"Barcelona",
+          type:"Full Time",
+          description:"Job description trunked for the article purpose",
+          how_to_apply:"https://king.com/es/jobs/java-backend-developer-803?breadcrumbs=/jobs&amp;location=barcelona&amp;src=NGP-12180",
+          company:"King",
+          company_url:"http://www.king.com",
+          company_logo:"http://github-jobs.s3.amazonaws.com/f5d692c6-26dd-11e8-93a2-8d7be3afb0d0.png",
+          url:"http://jobs.github.com/positions/f9080d9e-26dd-11e8-97ec-50dc22333a0f"
+       }
+    ]
+
+This response will change every time there is a new job offer or one offer disappears, so we can't not rely on it for testing purpose. Now, what we can do is mock the service response using Nock.
+
+On your "beforeEach" section of your test suite, you simulate the call:
+
+    beforeEach(function() {
+      nock('https://jobs.github.com:443', { 'encodedQueryParams': true })
+        .get('/positions.json')
+        .query({ 'description': 'java', 'location': 'barcelona' })
+        .reply(200, [
+          {
+            id: '3d0c8c86-5a78-11e8-9dac-d37aab551739',
+            created_at: 'Fri May 18 08:49:59 UTC 2018',
+            title: 'Front-end Jedi ',
+            location: 'Barcelona, Spain',
+            type: 'Full Time',
+            description: 'Super fake job',
+            how_to_apply: 'Just ride a giant rocket',
+            company: 'ACME'
+          },
+          {
+            id: 'f9080d9e-26dd-11e8-97ec-50dc22333a0f',
+            created_at: 'Sun May 13 17:13:09 UTC 2018',
+            title: 'Java Backend Developer',
+            location: 'Barcelona',
+            type: 'Full Time',
+            description: 'Another fake job but matching the API service contract.',
+            how_to_apply: 'Follow the yellow brick road',
+            company: 'Pied Piper'
+          }
+        ]);
+    });
+
+There you define the host, the http method, headers, content, params etc... You can match any request that you can think of. Then nock will return the content specified on the "reply" section, instead of making the actual real call.
+
+Now you know what the service will return, always and you can perform your tests. Of course, if the API contract changes, you will have to update the mock.
+
 ## Mock-Require
 
 > mock-require is useful if you want to mock require statements in Node.js. I wrote it because I wanted something with a straight-forward API that would let me mock anything, from a single exported function to a standard library.
+
+This will substitute a required library with an specific code that you choose. I find this specially util when working with third party libraries inside the company project. Sometimes you are working with a project where different teams implicated and some team has to provide you some functionality. If you want to go ahead and code without waiting their results, you can mock their logic and start with your implementation.
+
+If the project is big and the team is allocated this happens a lot, so a good tool to have in hand. Example:
+
+    var mock = require('mock-require');
+
+    mock('http', { request: function() {
+      console.log('http.request called');
+    }});
+
+    var http = require('http');
+    http.request(); // 'http.request called'
+
+It is really simple to use as you can see.
 
 ## Javascript Lint
 
@@ -202,9 +290,9 @@ Is annoying sometimes but long term it really helps to have a consistent code ba
 
 ## Take Out
 
-It looks like a lot, and it probably is if you are new. That is why I have created a seed project that includes Gradle as a building tool: {{< url-link "Javascript TDD Seed" "https://github.com/joantolos/javascript-tdd-seed" >}}
+It looks like a lot, and it probably is. That is why I have created a seed project that includes Gradle as a building tool: {{< url-link "Javascript TDD Seed" "https://github.com/joantolos/javascript-tdd-seed" >}}
 
-Clone the repo and play with it. It's easier than it looks.
+This seed contains the combination of the six tools already prepared with some explanatory tests. Clone the repo and play with it. It's easier than it looks.
 
 ### References:
 
@@ -214,5 +302,7 @@ Clone the repo and play with it. It's easier than it looks.
 * _{{< url-link "Chai" "http://www.chaijs.com/" >}}_
 * _{{< url-link "Istanbul" "https://istanbul.js.org/" >}}_
 * _{{< url-link "Nock" "https://github.com/node-nock/nock" >}}_
+* _{{< url-link "The GitBug Jobs API" "https://jobs.github.com/api" >}}_
+* _{{< url-link "Mock-Require" "https://www.npmjs.com/package/mock-require" >}}_
 * _{{< url-link "Javascript Lint" "http://www.javascriptlint.com/" >}}_
 * _{{< url-link "Measure your code coverage using Istanbul (with a demo)" "https://medium.com/walkme-engineering/measure-your-nodejs-code-coverage-using-istanbul-82b129c81ae9" >}}_
