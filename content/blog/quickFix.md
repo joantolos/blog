@@ -45,7 +45,7 @@ Is it just me or the overall images look a lot like food? If you don't believe j
 
 Take a minute to consider... Google (so, all of us, the collective intelligence) answers with food, when you ask for _quick and easy._ What does it say about our society?
 
-## Nothing worth having or accomplish comes quick and easy
+## Nothing worth having or accomplishing comes quick and easy
 
 If I take a look back and think about what I have accomplish in my life, nothing has been easy. My career, family, hobbies and entertainments; are enjoyable thanks to hours and hours of hard work and dedication.
 
