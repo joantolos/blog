@@ -1,0 +1,64 @@
++++
+author = "Joan Tolos"
+categories = ["Java","JBCNConf2018","Talks","Conference"]
+date = "2018-06-13"
+description = "My take aways of the last Java BCN Conference"
+featured = "pic01.jpg"
+featuredalt = ""
+featuredpath = "/img/jbcnconf2018/"
+linktitle = ""
+title = "JBCN Conf 2018"
+type = "post"
++++
+
+I attended the Java Barcelona Conference again for the forth time now and I want to share some of my experiences.
+
+## About the Conference
+
+## Ideas
+
+Hexagonal Architecture
+Kotlin
+Blockchain
+
+
+## Remarkable lectures
+
+These are a collection of talks that I found interesting enough to take another look to the recording so I can go deep on the concepts. Here I provide a little overview and the actual talk provided by the Java BCN Conf Youtube channel.
+
+### A Craftsman’s Guide to Designing a Clean Architecture
+
+By Marcus Biel: Software Craftsman, Clean Code Evangelist
+
+{{< img-post path="/img/jbcnconf2018/" file="marcusBiel.png" alt="Marcus" type="center" >}}
+
+Marcus Biel is a Software Craftsman, a Clean Code Evangelist and Java influencer. Since 2001, Marcus has worked as a developer and architect on many different Java related projects, mostly in the finance and telecommunications industries. Right now he is working on https://cleancodeacademy.com/, an online platform dedicated to teaching aspiring Java Craftsmen.
+
+### Overview
+
+In 2018, it seems like Microservices are the de facto standard for a system architecture, but do they really live up to the hype? The talk will show you an alternative approach - how we can tame complexity with the help of a clean, monolithic architecture that is modular to the core. Java has been deliberately built from the ground up on a modular basis: Methods, classes, packages. Additionally, the module system was introduced in Java 9. Modularity is based on the fundamental concepts of high cohesion and low coupling. We will look at these concepts, as well as some further measures, in detail. We'll check out what they are, how they are related to one another, and what the best practices are for applying them on all levels of the architecture. The talk will show you how you can apply these basic concepts to develop a clean, monolithic architecture, based on Java 9 modules and the hexagonal architecture pattern
+
+### Talk
+
+Video
+
+### A Case for Outside-In Design
+
+By Sandro Mancuso: Founder of Codurance and London Software Craftmanship Community
+
+{{< img-post path="/img/jbcnconf2018/" file="sandroMancuso.png" alt="Sandro" type="center" >}}
+
+Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.
+
+### Overview:
+
+For a few decades, one of the most common approaches to software design is to first focus on the domain model (application layer), then persistence (data layer) and finally the user interface (presentation layer). But what are the pros and cons of this approach? Are there other alternatives? Are they viable? In this presentation Sandro will be talking about different design biases and the impact they have. He will then focus on Outside-In Design, explaining how our domain model can emerge and evolve when driven by the needs of external systems or users, avoiding speculation and wasted effort
+
+### Talk:
+
+Video
+
+### References:
+
+* _Photo credit {{< url-link "Twitter @jbcnconf" "https://twitter.com/jbcnconf" >}}_
+* _{{< url-link "JBCN Conf" "http://www.jbcnconf.com/" >}}_
