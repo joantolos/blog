@@ -58,6 +58,10 @@ For a few decades, one of the most common approaches to software design is to fi
 
 Video
 
+## Books:
+
+This year books
+
 ### References:
 
 * _Photo credit {{< url-link "Twitter @jbcnconf" "https://twitter.com/jbcnconf" >}}_
