@@ -77,6 +77,10 @@ _-Talk video not available yet-_
 
 I will update the post once the organisation publishes the videos.
 
+## Books:
+
+This year books
+
 ### References:
 
 * _Photo credit {{< url-link "Twitter @jbcnconf" "https://twitter.com/jbcnconf" >}}_
