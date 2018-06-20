@@ -2,7 +2,7 @@
 author = "Joan Tolos"
 categories = ["Java","JBCNConf2018","Talks","Conference"]
 date = "2018-06-13"
-description = "My take aways of the last Java BCN Conference"
+description = "My take aways from the last Java BCN Conference"
 featured = "pic01.jpg"
 featuredalt = ""
 featuredpath = "/img/jbcnconf2018/"
@@ -15,16 +15,31 @@ I attended the Java Barcelona Conference again for the forth time now and I want
 
 ## About the Conference
 
+The JBCNConf is a meeting point for programmers, developers and development professionals, who meet to do networking and learn about the Java world and its latest developments. Among the Java experts who will speak at the conferences are figures from the universe of programming such as Simon Maple, Marcus Biel and Rustam Mehmandarov.
+
+The event is organised by {{< url-link "Barcelona JUG (Barcelona Java Users Group)" "https://www.barcelonajug.org" >}}, a non-profit association made up of programmers, engineers and other technology lovers. At the head stand Nacho Cougil, software engineer from Barcelona and founder of Barcelona JUG, and Jonathan Vila, senior software engineer at Ocado Technology specialising in the design and development of Java applications.
+
+Together with them, the Barcelona JUG association and a large group of volunteers will work to convert the JBCNConf into the state reference in Java and JVM.
+
+### Ethics, social and networking
+
+I want to stress the fact of that the attendees, speakers and organisation always show the best of behaviours. It is very refreshing to be surrounded with such a nice group of people. Everyone seems to be ready to help and show a nice face.
+
 ## Ideas
 
 Hexagonal Architecture
 Kotlin
 Blockchain
 
+## Tools
+
+Venkat Editor
+Sandro graph
+Sandro mockup
 
 ## Remarkable lectures
 
-These are a collection of talks that I found interesting enough to take another look to the recording so I can go deep on the concepts. Here I provide a little overview and the actual talk provided by the Java BCN Conf Youtube channel.
+These two lectures I found interesting enough to take another look to the recording so I can go deep on the concepts. Here I provide a little overview and the actual talk provided by the Java BCN Conf Youtube channel.
 
 ### A Craftsman’s Guide to Designing a Clean Architecture
 
@@ -40,7 +55,9 @@ In 2018, it seems like Microservices are the de facto standard for a system arch
 
 ### Talk
 
-Video
+_-Talk video not available yet-_
+
+I will update the post once the organisation publishes the videos.
 
 ### A Case for Outside-In Design
 
@@ -56,7 +73,9 @@ For a few decades, one of the most common approaches to software design is to fi
 
 ### Talk:
 
-Video
+_-Talk video not available yet-_
+
+I will update the post once the organisation publishes the videos.
 
 ### References:
 
