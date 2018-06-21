@@ -27,15 +27,36 @@ I want to stress the fact of that the attendees, speakers and organisation alway
 
 ## Ideas
 
-Hexagonal Architecture
-Kotlin
-Blockchain
+These are some ideas and concepts that I catch up on some of the talks that I want to investigate more.
+
+* **Hexagonal Architecture:** First introduced on the talk _"A Craftsman’s Guide to Designing a Clean Architecture"_ and then repeated again on others. I would like to review some architectural points on my current projects which can be benefit from the {{< url-link "Hexagonal Architecture" "http://java-design-patterns.com/patterns/hexagonal/" >}}.
+* **Kotlin:** I attended several talks and a workshop about or including Kotlin as a subject. I really like it's features and I would like to study if I can start using Kotlin on some of my on going developments. It really looks like the best features of the most used languages compiled into on super-solid new language. Worth looking into it.
+* **Blockchain:** Two talks about Blockchain that clarified a little bit my previous knowledge and made me wonder if there is any application of distributed ledger technology. Certainly, I will make something on my own to play around with this technology, so I can understand it better.
 
 ## Tools
 
-Venkat Editor
-Sandro graph
-Sandro mockup
+Each conference I take any opportunity to take a closer look to the tools that the speakers are using on their presentations. I have discovered nice utilities that way. This year are the following:
+
+* **Text Mate:** Or as I refer to it: "The Venkat editor" because {{< url-link "Venkat Subramaniam" "https://twitter.com/venkat_s" >}} use it on his presentations. Looks like a simple text editor where you can attach "bundles" of different languages. As I see it, it can make Java look like a scripting language. Can be useful for presentations. {{< url-link "Text Mate" "https://macromates.com" >}}
+* **Free Plane:** {{< url-link "Sandro Mancuso" "https://twitter.com/sandromancuso" >}} Use this tool on his talk _"A Case for Outside-In Design"_ and I found it interesting to represent ideas and draw mind mapping and other diagrams. {{< url-link "Free Plane" "http://www.freeplane.org/wiki/index.php/Home" >}}
+* **Balsamiq Mockups:** Again, from {{< url-link "Sandro Mancuso's" "https://twitter.com/sandromancuso" >}} talk, yet another mock up app. Worth taking a look. {{< url-link "Balsamiq Mockups" "https://balsamiq.com/products/" >}}
+
+I have installed these tools and I will try them for a while. Maybe I can include some of them to my day to day.
+
+## Books:
+
+This year books selection are the following:
+
+{{< img-post path="/img/jbcnconf2018/" file="books.png" alt="Sandro" type="center" >}}
+
+* {{< url-link "Rediscovering JavaScript by Venkat Subramaniam" "https://www.amazon.es/dp/1680505467/?coliid=I1ANAA4E6S3J59&colid=90AAQW72DXZX&psc=0&ref_=lv_ov_lig_dp_it" >}}. This is not a surprise. Last year I already bought (and really enjoy) his latest book about functional programming: {{< url-link "Functional Programming in Java: Harnessing the Power Of Java 8 Lambda Expressions" "https://www.amazon.es/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/ref=sr_1_cc_2?s=aps&ie=UTF8&qid=1529570830&sr=1-2-catcorr&keywords=functional+programming+in+java" >}} which I can't recommend enough. Just a brilliant book to take advantage of all the new functional capacities of Java.
+This talk of the last year conference made me buy the book and again, I can't recommend it enough:
+
+[![Functional Programming in Java](/img/jbcnconf2018/venkat.png)](https://www.youtube.com/watch?v=mlxPIeu-M7s&t=330s)
+
+I am doing more and more middleware service in NodeJS so Javascript is entering huge on the company. This new book about Javascript comes with perfect timing for me. I am sure I am going to enjoy it as I did the last one.
+
+* {{< url-link "Start With Why: How Great Leaders Inspire Everyone To Take Action" "https://www.amazon.es/gp/product/0241958229/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1" >}}. This is a take over from the talk _7 Deadlier Sins of Craftsmanship_ by {{< url-link "Tomasz Dubikowski" "https://twitter.com/search?q=Tomasz%20Dubikowski&src=typd" >}} which was a really refreshing, funny and interesting talk about ethics and software engineering career.
 
 ## Remarkable lectures
 
@@ -77,9 +98,15 @@ _-Talk video not available yet-_
 
 I will update the post once the organisation publishes the videos.
 
-## Books:
+## I won!
 
-This year books
+At the starting keynote, the organisation proposed to share pictures with networking topic. I tweeted this one with my peer {{< url-link "Gael Perez" "https://twitter.com/GaelPAlamancos" >}} and the picture got selected! I won a Play Station 4 as a price!
+
+{{< img-post path="/img/jbcnconf2018/" file="stormTropper.png" alt="Beware the Empire" type="center" >}}
+
+
+
+{{< img-post path="/img/jbcnconf2018/" file="won.png" alt="I won!" type="center" >}}
 
 ### References:
 
