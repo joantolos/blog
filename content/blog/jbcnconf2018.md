@@ -76,9 +76,7 @@ In 2018, it seems like Microservices are the de facto standard for a system arch
 
 ### Talk
 
-_-Talk video not available yet-_
-
-I will update the post once the organisation publishes the videos.
+[![A Craftsman’s Guide to Designing a Clean Architecture](/img/jbcnconf2018/cleanArchitectureScreenshot.png)](https://www.youtube.com/watch?v=0M4DXVaktPc&index=8&t=0s&list=PLo0fJV3LkR3wB8mItys0yGL004GHe3e8U)
 
 ### A Case for Outside-In Design
 
@@ -94,9 +92,7 @@ For a few decades, one of the most common approaches to software design is to fi
 
 ### Talk:
 
-_-Talk video not available yet-_
-
-I will update the post once the organisation publishes the videos.
+[![A Case for Outside-In Design](/img/jbcnconf2018/outsideScreenshot.png)](https://www.youtube.com/watch?v=QP6ltkj4Qik&index=11&t=0s&list=PLo0fJV3LkR3wB8mItys0yGL004GHe3e8U)
 
 ## I won!
 
@@ -112,3 +108,4 @@ At the starting keynote, the organisation proposed to share pictures with networ
 
 * _Photo credit {{< url-link "Twitter @jbcnconf" "https://twitter.com/jbcnconf" >}}_
 * _{{< url-link "JBCN Conf" "http://www.jbcnconf.com/" >}}_
+* _{{< url-link "JBCNConf'18 playlist" "https://www.youtube.com/watch?v=5ataEk3TWQs&list=PLo0fJV3LkR3wB8mItys0yGL004GHe3e8U" >}}_

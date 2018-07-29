@@ -31,7 +31,9 @@ One of those tricks is start the headline with a number. I actually try it with 
 
 > 3 Areas you have to make time for to find success
 
-Those are real headlines I compiled from several social media feeds. And, I have to admit, they look attractive, worth a click.
+> 5 habits to sabotage yourself you don't even know you have
+
+Those are real headlines I compiled from several social media feeds. And, I have to admit, they look attractive, worth a click. Just take a look at the last one... it promises to reveal some secret habits that you have and you don't even know that are bad for you... I mean, you **have** to click, right?
 
 But take a closer look to the content of the bait... three simple tricks, four steps to win, a fantastic easy (and of course) **quick** recipe for success. Why this headlines are so attractive? Because they appeal to an inner need to get things. A lot of them, quick an easy.
 
