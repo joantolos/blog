@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Devops", "Ssh", "Tool"]
+categories = ["Devops", "SSH", "Tool"]
 date = "2016-04-13"
 description = "Working with several remote machines"
 featured = "pic01.jpg"
