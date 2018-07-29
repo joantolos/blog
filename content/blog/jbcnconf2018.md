@@ -31,7 +31,7 @@ These are some ideas and concepts that I catch up on some of the talks that I wa
 
 * **Hexagonal Architecture:** First introduced on the talk _"A Craftsman’s Guide to Designing a Clean Architecture"_ and then repeated again on others. I would like to review some architectural points on my current projects which can be benefit from the {{< url-link "Hexagonal Architecture" "http://java-design-patterns.com/patterns/hexagonal/" >}}.
 * **Kotlin:** I attended several talks and a workshop about or including Kotlin as a subject. I really like it's features and I would like to study if I can start using Kotlin on some of my on going developments. It really looks like the best features of the most used languages compiled into on super-solid new language. Worth looking into it.
-* **Blockchain:** Two talks about Blockchain that clarified a little bit my previous knowledge and made me wonder if there is any application of distributed ledger technology. Certainly, I will make something on my own to play around with this technology, so I can understand it better.
+* **Blockchain:** Two talks about Blockchain that clarified a little bit my previous knowledge and made me wonder if there is any application of distributed ledger technology on any of my projects. Certainly, I will make something on my own to play around with this technology, so I can understand it better.
 
 ## Tools
 
