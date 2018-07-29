@@ -12,7 +12,7 @@ type = "post"
 
 +++
 
-## Less is more, but really?
+## Less is more... but really?
 
 I always struggle to find an example where less code is not necessarily better, because it usually is. But recently I stumble upon an example. **Clean Code** ask for readability over anything else because code is more often read than written. That sometimes may mean to be a little more verbose on the code. Let's see an example:
 
