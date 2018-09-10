@@ -15,7 +15,7 @@ type = "post"
 
 The premise of this book is very interesting. The authors are two former Navy SEALs:
 
-_The navy SEALs are the U.S. Navy's primary special operations force and a component of the Naval Special Warfare Command. Among the SEALs' main functions are conducting small-unit maritime military operations that originate from, and return to, a river, ocean, swamp, delta, or coastline.[5] The SEALs are trained to operate in all environments (sea, air, and land) for which they are named. (Extracted from Wikipedia)_
+_The navy SEALs are the U.S. Navy's primary special operations force and a component of the Naval Special Warfare Command. Among the SEALs' main functions are conducting small-unit maritime military operations that originate from, and return to, a river, ocean, swamp, delta, or coastline. The SEALs are trained to operate in all environments (sea, air, and land) for which they are named. (Extracted from Wikipedia)_
 
 These are badass men that conduct the most hard training ever invented and immerse themselves on extremely dangerous situations. So, what am I doing reading a book from these guys? Because they have written a book about leadership.
 
