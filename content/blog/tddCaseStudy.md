@@ -97,7 +97,11 @@ You don’t like TDD because is **hard**.
 
 # Don’t feel bad: TDD is hard
 
-I said all those things as well, at the beginning, every single one. Then I started to do katas and exercises and I thought, “well, this is good as an exercise or code gymnastics” but never had the guts to use it on real work situations. Then I spoke with my peer Finner at work, told him the situation and he offered to sit with him when developing his next feature with TDD. And all the sudden, all was clear with that little pair programming moment.
+I said all those things as well, at the beginning, every single one. Then I started to do katas and exercises and I thought, “well, this is good as an exercise or code gymnastics” but never had the guts to use it on real work situations. Then I started to read opinions and follow interesting people like {{< url-link "Jason Gorman" "https://twitter.com/jasongorman" >}}. Look at his take about katas and "real world code":
+
+{{< img-post path="/img/tddCaseStudy/" file="jasonGorman.png" alt="Jason Gorman" type="center" >}}
+
+Then I spoke with my peer Finner at work, told him the situation and he offered to sit with him when developing his next feature with TDD. And all the sudden, all was clear with that little pair programming moment.
 Later I decided to {{< url-link "always code with TDD" "http://www.joantolos.com/blog/tddallin/" >}} until I find a new better way to code. I am always opened to improve.
 
 TDD is one of that strategies that are simple, not easy. The algorithm is easy to understand (red, green, refactor), but extremely difficult to implement correctly. The first attempts are always frustrating because is a counter intuitive practice.
