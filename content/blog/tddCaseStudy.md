@@ -70,7 +70,7 @@ That would not happen when you start a project from scratch using TDD, but most 
 
 I try to compile seed projects with all these tools set up so next time I have to deal with existing code without these tools, I can easily add them. Take a look at some seeds that I made myself:
 
-* Java Spring cloud seed for coding with TDD (using {{< url-link "Spock" "http://spockframework.org" >}} instead of JUnit)
+* {{< url-link "Java Spring cloud seed for coding with TDD" "https://github.com/joantolos/kata-ping-pong" >}} (using {{< url-link "Spock" "http://spockframework.org" >}} instead of JUnit)
 * {{< url-link "Javascript seed for coding with TDD" "http://www.joantolos.com/blog/javascripttrifecta/" >}}
 
 That is not the reason why you don’t like TDD
