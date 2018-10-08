@@ -101,7 +101,7 @@ I said all those things as well, at the beginning, every single one. Then I star
 
 {{< img-post path="/img/tddCaseStudy/" file="jasonGorman.png" alt="Jason Gorman" type="center" >}}
 
-Then I spoke with my peer Finner at work, told him the situation and he offered to sit with him when developing his next feature with TDD. And all the sudden, all was clear with that little pair programming moment.
+Then I spoke with my peer Finner at work, told him the situation and he suggested me to sit with him to develop his next feature using TDD. And all the sudden, all was clear with that little pair programming moment.
 Later I decided to {{< url-link "always code with TDD" "http://www.joantolos.com/blog/tddallin/" >}} until I find a new better way to code. I am always open to improve.
 
 TDD is one of that strategies that are simple, not easy. The algorithm is easy to understand (red, green, refactor), but extremely difficult to implement correctly. The first attempts are always frustrating because is a counter intuitive practice.
