@@ -77,13 +77,3 @@ Run the following command to view the content of the website:
     hugo server
 
 You can now view the website at the following link, [localhost:1313](http://localhost:1313)
-
-## About the Author
-
-Hugo Future Imperfect was ported and it's extra features were implemented by [Julio Pescador](https://jpescador.com)
-
-Send me a [tweet](https://twitter.com/julio_pescador), @julio_pescador, if you like the theme and are using it for your own personal use.
-
-## License
-
-This theme is released under the MIT license. Please read the [license](https://github.com/jpescador/hugo-future-imperfect/blob/master/LICENSE.md) for more information.
