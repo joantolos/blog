@@ -65,27 +65,34 @@ That is the one thing I don't like about my solution. I have to identify this cu
 
     if (field.getType().getName().contains("Default") || field.getType().getName().contains("Detail"))
 
+I did it with a switch statement which makes it a little more elegant but still...
+
 I definitely don't like that... It will force you to modify the code when a new JSON file is added or a new inner custom field is added to an existing one. But then again, if this happens, you will have to modify the code just to update the config class to match the new version of the JSON so it is not that expensive to do that.
 
 The final merging method is as follows:
 
-    public <T> T mergeObjects(T local, T remote) throws IllegalAccessException, InstantiationException {
+    public <T> T merge(T local, T remote) throws IllegalAccessException, InstantiationException {
         Class<?> clazz = local.getClass();
-        Object returnValue = clazz.newInstance();
+        Object merged = clazz.newInstance();
 
         for (Field field : clazz.getDeclaredFields()) {
+
             field.setAccessible(true);
-            Object value;
-            if (field.getType().getName().contains("Default") || field.getType().getName().contains("Detail")) {
-                value = this.mergeObjects(field.get(local), field.get(remote));
-            } else {
-                Object localValue = field.get(local);
-                Object remoteValue = field.get(remote);
-                value = (remoteValue != null) ? remoteValue : localValue;
+            Object localValue = field.get(local);
+            Object remoteValue = field.get(remote);
+
+            if (localValue != null) {
+                switch (localValue.getClass().getSimpleName()) {
+                    case "Default":
+                    case "Detail":
+                        field.set(merged, this.merge(localValue, remoteValue));
+                        break;
+                    default:
+                        field.set(merged, (remoteValue != null) ? remoteValue : localValue);
+                }
             }
-            field.set(returnValue, value);
         }
-        return (T) returnValue;
+        return (T) merged;
     }
 
 I don't know if I will use this on the final solution but playing with reflection was definitely fun. Clone the code, play with it, any improvement or new ideas will be more than welcome.
