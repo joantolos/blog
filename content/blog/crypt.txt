@@ -52,5 +52,6 @@ A little video seeing it in action:
 
 ### References:
 
-* _{{< url-link "Blog Carlos Buenosvinos" "https://carlosbuenosvinos.com/3-commands-for-working-with-remote-machines/" >}}_
 * _{{< url-link "HomeBrew for Mac" "http://brew.sh/" >}}_
+* _{{< url-link "How To Use GPG on the Command Line" "http://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/" >}}_
+* _{{< url-link "Quick'n easy gpg cheatsheet" "http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/" >}}_
