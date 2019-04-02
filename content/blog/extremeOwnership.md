@@ -23,7 +23,7 @@ When I fail on my work, somebody loses money. When they fail, people die; so I r
 
 They have created this company {{< url-link "Echelon Front" "https://www.echelonfront.com" >}} where they offer a series of services, solutions and trainings about leadership. If you want to have a little taste, the TED talk by Jocko is a good place to start:
 
-[![Extreme Ownership | Jocko Willink | TEDxUniversityofNevada](/img/extremeOwnership/screenshot.png)](https://www.youtube.com/watch?v=ljqra3BcqWM)
+<a href="https://www.youtube.com/watch?v=ljqra3BcqWM" rel="Extreme Ownership | Jocko Willink | TEDxUniversityofNevada" target="blank">![Extreme Ownership | Jocko Willink | TEDxUniversityofNevada](/img/extremeOwnership/screenshot.png)</a>
 
 ## How the book is organised
 

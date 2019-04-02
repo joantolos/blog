@@ -61,16 +61,13 @@ The reflection solution is nice when the content of the JSON field is a primitiv
 
 On my example, the Config class contains a Default object which contains itself a Detail object. And that could go on and on depending on your JSON. That's right... recursion.
 
-That is the one thing I don't like about my solution. I have to identify this custom objects in order to trigger the recursion and keep going on the JSON until you find your primitives. That means, putting an ugly if statement like this one:
-
-    if (field.getType().getName().contains("Default") || field.getType().getName().contains("Detail"))
-
-I did it with a switch statement which makes it a little more elegant but still...
-
-I definitely don't like that... It will force you to modify the code when a new JSON file is added or a new inner custom field is added to an existing one. But then again, if this happens, you will have to modify the code just to update the config class to match the new version of the JSON so it is not that expensive to do that.
+That is the one thing I don't love about my solution. When the type of the object is a "JSON primitive", that is: String, Integer, Boolean or a list of the above, the mapping can be done directly. When the type is other that those, say a custom object, it calls for the recursion and so on until it reaches a "JSON primitive".
 
 The final merging method is as follows:
 
+    private static final List<String> PRIMITIVE_JSON_TYPES = Arrays.asList("Integer", "Integer[]", "String", "String[]", "Boolean", "Boolean[]", "ArrayList");
+
+    @SuppressWarnings("unchecked")
     public <T> T merge(T local, T remote) throws IllegalAccessException, InstantiationException {
         Class<?> clazz = local.getClass();
         Object merged = clazz.newInstance();
@@ -82,13 +79,10 @@ The final merging method is as follows:
             Object remoteValue = field.get(remote);
 
             if (localValue != null) {
-                switch (localValue.getClass().getSimpleName()) {
-                    case "Default":
-                    case "Detail":
-                        field.set(merged, this.merge(localValue, remoteValue));
-                        break;
-                    default:
-                        field.set(merged, (remoteValue != null) ? remoteValue : localValue);
+                if(PRIMITIVE_JSON_TYPES.contains(localValue.getClass().getSimpleName())) {
+                    field.set(merged, (remoteValue != null) ? remoteValue : localValue);
+                } else {
+                    field.set(merged, this.merge(localValue, remoteValue));
                 }
             }
         }
