@@ -37,6 +37,8 @@ We want to look busy in front of our peers and sometimes we are afraid to do _wh
 
 But we like it better so we start doing it. Nobody can tell you anything because you are super busy and at the end of the day, that task is somehow needed.
 
+This is what I call _active procastination_. I do it constantlty at home. I don’t like to fold the laundry so I keep cleaning the dishes instead...
+
 And so days go by, working hard, being super busy and not an inch closer to the goal.
 
 ## What is your primal goal in your job
