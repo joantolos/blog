@@ -52,7 +52,7 @@ Then, some other end points to deal with the other services connection:
 
 # Overview
 
-{{< img-post path="/img/kataPingPong/" file="kataSongsAPIOverview.png" alt="Overview" type="center" >}}
+{{< img-post path="/img/kataSongsAPI/" file="kataSongsAPIOverview.png" alt="Overview" type="center" >}}
 
 We are going to deploy two instances of the same API, one dedicated to expose "generic" songs info and another just for country songs. This is just to illustrate consuming data from different micro services on your app but normally these service won't be just different instances of the same code. But, technically, it requires the same implementation so I am not creating a new different service just for that.
 
