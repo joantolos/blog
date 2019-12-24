@@ -138,6 +138,8 @@ Then you can access the Swagger UI and test the endpoints:
 
 # Deploying on Heroku
 
+> _Heroku is a platform as a service based on a managed container system, with integrated data services and a powerful ecosystem, for deploying and running modern apps. The Heroku developer experience is an app-centric approach for software delivery, integrated with today’s most popular developer tools and workflows._
+
 Procfile and environment variables
 
 # Tests
@@ -168,7 +170,7 @@ An expectation defines the action that is taken, for example, a response could b
 
 {{< url-link "Mock Server" "http://www.mock-server.com" >}} is a very powerful and easy to use tool to mock any external http calls your code does.
 
-mockServerMatcher.log
+mockServerMatcher.log -> Example of non matching request
 
 ## Integration tests
 
@@ -189,3 +191,4 @@ mockServerMatcher.log
 * _{{< url-link "Cucumber framework" "https://cucumber.io/" >}}_
 * _{{< url-link "JUnit framework" "https://junit.org/junit4/" >}}_
 * _{{< url-link "Gatling" "https://gatling.io/open-source/" >}}_
+* _{{< url-link "Heroku" "https://www.heroku.com/platform" >}}_
