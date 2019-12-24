@@ -5,7 +5,7 @@ date = "2019-09-06"
 description = "Java, Spring Boot, Mock Server"
 featured = "pic01.png"
 featuredalt = ""
-featuredpath = "/img/kataPingPong/"
+featuredpath = "/img/kataSongsAPI/"
 linktitle = ""
 title = "6 tools to help you do TDD with Java and Spring Cloud"
 type = "post"
@@ -108,6 +108,12 @@ And then:
 
     ./gradlew bootRun
 
+## Bypassing localhost requirements
+
+You can skip setting up the database if you copy the configuration from the test environment to the production code environment. Test are using H2 as in-memory database (explained later on), so no external connection is required. If you configure your production code to use it, and uncomment the database creation script "createDatabase.sql" located on the resources file, you can get away without a Postgres instance on your localhost. Is not as accurate scenario as it would be with a real application, but I suppose it can do the trick.
+
+You can ignore setting up your local eureka instance or
+
 ## Starting the service on localhost
 
 Clone the repo {{< url-link "kata-songs-api repository" "https://github.com/joantolos/kata-songs-api" >}} and execute:
@@ -134,12 +140,39 @@ Then you can access the Swagger UI and test the endpoints:
 
 Procfile and environment variables
 
-## Mock Server
+# Tests
+
+## Plain and simple JUnit unit test
+
+> _JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks._
+
+## Spock unit test
+
+> _Spock is a testing and specification framework for Java and Groovy applications. What makes it stand out from the crowd is its beautiful and highly expressive specification language. Thanks to its JUnit runner, Spock is compatible with most IDEs, build tools, and continuous integration servers. Spock is inspired from JUnit, jMock, RSpec, Groovy, Scala, Vulcans, and other fascinating life forms._
+
+## Acceptance tests
+
+### Cucumber
+
+> _Validate executable specifications against your code on any modern development stack. With over 40 million downloads, Cucumber Open is the world’s #1 automation tool for Behavior-Driven Development._
+
+### H2 in-memory database
+
+> _The main features of H2 are: Very fast, open source, JDBC API. Embedded and server modes; in-memory databases. Browser based Console application. Small footprint: around 2 MB jar file size._
+
+### Mock Server
 
 > _MockServer can be used for mocking any system you integrate with via HTTP or HTTPS (i.e. services, web sites, etc).
 When MockServer receives a requests it matches the request against active expectations that have been configured.
 An expectation defines the action that is taken, for example, a response could be returned._
 
+{{< url-link "Mock Server" "http://www.mock-server.com" >}} is a very powerful and easy to use tool to mock any external http calls your code does.
+
+mockServerMatcher.log
+
+## Integration tests
+
+## Performance tests
 
 ### References:
 
@@ -148,3 +181,6 @@ An expectation defines the action that is taken, for example, a response could b
 * _{{< url-link "TDD: All in" "http://www.joantolos.com/blog/tddallin/" >}}_
 * _{{< url-link "6 tools to help you do TDD with NodeJS" "http://www.joantolos.com/blog/javascripttrifecta/" >}}_
 * _{{< url-link "Mock Server" "http://www.mock-server.com" >}}_
+* _{{< url-link "Spock framework" "http://spockframework.org/" >}}_
+* _{{< url-link "Cucumber framework" "https://cucumber.io/" >}}_
+* _{{< url-link "JUnit framework" "https://junit.org/junit4/" >}}_
