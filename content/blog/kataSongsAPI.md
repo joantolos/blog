@@ -132,7 +132,7 @@ This is a Spring Cloud application so you can also run the Gradle task that come
 
 Then you can access the Swagger UI and test the endpoints:
 
-{{< img-post path="/img/kataPingPong/" file="swagger.png" alt="Overview" type="center" >}}
+{{< img-post path="/img/kataSongsAPI/" file="swagger.png" alt="Swagger" type="center" >}}
 
 **Remember:** You need to start Postgres and Eureka previously.
 
