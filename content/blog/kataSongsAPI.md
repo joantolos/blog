@@ -174,6 +174,10 @@ mockServerMatcher.log
 
 ## Performance tests
 
+### Gatling
+
+> _Gatling is a powerful open-source load testing solution. Gatling is designed for continuous load testing and integrates with your development pipeline. Gatling includes a web recorder and colorful reports._
+
 ### References:
 
 * _Photo by {{< url-link "Matt Artz" "https://unsplash.com/photos/pH6wLT6TVFc" >}} on {{< url-link "Unsplash" "https://unsplash.com" >}}_
@@ -184,3 +188,4 @@ mockServerMatcher.log
 * _{{< url-link "Spock framework" "http://spockframework.org/" >}}_
 * _{{< url-link "Cucumber framework" "https://cucumber.io/" >}}_
 * _{{< url-link "JUnit framework" "https://junit.org/junit4/" >}}_
+* _{{< url-link "Gatling" "https://gatling.io/open-source/" >}}_
