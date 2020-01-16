@@ -86,4 +86,4 @@ Don't become the tool, just use the tool.
 * _Photo by {{< url-link "Free-Photos" "https://pixabay.com/photos/wave-surfer-sport-sea-surf-water-1246560/" >}} on {{< url-link "Pixabay" "https://pixabay.com" >}}_
 * _{{< url-link "Why You’re Busy but Not Productive. And How to Get Better" "https://medium.com/swlh/why-youre-busy-but-not-productive-and-how-to-get-better-e01db6f0983e" >}}_
 * _{{< url-link "The 'Close Door' Buttons in Elevators Don't Actually Do Anything" "https://www.sciencealert.com/the-close-door-buttons-in-elevators-don-t-actually-do-anything" >}}_
-* _{{< url-link "Start with why by Simon Sinek" "https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447/ref=sr_1_1?keywords=start+with+why&qid=1563435152&s=gateway&sr=8-1" >}}_
+* _{{< url-link "Start with why by Simon Sinek" "https://amzn.to/38i1fSV" >}}_
