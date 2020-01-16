@@ -133,6 +133,6 @@ Don't panic when things are red, use the IDE suggestions and you will discover t
 * _Photo by {{< url-link "Stocksnap" "https://stocksnap.io/photo/W0RUS6FWBJ" >}} on {{< url-link "Stocksnap" "https://stocksnap.io" >}}_
 * _{{< url-link "Law of the instrument" "https://en.m.wikipedia.org/wiki/Law_of_the_instrument" >}}_
 * _{{< url-link "The Karate Kid Script" "http://www.awesomefilm.com/script/karatekid.pdf" >}}_
-* _{{< url-link "Test Driven Development. By Example (The Addison-Wesley Signature Series)" "https://www.amazon.es/Driven-Development-Example-Addison-Wesley-Signature/dp/0321146530/ref=sr_1_1?ie=UTF8&qid=1534509244&sr=8-1&keywords=Test-Driven+Development+by+Example" >}}_
+* _{{< url-link "Test Driven Development. By Example (The Addison-Wesley Signature Series)" "https://amzn.to/2RkG1N7" >}}_
 * _{{< url-link "Test-driven development might seem like twice the work — but you should do it anyway" "https://medium.freecodecamp.org/isnt-tdd-test-driven-development-twice-the-work-why-should-you-care-4ddcabeb3df9" >}}_
 * _{{< url-link "Test-driven development wikipedia page" "https://en.wikipedia.org/wiki/Test-driven_development" >}}_

@@ -559,15 +559,15 @@ If we have n input variables, X1,..., Xn, we build one rule for each tuple (t1,a
 
 * _{{< url-link "Haton, J.P.; Haton, M.C. (1993). L’intelligence Artificielle. París: Presses Universitaires de France" "https://www.amazon.es/Lintelligence-artificielle-Haton/dp/2130455123/ref=sr_1_1?ie=UTF8&qid=1505999369&sr=8-1&keywords=Haton+L’intelligence+Artificielle" >}}_
 
-* _{{< url-link "Luger, G.F. (1995). Computation & Intelligence. Menlo Park: MIT Press." "https://www.amazon.es/Computation-Intelligence-Collective-Association-Artificial/dp/0262621010/ref=sr_1_1?s=foreign-books&ie=UTF8&qid=1505999286&sr=1-1&keywords=Luger+Computation+%26+Intelligence" >}}_
+* _{{< url-link "Luger, G.F. (1995). Computation & Intelligence. Menlo Park: MIT Press." "https://amzn.to/2NvDS02" >}}_
 
 * _Vicenç Torra i Reventós. Resolució de problemes i cerca_
 
-* _{{< url-link "Russell, S.; Norvig, P. (1995). Artificial Intelligence: A modern approach. Prentice-Hall." "https://www.amazon.es/Artificial-Intelligence-Modern-Approach-Global/dp/1292153962/ref=sr_1_1?ie=UTF8&qid=1506669275&sr=8-1&keywords=Artificial+Intelligence%3A+A+modern+approach" >}}_
+* _{{< url-link "Russell, S.; Norvig, P. (1995). Artificial Intelligence: A modern approach. Prentice-Hall." "https://amzn.to/2QXSZ4B" >}}_
 
 * _Vicenç Torra i Reventós. Sistemes basats en el coneixement_
 
-* _{{< url-link "Stefik, M. (1995). Introduction to Knowledge Systems. Morgan Kauffman." "https://www.amazon.es/Introduction-Knowledge-Systems-Mark-Stefik-ebook/dp/B01H5GQH7G/ref=sr_1_1?ie=UTF8&qid=1511341998&sr=8-1&keywords=Introduction+to+Knowledge+Systems" >}}_
+* _{{< url-link "Stefik, M. (1995). Introduction to Knowledge Systems. Morgan Kauffman." "https://amzn.to/3aewvDP" >}}_
 
 * _Vicenç Torra i Reventós. Incertesa i raonament aproximat_
 

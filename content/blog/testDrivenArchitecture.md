@@ -35,5 +35,5 @@ We have to be honest about where we want to be and write tests according to this
 
 ### References:
 
-* _{{< url-link "Extreme Programming Explained, Kent Beck" "https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/ref=sr_1_1?ie=UTF8&qid=1504880426&sr=8-1&keywords=Extreme+Programming+Explained%2C+Kent+Beck" >}}_
+* _{{< url-link "Extreme Programming Explained, Kent Beck" "https://amzn.to/2Tv156y" >}}_
 * _{{< url-link "Domain Driven Design by Wikipedia" "https://en.wikipedia.org/wiki/Domain-driven_design" >}}_

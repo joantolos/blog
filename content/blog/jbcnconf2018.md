@@ -49,14 +49,14 @@ This year books selection are the following:
 
 {{< img-post path="/img/jbcnconf2018/" file="books.png" alt="Sandro" type="center" >}}
 
-* {{< url-link "Rediscovering JavaScript by Venkat Subramaniam" "https://www.amazon.es/dp/1680505467/?coliid=I1ANAA4E6S3J59&colid=90AAQW72DXZX&psc=0&ref_=lv_ov_lig_dp_it" >}}. This is not a surprise. Last year I already bought (and really enjoy) his latest book about functional programming: {{< url-link "Functional Programming in Java: Harnessing the Power Of Java 8 Lambda Expressions" "https://www.amazon.es/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/ref=sr_1_cc_2?s=aps&ie=UTF8&qid=1529570830&sr=1-2-catcorr&keywords=functional+programming+in+java" >}} which I can't recommend enough. Just a brilliant book to take advantage of all the new functional capacities of Java.
+* {{< url-link "Rediscovering JavaScript by Venkat Subramaniam" "https://amzn.to/2uWHMsB" >}}. This is not a surprise. Last year I already bought (and really enjoy) his latest book about functional programming: {{< url-link "Functional Programming in Java: Harnessing the Power Of Java 8 Lambda Expressions" "https://amzn.to/38crmdE" >}} which I can't recommend enough. Just a brilliant book to take advantage of all the new functional capacities of Java.
 This talk of the last year conference made me buy the book and again, I can't recommend it enough:
 
 [![Functional Programming in Java](/img/jbcnconf2018/venkat.png)](https://www.youtube.com/watch?v=mlxPIeu-M7s&t=330s)
 
 I am doing more and more middleware service in NodeJS so Javascript is entering huge on the company. This new book about Javascript comes with perfect timing for me. I am sure I am going to enjoy it as I did the last one.
 
-* {{< url-link "Start With Why: How Great Leaders Inspire Everyone To Take Action" "https://www.amazon.es/gp/product/0241958229/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1" >}}. This is a take over from the talk _7 Deadlier Sins of Craftsmanship_ by {{< url-link "Tomasz Dubikowski" "https://twitter.com/search?q=Tomasz%20Dubikowski&src=typd" >}} which was a really refreshing, funny and interesting talk about ethics and software engineering career.
+* {{< url-link "Start With Why: How Great Leaders Inspire Everyone To Take Action" "https://amzn.to/2uUasSV" >}}. This is a take over from the talk _7 Deadlier Sins of Craftsmanship_ by {{< url-link "Tomasz Dubikowski" "https://twitter.com/search?q=Tomasz%20Dubikowski&src=typd" >}} which was a really refreshing, funny and interesting talk about ethics and software engineering career.
 
 ## Remarkable lectures
 

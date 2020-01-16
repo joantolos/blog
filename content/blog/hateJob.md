@@ -74,6 +74,6 @@ The rest will come.
 
 ### References:
 
-* _{{< url-link "The Software Craftsman: Professionalism, Pragmatism, Pride" "https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501/ref=sr_1_1?ie=UTF8&qid=1512140001&sr=8-1&keywords=sandro+mancuso" >}}_
+* _{{< url-link "The Software Craftsman: Professionalism, Pragmatism, Pride" "https://amzn.to/2TsH6VP" >}}_
 
-* _{{< url-link "Lost Connections" "https://www.amazon.com/Lost-Connections-Uncovering-Depression-Unexpected/dp/163286830X/ref=sr_1_1?ie=UTF8&qid=1519565933&sr=8-1&keywords=lost+connections" >}}_
+* _{{< url-link "Lost Connections" "https://amzn.to/2QXQleX" >}}_

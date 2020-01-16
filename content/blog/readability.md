@@ -80,4 +80,4 @@ I know you would probably implement that couple of features in a single beautifu
 
 ### References:
 
-* _{{< url-link "Clean Code, Robert C. Martin" "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?s=books&ie=UTF8&qid=1504887424&sr=1-1&keywords=clean+code" >}}_    
+* _{{< url-link "Clean Code, Robert C. Martin" "https://amzn.to/2Rl3AWi" >}}_    
