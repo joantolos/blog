@@ -11,7 +11,7 @@ title = "Days of isolation"
 type = "post"
 +++
 
-As the world is facing the pandemic caused by this new Coronavirus strain, most of my colleges and myself are forced to work from home.
+As the world is facing the pandemic caused by this new Coronavirus strain, most of my colleagues and myself are forced to work from home.
 I want to share my experience working without leaving the house.
 
 ## Particular circumstances
