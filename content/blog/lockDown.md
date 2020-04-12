@@ -62,7 +62,7 @@ We want to see this situation as an opportunity. We are very aware of what we **
 * I have learned and recorded three new songs with the guitar (two of them also bass guitar).
 * I have a whole new collection of games and activities to do with my kids. I plan to keep doing them once this is over.
 
-Everyone of these tasks has required a huge amount of work. Try to convince a four year old to stop bitting his nails... But what we are suppose to do... seat around and complain about all the things we can't do? Well, we can do that or use our time to improve and enjoy. It has not been easy, at all.
+Each one of these tasks has required a huge amount of work. Try to convince a four year old to stop bitting his nails... But what we are suppose to do... seat around and complain about all the things we can't do? Well, we can do that or use our time to improve and enjoy. It has not been easy, at all.
 
 ## Mindfulness and meditation
 
