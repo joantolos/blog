@@ -47,6 +47,8 @@ We have included new little routines that the kids love like this calendar-thing
 
 As far as work hours go, my wife and I divide the time and try to spend the same amount of hours working every day which are less than normal. But, in my case, those hours have been a lot more productive than before because now I have a lot more time to **think** about what I have to code. That way when I have a couple of hours in front of the laptop, I can go straight to the code because I have already run all permutations in my head for a long time and have a clear vision of what needs to be done.
 
+I am also using nights and weekends to recover possible hours that I am loosing during the week. What really pays off, more that the "extra" weekend hours, is all the time that I spend **before** I start typing. That little mental exercise saves me countless hours. I really want to include this on my normal routines, if I manage to do the same thing on "normal office days", my productivity will increase a lot.
+
 ## Achievements
 
 We want to see this situation as an opportunity. We are very aware of what we **can not** do during this lock down, but let's consider _what we can now do that we couldn't before_. Then let's try and use that in our favour.
