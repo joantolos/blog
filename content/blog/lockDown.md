@@ -2,7 +2,7 @@
 author = "Joan Tolos"
 categories = ["goals", "psychology", "productivity", "ethics", "meditation", "stoicism"]
 date = "2020-03-24"
-description = "A forced requirement of working from home"
+description = "Working from home required"
 featured = "pic01.png"
 featuredalt = ""
 featuredpath = "/img/lockDown/"
