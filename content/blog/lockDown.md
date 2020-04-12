@@ -58,11 +58,11 @@ We want to see this situation as an opportunity. We are very aware of what we **
 * My four year old is no longer using diapers for sleep time. Again, never a good time to do this, another milestone completed.
 * My two year old used to yell all the time to gain attention and now... well, she yells a bit less... what are you going to do, she is only two.
 * The relationship with my wife has hugely improved. Now that we are together all day, we can work in improve little things we don't like from each other.
-* We only leave the house to buy groceries, so we do it once every two weeks. Thanks to that we have figure out a different way to distribute our shopping list and taking a couple of looks... we can save about 150 euros each month just shopping in this new way. We plan to continue shopping like this when this lock down ends.
+* We only leave the house to buy groceries, so we do it once every two weeks. Thanks to that we have to figure out a different way to distribute our shopping list and taking a couple of looks... we can save about 150 euros each month just shopping in this new way. We plan to continue shopping like this when this lock down ends.
 * I have learned and recorded three new songs with the guitar (two of them also bass guitar).
 * I have a whole new collection of games and activities to do with my kids. I plan to keep doing them once this is over.
 
-Everyone of these tasks has required a huge amount of work. Try to convince a four year's old to stop bitting his nails... But what we are suppose to do... seat around and complain about all the things we can't do? Well, we can do that or use our time to improve and enjoy. It has not been easy, at all.
+Everyone of these tasks has required a huge amount of work. Try to convince a four year old to stop bitting his nails... But what we are suppose to do... seat around and complain about all the things we can't do? Well, we can do that or use our time to improve and enjoy. It has not been easy, at all.
 
 ## Mindfulness and meditation
 
@@ -74,7 +74,7 @@ You probably have seen this video:
 
 > _The chief health officer for Santa Clara County, California, Dr. Sara Cody, licks her finger to turn a page during a coronavirus press conference. Her advice for the public: "Start working on not touching your face."_
 
-She is not stupid, not at all. I mean, it is funny and all but she simply doesn’t have any idea of what her hands are doing, there are on autopilot. Like 90% of our body.
+She is not stupid, not at all. I mean, it is funny and all but she simply doesn’t have any idea of what her hands are doing, they are on autopilot. Like 90% of our body.
 Can you imagine having to remember breathing? We couldn't make a single day.
 
 Mindfulness and meditation helps you with that. You are more aware of your automatic behaviour so you can take over easily.
