@@ -53,10 +53,10 @@ I am also using nights and weekends to recover possible hours that I am loosing 
 
 We want to see this situation as an opportunity. We are very aware of what we **can not** do during this lock down, but let's consider _what we can now do that we couldn't before_. Then let's try and use that in our favour.
 
-* My four year's old, is no biting his nails anymore. Now that we have time with him, we put a strategy in place to convince him to stop doing it and against any guess, he has done it! We are very happy for him.
-* My two year's old is now sleeping on her own bed instead of the bassinet besides our bed. There is never a good time to do this kind of stuff. Well... these days look like the perfect time.
-* My four year's old is no longer using diapers for sleep time. Again, never a good time to do this, another milestone completed.
-* My two year's old used to yell all the time to gain attention and now... well, she yells a bit less... what are you going to do, she is only two.
+* My four year old, is not biting his nails anymore. Now that we have time with him, we put a strategy in place to convince him to stop doing it and against any guess, he has done it! We are very happy for him.
+* My two year old is now sleeping on her own bed instead of the bassinet besides our bed. There is never a good time to do this kind of stuff. Well... these days look like the perfect time.
+* My four year old is no longer using diapers for sleep time. Again, never a good time to do this, another milestone completed.
+* My two year old used to yell all the time to gain attention and now... well, she yells a bit less... what are you going to do, she is only two.
 * The relationship with my wife has hugely improved. Now that we are together all day, we can work in improve little things we don't like from each other.
 * We only leave the house to buy groceries, so we do it once every two weeks. Thanks to that we have figure out a different way to distribute our shopping list and taking a couple of looks... we can save about 150 euros each month just shopping in this new way. We plan to continue shopping like this when this lock down ends.
 * I have learned and recorded three new songs with the guitar (two of them also bass guitar).
