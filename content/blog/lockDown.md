@@ -79,6 +79,18 @@ Can you imagine having to remember breathing? We couldn't make a single day.
 
 Mindfulness and meditation helps you with that. You are more aware of your automatic behaviour so you can take over easily.
 
+## Silly, automatic, unfounded optimism
+
+There are some initiatives to boost morale. One of them is children drawing and hanging on the window a picture of a rainbow with the caption _everything is going to be all right_. Well, is it?
+
+I get the point of the exercise, it is nice for the kids and all. But things are not automatically, magically going to be all right. Only if we **act** right, things will be ok. It takes a lot of work and will to make good things happen for you and your family.
+
+It is nice to drink coffee from a mug that says "today is going to be a great day". Well, if you don't do what you are suppose to do, I am sorry, but no matter what the mug says, it is **not** going to be a good day.
+
+Don't get me wrong, I am very optimistic but I also believe on this famous quote by Seneca: _Luck is where opportunity meats preparation_.
+
+I am afraid that governments have not been prepared for an eventuality that has been predicted and warned numerous times for quite a long time. We are not prepared and now that the eventuality rises, we expect to be lucky? Why?
+
 ## Pandemic learning opportunity
 
 These days we are starting all conversations with: _how are you, everyone healthy?_ All the sudden, we have become adults.
