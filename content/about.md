@@ -7,10 +7,10 @@ I define myself as father, husband, coder and guitar fool. In that order.
 
 I enjoy every day the overwhelming energy and will of my son and daughter. I am passionate about coding, I like to read, share with others, learn and try new things whenever I have the chance. As a software developer I believe in:
 
-* **Responsibility**
-* **Not hiding** things under the rug
-* **Exposing** what is wrong instead of **complaining**
-* Pursuing **excellence**
+* Responsibility
+* Not hiding things under the rug
+* Exposing what is wrong instead of complaining
+* Pursuing excellence
 
 I play guitar and I make music on my spare time. Because is fulfilling, increases creativity and it's fun.
 
