@@ -87,7 +87,7 @@ I get the point of the exercise, it is nice for the kids and all. But things are
 
 It is nice to drink coffee from a mug that says "today is going to be a great day". Well, if you don't do what you are suppose to do, I am sorry, but no matter what the mug says, it is **not** going to be a good day.
 
-Don't get me wrong, I am very optimistic but I also believe on this famous quote by Seneca: _Luck is where opportunity meats preparation_.
+Don't get me wrong, I am very optimistic but I also believe on this famous quote by Seneca: _Luck is where opportunity meets preparation_.
 
 I am afraid that governments have not been prepared for an eventuality that has been predicted and warned numerous times for quite a long time. We are not prepared and now that the eventuality rises, we expect to be lucky? Why?
 
