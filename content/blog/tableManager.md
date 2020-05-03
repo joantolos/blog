@@ -38,8 +38,6 @@ First thing I like to do is ask myself: _"how I would like this code to work?"_ 
 Now, I would like to be able to do something like this: **tableManager.arrange(array, order, start, end)**. Easy enough to understand eh?. Ok, here is the actual test suite for this happy path scenario:
 
     describe('Table manager', () => {
-
-      it('should be created', () => {...});
       it('should sort and paginate: first page of two hits', () => {...});
       it('should sort and paginate: second page of two hits', () => {...});
     });
@@ -55,24 +53,18 @@ Let's say that TableManager will need help of some guy "Sorting" and some other 
 Now I can focus on the two separate actions alone, forgetting the whole. Let's think about the test suite for sorting:
 
     describe('Sorting', () => {
-
-      it('should be created', () => {...});
       it('should sort by dynamic list of columns ascending and descending with no repeats', () => {...});
       it('should sort by dynamic list of columns ascending and descending with repeats', () => {...});
       it('should sort by dynamic list of columns ascending and descending with repeats, ignoring case', () => {...});
       it('should sort by dynamic list of columns by default sorting', () => {...});
-
     });
 
 Great, let's make those tests pass. Now I can focus on the pagination:
 
     describe('Pagination', () => {
-
-      it('should be created', () => {...});
       it('should retrieve page 2', () => {...});
       it('should retrieve page 3', () => {...});
       it('should leave the list alone when no page required', () => {...});
-
     });
 
 Now that everything is defined, I have a clear vision of what I have to do, just follow the tests, make them pass. The actual coding becomes a bit trivial even.
