@@ -39,7 +39,7 @@ That was repeating every day: people that I don't know asking requests for proje
 
 ### Not taking ownership of mistakes
 
-I was surprise that my first reaction when something went south was looking for who was in charge of that. I don't use to blame anyone for mistakes but even with this mindset I was looking for the person responsible not specially to assign blame but for seek a solution. It is ok to look for a solution with the people involved on the problem but the ownership had to be mine and only mine.
+I was surprised that my first reaction when something went south was looking for who was in charge of that. I don't use to blame anyone for mistakes but even with this mindset I was looking for the person responsible not specially to assign blame but for seek a solution. It is ok to look for a solution with the people involved on the problem but the ownership had to be mine and only mine.
 
 If someone on the team fails, the whole team fails to deliver so I have failed leading the team: maybe I am not able to communicate properly the goals, provide the space needed for the job to be developed properly or a thousand other reasons.
 
