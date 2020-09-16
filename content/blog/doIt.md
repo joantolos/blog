@@ -44,13 +44,6 @@ Is in fact, better than regular radio because no big network has to be behind th
 
 I learn a lot from podcast, and I listen to them any opportunity I have. These are the podcasts that I’m listening right now:
 
-* {{< url-link "WTF Podcast with Marc Maron" "http://www.wtfpod.com/" >}}
-* {{< url-link "Star talk radio with Neil De Grass Tyson" "https://www.startalkradio.net/" >}}
-* {{< url-link "Joe Rogan experience" "http://podcasts.joerogan.net/" >}}
-* {{< url-link "Software engineering radio" "http://www.se-radio.net/" >}}
-* {{< url-link "Parenting with Moncrieff" "http://www.newstalk.com/podcasts/Moncrieff/Parenting/" >}}
-* {{< url-link "Monday morning podcast with Bill Burr" "http://billburr.com/podcast-2/" >}}
-
 {{< img-post path="/img/doIt/" file="podcast.png" alt="Podcast">}}
 
 As you can see, mostly comedy and science. These podcast episodes sometimes leads me to a book, a record, a movie... is just an amazing source of references.
@@ -94,7 +87,7 @@ Just start doing what you (really) want to do, and the things that doesn't have 
 
 # I screw up a lot
 
-That is a fact (ask my wife if you don't believe me). 
+That is a fact (ask my wife if you don't believe me).
 I forget things, sometimes mess up appointments and a long list... It is going to happen, just allow a little room to mess things up, and make your peace with it.
 
 ## References:
