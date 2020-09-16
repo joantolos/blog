@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Productivity", "Psychology"]
+categories = ["productivity", "psychology"]
 date = "2019-07-12"
 description = "Are you stopped by action?"
 featured = "pic01.png"

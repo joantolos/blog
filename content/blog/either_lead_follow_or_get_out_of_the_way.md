@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Productivity", "Psychology"]
+categories = ["productivity", "psychology"]
 date = "2020-07-19"
 description = "Accountability and ownership at the work place"
 featured = "pic01.png"

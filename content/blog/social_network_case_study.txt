@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["java", "gradle", "test", "json"]
+categories = ["productivity", "psychology", "ethics", "json"]
 date = "2020-09-03"
 description = "A naive approach to social networking"
 featured = "pic01.png"
@@ -36,7 +36,7 @@ And:
 
     public Object parse(String json, Class c) throws JsonProcessingException {
         return this.mapper.readValue(json, c);
-    }    
+    }
 
 Being:
 

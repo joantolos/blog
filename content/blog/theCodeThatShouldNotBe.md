@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Clean Code", "Refactoring", "Git", "Ethics"]
+categories = ["Clean Code", "Refactoring", "Git", "ethics"]
 date = "2017-09-08"
 description = "When coding is a waste of time"
 featured = "pic01.jpg"

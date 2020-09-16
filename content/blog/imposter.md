@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Productivity", "Psychology"]
+categories = ["productivity", "psychology"]
 date = "2019-03-11"
 description = "A humble approach to the causes and solutions"
 featured = "pic01.jpg"

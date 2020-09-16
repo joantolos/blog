@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["TDD", "Test","Refactoring","Productivity","Clean Code"]
+categories = ["TDD", "Test","Refactoring","productivity","Clean Code"]
 date = "2018-09-10"
 description = "A case for test-driven development"
 featured = "pic01.jpg"

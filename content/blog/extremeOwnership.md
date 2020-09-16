@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Leadership","SEAL","Ethics","Productivity","Psychology"]
+categories = ["Leadership","SEAL","ethics","productivity","psychology"]
 date = "2018-08-06"
 description = "Simple, not easy"
 featured = "pic01.jpg"
