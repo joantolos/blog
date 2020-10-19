@@ -74,9 +74,9 @@ The ultimate twist is the bunch of people, users like you and me, who are intere
 
 Take a look at what happened on the 2016 USA elections: https://en.wikipedia.org/wiki/Russian_interference_in_the_2016_United_States_elections
 
-Actually "trolls farms" where created to flood the social networks and pollute the discourse. If you don't think that this can be made, take a minute to consider {{< url-link "The flat earth society" "https://www.tfes.org" >}}
+Actual "trolls farms" where created to flood the social networks and pollute the discourse. If you don't think that this can be made, take a minute to consider {{< url-link "The flat earth society" "https://www.tfes.org" >}}
 
-There is a bunch of people (a lot actually) running around convinced that the earth is flat. Think about it... no single scientific evidence to support their wacky theories and they have been able to successfully sell their point of view to a lot of people. This people wasn't ever even showed any evidence pointing to the other direction. They enter what it is called a {{< url-link "rabbit hole" "https://www.dictionary.com/e/slang/rabbit-hole/" >}} (thanks to Alice and Lewis Carroll), and down and down you go.
+There are a bunch of people (a lot actually) running around convinced that the earth is flat. Think about it... no single scientific evidence to support their wacky theories and they have been able to successfully sell their point of view to a lot of people. This people wasn't ever even showed any evidence pointing to the other direction. They enter what it is called a {{< url-link "rabbit hole" "https://www.dictionary.com/e/slang/rabbit-hole/" >}} (thanks to Alice and Lewis Carroll), and down and down you go.
 
 If the flat earth society can convince grown adults, how is not going to work with a more subtle political opinion? The result: public opinion seems to be easy to manipulate using this new modern tools.
 
