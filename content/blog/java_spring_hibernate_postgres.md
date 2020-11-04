@@ -233,8 +233,9 @@ I believe that with all these examples, we can cover most (if not all) scenarios
 1. Configure the way that your app starts. For a java service, this is the one: _web: java $JAVA_OPTS -jar build/libs/kata-spring-db*.jar_ This is defined on a Procfile on the root of your project.
 1. Enjoy your code deployed on production: https://kata-spring-db.herokuapp.com/swagger-ui.html#/
 
-{{< url-link "Heroku" "www.heroku.com" >}} offers a lot of cool features like looging, a bunch of add-ons and a lot of them go for free. Don't miss it.
+{{< url-link "Heroku" "www.heroku.com" >}} offers a lot of cool features like logging, a bunch of add-ons and a lot of them go for free. Don't miss it.
 
 ### References:
 * _Photo by {{< url-link "Lenharth Systems" "https://stocksnap.io/author/lenharthsystems" >}} from {{< url-link "StockSnap" "https://stocksnap.io" >}}_
-* _Photo by {{< url-link "GitHub code repository" "https://github.com/joantolos/kata-spring-db" >}}_
+* _{{< url-link "GitHub code repository" "https://github.com/joantolos/kata-spring-db" >}}_
+* _{{< url-link "Heroku" "www.heroku.com" >}}_
