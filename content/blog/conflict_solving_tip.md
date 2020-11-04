@@ -25,7 +25,7 @@ Emotions are wonderful, it is what makes us human but they mess everything. If y
 
 # Being right is useless
 
-The worst conflicts get stuck into the absurd loop on who is right. But the real true is that it does not matter one bit who is right or who is wrong. I have accomplish nothing by being right. Think about it for a second... did you ever get a raise for being right? Did you score a better job? Did you improve your relationship with whoever you were fighting for who is right?
+The worst conflicts get stuck into the absurd loop on who is right. But the real true is that it does not matter one bit who is right or who is wrong. I have accomplish nothing by being right. Think about it for a second... did you ever get a raise because you were right? Did you score a better job? Did you improve your relationship with whoever you were fighting?
 
 So, you want to be right, or you want the job to get done?
 
@@ -35,7 +35,7 @@ The sooner you get this idea to the conflicting parties, the quicker they will r
 
 John Doe wants to add a new cool technology which is hip right now. Jane Doe thinks that the change is expensive and risky and we should stay how we are. Also, Jane does not like the new technology, it founds it difficult to understand. John argues that the learning curve is a bit high, true, but the benefits at the end are really worth it. It also reminds Jane that other time she was reluctant to add that other new technology and look how well it works now. Jane just don't like change, John argues. Jane is on the defensive now because the argument is personal: her way to deal with change has nothing to do with the decision... Also, she thinks that John always wants to add the new shiny stuff "just because".
 
-The discussion goes on and on, I am sure you have live several alternative versions of this discussion (I remember real wars about what is the best GIT strategy). What they all have in common is that people are _**looking at each other**_ instead of _**looking in the same direction**_. It has become _**you against me**_ instead of _**us against the problem**_.
+The discussion goes on and on, I am sure you have live several alternative versions of this discussion (I remember real wars about which is the best GIT branching strategy). What they all have in common is that people are _**looking at each other**_ instead of _**looking in the same direction**_. It has become _**you against me**_ instead of _**us against the problem**_.
 
 There isn't one bit on the discussion above where the project gets mentioned.
 
