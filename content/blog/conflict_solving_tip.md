@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["productivity", "psychology", "ethics", "conflict"]
-date = "2020-11-11"
+date = "2020-11-06"
 description = "A simple trick to reach a consensus"
 featured = "pic02.png"
 featuredalt = ""
