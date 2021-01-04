@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["java", "spring", "hibernate", "postgres", "heroku", "tdd", "test"]
-date = "2021-01-10"
+date = "2021-01-04"
 description = "TDD ready service with database interaction configured out of the box"
 featured = "pic01.png"
 featuredalt = ""
@@ -13,7 +13,7 @@ type = "post"
 
 I am frequently doing posts about TDD and trying to facilitate code seeds with everything in  place to work with TDD, for example {{< url-link "here" "http://www.joantolos.com/blog/katasongsapi/" >}} or {{< url-link "here" "http://www.joantolos.com/blog/javascripttrifecta/" >}}.
 
-This time I want to provide a step by step guide for a microservice that will work with Java, Spring, Hibernate and Postgres that will be TDD ready from localhost to all the way up to production. The challenge here, is to set up a comfortable way to test when dealing with a database and Spring.
+This time I want to provide a step by step guide for a microservice that will work with Java, Spring, Hibernate and Postgres that will be TDD ready from localhost all the way up to production. The challenge here, is to set up a comfortable way to test when dealing with a database and Spring.
 
 These are the bullet points I want to cover:
 
