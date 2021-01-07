@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["productivity", "psychology", "ethics"]
-date = "2021-01-01"
+date = "2021-02-22"
 description = "Can we redeem our on-line mistakes?"
 featured = "pic01.png"
 featuredalt = ""
@@ -32,7 +32,7 @@ Then we can not grow and without growing we end up as half-child adults or just 
 
 # Be curious, not judgemental
 
-{{< img-post path="/img/road/" file="lasso.gif" alt="Schedule toy" type="center" >}}
+{{< img-post path="/img/road/" file="lasso.gif" alt="Ted Lasso rules" type="center" >}}
 
 I recently came upon this quote by Walt Whitman, thanks to the TV Show {{< url-link "Ted Lasso" "https://www.imdb.com/title/tt10986410/" >}} by Apple TV (really good show if you want to take a look). I remember reading about it on {{< url-link "Leaves of Grass" "https://www.amazon.es/dp/1657675114/ref=cm_sw_em_r_mt_dp_72Z7Fb328QAQ6" >}} but I am not sure. Anyway, what it means is that it is more profitable to ask questions and show interest than make a judgement call. If someone does something you don't like, the proper response (according to Whitman), is try to figure out the motives and reasons why people do what they do.
 
