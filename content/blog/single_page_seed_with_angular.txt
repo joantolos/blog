@@ -116,13 +116,13 @@ At this point in time, you should see the exact same Angular welcome page that y
 
 I am going to quickly sum up the routes tutorial with the simple modifications that I made for this app. I recommend you follow {{< url-link "the actual tutorial here." "https://angular.io/guide/router-tutorial" >}}
 
-First, create the two components we are going to use, settings and steps:
+First, create the two components we are going to use, settings and recipe:
 
     ng generate component settings
-    ng generate component steps
+    ng generate component recipe
     ng generate component page-not-found
 
-On the settings we are going to set up the input data and on the steps we will show the final result. That way we can play a bit with passing data from component to component. We will also use a component for when a non-existing page is requested.
+On the settings we are going to set up the input data and on the recipe we will show the final result. That way we can play a bit with passing data from component to component. We will also use a component for when a non-existing page is requested.
 
 In your code editor, locate the file, settings.component.html and replace the placeholder content with the following HTML.
 
@@ -131,8 +131,8 @@ In your code editor, locate the file, settings.component.html and replace the pl
 
 In your code editor, locate the file, steps.component.html and replace the placeholder content with the following HTML.
 
-    <h3>Steps</h3>
-    <p>Steps here</p>
+    <h3>Recipe</h3>
+    <p>Recipe here</p>
 
 In your code editor, locate the file, page-not-found.component.html and replace the placeholder content with the following HTML.
 
@@ -186,7 +186,7 @@ Then, on app.component.html, you can add the basic two buttons to navigate betwe
 
     <nav>
       <a class="button" routerLink="/settings" routerLinkActive="activebutton">Settings</a> |
-      <a class="button" routerLink="/steps" routerLinkActive="activebutton">Steps</a>
+      <a class="button" routerLink="/recipe" routerLinkActive="activebutton">Recipe</a>
     </nav>
 
 Last, add the proper declarations and imports the app.module.ts file:
@@ -201,7 +201,7 @@ Last, add the proper declarations and imports the app.module.ts file:
       BrowserModule,
       RouterModule.forRoot([
         {path: 'settings', component: SettingsComponent},
-        {path: 'steps', component: StepsComponent},
+        {path: 'recipe', component: RecipeComponent},
         {path: '', redirectTo: '/settings', pathMatch: 'full'},
         {path: '**', component: PageNotFoundComponent}
       ]),
