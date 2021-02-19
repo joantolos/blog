@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["productivity", "psychology", "ethics"]
-date = "2021-02-22"
+date = "2021-02-19"
 description = "Can we redeem our on-line mistakes?"
 featured = "pic01.png"
 featuredalt = ""
