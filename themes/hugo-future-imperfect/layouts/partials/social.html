@@ -105,3 +105,7 @@
 {{ with .Site.Social.email }}
 <li><a href="mailto:{{.}}" title="Email" class="fa fa-envelope"></a></li>
 {{ end }}
+
+{{ with .Site.Social.goodreads }}
+<li><a href="//www.goodreads.com/{{.}}" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+{{ end }}
