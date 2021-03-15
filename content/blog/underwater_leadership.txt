@@ -1,8 +1,8 @@
 +++
 author = "Joan Tolos"
-categories = ["productivity", "psychology", "ethics"]
-date = "2021-02-26"
-description = "How to consistently build relevant skills throughout your career"
+categories = ["productivity", "psychology", "ethics", "leadership"]
+date = "2021-05-09"
+description = "Changing a bad performance team into an excellent one"
 featured = "pic01.png"
 featuredalt = ""
 featuredpath = "/img/underwater/"
@@ -11,45 +11,92 @@ title = "Underwater leadership"
 type = "post"
 +++
 
-Let’s explore the difference between repetition and iteration. When you repeat something, you are doing the same thing several times. When you iterate over something you are building over the previous outcome.
-Let’s choose the proper tool (repetition or iteration) wisely.
+I don't usually do book reviews, I do put a little review on {{< url-link "GoodReads" "https://www.goodreads.com/user/show/126756201-joan" >}} now and then but it is not really my thing. {{< url-link "I did it before on this blog" "http://www.joantolos.com/blog/extremeownership/" >}} talking about the book {{< url-link "Extreme ownership" "https://amzn.to/2Rl15mS" >}}. I really like the military context when talking about leadership or how to manage a team because the stakes are so high. If I fail leading at my job, somebody loses money (maybe me), but if a military leader fails, people die.
 
-# Agile example
+For this post, I want to talk about another example of leadership on a military context. The book is: {{< url-link "Turn the Ship Around!: A True Story of Turning Followers into Leaders by Lieutenant David Marquet." "https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/ref=sr_1_1?crid=YM03EALB5N3J&dchild=1&keywords=turn+the+ship+around&qid=1615808636&sprefix=turn+the+ship%2Caps%2C229&sr=8-1" >}}  
 
-One example that we may found familiar is the concept of agile development. The whole point is to deliver working software (remember: {{< url-link "working software over documentation" "https://agilemanifesto.org" >}}) so we can listen to the feedback early on. The smaller and faster is your feedback loop, the _better product_ you can build. Well, not necessary a better product but definitely the _better approximation of what the costumer actually wants_. Also you can reach market early and have that leverage over the competition. The benefits of iterate for that scenario are evident.
+This is a case where two books together work better that each of them in isolation. I really think that if you like the topic (leadership in the military and how to transform those skills into civilian life), you should read both of them.
 
-# Experience vs hours
+**Extreme Ownership** explains the situation of a guerrilla warfare in city location which is one of the most dangerous situations you can find, and **Turn the ship around** explains the situation of a nuclear submarine. Both cases are extremely dangerous for very different reasons, and that is why I believe that both of the books add something unique even when the leadership techniques are similar in some cases. Guerrilla warfare requires a fast adaptability to the terrain and the different circumstances, and also it is highly demanding from a physical point of view. On the other hand, when handling a nuclear submarine you deal with a very specific domain knowledge, a lot of protocols, safety issues and organisational hazards. Both cases deal with problems that, conceptually, you can face in any job that requires leadership.
 
-The other example I wanted to explore on this post is the work experience and learning curve. I have been following several discussions on Twitter around the concept of seniority and what makes you a senior. Is it time? Is it a promotion?
+# How the book is organised
 
-The debate sometimes moves around years of experience, time on the field, etc. That makes some sort of sense because intuitively we thing experience is involved in some way. But what constitute real experience and how you can obtain more? If experience is a valuable asset, we may be interested of make it grow.
+{{< img-post path="/img/underwater/" file="book.png" alt="The actual book" type="center" >}}
 
-There is a huge difference between having ten years of experience and having one year repeated ten times.
+The book establish three dimensions for leadership: **control, competence and clarity**. Each of them contains a list of actions to accomplish that goal. This sums up all of them:
 
-The real experience comes from iteration, where you are building your skills up. If you repeat one set of skills over and over again, you just became more expert on that skill. But this is a short term game, because there always will be some other person more expert than you and also, younger and stronger people will come to eat your part of the pie. Then your expertise become more and more irrelevant as years go by. That is a winning ticket to become replaceable.
+**Control**
+  * Find the genetic code for control and rewrite it.
+  * Act your way to new thinking.
+  * Short, early conversations make efficient work.
+  * Use “I intend to . . .” to turn passive followers into active leaders.
+  * Resist the urge to provide solutions.
+  * Eliminate top-down monitoring systems.
+  * Think out loud (both superiors and subordinates).
+  * Embrace the inspectors.
 
-With real experience, on the other hand, you are not only expert on several aspects but also your set of skills are unique because are tied to your unique experience and career path. It is highly unlikely that other person can duplicate your exact same experience so you became more unique and so, more valuable and less replaceable.
+**Competence**
+  * Take deliberate action.
+  * We learn (everywhere, all the time).
+  * Don’t brief, certify.
+  * Continually and consistently repeat the message.
+  * Specify goals, not methods.
 
-# How to do it
+**Clarity**
+  * Achieve excellence, don’t just avoid errors.
+  * Build trust and take care of your people.
+  * Use your legacy for inspiration.
+  * Use guiding principles for decision criteria.
+  * Use immediate recognition to reinforce desired behaviours.
+  * Begin with the end in mind.
+  * Encourage a questioning attitude over blind obedience.
 
-There are several ways to favour iteration when building your career path. One obvious but sometimes radical solution is to switch jobs regularly. New team, new business rules, new procedures, new ways of doing the same thing... The first year on a new job you are learning at a very very high pace. Every new job is a new iteration where you use the outcome produced by the old job and apply it to the new, building a new set of skills and expanding the ones already there. But, switching jobs constantly also has it's bad side... you are not able to establish real long/mid term relationships with colleagues and some business have a hard learning curve. If you leave early, you have not learn enough about the business and miss the opportunity to push your boundaries.
+Each of them is a chapter and it is finished with a list of "questions to consider" which are a series of open questions to reflect on the content of the chapter. The chapters are short and to the point and sometimes some of the concepts are repeated again and again throughout the whole book which can be a little annoying.
 
-Other more conservative option but maybe more realistic is trying to switch projects within the same company. That way you can work with more different people inside the boundaries of the same business. While you are trying to assimilate the business rules, you can learn from your colleagues.
+All of the concepts listed before, you can find on pretty much any book about leadership but the principles are sound, so it is always nice to read about them. Also, the background use case of the nuclear submarine is super entertaining (at least for me), and makes you the interest. It is also very engaging learning about the hierarchy on the US military and all the paperwork and bureaucracy overhead that it is involved in pretty much any decision.
 
-The timeline goes something like this:
+# My take outs for my day to day job
 
-- On the first stage on a new job you are not profitable at all. You are just learning and being a sponge. Company invest in you, hoping to get their investment back. Usually it takes a year or so.
-- On the second stage, the relationship becomes more symbiotic. You are adding value to the company and still learning, the relationship is profitable for the two parts. That could be the next couple of years.
-- On the third stage, you have learnt everything relevant and career changing so the company is not profitable for you anymore. That is when the company starts to really enjoy the fruit of it's investment, you are providing value to them "for free". Usually that is the year number four or five. Time to leave.
+Very early on the book, the author provides a very specific list of questions to ask to the members of the team that you are supposed to lead when arriving in a new team:
 
-I remember reading this somewhere, I don't know where, my apologies. Although the time spans were shorter (one year each stage), the idea was more or less that. If someone knows the source, please comment.
+* What are the things you are hoping I don’t change?
+* What are the things you secretly hope I do change?
+* What are the good things about the ship we should build on?
+* If you were me what would you do first?
+* Why isn’t the ship doing better?
+* What are your personal goals for your tour here on the ship?
+* What impediments do you have to doing your job?
+* What will be our biggest challenge to getting the ship ready for deployment?
+* What are your biggest frustrations about how the ship is currently run?
+* What is the best thing I can do for you?
+
+I find these questions very appropriate because they leave room for the members of the team to shape how they want to be lead. If you are a good leader, you should listen and adapt your style to the needs or the team instead of forcing a establish agenda that you may have. You should also have the knowledge to be able to adapt so you should learn different styles and techniques to you can apply the proper one from the insight gathered from those questions.
+
+I believe the question list is solid. You may not want to make it formal, having a one to one interview with each team member and check all the boxes, but maybe introducing the questions as a conversation from time to time, may be a good approach.
+
+# Acting your way to excellence
+
+There is another technique that I liked a lot which is _act your way to new thinking_. In a nutshell, it means to act out what it is supposed to be the ideal final state of the organisation or the team. Asking questions like, "how our team would look like if everything was perfect?" Figure out that ideal and then just act out in consequence.
+
+Making a simile with my workplace. For example, I would like to publish our code as open source for other companies to enjoy and to improve. Well, if that was the case, what should we change? Maybe we need to pay more attention to pull requests. Maybe we have to allocate more time to code reviews, whatever... Well, start doing all those things. Acting out as you already have accomplished the goal is going to put you closer to it. We are what we constantly do, we are habit machines. Building the right habit can get you the right goal.
+
+# Domain specific details matter, a lot
+
+The book tells a very nice example of how a minor detail specific to your domain can make a very big difference on the output. For that case, inside the submarine, the don't _**Close the valves**_, they _**Shut the valves**_. Why? Because the word _close_ can be confused with the word _blow_. The word _shut_ does not leave any room for interpretation or confusion.
+
+This is not going to happen in my domain, I mean, it is not that dramatically important to take care of any single word when communicating. Blowing a valve can be a matter of life and death on a nuclear submarine but may not have any significant impact on some other domains. The take over here is... look for your very specific domain details because even the minor thing that you think is not THAT important, can have a huge impact at the end. The crew of the submarine were refining their communication iterating again and again to remove any confusion and chance of mistake possible, to the point of having a guideline about how you are suppose to communicate the close a valve. What specific word you should use. That level of detail matters.
+
+Find the level of detail that is relevant on your job, on your team and tackle it. Every minor improvement for minuscule that can be, it is a step forward to excellence.
 
 # Take over
 
-When building your career, think iteration over repetition. There are certain skills where you have to repeat the same thing over and over again, that is unavoidable. I call them “the trained seal skills”.
-If you want to learn a certain regular expression by heart, nothing will avoid you to just repeat and repeat until you learn it.
-I you want to play piano, you will have to repeat the same tedious scales over and over again until the pathway is burned into your brain and the muscle memory finally sets in.
-Just keep in mind that the skills you are obtaining through this repetition process are more fragile and mundane that the ones obtained by iteration process. Invest in them when it’s strictly necessary, you are not a trained seal. Human beings thrive with creativity, not pure repetition.
+These are just two examples of insight I gathered from the book. Overall is a very nice read. Again, the use case of the submarine it is very entertaining and I have enjoyed a lot learning about specifics of such complicated machine.
+
+If you like these kinds of books, you will enjoy it.
 
 ### References:
 * _Photo by {{< url-link "Pixabay" "https://pixabay.com/photos/submarine-sea-silhouette-sub-168884/" >}}_
+* _{{< url-link "Turn the Ship Around!: A True Story of Turning Followers into Leaders by Lieutenant David Marquet." "https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/ref=sr_1_1?crid=YM03EALB5N3J&dchild=1&keywords=turn+the+ship+around&qid=1615808636&sprefix=turn+the+ship%2Caps%2C229&sr=8-1" >}}_
+* _{{< url-link "Extreme ownership" "https://amzn.to/2Rl15mS" >}}_
+* _{{< url-link "My thoughts on Extreme Ownership" "http://www.joantolos.com/blog/extremeownership/" >}}_
+* _{{< url-link "GoodReads" "https://www.goodreads.com/user/show/126756201-joan" >}}_

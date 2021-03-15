@@ -61,7 +61,7 @@ In general, I think there is a good message here and it is a book worth reading;
 ### References:
 
 * _{{< url-link "Wikipedia on Navy SEALs" "https://en.m.wikipedia.org/wiki/United_States_Navy_SEALs" >}}_
-* _{{< url-link "Extreme leadership" "https://amzn.to/2Rl15mS" >}}_
+* _{{< url-link "Extreme ownership" "https://amzn.to/2Rl15mS" >}}_
 * _{{< url-link "Jocko Willink" "https://twitter.com/jockowillink" >}}_
 * _{{< url-link "Leif Babin" "https://twitter.com/LeifBabin" >}}_
 * _{{< url-link "Echelon Front" "https://www.echelonfront.com" >}}_
