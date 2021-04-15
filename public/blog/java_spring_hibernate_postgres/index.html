@@ -1,0 +1,1594 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Java, Spring and Hibernate microservice seed</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="TDD ready service with database interaction configured out of the box">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Java, Spring and Hibernate microservice seed"/>
+<meta name="twitter:description" content="TDD ready service with database interaction configured out of the box"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="Java, Spring and Hibernate microservice seed" />
+<meta property="og:description" content="TDD ready service with database interaction configured out of the box" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/java_spring_hibernate_postgres/" />
+<meta property="article:published_time" content="2021-01-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-04T00:00:00+00:00" />
+
+        <meta itemprop="name" content="Java, Spring and Hibernate microservice seed">
+<meta itemprop="description" content="TDD ready service with database interaction configured out of the box">
+<meta itemprop="datePublished" content="2021-01-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-01-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1841">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f&text=Java%2c%20Spring%20and%20Hibernate%20microservice%20seed&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f&title=Java%2c%20Spring%20and%20Hibernate%20microservice%20seed" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f&title=Java%2c%20Spring%20and%20Hibernate%20microservice%20seed" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h1>
+            
+        
+        
+            <p>TDD ready service with database interaction configured out of the box</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2021-01-04'>
+            January 4, 2021</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>9 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f&text=Java%2c%20Spring%20and%20Hibernate%20microservice%20seed&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f&title=Java%2c%20Spring%20and%20Hibernate%20microservice%20seed" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f&title=Java%2c%20Spring%20and%20Hibernate%20microservice%20seed" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fjava_spring_hibernate_postgres%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/" class="image featured">
+            <img src="/img/kataSpringDb//pic01.png" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <p>I am frequently doing posts about TDD and trying to facilitate code seeds with everything in  place to work with TDD, for example 
+
+    
+        
+    
+
+    <a href="http://www.joantolos.com/blog/katasongsapi/" target='_blank'>here</a>
+
+
+ or 
+
+    
+        
+    
+
+    <a href="http://www.joantolos.com/blog/javascripttrifecta/" target='_blank'>here</a>
+
+
+.</p>
+<p>This time I want to provide a step by step guide for a microservice that will work with Java, Spring, Hibernate and Postgres that will be TDD ready from localhost all the way up to production. The challenge here, is to set up a comfortable way to test when dealing with a database and Spring.</p>
+<p>These are the bullet points I want to cover:</p>
+<ul>
+<li>Regular plain JUnit Test</li>
+<li>Replicating Spring context on test</li>
+<li>Test using an in memory real database</li>
+<li>Test mocking the database results</li>
+</ul>
+<p>With all of those examples you will be able to cover all your testing needs.</p>
+<h1 id="installing-postgres">Installing Postgres</h1>
+<p>First of all, we need to install Postgres. With a Mac computer, you can use HomeBrew:</p>
+<pre><code>brew install postgres
+</code></pre>
+<p>Then, you need to create the folder PostgresData into your /Users/{your_user} folder:</p>
+<pre><code>mkdir /Users/joan/PostgresData
+</code></pre>
+<p>Then, you set up the folder for Postgres to use it:</p>
+<pre><code>initdb PostgresData/
+</code></pre>
+<p>Now you can start the database:</p>
+<pre><code>pg_ctl -D PostgresData/ -l logfile start
+</code></pre>
+<p>Or stop it:</p>
+<pre><code>pg_ctl -D PostgresData/ -l logfile stop    
+</code></pre>
+<h1 id="setting-up-the-database">Setting up the database</h1>
+<p>Now, with the database started, you can type:</p>
+<pre><code>psql postgres
+</code></pre>
+<p>And use the postgres CLI to interact with the database.</p>
+<h2 id="database-schema-and-user-creation">Database, schema and user creation:</h2>
+<p>Using the Postgres CLI, you can create the user with the password and the database.</p>
+<pre><code>CREATE USER kataspringdbapp WITH PASSWORD 'WHATEVER_PASSWORD_YOU_WANT';
+CREATE DATABASE kataspringdblocal OWNER kataspringdbapp;
+</code></pre>
+<h2 id="using-dbeaver-as-a-friendly-way-to-interact-with-the-local-database">Using DBeaver as a friendly way to interact with the local database</h2>
+<p>You can go on and use the CLI to create the table for the example to work, but at this point I recommend using a database tool like 
+
+    
+        
+    
+
+    <a href="https://dbeaver.io/" target='_blank'>DBeaver</a>
+
+
+</p>
+<p>Then you create a new connection with the following credentials:</p>
+<ul>
+<li>Host: localhost</li>
+<li>Port: 5432</li>
+<li>Database: kataspringdblocal</li>
+<li>Username: kataspringdbapp</li>
+<li>Password: WHATEVER_PASSWORD_YOU_USED_BEFORE</li>
+</ul>
+<p>This credentials will be used on the configuration file for the Spring app. Once you are connected to the database, you can execute the script:</p>
+<pre><code>CREATE TABLE users (
+       username	VARCHAR(30) NOT NULL,
+       password	VARCHAR(30) NOT NULL
+);
+
+INSERT INTO users (username, password) VALUES('luke', '123');
+INSERT INTO users (username, password) VALUES('vader', '456');
+INSERT INTO users (username, password) VALUES('yoda', '789');
+</code></pre>
+<h1 id="setting-the-code-on-localhost">Setting the code on localhost</h1>
+<p>First, clone the code: <a href="https://github.com/joantolos/kata-spring-db">https://github.com/joantolos/kata-spring-db</a></p>
+<pre><code>git clone https://github.com/joantolos/kata-spring-db.git
+</code></pre>
+<p>Then, build the code:</p>
+<pre><code>./gradlew clean build
+</code></pre>
+<h1 id="securing-your-data">Securing your data</h1>
+<p>We are going to use a simple encryption library in Java to deal with the database password and the encryption of sensible data into the database. To do that, we need to get the password you created before, encrypted so we can safely put it into the properties file of the application. We are using 
+
+    
+        
+    
+
+    <a href="http://www.jasypt.org/" target='_blank'>Jasypt</a>
+
+
+ library to deal with the encryption. After building the code, you already have it on your machine. You need to locate the cddi-storage.zip on the folder /build/distributions of your local project. Then, unzip the package, inside the libs folder you will have the jar: jasypt-1.9.3.jar</p>
+<p>Now, you have located your Jasypt jar that will help you encrypt your database password.</p>
+<h2 id="encrypting-your-database-password">Encrypting your database password</h2>
+<p>You need to create an scrambled string for your database password. Here is how you do it:</p>
+<p>Locate the jasypt-1.9.3.jar on you machine after building the code and execute the encryption command:</p>
+<pre><code>java -cp ~/jasypt-1.9.3.jar org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI input=&quot;WHATEVER_PASSWORD_YOU_USED_BEFORE&quot; password=&quot;YOUR_SECRET_PHRASE&quot; algorithm=PBEWITHMD5ANDDES
+</code></pre>
+<p>If everything goes well, you should see something like:</p>
+<pre><code>----ENVIRONMENT-----------------
+
+Runtime: Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.251-b08
+
+----ARGUMENTS-------------------
+
+algorithm: PBEWITHMD5ANDDES
+input: WHATEVER_PASSWORD_YOU_USED_BEFORE
+password: YOUR_SECRET_PHRASE
+
+----OUTPUT----------------------
+
+xOCNEJG0UTpAm5xznOlD4yB7Etktr1cP+qXmD5ZFpic=
+</code></pre>
+<p>Take notice on the string you use as &ldquo;YOUR_SECRET_PHRASE&rdquo; which can be a random text. The library uses this text to encrypt and decrypt. You will have to configure this phrase on your application later on.</p>
+<h2 id="configure-the-encrypted-password-on-the-applicationproperties-file">Configure the encrypted password on the application.properties file</h2>
+<p>Now you can put your encrypted password into the /src/main/resources/application-local.properties between the brackets ENC(HERE)</p>
+<p>Notice these two properties that Spring needs to use the Jasypt library:</p>
+<pre><code>jasypt.encryptor.iv-generator-classname=org.jasypt.iv.NoIvGenerator
+jasypt.encryptor.algorithm=PBEWithMD5AndDES
+</code></pre>
+<h1 id="starting-the-service-on-localhost">Starting the service on localhost</h1>
+<p>You need to set the environment variable <em>spring.profiles.active</em> to local and <em>jasypt.encryptor.password</em> to your secret phrase used before to encrypt the password. You can do it directly with the gradle task <em>bootRun</em> that Spring provides by default.</p>
+<pre><code>./gradlew bootRun -Dspring.profiles.active=local -Djasypt.encryptor.password=YOUR_SECRET_PHRASE
+</code></pre>
+<h2 id="playing-with-the-api">Playing with the API</h2>
+<p>Once you start the service, you can access Swagger to play with the available endpoints:</p>
+<pre><code>http://localhost:8080/swagger-ui.html#/
+</code></pre>
+<p>This way you can see the three users inserted via the SQL script with the GET operation: <em>getUsers</em> and also add new users, delete them etc.</p>
+<h1 id="project-structure-and-tests-cases">Project structure and tests cases</h1>
+<p>I am not going to go into detail about how JPA works. I am just going to match every test case scenario with the classes on the code, so you can take a look and use that scenario as example for other projects.</p>
+<ul>
+<li>End to end test: UserControllerTest</li>
+<li>Replicating Spring context on test: UserServiceTest</li>
+<li>Test using an in memory real database: UserServiceTest</li>
+<li>Test mocking the database results: GetUsersPageTest</li>
+<li>Plain JUnit test: SortTest</li>
+</ul>
+<h2 id="end-to-end-with-real-in-memory-data-base">End to end with real in memory data base</h2>
+<p>On the test <em>UserControllerTest</em> you have an example of how to test an actual call to the API. Using MockMVC you can perform actual requests to the service and then make assertions, like this:</p>
+<pre><code>this.mockMvc
+            .perform(get(&quot;/users&quot;).param(&quot;username&quot;, &quot;luke&quot;))
+            .andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(jsonPath(&quot;$.username&quot;).value(&quot;luke&quot;))
+            .andExpect(jsonPath(&quot;$.password&quot;).value(&quot;123&quot;));
+</code></pre>
+<p>As you can see, we are doing a GET request to the endpoint &ldquo;/users&rdquo; with a username as a param and expecting the response to be OK and some actual values for user and password that coincide with what we inserted early on the in memory database.</p>
+<p>Notice that this class extends InMemoryTestDataBase, that means that this test is going to go against the in memory H2 database configured. This class receives the location of an SQL script and execute it into the database. Then, on your test, you have to execute the creation database script at the beginning and the destroy script at the end. We do that on the Before and After phases of the unit test:</p>
+<pre><code>@Before
+public void setUp() throws IOException {
+    this.executeStatement(&quot;/user/createUser.sql&quot;);
+}
+
+@After
+public void tearDown() throws IOException {
+    this.executeStatement(&quot;/user/dropUser.sql&quot;);
+}
+</code></pre>
+<p>That way you can create a dedicated specific database state for each unit test. There is no intention of replicating a database in memory that looks like the one in production but just create whatever specific tables and inserts you need to test whatever it is you want to test. That way, there is no need to &ldquo;maintain&rdquo; the in memory database or even keep it consistent with the one on production. Just create on the fly your relevant content and test your code.</p>
+<p>Finally, in order to this script execution to work, the method that executes the script, in that case, the actual test, needs to be annotated as a transactional modifying operation in order for Spring to work:</p>
+<pre><code>@Test
+@Modifying
+@Transactional
+public void shouldGetAllUsers()
+</code></pre>
+<h2 id="unit-test-with-real-in-memory-data-base">Unit test with real in memory data base</h2>
+<p>The example above is end to end. If you want to use the in memory database but test some specific code and not the whole API operation, you can use as example the test <em>UserServiceTest</em> which uses the same extensions and techniques, but the asserts are more traditional, for example:</p>
+<pre><code>Assert.assertEquals(&quot;123&quot;, userService.getUser(&quot;luke&quot;).getPassword());
+</code></pre>
+<p>This is very useful, because you can test specific methods with some data inside the database but you don&rsquo;t need to execute the whole operation to reach your expected results.</p>
+<h2 id="unit-test-with-mocked-results-from-data-base">Unit test with mocked results from data base</h2>
+<p>We have another scenario where you don&rsquo;t even need real data on the in memory database, but you can get away with your test just mocking some results. This is useful when you need to test features that require big size results from the database like pagination. To test the pagination, we could just insert on hundred users on the in memory database and then check that we get the proper pages, but that would mean to make a creation script with one hundred inserts&hellip; it&rsquo;s a bit ugly. Instead, we can just mock the response from the database when getting the list of users so we receive one hundred fake users and then test over that.</p>
+<p>Take a look at the test <em>GetUsersPageTest</em> which creates a dedicated list of one hundred users and then just serve it to the mock. Notice that there is no need to insert anything on the in memory database and no need to use the transactional annotations.</p>
+<h2 id="plain-and-simple-junit-test-without-any-data-base-interaction">Plain and simple JUnit test without any data base interaction</h2>
+<p>Finally, an example of simple JUnit test without need to create any Spring context or interaction with database of any kind. These are the most comfortable tests and the ones that you should try to use the most. The example is the class <em>SortTest</em></p>
+<h1 id="test-complexity-hierarchy">Test complexity hierarchy</h1>
+<p>These are the tests cases available from more complex and sophisticated, to more simple. You may want to choose the most simple case to test your feature, and if you need more resources, go up one step on the hierarchy:</p>
+<ol>
+<li>End to end with real in memory data base</li>
+<li>Unit test with real in memory data base</li>
+<li>Unit test with mocked results from data base</li>
+<li>Plain and simple JUnit test without any data base interaction</li>
+</ol>
+<p>I believe that with all these examples, we can cover most (if not all) scenarios that we are going to face when creating a Spring service using JPA. Now you have all the tools ready to code with TDD.</p>
+<h1 id="deploying-on-heroku">Deploying on Heroku</h1>
+<p>
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+ is awesome. I use it for all of my little pet projects and every time that I try some need language or&hellip; well, everything that I do, I try to deploy it to production on 
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+. That way I deal with the problems and difficulties of pushing the code to production environment and that makes the whole learning experience way more real. Everything works on localhost, always. When you have to deal with a real database and a real environment, you will face problems that will provide you very useful skills.</p>
+<ol>
+<li>Create an account on Heroku if you don&rsquo;t already have one.</li>
+<li>Create the app &ldquo;kata-spring-db&rdquo; (or any other name that you like but it will have to be consistent with the one on the code)</li>
+<li>Add the Postgres add-on to your app. Heroku will provide you with the credentials to access to the database. Configure that &ldquo;production&rdquo; database on your DBeaver. Execute the creation script</li>
+<li>Connect your app to your github repo where you have the code. You can configure it to build and deploy on every push. There are a lot of continuous delivery and integration that Heroku offers out of the box</li>
+<li>Configure the way that your app starts. For a java service, this is the one: _web: java $JAVA_OPTS -jar build/libs/kata-spring-db*.jar_ This is defined on a Procfile on the root of your project.</li>
+<li>Enjoy your code deployed on production: <a href="https://kata-spring-db.herokuapp.com/swagger-ui.html#/">https://kata-spring-db.herokuapp.com/swagger-ui.html#/</a></li>
+</ol>
+<p>
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+ offers a lot of cool features like logging, a bunch of add-ons and a lot of them go for free. Don&rsquo;t miss it.</p>
+<h3 id="references">References:</h3>
+<ul>
+<li><em>Photo by 
+
+    
+        
+    
+
+    <a href="https://stocksnap.io/author/lenharthsystems" target='_blank'>Lenharth Systems</a>
+
+
+ from 
+
+    
+        
+    
+
+    <a href="https://stocksnap.io" target='_blank'>StockSnap</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://github.com/joantolos/kata-spring-db" target='_blank'>GitHub code repository</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+</em></li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/java'>java</a></li>
+    
+        <li><a href='/categories/spring'>spring</a></li>
+    
+        <li><a href='/categories/hibernate'>hibernate</a></li>
+    
+        <li><a href='/categories/postgres'>postgres</a></li>
+    
+        <li><a href='/categories/heroku'>heroku</a></li>
+    
+        <li><a href='/categories/tdd'>tdd</a></li>
+    
+        <li><a href='/categories/test'>test</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/iteration_over_repetition/"
+                class="button big previous">Iteration over repetition</a></li>
+    
+
+    
+        <li><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"
+                class="button big next">The road to digital redemption</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

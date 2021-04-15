@@ -1,0 +1,1571 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Fixing date on exported videos from Apple&#39;s Photos</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="Update video metadata according to proper order">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fixing date on exported videos from Apple&#39;s Photos"/>
+<meta name="twitter:description" content="Update video metadata according to proper order"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="Fixing date on exported videos from Apple&#39;s Photos" />
+<meta property="og:description" content="Update video metadata according to proper order" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/fixing_apple_photos_metadata/" />
+<meta property="article:published_time" content="2021-04-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-04-15T00:00:00+00:00" />
+
+        <meta itemprop="name" content="Fixing date on exported videos from Apple&#39;s Photos">
+<meta itemprop="description" content="Update video metadata according to proper order">
+<meta itemprop="datePublished" content="2021-04-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-04-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1777">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f&text=Fixing%20date%20on%20exported%20videos%20from%20Apple%27s%20Photos&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f&title=Fixing%20date%20on%20exported%20videos%20from%20Apple%27s%20Photos" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f&title=Fixing%20date%20on%20exported%20videos%20from%20Apple%27s%20Photos" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h1>
+            
+        
+        
+            <p>Update video metadata according to proper order</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2021-04-15'>
+            April 15, 2021</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>9 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f&text=Fixing%20date%20on%20exported%20videos%20from%20Apple%27s%20Photos&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f&title=Fixing%20date%20on%20exported%20videos%20from%20Apple%27s%20Photos" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f&title=Fixing%20date%20on%20exported%20videos%20from%20Apple%27s%20Photos" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2ffixing_apple_photos_metadata%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/" class="image featured">
+            <img src="/img/metadata//pic01.png" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <p>I have been dealing with an annoying problem when using the app Photos on Mac OS.</p>
+<p>I sort my photos and videos by years and Photos has a nice feature to create &ldquo;smart albums&rdquo; where you can sort the content by different criteria like &ldquo;file name contains&hellip;&rdquo; and things like that. At the end of the year, I make an export of all the content for the last year and store it as an archive in a remote hard drive in case Photos stops working, or I have to reset the computer or something, so I don&rsquo;t loose the photos and videos. Everything good so far.</p>
+<h1 id="the-problem">The problem</h1>
+<p>The problem is, when you try to import those files again into a new fresh Photos library, the photos conserve the correct original date, but the videos are imported with the exporting date, not the original date.</p>
+<p>Here is a portion of the list of photos and videos of my family in the year 2020 (very important memories of pandemic, masks and parties NOT taking place, you don’t want to lose that).</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/metadata//before.png" alt="Recently exported" />
+        </span></p>
+    
+
+
+<p>As you can see, the date showing on Finder is the exported one (2021), not the creation one (2020). But, for some reason, Photos stills reads the original date from (what I have to assume), some obscure metadata when you import them again. But only for the pictures files, the videos are imported with the exported date, so we loose the original date.</p>
+<p>This is because when you add a video to Photos and then apply some modifications (cropping, etc), the end result is actually a new file. So, if you want to keep your editing, when exporting, it will create a new file with a new creation date obviously. If you want the original date, then you loose your editing. Why this does not happen for the pictures as well? No idea. I can guess that the metadata from both file types (jpg and m4v) is different.</p>
+<h1 id="the-solution">The solution</h1>
+<p>The premise is&hellip; if the correct date for the pictures appears on Photos after exported, that means that the file somehow contains that correct date as metadata. If the list of files is ordered by incremental file name, we can “deduce” the original date of a video as the original date of the picture before plus a minute. That is not the precise date of the video creation of course, but it is enough for the files to appear sorted on Photos.</p>
+<p>For example, if we have this situation:</p>
+<pre><code>1.jpg
+2.jpg
+3.m4v
+4.jpg
+</code></pre>
+<p>The calculated new date for the video 3.m4v will be the date from 2.jpg plus one minute.</p>
+<p>Now, for this theory to work, first I have to identify the correct date on a picture, extracting it from the metadata. At this point in time, I thought of using some Java library and doing it programatically. I found this:</p>
+<p>Metadata extractor library for Java, by drewnoakes: <a href="https://github.com/drewnoakes/metadata-extractor">https://github.com/drewnoakes/metadata-extractor</a></p>
+<p>Using this library, I can list the total metadata from both types of files. Here is the jpg:</p>
+<pre><code>[JPEG] Compression Type - Progressive, Huffman
+[JPEG] Data Precision - 8 bits
+[JPEG] Image Height - 968 pixels
+[JPEG] Image Width - 544 pixels
+[JPEG] Number of Components - 3
+[JPEG] Component 1 - Y component: Quantization table 0, Sampling factors 1 horiz/1 vert
+[JPEG] Component 2 - Cb component: Quantization table 1, Sampling factors 1 horiz/1 vert
+[JPEG] Component 3 - Cr component: Quantization table 1, Sampling factors 1 horiz/1 vert
+[JFIF] Version - 1.1
+[JFIF] Resolution Units - none
+[JFIF] X Resolution - 72 dots
+[JFIF] Y Resolution - 72 dots
+[JFIF] Thumbnail Width Pixels - 0
+[JFIF] Thumbnail Height Pixels - 0
+[Exif IFD0] Orientation - Top, left side (Horizontal / normal)
+[Exif IFD0] X Resolution - 72 dots per unit
+[Exif IFD0] Y Resolution - 72 dots per unit
+[Exif IFD0] Software - Photos 4.0
+[Exif IFD0] Date/Time - 2020:01:09 21:51:40
+[Exif SubIFD] Date/Time Original - 2020:01:09 21:51:40
+[Exif SubIFD] Date/Time Digitized - 2020:01:09 21:51:40
+[Exif SubIFD] Exif Image Width - 544 pixels
+[Exif SubIFD] Exif Image Height - 968 pixels
+[XMP] XMP Value Count - 4
+[ICC Profile] Profile Size - 30240
+[ICC Profile] CMM Type - appl
+[ICC Profile] Version - 4.0.0
+[ICC Profile] Class - Input Device
+[ICC Profile] Color space - RGB
+[ICC Profile] Profile Connection Space - XYZ
+[ICC Profile] Profile Date/Time - 2016:01:01 00:00:00
+[ICC Profile] Signature - acsp
+[ICC Profile] Primary Platform - Apple Computer, Inc.
+[ICC Profile] Device manufacturer - APPL
+[ICC Profile] XYZ values - 0,964 1 0,825
+[ICC Profile] Tag Count - 8
+[ICC Profile] Profile Description - Apple Wide Color Sharing Profile
+[ICC Profile] Profile Copyright - Copyright Apple Inc., 2016
+[ICC Profile] Media White Point - (0,9642, 1, 0,8251)
+[ICC Profile] AToB 2 - mAB  (0x6D414220): 29772 bytes
+[ICC Profile] Chromatic Adaptation - sf32 (0x73663332): 44 bytes
+[ICC Profile] Unknown tag (0x61617079) - data (0x64617461): 14 bytes
+[ICC Profile] AToB 0 - mAB  (0x6D414220): 29772 bytes
+[ICC Profile] AToB 1 - mAB  (0x6D414220): 29772 bytes
+[Photoshop] Caption Digest - 212 29 140 217 143 0 178 4 233 128 9 152 236 248 66 126
+[Huffman] Number of Tables - 4 Huffman tables
+[File Type] Detected File Type Name - JPEG
+[File Type] Detected File Type Long Name - Joint Photographic Experts Group
+[File Type] Detected MIME Type - image/jpeg
+[File Type] Expected File Name Extension - jpg
+</code></pre>
+<p>And here is the m4v:</p>
+<pre><code>[MP4] Major Brand - Apple iTunes Video (.M4V) Video
+[MP4] Minor Version - 1
+[MP4] Compatible Brands - [Apple iTunes Video (.M4V) Video, Apple iTunes AAC-LC (.M4A) Audio, MP4 v2 [ISO 14496-14], MP4  Base Media v1 [IS0 14496-12:2003]]
+[MP4] Creation Time - Fri Jan 22 19:24:17 CET 2021
+[MP4] Modification Time - Fri Jan 22 19:24:17 CET 2021
+[MP4] Duration - 4364
+[MP4] Media Time Scale - 600
+[MP4] Duration in Seconds - 00:00:08
+[MP4] Transformation Matrix - 65536 0 0 0 65536 0 0 0 1073741824
+[MP4] Preferred Rate - 1
+[MP4] Preferred Volume - 1
+[MP4] Next Track ID - 3
+[MP4] Rotation - 0
+[MP4 Sound] Creation Time - vie ene 22 19:24:17 +01:00 2021
+[MP4 Sound] Modification Time - vie ene 22 19:24:17 +01:00 2021
+[MP4 Sound] ISO 639-2 Language Code - und
+[MP4 Sound] Balance - 0
+[MP4 Sound] Format - MPEG-4, Advanced Audio Coding (AAC)
+[MP4 Sound] Number of Channels - 2
+[MP4 Sound] Sample Size - 16
+[MP4 Sound] Sample Rate - 44100
+[MP4 Video] Creation Time - vie ene 22 19:24:17 +01:00 2021
+[MP4 Video] Modification Time - vie ene 22 19:24:17 +01:00 2021
+[MP4 Video] ISO 639-2 Language Code - und
+[MP4 Video] Opcolor - 0 0 0
+[MP4 Video] Graphics Mode - Copy
+[MP4 Video] Compression Type - H.264
+[MP4 Video] Width - 848 pixels
+[MP4 Video] Height - 480 pixels
+[MP4 Video] Depth - 24-bit color
+[MP4 Video] Horizontal Resolution - 72
+[MP4 Video] Vertical Resolution - 72
+[MP4 Video] Frame Rate - 30,075
+[File Type] Detected File Type Name - MP4
+[File Type] Detected File Type Long Name - MPEG-4 Part 14
+[File Type] Detected MIME Type - video/mp4
+[File Type] Expected File Name Extension - mp4
+</code></pre>
+<p>At this point in time, I am sure that I have lost any readers that have not dealt with this problem. You are probably thinking <em>what is this guy problem? Who cares that much about videos metadata?</em>. But I am going to finish the post anyway, because why not.</p>
+<p>And also, I do care&hellip;</p>
+<p>So, if we look at the metadata, we can see that the photo actually has the original date (year 2020) inside the metadata, but the videos, have the exported date (2021). Now, I can take advantage of the fact that the files are named sequentially (you can choose that when you export them), so I can &ldquo;calculate&rdquo; a new date for the video as the date from the photo immediately before plus a minute or so.</p>
+<p>These are the first steps we need to consider for each photo:</p>
+<ol>
+<li>If it is a photo, grab the date from [Exif IFD0] Date/Time and store it</li>
+<li>If the next one is a video, put the date before plus one minute. We can know if it is a video because their metadata tags start with [MP4]</li>
+<li>If the next one is a photo, just replace the date with this new one and move on</li>
+</ol>
+<p>After that, we should end up with a list of objects containing for each of them:</p>
+<ol>
+<li>The file name</li>
+<li>The correct date (either from the original, or calculated)</li>
+</ol>
+<p>Now we only have to get over this list and modify the proper metadata on the video file, with this new calculated date. The question is&hellip; how to do that programatically?</p>
+<h2 id="exiftool">exiftool</h2>
+<p>
+
+    
+        
+    
+
+    <a href="https://exiftool.org/" target='_blank'>ExifTool</a>
+
+
+ is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of media files.</p>
+<p>With this tool, you can execute something on terminal like:</p>
+<pre><code>exiftool '-CreateDate=2020:09:01 12:00' '/User/joan/myFiles/file.m4v'
+</code></pre>
+<p>Now is just a matter of parse the date properly after adding the extra minute and execute the terminal command. I would preferred to use some library like before instead of using a direct command against the operative system but this is the easiest way that I was able to find.</p>
+<p>Also, since I was executing direct commands, I have added a &ldquo;touch&rdquo; with the correct date, that way I can change the last updated date for all of them.</p>
+<h1 id="the-result">The result</h1>
+<p>After running the program, the list before, looks like this:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/metadata//after.png" alt="Recently exported" />
+        </span></p>
+    
+
+
+<p>Everything in order. Now if I import this files into a new Photos library, everything is in place.</p>
+<h1 id="take-over">Take over</h1>
+<p>This is the final program: <a href="https://github.com/joantolos/kata-meta-data">https://github.com/joantolos/kata-meta-data</a> you can find the use instructions on the README</p>
+<p>Anyway, this is a very specific  program that solves a very specific problem. But I am pretty happy that I have been able to use my coding skills to solve a day to day problem that was bugging me for a long time. Kind of what I did 
+
+    
+        
+    
+
+    <a href="https://github.com/drewnoakes/metadata-extractor" target='_blank'>here</a>
+
+
+ with my Lazy Oven app.</p>
+<p>But this is what we do right? This is the nature of a software engineer. We pick on a problem and obsess over it until it&rsquo;s solved.</p>
+<p>Also, this is a very appreciated asset for me. Photos and videos of my family are literally priceless and I don’t want to risk any damage to them. I curated them with care, selecting the best ones, editing them&hellip; This way I can be sure that I have a backup always ready to go.</p>
+<h3 id="references">References:</h3>
+<ul>
+<li><em>Photo by 
+
+    
+        
+    
+
+    <a href="https://www.freepik.es/vectores/dibujos-animados" target='_blank'>freepik</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://github.com/drewnoakes/metadata-extractor" target='_blank'>Metadata-extractor: A Java library for reading metadata from media files</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://exiftool.org/" target='_blank'>ExifTool by Phil Harvey</a>
+
+
+</em></li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/java'>java</a></li>
+    
+        <li><a href='/categories/tdd'>tdd</a></li>
+    
+        <li><a href='/categories/metadata'>metadata</a></li>
+    
+        <li><a href='/categories/photos'>photos</a></li>
+    
+        <li><a href='/categories/video'>video</a></li>
+    
+        <li><a href='/categories/apple'>apple</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"
+                class="button big previous">Single page seed with Angular</a></li>
+    
+
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

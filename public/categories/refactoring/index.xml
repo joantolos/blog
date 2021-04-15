@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refactoring on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/refactoring/</link>
+    <description>Recent content in Refactoring on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The real reason why you don&#39;t like TDD</title>
+      <link>http://www.joantolos.com/blog/tddcasestudy/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tddcasestudy/</guid>
+      <description>Have you ever read somebody&amp;rsquo;s code and thought: &amp;ldquo;that is just beautiful, I wish I could code like this&amp;rdquo;? The answer is simple: nobody codes like this at first attempt. Good code is always the result of several refactoring, iterations, reviews and improvements. Most of the time made by more than one person.
+So the goal as developers should be to write the best code that we can. In order to do that we should consider has many tools and techniques as possible.</description>
+    </item>
+    
+    <item>
+      <title>One task to rule them all</title>
+      <link>http://www.joantolos.com/blog/gradletask/</link>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/gradletask/</guid>
+      <description>Trying to learn a little bit more about how Gradle deals with tasks and how to execute them in an specific order.
+The problem I was asked for help on a project dealing with Gradle task and what is seemed like a simple ordering task problem. The set up is the following:
+
+This is a simplification of the project layout, where names have been changed. We have a module that creates files and another module that consumes the files.</description>
+    </item>
+    
+    <item>
+      <title>The code that should not be</title>
+      <link>http://www.joantolos.com/blog/thecodethatshouldnotbe/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/thecodethatshouldnotbe/</guid>
+      <description>Some thoughts about the amount of code you write that never see production and how to take it.
+The context We were asked to implement a new feature, let&amp;rsquo;s say, selling apples. Not groceries, not fruits, just apples. Well, maybe on the next Sprint we will add bananas to sell as well. But that&amp;rsquo;s it, apples now and bananas later.
+We all love to code for lists instead of instances, so the coder assigned to the task designed a beautiful code supporting a whole list of fruits, even it was clear from the start that business just needed apples for now.</description>
+    </item>
+    
+    <item>
+      <title>Readability</title>
+      <link>http://www.joantolos.com/blog/readability/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/readability/</guid>
+      <description>Less is more&amp;hellip; but really? I always struggle to find an example where less code is not necessarily better, because it usually is. But recently I stumble upon an example. Clean Code ask for readability over anything else because code is more often read than written. That sometimes may mean to be a little more verbose on the code. Let&amp;rsquo;s see an example:
+The context I have to paint a simple plot, x and y axis.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1535 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>TDD: All in</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="Using TDD on a critical point of the project">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="TDD: All in"/>
+<meta name="twitter:description" content="Using TDD on a critical point of the project"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="TDD: All in" />
+<meta property="og:description" content="Using TDD on a critical point of the project" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/tddallin/" />
+<meta property="article:published_time" content="2017-11-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-11-02T00:00:00+00:00" />
+
+        <meta itemprop="name" content="TDD: All in">
+<meta itemprop="description" content="Using TDD on a critical point of the project">
+<meta itemprop="datePublished" content="2017-11-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-11-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1544">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f&text=TDD%3a%20All%20in&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f&title=TDD%3a%20All%20in" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f&title=TDD%3a%20All%20in" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/tddallin/">TDD: All in</a></h1>
+            
+        
+        
+            <p>Using TDD on a critical point of the project</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-11-02'>
+            November 2, 2017</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>8 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f&text=TDD%3a%20All%20in&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f&title=TDD%3a%20All%20in" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f&title=TDD%3a%20All%20in" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2ftddallin%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/tddallin/" class="image featured">
+            <img src="/img/tddAllIn//pic01.jpg" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <h2 id="the-setup">The setup</h2>
+<p>We faced a complicated release to production on our team. We had to include a brand new feature that will stress the application on different levels: user interface, backend and data. We had also a small window to release it so the pressure was high. Let&rsquo;s establish a little bit the requirements, on a high level (without revealing details of the business).</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/tddAllIn//overview.png" alt="Tree layout" />
+        </span></p>
+    
+
+
+<p>We had to implement the new feature using the green boxes. All those components exist already so we have to add the feature without impacting the existing code. So, we needed:</p>
+<ul>
+<li>Add a whole new navigation path on the User Interface (in that case, a web browser application), including the possibility for a user to upload a file.</li>
+<li>Add the new endpoint to the application API (the Node JS microservice) which will parse the data from the other services and arrange it in a way that is super easy to consume for the UI. In other words, it creates a tailored JSON response to fit the specific needs of the UI. That way there is no logic on the browser.</li>
+<li>Add the logic of the feature on a Java Microservice. This was the tricky part because we had two dependencies:
+<ul>
+<li>We need to retrieve data from a third party (inside the company) Java Microservice which we don&rsquo;t control and know how it works.</li>
+<li>The input for this third party microservice is calculated from the user input on the user interface (the user uploads a file).</li>
+</ul>
+</li>
+</ul>
+<p>The content of that file is then processed by a series of complex algorithms (related with chemical and biological stuff) and the result of all that process is transform into the third party service input contract. This input transformation was implemented on a POC just to proof the viability of the feature. The results were good so now we have to transform this POC  into well crafted production code. The POC code was created by mathematicians and scientist so although it does the job, we can not simply use it. We have to understand it and re-write it on a fashion that suites the application. This code is represented as &ldquo;spaghetti code&rdquo; on the diagram.
+No offence intended for the scientist colleges that wrote that code. The algorithmic work that includes is beautiful, it&rsquo;s just that it is not created to fit into the entire microservice architecture.</p>
+<p>So the risks are very clear:</p>
+<ul>
+<li>Thigh schedule</li>
+<li>Dependency from another team</li>
+<li>Unraveling the spaghetti code</li>
+</ul>
+<p>I always consider black boxes as a big risk and the dependency with the other team and the spaghetti code are black boxes. So, all the alerts went on, this was a risky feature.</p>
+<h2 id="the-implementation">The implementation</h2>
+<p>I had to write the code on the Java Micro-Service and the Node JS Micro-Service. Another fellow developer will write the code on the User Interface at the same time.</p>
+<p>At that point I took a big decision: I choose to go full TDD from the beginning, let me explain&hellip; It is tempting in situations like that with big risks and thigh schedule to try to make the minimum impact on the code base. Try to &ldquo;smuggle&rdquo; the feature in without making any noise or big refactors. And TDD explicitly states a refactor on every iteration. I have been coding with TDD for a long time now, so I choose to really test the technique and prove to myself that TDD fits stressful situations as well. I went all in with TDD.</p>
+<h3 id="lets-code-the-first-test-battery-provide-data-to-the-ui">Let&rsquo;s code the first test battery: <strong>Provide data to the UI</strong></h3>
+<dl>
+<dt>:   My fellow from the UI needs to start working right away if we want to meet the date, so we decided a JSON contract for the UI to consume that seemed appropriate at the time, keeping in mind that when the black boxes starts to open, the contract may change.</dt>
+<dd>
+<p>So my first test was that given a certain input example, the API will response with the decided JSON. I just made an endpoint that will response the same mock JSON result every time. Both on the NodeJS service and the Java service. Like this:</p>
+</dd>
+<dd>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/tddAllIn//dataToUI.png" alt="Data to UI" />
+        </span></p>
+    
+
+
+</dd>
+<dd>
+<p>The UI developer has data to work with from day one, even before than he has the minimum framework to start showing the data. Now the only thing that I have to do is substitute all the pieces of that mocked JSON with the real results bit by bit and the User Interface will start to see real dynamic data little by little. All right, we have an strategy, let&rsquo;s open the boxes.</p>
+</dd>
+</dl>
+<h3 id="the-second-test-battery-communicating-with-the-third-party">The second test battery: <strong>Communicating with the third party</strong></h3>
+<dl>
+<dt>:   The difficult thing about the third party Java Micro-Service is that the input for the call is constructed from the user input file with the algorithms applied from the spaghetti code. So building this input is the tricky part.</dt>
+<dd>
+<p>I do a test named like this <em>&ldquo;thirdPartyServiceShouldReturnData&rdquo;</em> and what I code with that is just that the call to the third party service returns something. At the beginning it returns a well formed JSON informed that the input is incorrect, which makes sense because I haven&rsquo;t integrated the spaghetti code yet.</p>
+</dd>
+<dd>
+<p>This are good news because it means that the service won&rsquo;t break or send an exception when the input is wrong so I can little by little create the correct input. I have some examples of correct inputs, so I write a few more tests checking the correct responses. I also discover that the service will in fact respond exceptions when the input is not only wrong but totally malformed, so I test that as well. After this point I am sure that our service will be able to handle any response from the third party.</p>
+</dd>
+<dd>
+<p>Writing those tests, helped me understand how the third party service works, and how it reacts to different input combinations. First black box opened.</p>
+</dd>
+</dl>
+<h3 id="third-test-battery-changing-the-mock">Third test battery: <strong>Changing the mock</strong></h3>
+<dl>
+<dt>:   Until now, I was mocking the third party response but now I know hot to interact with the third party, and all the possible responses are tested. The black box is more or less opened and the service seems to respond ok for all situations.</dt>
+<dd>
+<p>I also have several examples of inputs for that service, so that is what I am going to mock instead of the response. Let&rsquo;s make the third party work and actually use the whole workflow, like this:</p>
+</dd>
+<dd>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/tddAllIn//mockedInput.png" alt="Mocking Input" />
+        </span></p>
+    
+
+
+</dd>
+</dl>
+<h3 id="fourth-test-battery-unraveling-the-mystery">Fourth test battery: <strong>Unraveling the mystery</strong></h3>
+<dl>
+<dt>:   At that point, I know that everything works if the third party service gets the proper input, so I only have to create the proper input using the data that the user provided on the UI and processing it with the logic on the spaghetti code. Let&rsquo;s start by trying to understand what the code does, how? well&hellip; writing tests. I wrote a series of little unit tests on the spaghetti code for what I thought were minor logic units. Due to test writing, I was able to understand the the code did three basic things:</dt>
+<dd>
+<p><strong>1 -</strong> Parse the user input into an input stream and use a third party library to create an object from that input stream.</p>
+</dd>
+<dd>
+<p><strong>2 -</strong> Read two configuration files (one xml and one textual) to determine the behaviour of the process desired.</p>
+</dd>
+<dd>
+<p><strong>3 -</strong> Apply the changes on the generated object from the conclusions extracted reading the configuration files.</p>
+</dd>
+<dd>
+<p>The result object contained all the information that I needed for the third party input service. Just a little tweaks here and there will be needed to match the expected input contract.</p>
+</dd>
+<dd>
+<p>With that understanding of the code, I could easily start implementing this three features on the correct place. About the <strong>first one</strong>, it is easy to test the parsing of a byte array and transform that into an input stream. About the <strong>second one</strong>, I can write tests about the configuration loading. I even include this new config files into the configuration system on our service that allows to change the configuration on real time. About the <strong>parsing of the result object</strong> into the proper input JSON&hellip; nothing that a few lambda expressions and a bit of functional programming can&rsquo;t do. Just messing around with collections and so.</p>
+</dd>
+<dd>
+<p>All three steps really easy to test, and so, to implement. Then put all three of them together and finally we obtain the following:</p>
+</dd>
+<dd>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/tddAllIn//final.png" alt="Mocking Input" />
+        </span></p>
+    
+
+
+</dd>
+</dl>
+<h2 id="the-conclusion">The conclusion</h2>
+<p>Not only am I happy to have chosen to use TDD, but I am completely convinced that it would not have worked otherwise. The risks of opening the boxes and little by little discover what they do is just simply too high to do it without a safety net.</p>
+<p>TDD is not an option to me anymore (it never really was). I think that I have tested the TDD technique in pretty much any real situation to be convinced that it is the way to go. I am not comfortable working without TDD anymore, and I don&rsquo;t really want to do it.</p>
+<p>Of course, I am open to new ways. I try to keep myself active into the developer community and I will check any new alternative that comes. But for now, while there is no better alternative, I am going all in with TDD.</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/tdd'>TDD</a></li>
+    
+        <li><a href='/categories/bdd'>BDD</a></li>
+    
+        <li><a href='/categories/architecture'>Architecture</a></li>
+    
+        <li><a href='/categories/test'>Test</a></li>
+    
+        <li><a href='/categories/design'>Design</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/gradletask/"
+                class="button big previous">One task to rule them all</a></li>
+    
+
+    
+        <li><a href="http://www.joantolos.com/blog/kata/"
+                class="button big next">Social Networking Kata</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

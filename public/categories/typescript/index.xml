@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typescript on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/typescript/</link>
+    <description>Recent content in Typescript on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to sort and paginate your table with Typescript</title>
+      <link>http://www.joantolos.com/blog/tablemanager/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tablemanager/</guid>
+      <description>You should always delegate your sorting and pagination needs to the data retriever engine that you are using. For example, if it is a classical relational database you should use ORDER BY, OFFSET, FETCH, LIMIT and whatever mechanisms you have available. Same thing with NoSQL databases. These things are designed to perform well when asking for this kind of sorting and pagination features. So, you should always go for them.</description>
+    </item>
+    
+    <item>
+      <title>Angular tutorial extended</title>
+      <link>http://www.joantolos.com/blog/angulartutorial/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/angulartutorial/</guid>
+      <description>If you follow the  Angular tutorial , you will start building the &amp;lsquo;Tour of Heroes&amp;rsquo; App and learn the basics from Angular. I always struggle with front-end frameworks so I decided to do the tutorial as we are switching to Angular 5 on my current project. I really recommend to do the tutorial.
+Other than my usual struggle with Javascript, I have to say that TypeScript comes more natural and &amp;ldquo;logic&amp;rdquo; to me.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/git/</link>
+    <description>Recent content in Git on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One task to rule them all</title>
+      <link>http://www.joantolos.com/blog/gradletask/</link>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/gradletask/</guid>
+      <description>Trying to learn a little bit more about how Gradle deals with tasks and how to execute them in an specific order.
+The problem I was asked for help on a project dealing with Gradle task and what is seemed like a simple ordering task problem. The set up is the following:
+
+This is a simplification of the project layout, where names have been changed. We have a module that creates files and another module that consumes the files.</description>
+    </item>
+    
+    <item>
+      <title>The code that should not be</title>
+      <link>http://www.joantolos.com/blog/thecodethatshouldnotbe/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/thecodethatshouldnotbe/</guid>
+      <description>Some thoughts about the amount of code you write that never see production and how to take it.
+The context We were asked to implement a new feature, let&amp;rsquo;s say, selling apples. Not groceries, not fruits, just apples. Well, maybe on the next Sprint we will add bananas to sell as well. But that&amp;rsquo;s it, apples now and bananas later.
+We all love to code for lists instead of instances, so the coder assigned to the task designed a beautiful code supporting a whole list of fruits, even it was clear from the start that business just needed apples for now.</description>
+    </item>
+    
+  </channel>
+</rss>

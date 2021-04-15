@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conflict on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/conflict/</link>
+    <description>Recent content in conflict on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/conflict/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conflict resolution tip</title>
+      <link>http://www.joantolos.com/blog/conflict_solving_tip/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/conflict_solving_tip/</guid>
+      <description>When dealing with a conflict at work, you want to reach a win-win situation where both parts are satisfied. Some other quick solutions, like just voting among the team, still leaves a winner and a loser even if the process has been “just” or at least consensual with all the team. This kind of situations, can grow resentment among the members of the team and can create a big price to pay in the future.</description>
+    </item>
+    
+  </channel>
+</rss>

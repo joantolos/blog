@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mars on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/mars/</link>
+    <description>Recent content in Mars on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/mars/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code coverage as a tool</title>
+      <link>http://www.joantolos.com/blog/katamarsrover/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katamarsrover/</guid>
+      <description>I want to explain how I use the code coverage as a tool when I code. I don&amp;rsquo;t really care for the final number of test coverage, if you code using TDD this number will be very high anyway. I don&amp;rsquo;t think that we can trust the quality of our code by some test coverage percentage, we all know that figures can be easily hacked, so there is no point on taking much attention at the final count.</description>
+    </item>
+    
+  </channel>
+</rss>

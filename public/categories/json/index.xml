@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>json on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/json/</link>
+    <description>Recent content in json on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/json/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dealing with JSON in Java</title>
+      <link>http://www.joantolos.com/blog/dealing_with_json_in_java/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/dealing_with_json_in_java/</guid>
+      <description>I have been working with Javascript for a while (TypeScript actually) and one of the features that I found interesting is the way you can deal with JSON with javascript. Create, modify and manipulate a JSON object with javascript is very easy and intuitive. It actually allows you to do whatever you want so you may break the JSON if you are not careful.
+Trying to do this kind of manipulations with Java is possible, but does not come out of the box and some libraries will be needed.</description>
+    </item>
+    
+  </channel>
+</rss>

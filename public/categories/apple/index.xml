@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apple on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/apple/</link>
+    <description>Recent content in apple on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/apple/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing date on exported videos from Apple&#39;s Photos</title>
+      <link>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</guid>
+      <description>I have been dealing with an annoying problem when using the app Photos on Mac OS.
+I sort my photos and videos by years and Photos has a nice feature to create &amp;ldquo;smart albums&amp;rdquo; where you can sort the content by different criteria like &amp;ldquo;file name contains&amp;hellip;&amp;rdquo; and things like that. At the end of the year, I make an export of all the content for the last year and store it as an archive in a remote hard drive in case Photos stops working, or I have to reset the computer or something, so I don&amp;rsquo;t loose the photos and videos.</description>
+    </item>
+    
+  </channel>
+</rss>

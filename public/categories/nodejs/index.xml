@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NodeJS on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/nodejs/</link>
+    <description>Recent content in NodeJS on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>6 tools to help you do TDD with NodeJS</title>
+      <link>http://www.joantolos.com/blog/javascripttrifecta/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/javascripttrifecta/</guid>
+      <description>I am using NodeJS more and more to implement middleware services instead of Java. That means that I am dealing with Javascript on a daily basis. In order to add features with guaranties, I code with TDD ( and only TDD ) and that means that I need a few tools to code comfortably:
+ Some BDD or asserting framework Some Code Coverage framework ( I use code coverage to inspire refactors ) Some mocking device  Mocha  Mocha is a feature-rich JavaScript test framework running on Node.</description>
+    </item>
+    
+  </channel>
+</rss>

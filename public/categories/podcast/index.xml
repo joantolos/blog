@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/podcast/</link>
+    <description>Recent content in Podcast on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How do I do it?</title>
+      <link>http://www.joantolos.com/blog/doit/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/doit/</guid>
+      <description>From time to time somebody ask me how do I do it meaning, how I manage to do all the things that I do besides the normal activity of work and family.
+Here the things that I do on my spare time:
+ Read books Write blog posts Play guitar Work on my pet project Exercise  So people ask me, how I have the time to do that things. As if somebody can have time.</description>
+    </item>
+    
+  </channel>
+</rss>

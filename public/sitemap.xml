@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/apple/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/java/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/metadata/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/photos/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/tdd/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/video/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/angular/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/cli/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/html/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/kata/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/single_page_seed_with_angular/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/ethics/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/productivity/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/psychology/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/the_road_to_digital_redemption/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/heroku/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/hibernate/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/postgres/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/spring/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/test/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/iteration_over_repetition/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/conflict/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/conflict_solving_tip/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/social_network_case_study/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/dealing_with_json_in_java/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/gradle/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/json/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/either_lead_follow_or_get_out_of_the_way/</loc>
+    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/tablemanager/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/javascript/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/typescript/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/lockdown/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/goals/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/meditation/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/stoicism/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/leadership/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/teamlead/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/katahashtaggenerator/</loc>
+    <lastmod>2020-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/katasongsapi/</loc>
+    <lastmod>2019-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/fumes/</loc>
+    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/actionbias/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/conference/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/jbcnconf2019/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/jbcnconf/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/talks/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/imposter/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/mergeobject/</loc>
+    <lastmod>2019-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/recursion/</loc>
+    <lastmod>2019-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/reflection/</loc>
+    <lastmod>2019-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/antlr/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/antlr4/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/tutorial/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/clean-code/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/refactoring/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/tddcasestudy/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/extremeownership/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/seal/</loc>
+    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/jbcnconf2018/</loc>
+    <lastmod>2018-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/quickfix/</loc>
+    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/javascripttrifecta/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/nodejs/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/algorithm/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/katacodejam/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/exercise/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/doit/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/podcast/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/about/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/store/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/craftsmanship/</loc>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/hatejob/</loc>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/code-coverage/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/katamarsrover/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/mars/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/tennis/</loc>
+    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/katatennis/</loc>
+    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/angulartutorial/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/ai/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/ai/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/long-read/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/uoc/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/architecture/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/bdd/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/design/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/kata/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/tddallin/</loc>
+    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/git/</loc>
+    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/gradletask/</loc>
+    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/thecodethatshouldnotbe/</loc>
+    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/readability/</loc>
+    <lastmod>2017-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/readability/</loc>
+    <lastmod>2017-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/clusterssh/</loc>
+    <lastmod>2016-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/devops/</loc>
+    <lastmod>2016-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/ssh/</loc>
+    <lastmod>2016-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/tool/</loc>
+    <lastmod>2016-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/testdrivenarchitecture/</loc>
+    <lastmod>2016-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/xp/</loc>
+    <lastmod>2016-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/cobertura/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/cobertura/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/blog/cucumber/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/categories/maven/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/books/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/podcast/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.joantolos.com/tags/</loc>
+  </url>
+  
+</urlset>

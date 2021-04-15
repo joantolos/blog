@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Long Read on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/long-read/</link>
+    <description>Recent content in Long Read on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/long-read/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://www.joantolos.com/blog/ai/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/ai/</guid>
+      <description>I have done an introduction to Artificial Intelligence (AI) course and I want to share my learning experience. This post covers my notes and summaries of the content of the course.
+History On the early sixties, there was a gathering between several investigators interested on artificial intelligence, neural networks and automats theory as a consequence of the first works made on the field.
+The following years there was a lot of progress on the field and several programs were design to solve numerous problems:</description>
+    </item>
+    
+  </channel>
+</rss>

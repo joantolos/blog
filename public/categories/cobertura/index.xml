@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cobertura on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/cobertura/</link>
+    <description>Recent content in Cobertura on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/cobertura/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cobertura and Maven</title>
+      <link>http://www.joantolos.com/blog/cobertura/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cobertura/</guid>
+      <description>The problem Most of developers have used or heard about Cobertura tool to calculate test coverage on Java code. The main problem with that tool is that is difficult to use inside a multi-module maven project, where some module contains tests that uses java classes on several other modules. The result on that cases is a poor coverage or zero percent, just because is not taking into account all the modules implies.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber, Java and BDD</title>
+      <link>http://www.joantolos.com/blog/cucumber/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cucumber/</guid>
+      <description>Some context Behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). It combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development.
+BDD tools Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialised software tools to support the development process.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1679 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Single page seed with Angular</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="Angular client tutorial deployed">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Single page seed with Angular"/>
+<meta name="twitter:description" content="Angular client tutorial deployed"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="Single page seed with Angular" />
+<meta property="og:description" content="Angular client tutorial deployed" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/single_page_seed_with_angular/" />
+<meta property="article:published_time" content="2021-03-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-10T00:00:00+00:00" />
+
+        <meta itemprop="name" content="Single page seed with Angular">
+<meta itemprop="description" content="Angular client tutorial deployed">
+<meta itemprop="datePublished" content="2021-03-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-03-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1689">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f&text=Single%20page%20seed%20with%20Angular&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f&title=Single%20page%20seed%20with%20Angular" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f&title=Single%20page%20seed%20with%20Angular" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h1>
+            
+        
+        
+            <p>Angular client tutorial deployed</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2021-03-10'>
+            March 10, 2021</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>8 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f&text=Single%20page%20seed%20with%20Angular&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f&title=Single%20page%20seed%20with%20Angular" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f&title=Single%20page%20seed%20with%20Angular" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fsingle_page_seed_with_angular%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/" class="image featured">
+            <img src="/img/angularCli//pic01.png" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <p>We are using the Angular client on my job now and I wanted to do a tutorial to learn the basics. I already did the 
+
+    
+        
+    
+
+    <a href="http://www.joantolos.com/blog/angulartutorial/" target='_blank'>Tour of heroes tutorial</a>
+
+
+ but it was a long time ago and since I don&rsquo;t code much front end usually, I could use a refresh.</p>
+<p>I need an excuse, thought. If I am making a single page webapp and deploy it, I want it to be useful somehow, not just an exercise. Cue to the most ridiculous app idea you probably read:</p>
+<h1 id="lazy-oven">Lazy oven</h1>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/angularCli//logo.png" alt="Logo" />
+        </span></p>
+    
+
+
+<p>Ok, it was last Christmas holidays. It was my wife&rsquo;s turn to put the kids to sleep and we decided to have a late dinner afterwards. Some frozen salmon cake made on the oven. While she is telling bedtime stories and singing lullabies, I am making dinner so when the kids are sleep, we can have a bite and maybe watch a TV show if we don&rsquo;t fall sleep.</p>
+<p>Anyway, when cooking on the oven we have to take into account the time to heat the oven, the time cooking and some minutes after to let the dish cool off a little before start eating. My question is&hellip; if we want to start eating at 22:30 and the dish takes 25 minutes to cook, when do I have to start the oven, put in the dish and put it out? A simple subtraction, I know, but it bothers me. Suddenly, it hit me: I want a simple single web app where I can put the time when I want to start eating and the time that takes to cook the dish and then it tells me when to start the oven, put in the dish and put it out.</p>
+<p>I am going to write an example because the pure complexity of the problem may be too much&hellip;</p>
+<blockquote>
+<p>I want to eat at 22:00 and the (let&rsquo;s say) pizza, takes 15 minutes to cook, I have to start the oven at 21:30, put the pizza at 21:40 and put it out at 21:55, wait for five minutes and eat at 22:00.</p>
+</blockquote>
+<p>It is ridiculous, I know, but trust me that I will be using it more than twice.</p>
+<h1 id="hands-on">Hands on</h1>
+<p>First step on the Angular CLI tutorial, is to actually install the CLI on your machine:</p>
+<pre><code>npm install -g @angular/cli
+</code></pre>
+<p>Now is the time to create, build, and serve a new, basic Angular project on a development server, go to the parent directory of your new workspace use the following commands:</p>
+<pre><code>ng new kata-lazy-oven
+cd kata-lazy-oven
+ng serve
+</code></pre>
+<p>You can now go to localhost:4200 and see the welcome page from Angular:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/angularCli//welcome.png" alt="Welcome from Angular" />
+        </span></p>
+    
+
+
+<p>Now, this page is not much, but it is something deployable. Before going into modifying this page or adding our Angular components and whatnot, let&rsquo;s just figure out a way to deploy this default app into Heroku.</p>
+<h1 id="deploying-on-heroku">Deploying on Heroku</h1>
+<p>
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+ is awesome. I use it for all of my little pet projects and every time that I try some need language or&hellip; well, everything that I do, I try to deploy it to production on 
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+. That way I deal with the problems and difficulties of pushing the code to production environment and that makes the whole learning experience way more real. Everything works on localhost, always. When you have to deal with a real database and a real environment, you will face problems that will provide you very useful skills.</p>
+<ol>
+<li>Create an account on Heroku if you don&rsquo;t already have one.</li>
+<li>Create the app &ldquo;kata-lazy-oven&rdquo; (or any other name that you like but it will have to be consistent with the one on the code)</li>
+<li>Connect your app to your github repo where you have the code. You can configure it to build and deploy on every push. There are a lot of continuous delivery and integration that Heroku offers out of the box</li>
+</ol>
+<p>
+
+    
+        
+    
+
+    <a href="www.heroku.com" target='_blank'>Heroku</a>
+
+
+ offers a lot of cool features like logging, a bunch of add-ons and a lot of them go for free. Don&rsquo;t miss it.</p>
+<h2 id="modifying-the-angular-default-app-to-be-deployed-on-heroku">Modifying the Angular default app to be deployed on Heroku</h2>
+<p>We have to do several minor modifications on the code generated by de Angular client.</p>
+<h3 id="using-express">Using express</h3>
+<p>We are going to need something to serve our files. Let’s go with 
+
+    
+        
+    
+
+    <a href="https://expressjs.com/" target='_blank'>Express</a>
+
+
+. We will also need “path” to setup our server.</p>
+<blockquote>
+<p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.</p>
+</blockquote>
+<pre><code>npm install --save express path
+</code></pre>
+<p>Create a server file. In your main application directory create a file called server.js and add the following code:</p>
+<pre><code>const express = require('express');
+const path = require('path');
+const app = express();
+
+// Serve static files....
+app.use(express.static(__dirname + '/dist/kata-lazy-oven'));
+
+// Send all requests to index.html
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname + '/dist/kata-lazy-oven/index.html'));
+});
+
+// default Heroku PORT
+app.listen(process.env.PORT || 8080);
+</code></pre>
+<h3 id="proper-scripts-configuration">Proper scripts configuration</h3>
+<p>When we push code to Heroku, the scripts listed in the package.json file will be consulted, and if we have any preinstall or postinstall scripts, they will be run at the appropriate times. What we want to do in this scenario is have the build command run after the dependencies have been installed.</p>
+<p>So, open the package.json file, add this postinstall script and change the start script from &ldquo;ng serve&rdquo; to &ldquo;node server.js&rdquo;:</p>
+<pre><code>&quot;scripts&quot;: {
+   ...
+   &quot;start&quot;: &quot;node server.js&quot;,
+   &quot;postinstall&quot;: &quot;ng build --aot --prod&quot;
+ }
+</code></pre>
+<p>Now we are not using the Angular client anymore to start our app but Node with Express, so, on your local terminal you can go:</p>
+<pre><code>npm start
+</code></pre>
+<p>And the app will start on localhost:8080 which is the port we put on the server.js file.</p>
+<h3 id="push-to-git-check-the-app">Push to GIT, check the app</h3>
+<p>If you have configured your app on Heroku to deploy when a changed is pushed to the repository, the build will be already in progress. If not, just deploy the app, wait until the build is finished and check the url:</p>
+<p><a href="https://kata-lazy-oven.herokuapp.com/">https://kata-lazy-oven.herokuapp.com/</a></p>
+<p>At this point in time, you should see the exact same Angular welcome page that you see on localhost. It doesn&rsquo;t do much, but it is something online. Of course, I have named the app &ldquo;kata-lazy-oven&rdquo;, but you can named it as you wish.</p>
+<h1 id="angular-router-tutorial">Angular router tutorial</h1>
+<p>I am going to quickly sum up the routes tutorial with the simple modifications that I made for this app. I recommend you follow 
+
+    
+        
+    
+
+    <a href="https://angular.io/guide/router-tutorial" target='_blank'>the actual tutorial here.</a>
+
+
+</p>
+<p>First, create the two components we are going to use, settings and recipe:</p>
+<pre><code>ng generate component settings
+ng generate component recipe
+ng generate component page-not-found
+</code></pre>
+<p>On the settings we are going to set up the input data and on the recipe we will show the final result. That way we can play a bit with passing data from component to component. We will also use a component for when a non-existing page is requested.</p>
+<p>In your code editor, locate the file, settings.component.html and replace the placeholder content with the following HTML.</p>
+<pre><code>&lt;h3&gt;Settings&lt;/h3&gt;
+&lt;p&gt;Settings here&lt;/p&gt;
+</code></pre>
+<p>In your code editor, locate the file, steps.component.html and replace the placeholder content with the following HTML.</p>
+<pre><code>&lt;h3&gt;Recipe&lt;/h3&gt;
+&lt;p&gt;Recipe here&lt;/p&gt;
+</code></pre>
+<p>In your code editor, locate the file, page-not-found.component.html and replace the placeholder content with the following HTML.</p>
+<pre><code>&lt;h2&gt;Page Not Found&lt;/h2&gt;
+&lt;p&gt;We couldn't find that page! Not even with x-ray vision.&lt;/p&gt;
+</code></pre>
+<p>Then, we should add some styles&hellip; these are the styles suggested on the tutorial:</p>
+<pre><code>.button {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  outline: 0;
+}
+.activebutton {
+  box-shadow: inset 0px 1px 0px 0px #dcecfb;
+  background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+  background-color: #bddbfa;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+  outline: 0;
+}
+</code></pre>
+<p>Put them on &ldquo;app.component.css&rdquo;</p>
+<p>Then, on app.component.html, you can add the basic two buttons to navigate between routes:</p>
+<pre><code>&lt;h1&gt;Lazy Oven&lt;/h1&gt;
+
+&lt;router-outlet&gt;&lt;/router-outlet&gt;
+
+&lt;nav&gt;
+  &lt;a class=&quot;button&quot; routerLink=&quot;/settings&quot; routerLinkActive=&quot;activebutton&quot;&gt;Settings&lt;/a&gt; |
+  &lt;a class=&quot;button&quot; routerLink=&quot;/recipe&quot; routerLinkActive=&quot;activebutton&quot;&gt;Recipe&lt;/a&gt;
+&lt;/nav&gt;
+</code></pre>
+<p>Last, add the proper declarations and imports the app.module.ts file:</p>
+<pre><code>declarations: [
+  AppComponent,
+  PageNotFoundComponent,
+  SettingsComponent,
+  StepsComponent
+],
+imports: [
+  BrowserModule,
+  RouterModule.forRoot([
+    {path: 'settings', component: SettingsComponent},
+    {path: 'recipe', component: RecipeComponent},
+    {path: '', redirectTo: '/settings', pathMatch: 'full'},
+    {path: '**', component: PageNotFoundComponent}
+  ]),
+],    
+</code></pre>
+<p>Again, check out the actual tutorial for more details.</p>
+<p>After those modifications you should see the following when starting the app on localhost with &ldquo;ng serve&rdquo;:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/angularCli//tutorial.gif" alt="Tutorial" />
+        </span></p>
+    
+
+
+<h1 id="lazy-oven-business-logic">Lazy oven business logic</h1>
+<p>The application logic is encapsulated into two pages:</p>
+<ul>
+<li>The settings page where you can put your eating time and the cooking time of the meals</li>
+<li>The recipe page where you can see the results and see when do you have to do the different steps</li>
+</ul>
+<p>So, the app will have page three components, one for hosting the whole app, one for the settings and another one for the results. The only tricky part is to pass the data from the settings page to the result page, so it can calculate and render the result. I am doing this with a generic service that will store the data input from the settings page, modify it and calculate the final times.</p>
+<p>This service, which I called simply &ldquo;lazy-oven.service&rdquo;, allows to store the data from one component to be used on the other and also mades the calculations needed. That is the only tricky part of the application.</p>
+<h1 id="take-over">Take over</h1>
+<p>Here is the code: <a href="https://github.com/joantolos/kata-lazy-oven">https://github.com/joantolos/kata-lazy-oven</a> and here is the application deployed: <a href="https://kata-lazy-oven.herokuapp.com/">https://kata-lazy-oven.herokuapp.com/</a></p>
+<p>Now I only have to apply some cool styles and design so the pages look nice. I will probably spend the rest of my life doing that because I really suck with HTML and CSS. This was the point of these exercise: learn about Angular, HTML, CSS and fight with the browser.</p>
+<p>If you visit the deployed application on Heroku, you will probably see something broken because I will be playing with styles and pages so it looks nice.</p>
+<h3 id="references">References:</h3>
+<ul>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://angular.io/guide/router-tutorial" target='_blank'>Using Angular routes in a single-page application</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://codemeals.com/angular-tutorials/deploy-angular-7-app-to-heroku/" target='_blank'>Deploy Angular 7 App to Heroku</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://expressjs.com/" target='_blank'>Express</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://medium.com/front-end-weekly/sharing-data-between-angular-components-f76fa680bf76" target='_blank'>Sharing Data Between Angular Components</a>
+
+
+</em></li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/angular'>angular</a></li>
+    
+        <li><a href='/categories/html'>html</a></li>
+    
+        <li><a href='/categories/cli'>cli</a></li>
+    
+        <li><a href='/categories/kata'>kata</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"
+                class="button big previous">The road to digital redemption</a></li>
+    
+
+    
+        <li><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"
+                class="button big next">Fixing date on exported videos from Apple&#39;s Photos</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

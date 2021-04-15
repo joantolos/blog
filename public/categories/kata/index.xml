@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kata on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/kata/</link>
+    <description>Recent content in Kata on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/kata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Single page seed with Angular</title>
+      <link>http://www.joantolos.com/blog/single_page_seed_with_angular/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/single_page_seed_with_angular/</guid>
+      <description>We are using the Angular client on my job now and I wanted to do a tutorial to learn the basics. I already did the Tour of heroes tutorial but it was a long time ago and since I don&amp;rsquo;t code much front end usually, I could use a refresh.
+I need an excuse, thought. If I am making a single page webapp and deploy it, I want it to be useful somehow, not just an exercise.</description>
+    </item>
+    
+    <item>
+      <title>Kata hashtag generator</title>
+      <link>http://www.joantolos.com/blog/katahashtaggenerator/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katahashtaggenerator/</guid>
+      <description>Our community manager needs a software to generate a single text sentence containing all the desired hashtags. The main feature is that it has to be quick and easy to use. Just copy from the software and paste into the social media post.
+Requirements Given a static finite list of words, we want a single string containing a random sub set of said words, separated by spaces and preceded with the character #.</description>
+    </item>
+    
+    <item>
+      <title>6 tools to help you do TDD with Java and Spring Cloud</title>
+      <link>http://www.joantolos.com/blog/katasongsapi/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katasongsapi/</guid>
+      <description>I am always trying to manifest the benefits of TDD (see: The real reason why you don&amp;#39;t like TDD and TDD: All in ). Most of the times when I find colleges that “can’t” do it right away it is because their software is not “TDD ready” meaning that it is difficult to test. Solving that pitfall alone is going to improve your software because good code is easy to test, generally speaking.</description>
+    </item>
+    
+    <item>
+      <title>Code Jam Kata</title>
+      <link>http://www.joantolos.com/blog/katacodejam/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katacodejam/</guid>
+      <description>A few days ago, I was struggling at work with a simple implementation of sorting a couple of arrays. I was coding it in a language that I am not so good at: Javascript. I asked for help to one of my peers, we shared the pain for a little while and finally we got it.
+Since it was such a simple &amp;ldquo;exercise looking&amp;rdquo; problem, I remember saying: this looks like the typical exercise they ask you to solve on an interview, and both of us struggled for a while with such a simple problem.</description>
+    </item>
+    
+    <item>
+      <title>Code coverage as a tool</title>
+      <link>http://www.joantolos.com/blog/katamarsrover/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katamarsrover/</guid>
+      <description>I want to explain how I use the code coverage as a tool when I code. I don&amp;rsquo;t really care for the final number of test coverage, if you code using TDD this number will be very high anyway. I don&amp;rsquo;t think that we can trust the quality of our code by some test coverage percentage, we all know that figures can be easily hacked, so there is no point on taking much attention at the final count.</description>
+    </item>
+    
+    <item>
+      <title>Tennis Kata</title>
+      <link>http://www.joantolos.com/blog/katatennis/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katatennis/</guid>
+      <description>For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>Social Networking Kata</title>
+      <link>http://www.joantolos.com/blog/kata/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/kata/</guid>
+      <description>Introducing katas  For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+  </channel>
+</rss>

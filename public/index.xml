@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joan Tolos</title>
+    <link>http://www.joantolos.com/</link>
+    <description>Recent content on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing date on exported videos from Apple&#39;s Photos</title>
+      <link>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</guid>
+      <description>I have been dealing with an annoying problem when using the app Photos on Mac OS.
+I sort my photos and videos by years and Photos has a nice feature to create &amp;ldquo;smart albums&amp;rdquo; where you can sort the content by different criteria like &amp;ldquo;file name contains&amp;hellip;&amp;rdquo; and things like that. At the end of the year, I make an export of all the content for the last year and store it as an archive in a remote hard drive in case Photos stops working, or I have to reset the computer or something, so I don&amp;rsquo;t loose the photos and videos.</description>
+    </item>
+    
+    <item>
+      <title>Single page seed with Angular</title>
+      <link>http://www.joantolos.com/blog/single_page_seed_with_angular/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/single_page_seed_with_angular/</guid>
+      <description>We are using the Angular client on my job now and I wanted to do a tutorial to learn the basics. I already did the Tour of heroes tutorial but it was a long time ago and since I don&amp;rsquo;t code much front end usually, I could use a refresh.
+I need an excuse, thought. If I am making a single page webapp and deploy it, I want it to be useful somehow, not just an exercise.</description>
+    </item>
+    
+    <item>
+      <title>The road to digital redemption</title>
+      <link>http://www.joantolos.com/blog/the_road_to_digital_redemption/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/the_road_to_digital_redemption/</guid>
+      <description>The Internet is forever. I am going to use an example of the comedy industry to illustrate the point of this post, but it can be extrapolated to any aspect of life. Comedy has been always a risky business in the sense of offending people and going &amp;ldquo;over the line&amp;rdquo;, it is actually part of the skill, to know when to push and when to pull back. If we take a look at old comedy movies or acts, we are going to see and hear stuff that sounds really offensive to our modern eyes.</description>
+    </item>
+    
+    <item>
+      <title>Java, Spring and Hibernate microservice seed</title>
+      <link>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</guid>
+      <description>I am frequently doing posts about TDD and trying to facilitate code seeds with everything in place to work with TDD, for example here or here .
+This time I want to provide a step by step guide for a microservice that will work with Java, Spring, Hibernate and Postgres that will be TDD ready from localhost all the way up to production. The challenge here, is to set up a comfortable way to test when dealing with a database and Spring.</description>
+    </item>
+    
+    <item>
+      <title>Iteration over repetition</title>
+      <link>http://www.joantolos.com/blog/iteration_over_repetition/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/iteration_over_repetition/</guid>
+      <description>Let’s explore the difference between repetition and iteration. When you repeat something, you are doing the same thing several times. When you iterate over something you are building over the previous outcome. Let’s choose the proper tool (repetition or iteration) wisely.
+Agile example One example that we may found familiar is the concept of agile development. The whole point is to deliver working software (remember: working software over documentation ) so we can listen to the feedback early on.</description>
+    </item>
+    
+    <item>
+      <title>Conflict resolution tip</title>
+      <link>http://www.joantolos.com/blog/conflict_solving_tip/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/conflict_solving_tip/</guid>
+      <description>When dealing with a conflict at work, you want to reach a win-win situation where both parts are satisfied. Some other quick solutions, like just voting among the team, still leaves a winner and a loser even if the process has been “just” or at least consensual with all the team. This kind of situations, can grow resentment among the members of the team and can create a big price to pay in the future.</description>
+    </item>
+    
+    <item>
+      <title>Social network case study</title>
+      <link>http://www.joantolos.com/blog/social_network_case_study/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/social_network_case_study/</guid>
+      <description>A naive experiment: I have been publishing a lot lately into two social networks: Twitter and Linkedin. The idea was to see how a lot of activity would impact in the relevance of my profiles. In order to do that, first I compiled a long list of publications composed by my own blog posts, so I just had to copy/paste into the platforms.
+The only criteria was to just publish every day, no other consideration like time of the day or kind of publication was considered.</description>
+    </item>
+    
+    <item>
+      <title>Dealing with JSON in Java</title>
+      <link>http://www.joantolos.com/blog/dealing_with_json_in_java/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/dealing_with_json_in_java/</guid>
+      <description>I have been working with Javascript for a while (TypeScript actually) and one of the features that I found interesting is the way you can deal with JSON with javascript. Create, modify and manipulate a JSON object with javascript is very easy and intuitive. It actually allows you to do whatever you want so you may break the JSON if you are not careful.
+Trying to do this kind of manipulations with Java is possible, but does not come out of the box and some libraries will be needed.</description>
+    </item>
+    
+    <item>
+      <title>Either lead, follow or get out of the way</title>
+      <link>http://www.joantolos.com/blog/either_lead_follow_or_get_out_of_the_way/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/either_lead_follow_or_get_out_of_the_way/</guid>
+      <description>Lead, follow or get out of the way is a phrase widely used, specially on military context. It&amp;rsquo;s attributed to several people: Thomas Paine (American political activist, philosopher), general Patton or even leaders of civil industries. I want to talk about it in the context of a software creation team.
+Committed or involved It is often used on the agile community a reference to the business fable of the chicken and the pig , sometimes represented with a cartoon like:</description>
+    </item>
+    
+    <item>
+      <title>How to sort and paginate your table with Typescript</title>
+      <link>http://www.joantolos.com/blog/tablemanager/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tablemanager/</guid>
+      <description>You should always delegate your sorting and pagination needs to the data retriever engine that you are using. For example, if it is a classical relational database you should use ORDER BY, OFFSET, FETCH, LIMIT and whatever mechanisms you have available. Same thing with NoSQL databases. These things are designed to perform well when asking for this kind of sorting and pagination features. So, you should always go for them.</description>
+    </item>
+    
+    <item>
+      <title>Days of isolation</title>
+      <link>http://www.joantolos.com/blog/lockdown/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/lockdown/</guid>
+      <description>As the world is facing the pandemic caused by this new Coronavirus strain, most of my colleagues and myself are forced to work from home. I want to share my experience working without leaving the house.
+Particular circumstances I want to point out that this is not just &amp;ldquo;working from home&amp;rdquo;, these are extreme circumstances.
+In my case, the most defining one is the fact that the schools are closed. That means that my two kids (which are four and two) have to be with my wife and myself at home and due to their ages, we can not leave them alone.</description>
+    </item>
+    
+    <item>
+      <title>My brief experience as team lead</title>
+      <link>http://www.joantolos.com/blog/teamlead/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/teamlead/</guid>
+      <description>I had the opportunity of take over my manager role for a brief period of time due to his parenting absence. I was doing it kind of informally when he was on vacation or had a sick day or something. This time it was for a longer and delimited period so we kind of &amp;ldquo;formalised&amp;rdquo; the whole thing.
+I have to say, this time, I was really happy coding and had a very nice plan for the year (this role change was happening on January) and I didn&amp;rsquo;t take the new responsibility with a lot of enthusiasm.</description>
+    </item>
+    
+    <item>
+      <title>Kata hashtag generator</title>
+      <link>http://www.joantolos.com/blog/katahashtaggenerator/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katahashtaggenerator/</guid>
+      <description>Our community manager needs a software to generate a single text sentence containing all the desired hashtags. The main feature is that it has to be quick and easy to use. Just copy from the software and paste into the social media post.
+Requirements Given a static finite list of words, we want a single string containing a random sub set of said words, separated by spaces and preceded with the character #.</description>
+    </item>
+    
+    <item>
+      <title>6 tools to help you do TDD with Java and Spring Cloud</title>
+      <link>http://www.joantolos.com/blog/katasongsapi/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katasongsapi/</guid>
+      <description>I am always trying to manifest the benefits of TDD (see: The real reason why you don&amp;#39;t like TDD and TDD: All in ). Most of the times when I find colleges that “can’t” do it right away it is because their software is not “TDD ready” meaning that it is difficult to test. Solving that pitfall alone is going to improve your software because good code is easy to test, generally speaking.</description>
+    </item>
+    
+    <item>
+      <title>Running on fumes</title>
+      <link>http://www.joantolos.com/blog/fumes/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/fumes/</guid>
+      <description>It is desirable to be physically healthy. When we are out of shape we suffer the consequences rapidly and we want to abandon that situation as soon as possible and regain our health.
+We also see the benefits of being not only healthy but fit. The main difference between healthy and fit that I want to use for make the point of this post is:
+When you are healthy, you are ok.</description>
+    </item>
+    
+    <item>
+      <title>Action bias</title>
+      <link>http://www.joantolos.com/blog/actionbias/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/actionbias/</guid>
+      <description>Imagine a simple task: we want to go to the venue of the next conference by walking. We have the essential skill to achieve the goal, we know how to walk. So we go down the street and start walking going around the block over and over. Then we ask ourselves why we never arrive to the place. Ring any bell?
+Our perceptions are sometimes deceiving because movement is perceived as progress.</description>
+    </item>
+    
+    <item>
+      <title>JBCN Conf 2019</title>
+      <link>http://www.joantolos.com/blog/jbcnconf2019/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/jbcnconf2019/</guid>
+      <description>The conference This conference has been growing year by year and now is one of the referents. I have been lucky enough to be able to attend to all the editions until now.
+The JBCNConf is a meeting point for programmers, developers and development professionals, who meet to do networking and learn about the Java world and its latest developments.
+The event is organised by Barcelona JUG (Barcelona Java Users Group) , a non-profit association made up of programmers, engineers and other technology lovers.</description>
+    </item>
+    
+    <item>
+      <title>The imposter syndrome</title>
+      <link>http://www.joantolos.com/blog/imposter/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/imposter/</guid>
+      <description>I was talking with an ex peer some time ago. We were talking about taking new chances and moving on from one job to another. I told him that sometimes I feel like I am asking too much and I have doubts of my potential. Then he told me that this is called the imposter syndrome and that it happens to him as well. That was the first time I heard the expression, then I started to take a look and research a little bit.</description>
+    </item>
+    
+    <item>
+      <title>Merging two objects in Java</title>
+      <link>http://www.joantolos.com/blog/mergeobject/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/mergeobject/</guid>
+      <description>I am working with a micro-service which relays a lot on configuration. This configuration is defined on JSON files that business people can edit in order to change the service behaviour. For example, enable or disable features, define default values, etc&amp;hellip; The service includes a mechanism that allows to update this configuration files on real time as soon as the file is updated (using the Netflix API: Archaius )
+The business people can mess around with the behaviour of the service just editing JSON files.</description>
+    </item>
+    
+    <item>
+      <title>ANTLR with a Gradle Multi Project</title>
+      <link>http://www.joantolos.com/blog/antlr/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/antlr/</guid>
+      <description>ANTLR is a parser generator, a tool that helps you to create parsers. A parser takes a piece of text and transforms it in an organised structure, such as an Abstract Syntax Tree (AST). You can think of the AST as a story describing the content of the code, or also as its logical representation, created by putting together the various pieces.
+The three basic steps to get an AST are:</description>
+    </item>
+    
+    <item>
+      <title>The real reason why you don&#39;t like TDD</title>
+      <link>http://www.joantolos.com/blog/tddcasestudy/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tddcasestudy/</guid>
+      <description>Have you ever read somebody&amp;rsquo;s code and thought: &amp;ldquo;that is just beautiful, I wish I could code like this&amp;rdquo;? The answer is simple: nobody codes like this at first attempt. Good code is always the result of several refactoring, iterations, reviews and improvements. Most of the time made by more than one person.
+So the goal as developers should be to write the best code that we can. In order to do that we should consider has many tools and techniques as possible.</description>
+    </item>
+    
+    <item>
+      <title>My thoughts on Extreme Leadership</title>
+      <link>http://www.joantolos.com/blog/extremeownership/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/extremeownership/</guid>
+      <description>Extreme leadership is a book by Jocko Willink and Leif Babin about how U.S. Navy SEALs lead and win.
+The premise of this book is very interesting. The authors are two former Navy SEALs:
+The navy SEALs are the U.S. Navy&amp;rsquo;s primary special operations force and a component of the Naval Special Warfare Command. Among the SEALs&amp;rsquo; main functions are conducting small-unit maritime military operations that originate from, and return to, a river, ocean, swamp, delta, or coastline.</description>
+    </item>
+    
+    <item>
+      <title>JBCN Conf 2018</title>
+      <link>http://www.joantolos.com/blog/jbcnconf2018/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/jbcnconf2018/</guid>
+      <description>I attended the Java Barcelona Conference again for the forth time now and I want to share some of my experiences.
+About the Conference The JBCNConf is a meeting point for programmers, developers and development professionals, who meet to do networking and learn about the Java world and its latest developments. Among the Java experts who will speak at the conferences are figures from the universe of programming such as Simon Maple, Marcus Biel and Rustam Mehmandarov.</description>
+    </item>
+    
+    <item>
+      <title>The quick fix society</title>
+      <link>http://www.joantolos.com/blog/quickfix/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/quickfix/</guid>
+      <description>Uber, Netflix, Spotify, fast food&amp;hellip; As the song said&amp;hellip; &amp;ldquo;We want it all and we want it now.&amp;quot; But, is it now always the right time? Can everything we need, be packed into a five minutes digested pills?
+I recently stumbled upon an article explaining the techniques behind a good headline. These days it looks like social media interactions are starting to have a bad reputation, so it is hip to abandon them or hide over the most used catch phrase &amp;ldquo;I just read articles.</description>
+    </item>
+    
+    <item>
+      <title>6 tools to help you do TDD with NodeJS</title>
+      <link>http://www.joantolos.com/blog/javascripttrifecta/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/javascripttrifecta/</guid>
+      <description>I am using NodeJS more and more to implement middleware services instead of Java. That means that I am dealing with Javascript on a daily basis. In order to add features with guaranties, I code with TDD ( and only TDD ) and that means that I need a few tools to code comfortably:
+ Some BDD or asserting framework Some Code Coverage framework ( I use code coverage to inspire refactors ) Some mocking device  Mocha  Mocha is a feature-rich JavaScript test framework running on Node.</description>
+    </item>
+    
+    <item>
+      <title>Code Jam Kata</title>
+      <link>http://www.joantolos.com/blog/katacodejam/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katacodejam/</guid>
+      <description>A few days ago, I was struggling at work with a simple implementation of sorting a couple of arrays. I was coding it in a language that I am not so good at: Javascript. I asked for help to one of my peers, we shared the pain for a little while and finally we got it.
+Since it was such a simple &amp;ldquo;exercise looking&amp;rdquo; problem, I remember saying: this looks like the typical exercise they ask you to solve on an interview, and both of us struggled for a while with such a simple problem.</description>
+    </item>
+    
+    <item>
+      <title>How do I do it?</title>
+      <link>http://www.joantolos.com/blog/doit/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/doit/</guid>
+      <description>From time to time somebody ask me how do I do it meaning, how I manage to do all the things that I do besides the normal activity of work and family.
+Here the things that I do on my spare time:
+ Read books Write blog posts Play guitar Work on my pet project Exercise  So people ask me, how I have the time to do that things. As if somebody can have time.</description>
+    </item>
+    
+    <item>
+      <title>About Joan</title>
+      <link>http://www.joantolos.com/about/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/about/</guid>
+      <description>I define myself as father, husband, coder and guitar fool.
+I enjoy every day the overwhelming energy and will of my son and daughter. I am passionate about coding and reading. I like to share with others, learn and try new things whenever I have the chance. As a software developer I believe in:
+ Responsibility and accountability Not hiding things under the rug Proposing improvements and solutions instead of complaining Pursuing excellence  I deliver.</description>
+    </item>
+    
+    <item>
+      <title>Store</title>
+      <link>http://www.joantolos.com/store/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/store/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Why do you hate your job?</title>
+      <link>http://www.joantolos.com/blog/hatejob/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/hatejob/</guid>
+      <description>“Between 2011 and 2012 the polling company Gallup conducted the most detailed study ever carried out of how people across the world feel about their work. They studied millions of workers across 142 countries. They found that 13 percent of people say they are engaged in their jobs, which means they are &amp;lsquo;enthusiastic about, and committed to their work and contribute to their organisation in a positive manner.&amp;rsquo; Against them, 63 percent say they are not engaged, which is defined as &amp;lsquo;sleepwalking through their workday, putting time (but not energy or passion) into their work.</description>
+    </item>
+    
+    <item>
+      <title>Code coverage as a tool</title>
+      <link>http://www.joantolos.com/blog/katamarsrover/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katamarsrover/</guid>
+      <description>I want to explain how I use the code coverage as a tool when I code. I don&amp;rsquo;t really care for the final number of test coverage, if you code using TDD this number will be very high anyway. I don&amp;rsquo;t think that we can trust the quality of our code by some test coverage percentage, we all know that figures can be easily hacked, so there is no point on taking much attention at the final count.</description>
+    </item>
+    
+    <item>
+      <title>Tennis Kata</title>
+      <link>http://www.joantolos.com/blog/katatennis/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katatennis/</guid>
+      <description>For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>Angular tutorial extended</title>
+      <link>http://www.joantolos.com/blog/angulartutorial/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/angulartutorial/</guid>
+      <description>If you follow the  Angular tutorial , you will start building the &amp;lsquo;Tour of Heroes&amp;rsquo; App and learn the basics from Angular. I always struggle with front-end frameworks so I decided to do the tutorial as we are switching to Angular 5 on my current project. I really recommend to do the tutorial.
+Other than my usual struggle with Javascript, I have to say that TypeScript comes more natural and &amp;ldquo;logic&amp;rdquo; to me.</description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://www.joantolos.com/blog/ai/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/ai/</guid>
+      <description>I have done an introduction to Artificial Intelligence (AI) course and I want to share my learning experience. This post covers my notes and summaries of the content of the course.
+History On the early sixties, there was a gathering between several investigators interested on artificial intelligence, neural networks and automats theory as a consequence of the first works made on the field.
+The following years there was a lot of progress on the field and several programs were design to solve numerous problems:</description>
+    </item>
+    
+    <item>
+      <title>Social Networking Kata</title>
+      <link>http://www.joantolos.com/blog/kata/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/kata/</guid>
+      <description>Introducing katas  For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>TDD: All in</title>
+      <link>http://www.joantolos.com/blog/tddallin/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tddallin/</guid>
+      <description>The setup We faced a complicated release to production on our team. We had to include a brand new feature that will stress the application on different levels: user interface, backend and data. We had also a small window to release it so the pressure was high. Let&amp;rsquo;s establish a little bit the requirements, on a high level (without revealing details of the business).
+
+We had to implement the new feature using the green boxes.</description>
+    </item>
+    
+    <item>
+      <title>One task to rule them all</title>
+      <link>http://www.joantolos.com/blog/gradletask/</link>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/gradletask/</guid>
+      <description>Trying to learn a little bit more about how Gradle deals with tasks and how to execute them in an specific order.
+The problem I was asked for help on a project dealing with Gradle task and what is seemed like a simple ordering task problem. The set up is the following:
+
+This is a simplification of the project layout, where names have been changed. We have a module that creates files and another module that consumes the files.</description>
+    </item>
+    
+    <item>
+      <title>The code that should not be</title>
+      <link>http://www.joantolos.com/blog/thecodethatshouldnotbe/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/thecodethatshouldnotbe/</guid>
+      <description>Some thoughts about the amount of code you write that never see production and how to take it.
+The context We were asked to implement a new feature, let&amp;rsquo;s say, selling apples. Not groceries, not fruits, just apples. Well, maybe on the next Sprint we will add bananas to sell as well. But that&amp;rsquo;s it, apples now and bananas later.
+We all love to code for lists instead of instances, so the coder assigned to the task designed a beautiful code supporting a whole list of fruits, even it was clear from the start that business just needed apples for now.</description>
+    </item>
+    
+    <item>
+      <title>Readability</title>
+      <link>http://www.joantolos.com/blog/readability/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/readability/</guid>
+      <description>Less is more&amp;hellip; but really? I always struggle to find an example where less code is not necessarily better, because it usually is. But recently I stumble upon an example. Clean Code ask for readability over anything else because code is more often read than written. That sometimes may mean to be a little more verbose on the code. Let&amp;rsquo;s see an example:
+The context I have to paint a simple plot, x and y axis.</description>
+    </item>
+    
+    <item>
+      <title>Cluster SSH tool using MacOS-X</title>
+      <link>http://www.joantolos.com/blog/clusterssh/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/clusterssh/</guid>
+      <description>CSSHX is a tool to allow simultaneous control of multiple ssh sessions. host1, host2, etc. are either remote hostnames or remote cluster names. csshX will attempt to create an ssh session to each remote host in separate Terminal.app windows. A master window will also be created.
+All keyboard input in the master will be sent to all the slave windows. To specify the username for each host, the hostname can be prepended by user@.</description>
+    </item>
+    
+    <item>
+      <title>Test driven architecture</title>
+      <link>http://www.joantolos.com/blog/testdrivenarchitecture/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/testdrivenarchitecture/</guid>
+      <description>I have been revisiting the classic by Kent Beck, “Extreme Programming Explained”, and I found a very interesting thought about one of the roles on the XP team: architects.
+Communicating architectural intent According to his definition:
+[…] architects on and XP team look for and execute large-scale refactoring, write system-level tests that stress the architecture, and also implement stories. […]
+What I find interesting about that, is the system level tests as they can communicate architectural intent.</description>
+    </item>
+    
+    <item>
+      <title>Cobertura and Maven</title>
+      <link>http://www.joantolos.com/blog/cobertura/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cobertura/</guid>
+      <description>The problem Most of developers have used or heard about Cobertura tool to calculate test coverage on Java code. The main problem with that tool is that is difficult to use inside a multi-module maven project, where some module contains tests that uses java classes on several other modules. The result on that cases is a poor coverage or zero percent, just because is not taking into account all the modules implies.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber, Java and BDD</title>
+      <link>http://www.joantolos.com/blog/cucumber/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cucumber/</guid>
+      <description>Some context Behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). It combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development.
+BDD tools Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialised software tools to support the development process.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://www.joantolos.com/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/books/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>http://www.joantolos.com/podcast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/podcast/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

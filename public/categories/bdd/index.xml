@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BDD on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/bdd/</link>
+    <description>Recent content in BDD on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/bdd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Social Networking Kata</title>
+      <link>http://www.joantolos.com/blog/kata/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/kata/</guid>
+      <description>Introducing katas  For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>TDD: All in</title>
+      <link>http://www.joantolos.com/blog/tddallin/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tddallin/</guid>
+      <description>The setup We faced a complicated release to production on our team. We had to include a brand new feature that will stress the application on different levels: user interface, backend and data. We had also a small window to release it so the pressure was high. Let&amp;rsquo;s establish a little bit the requirements, on a high level (without revealing details of the business).
+
+We had to implement the new feature using the green boxes.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber, Java and BDD</title>
+      <link>http://www.joantolos.com/blog/cucumber/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cucumber/</guid>
+      <description>Some context Behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). It combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development.
+BDD tools Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialised software tools to support the development process.</description>
+    </item>
+    
+  </channel>
+</rss>

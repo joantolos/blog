@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heroku on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/heroku/</link>
+    <description>Recent content in Heroku on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/heroku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java, Spring and Hibernate microservice seed</title>
+      <link>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</guid>
+      <description>I am frequently doing posts about TDD and trying to facilitate code seeds with everything in place to work with TDD, for example here or here .
+This time I want to provide a step by step guide for a microservice that will work with Java, Spring, Hibernate and Postgres that will be TDD ready from localhost all the way up to production. The challenge here, is to set up a comfortable way to test when dealing with a database and Spring.</description>
+    </item>
+    
+    <item>
+      <title>Angular tutorial extended</title>
+      <link>http://www.joantolos.com/blog/angulartutorial/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/angulartutorial/</guid>
+      <description>If you follow the  Angular tutorial , you will start building the &amp;lsquo;Tour of Heroes&amp;rsquo; App and learn the basics from Angular. I always struggle with front-end frameworks so I decided to do the tutorial as we are switching to Angular 5 on my current project. I really recommend to do the tutorial.
+Other than my usual struggle with Javascript, I have to say that TypeScript comes more natural and &amp;ldquo;logic&amp;rdquo; to me.</description>
+    </item>
+    
+  </channel>
+</rss>

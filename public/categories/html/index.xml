@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/html/</link>
+    <description>Recent content in html on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Single page seed with Angular</title>
+      <link>http://www.joantolos.com/blog/single_page_seed_with_angular/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/single_page_seed_with_angular/</guid>
+      <description>We are using the Angular client on my job now and I wanted to do a tutorial to learn the basics. I already did the Tour of heroes tutorial but it was a long time ago and since I don&amp;rsquo;t code much front end usually, I could use a refresh.
+I need an excuse, thought. If I am making a single page webapp and deploy it, I want it to be useful somehow, not just an exercise.</description>
+    </item>
+    
+  </channel>
+</rss>

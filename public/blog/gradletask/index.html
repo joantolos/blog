@@ -1,0 +1,1660 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>One task to rule them all</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="Dealing with order on Gradle tasks">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="One task to rule them all"/>
+<meta name="twitter:description" content="Dealing with order on Gradle tasks"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="One task to rule them all" />
+<meta property="og:description" content="Dealing with order on Gradle tasks" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/gradletask/" />
+<meta property="article:published_time" content="2017-09-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-09-16T00:00:00+00:00" />
+
+        <meta itemprop="name" content="One task to rule them all">
+<meta itemprop="description" content="Dealing with order on Gradle tasks">
+<meta itemprop="datePublished" content="2017-09-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-09-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1977">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f&text=One%20task%20to%20rule%20them%20all&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f&title=One%20task%20to%20rule%20them%20all" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f&title=One%20task%20to%20rule%20them%20all" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/gradletask/">One task to rule them all</a></h1>
+            
+        
+        
+            <p>Dealing with order on Gradle tasks</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-09-16'>
+            September 16, 2017</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>10 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f&text=One%20task%20to%20rule%20them%20all&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f&title=One%20task%20to%20rule%20them%20all" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f&title=One%20task%20to%20rule%20them%20all" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fgradletask%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/gradletask/" class="image featured">
+            <img src="/img/gradleTask//pic01.jpg" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <p>Trying to learn a little bit more about how Gradle deals with tasks and how to execute them in an specific order.</p>
+<h1 id="the-problem">The problem</h1>
+<p>I was asked for help on a project dealing with Gradle task and what is seemed like a simple <em>ordering task</em> problem. The set up is the following:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/gradleTask//gradleTaskLayout.png" alt="Module layout" />
+        </span></p>
+    
+
+
+<p>This is a simplification of the project layout, where names have been changed. We have a module that creates files and another module that consumes the files. The restrictions are:</p>
+<ul>
+<li>Both the production and consumption of the files must work as an standalone Java program</li>
+<li>The producer creates a larger number of files but the consumer will one consume the <strong>selected</strong> file that satisfies the following rules:
+<ul>
+<li>The name of the file starts with a certain string.</li>
+<li>The latests modified file that matches the first rule.</li>
+</ul>
+</li>
+</ul>
+<h1 id="the-gradle-solution">The Gradle solution</h1>
+<p>The idea is to have three gradle tasks:</p>
+<ul>
+<li><strong>produce:</strong> Will create the list of files invoking the Java program on &ldquo;producer&rdquo; module and store them into the output folder.</li>
+<li><strong>select and move:</strong> Will select the proper file following the rules and move it to the input folder of the consumer.</li>
+<li><strong>consume:</strong> Will grab the files from it&rsquo;s input folder and process them.</li>
+</ul>
+<p>Since the producer and consumer are standalone Java programs, that means that contains a class with a main method to execute so I discovered the <strong>JavaExec</strong> type of Gradle task.</p>
+<p>On the producer <em>build.gradle</em> file:</p>
+<pre><code>task produce(type: JavaExec) {
+    main = 'com.joantolos.gradle.file.producer.ProducerApp'
+    classpath = sourceSets.main.runtimeClasspath
+}
+</code></pre>
+<p>This JavaExec type of task allows us to run a Java program, just specifying the main class and the classpath. You can also define the args array if needed.</p>
+<p>The same strategy for the consumer:</p>
+<pre><code>task consume(type: JavaExec) {
+    main = 'com.joantolos.gradle.file.consumer.ConsumerApp'
+    classpath = sourceSets.main.runtimeClasspath
+}
+</code></pre>
+<p>Now if we execute:</p>
+<pre><code>gradle produce
+</code></pre>
+<p>The list of files is created into the output folder of the producer module. Then, if we manually grab one of them and put it into de input folder of the consumer module, we can execute the consumer:</p>
+<pre><code>gradle consume
+</code></pre>
+<p>So, the only link missing is the selecting and moving part. For that, I found the Copy task from Gradle that have a simple syntax:</p>
+<pre><code>task copy(type: Copy) {
+    from 'outputFolder'
+    into 'inputFolder'
+}
+</code></pre>
+<p>Now I know hoy to copy files, but first I have to be able to select the latest modified matching a substring on the name, from the produced list. For that, my college made this cool combination of regular expression and Groovy scripting.</p>
+<p>Given:</p>
+<ul>
+<li><strong>outputFolder:</strong> The folder where the files are located. The output folder from the producer module.</li>
+<li><strong>filePattern:</strong> The substring to find in the file name.</li>
+</ul>
+<p>We can apply this to find the candidate file, the last one modified matching the substring on it&rsquo;s name:</p>
+<pre><code>String lastFile = new File(outputFolder).listFiles().findAll { filePattern.matcher(it.name) }?.sort { -it.lastModified() }?.head()?.getName()
+</code></pre>
+<p>Cool, we have a name, now let&rsquo;s copy the fortunate file to the input folder of the consumer. We have the Copy task from Gradle to do that, so something like that should work:</p>
+<pre><code>task pickLast(type: Copy) {
+    String lastFile = new File(outputFolder).listFiles().findAll { filePattern.matcher(it.name) }?.sort { -it.lastModified() }?.head()?.getName()
+
+    from outputFolder + lastFile
+    into inputFolder
+}
+</code></pre>
+<p>Good. Now if we execute the three tasks one by one, it works, eureka. Now let&rsquo;s create an additional Gradle task, let&rsquo;s call it <em>process</em> that only has to execute the three task in order and we should be good to go. Now is where things get ugly&hellip;</p>
+<p>In Gradle, there is no such thing as &ldquo;order&rdquo; in task and technically there is no point of calling a task inside of another, since this is a <strong>building tool</strong> we are talking about. What we can do is make the tasks depending one on another.</p>
+<p>So, Gradle offers different tools to do that:</p>
+<ul>
+<li>dependsOn</li>
+<li>doLast</li>
+<li>taskY.shouldRunAfter taskX</li>
+<li>taskY.shouldRunBefore taskX</li>
+<li>taskY.mustdRunAfter taskX</li>
+<li>taskY.mustRunBefore taskX</li>
+</ul>
+<p>After fooling around a little bit with several combinations I figure out some way to execute three tasks in order:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/gradleTask//dependingTasks.png" alt="Depends on" />
+        </span></p>
+    
+
+
+<p>It took me a while to figure out that so I will keep that diagram close to my heart, if I never have to work with that kind of things again.</p>
+<p>The solution didn&rsquo;t completely work thought. For some reason, the copy task was always running <em><strong>before</strong></em> the produce task. So, either there were no files to select from (that being the first execution), or it always was selecting from the latest execution.</p>
+<p>I struggled with different combinations of the Gradle tools with little success and having the feeling that the Copy task is not being executed, but evaluated.</p>
+<p>At that point in time I just hated Gradle and start thinking on alternative solutions. But then I went deep on the Gradle forums, which by the way are super useful (I deeply recommend them), and decided to give it another chance. I found some interesting concepts when working with tasks:</p>
+<h2 id="creating-your-own-task-type">Creating your own task type</h2>
+<p>This is a possibility that Gradle offers. We can use the power of Groovy and define a <em>class</em> inside the <em>build.gradle</em> file and use that class as a task type. So we can define something like this:</p>
+<pre><code>task generator(type: Generate) {
+    fileCount = 20
+}
+
+class Generate extends DefaultTask {
+    @Input
+    int fileCount = 10
+
+    @OutputDirectory
+    File generatedFileDir = project.file(&quot;${project.buildDir}/generated&quot;)
+
+    @TaskAction
+    void perform() {
+        for (int i=0; i&lt;fileCount; i++) {
+            new File(generatedFileDir, &quot;${i}.txt&quot;).text = i
+        }
+    }
+}
+</code></pre>
+<p>This is an example extract from the Gradle forum and it looks like it fit the needs perfectly. We even have annotations for input and ouput and then a <em>TaskAction</em> where you can write Groovy code. Nice, let&rsquo;s try to adapt it to our needs. I would like to have something like this:</p>
+<pre><code>task process(type: Generate) {
+    outputFolder = '/producer/src/main/resources/output/'
+    inputFolder = '/consumer/src/main/resources/input/'
+    filePattern = 'File-Type-Something'
+}
+
+class Generate extends DefaultTask {
+    @Input
+    String inputFolder
+
+    @Input
+    String filePattern
+
+    @OutputDirectory
+    File outputFolder = outputFolder
+
+    @TaskAction
+    void perform() {
+        //Generate, move and consume
+    }
+}
+</code></pre>
+<p>That looks perfect, now I only have to make an instance of the producer inside the perform method of the task. What I would like to do is something like this:</p>
+<pre><code>@TaskAction
+void perform() {
+    Producer producer = new Producer(outputFolder)
+    producer.produce()
+
+    String lastFile = new File(outputFolder).listFiles().findAll { filePattern.matcher(it.name) }?.sort { -it.lastModified() }?.head()?.getName()
+
+    FileUtils.copyFileToDirectory(new File(outputFolder + lastFile), new File(inputFolder))
+
+    Consumer consumer = new Consumer(inputFolder)
+    consumer.consume()
+}
+</code></pre>
+<p>This code already smells a little to my nose as it is doing a lot of things in a <em>Java fashion way</em> inside the build file of a project. But not only that, the thing is that it does not even work. In fact, you can not do that.</p>
+<p>You can use Java classes inside your build and use Groovy to perform actions with them, but only with classes inside of a jar file defined as a dependency. You can not use a class of your project, because it is not compiled yet. Gradle is a building tool, and you define and use tasks to define the <strong>build</strong> of your project. So, when trying to use the Producer or Consumer class on the script, that classes <em>are not compiled yet</em>.</p>
+<p>That made me think that we are not using Gradle as it is supposed to be used. The copy task, the depends, the possibility of define classes&hellip; all this toolbox is offered to you in order to define the build of your project. You are not supposed to execute a Java program and then expect to collect the results of that program to execute another one. This is more a task for an SSH script, again, <strong>Gradle is a building tool.</strong></p>
+<h1 id="compromise-solution">Compromise solution</h1>
+<p>At that point I had a lot of questions about this project:</p>
+<ul>
+<li>Is the use of files strictly necessary?</li>
+<li>Why the producer and consumer should behave as an standalone program?</li>
+<li>How this process will be executed or deployed?</li>
+</ul>
+<p>Before going deep on the whole program purpose and doubt the design I want to provide a solution so my college can go on with the project. Finally, I found a solution that could be implemented right away:</p>
+<p>On the consumer build.gradle file we can add the following task:</p>
+<pre><code>task process(type: JavaExec) {
+    dependsOn ':producer:produce'
+    main = 'com.joantolos.gradle.file.consumer.ConsumerApp'
+    classpath = sourceSets.main.runtimeClasspath
+}
+</code></pre>
+<p>This task depends on the <em>produce</em> task inside the build.gradle on the producer, which looks like that:</p>
+<pre><code>task produce(type: JavaExec) {
+    main = 'com.joantolos.gradle.file.producer.ProducerApp'
+    classpath = sourceSets.main.runtimeClasspath
+
+    doLast {
+        String lastFile = new File(outputFolder).listFiles().findAll { filePattern.matcher(it.name) }?.sort { -it.lastModified() }?.head()?.getName()
+        FileUtils.copyFileToDirectory(new File(outputFolder + lastFile), new File(inputFolder))
+        println('File copied from ' + outputFolder + ' to ' + inputFolder + &quot;: &quot;+lastFile)
+    }
+}
+</code></pre>
+<p>Here we have the magic, or the tricky part. Using the Copy type task from Gradle was giving problems because of the evaluation against the execution so I tried to copy the files some other way and that&rsquo;s is when Apache Commons come to help. We can use <strong>FileUtils</strong> from Apache Commons IO library to copy the file and mark this procedure as &ldquo;doLast&rdquo; inside the produce task.</p>
+<p>Now we have arrived at the solution only with two Gradle tasks added. You can find the POC of the whole experiment here: 
+
+    
+        
+    
+
+    <a href="https://github.com/joantolos/gradle-file-selector" target='_blank'>Gradle Producer/Consumer POC</a>
+
+
+</p>
+<p>Even with the project working, I wasn&rsquo;t happy with the final solution&hellip; Mixing two executions of Java programs with some scripting magic is something that I don&rsquo;t find simple to understand. The main question is:</p>
+<p><strong>Where is the logic about finding the latest file modified matching a name described?</strong></p>
+<p>It is not explicitly described anywhere on the code, that after the producer does it&rsquo;s thing, there is a &ldquo;candidate file selection&rdquo; process after. It is hidden, obfuscated on the Gradle task. If a new coder joins the team tomorrow, he or she must debug and inspect the Gradle tasks in order to understand what the program does. To me, this is a big problem. The code should tell the story of what it does simply <em>reading</em> it, that is why is written in a programming <em>language</em> whatever it is.</p>
+<h1 id="the-batch-processor-solution">The Batch Processor solution</h1>
+<p>Why not make explicit the logic of the program, by creating a new module named &ldquo;batch&rdquo; with do the batch process that we are implemented on the Gradle tasks:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/gradleTask//gradleTaskNewLayout.png" alt="Module layout" />
+        </span></p>
+    
+
+
+<ul>
+<li>Produce the files</li>
+<li>Move one of them</li>
+<li>Consume it</li>
+</ul>
+<p>How many &ldquo;type of files&rdquo; do we have? I mean, the substring that we have to match with the file name is kind of a type of batch processor right?</p>
+<p>So, now with a single task that compiles the whole logic and a Java class where you can <em>read</em> what is doing:</p>
+<pre><code>this.producer.produce();
+FileUtils.copyFileToDirectory(getOutputFile(outputPath), new File(inputPath));
+this.consumer.consume();
+</code></pre>
+<p>Produce, copy and consume, simple as that. This Batch class is more simple to understand, maintain and extend. For example, we can convert this class into a service if necessary (and discard the main method). It is an entry point for the logic associated with the file processing. That way we can identify patterns like, is it worth it to have a single class (or service) for every type of file? Or we can go on with a generic single one?</p>
+<h1 id="the-next-step-solution">The Next Step solution</h1>
+<p>Files suck. I mean having to write and read files from disk, you face a lot of inconvenient stuff like concurrency, input/output exceptions, folders location, etc&hellip; Besides, writing files to disk is expensive and slow.</p>
+<p>I would strongly recommend to get rid of the files. This type of batch processors scream for some kind of queue system, where the producer writes into de queue that the content is ready and the consumer listen to the queue and start processing. But if this solution is overkill for this exact situation, it is still worth it trying not to use the files. Maybe writing a byte array into a database or something less <em>heavy</em>.</p>
+<h3 id="references">References:</h3>
+<ul>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="http://trickyandroid.com/gradle-tip-3-tasks-ordering/" target='_blank'>Blog Tricky Android</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://blog.gradle.org/introducing-incremental-build-support" target='_blank'>Blog Gradle: Introducing Incremental Build Support</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://docs.gradle.org/current/userguide/custom_tasks.html" target='_blank'>Blog Gradle: Writing Custom Task Classes</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://docs.gradle.org/current/userguide/working_with_files.html" target='_blank'>Blog Gradle: Copying files</a>
+
+
+</em></p>
+</li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/gradle'>Gradle</a></li>
+    
+        <li><a href='/categories/refactoring'>Refactoring</a></li>
+    
+        <li><a href='/categories/git'>Git</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/thecodethatshouldnotbe/"
+                class="button big previous">The code that should not be</a></li>
+    
+
+    
+        <li><a href="http://www.joantolos.com/blog/tddallin/"
+                class="button big next">TDD: All in</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

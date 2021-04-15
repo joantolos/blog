@@ -1,0 +1,1631 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Social network case study</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="A naive approach to social networking">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Social network case study"/>
+<meta name="twitter:description" content="A naive approach to social networking"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="Social network case study" />
+<meta property="og:description" content="A naive approach to social networking" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/social_network_case_study/" />
+<meta property="article:published_time" content="2020-10-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-19T00:00:00+00:00" />
+
+        <meta itemprop="name" content="Social network case study">
+<meta itemprop="description" content="A naive approach to social networking">
+<meta itemprop="datePublished" content="2020-10-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2473">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f&text=Social%20network%20case%20study&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f&title=Social%20network%20case%20study" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f&title=Social%20network%20case%20study" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/social_network_case_study/">Social network case study</a></h1>
+            
+        
+        
+            <p>A naive approach to social networking</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2020-10-19'>
+            October 19, 2020</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>12 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f&text=Social%20network%20case%20study&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f&title=Social%20network%20case%20study" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f&title=Social%20network%20case%20study" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fsocial_network_case_study%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/social_network_case_study/" class="image featured">
+            <img src="/img/socialNetwork//pic02.png" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <h1 id="a-naive-experiment">A naive experiment:</h1>
+<p>I have been publishing a lot lately into two social networks: Twitter and Linkedin. The idea was to see how a lot of activity would impact in the relevance of my profiles. In order to do that, first I compiled a long list of publications composed by my own blog posts, so I just had to copy/paste into the platforms.</p>
+<p>The only criteria was to just publish every day, no other consideration like time of the day or kind of publication was considered. No extra effort to obtain more engagement. That is why this is kind of a naive approach, no real big conclusions can be obtained, but enough to illustrate the point of this post. Here are some numbers:</p>
+<p>I started my Twitter account on 2010 and made my first tweet on March:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/socialNetwork//twit.png" alt="Tests passing" />
+        </span></p>
+    
+
+
+<p>Cute right?</p>
+<p>I started this experiment on September 14th and at that point in time I had 137 followers. So, 137 followers in ten years really points out that I am not that active on Twitter. I only post when I have a new article on this blog and that is roughly every two months. I don&rsquo;t actively work to gain more followers.</p>
+<p>Now I am going to be more active, I am going to publish 27 posts in 27 days and see if that activity boost the number of followers. The post are just links to this vey blog, so the content can be a bit outdated.</p>
+<p>I finished posting all of them on October 17 and the final number of followers is: 148. Now, this does not look like a lot but we need to consider time frames. 137 followers on ten years and 11 new followers in less than a month. It is obvious that more activity, more posts is directly correlated with more followers.</p>
+<p>I was too lazy to monitor or try to extract some useful data from Linkedin but I will say that the number of contacts from recruiters has gone to the roof, so it looks like Linkedin is sensitive as well to the number of publications.</p>
+<h1 id="conclusion">Conclusion:</h1>
+<p>This kind of social network business enjoy what it is called 
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Network_effect" target='_blank'>Network effect</a>
+
+
+. You obtain network effect when the users are adding value <strong>to each other</strong> while you are doing nothing specific in that regard.
+If you can add this kind of effect to your business, the chance of success increases notably. Internet-based business can clearly  benefit from this effect.  A clear example of network effect, is the review section on Amazon products. People are reviewing the items and even uploading their own photos of the product. So, actual buyers are helping other potential buyers. What is 
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" target='_blank'>Jeff Bezos</a>
+
+
+ doing to obtain that gain? Nothing. While he is on the beach, Amazon users are filling his platform with assets. For free.</p>
+<p>That becomes a great leverage for the social network company because the user is actually providing the content. So the cost for the company of creating content is zero (or virtually zero). They provide the infrastructure and the platform and get the ball rolling. Then the users start filling the platform with content.
+That way, my Twitter feed is completely different from any other user, so in a way, the application is created and tailored for each of its users, every time, every instance.
+That is beautiful and a real breakthrough in online applications. Not that this approach is new, not at all, but the explosion on popularity of the recent social networks really showed all the advantages of this model.</p>
+<p>Twitter (or Instagram, Linkedin, etc&hellip;) does not really care about what you publish, about what your content is about (if you don’t break the terms of service, of course). What they want is for you to be on the platform, because that is how they make money. While you are on the platform consuming content by others, you are targeted by advertising and creating content for free. You are providing the two main form of revenue for them: actual money from the advertising and content.
+So, what do they want? They want for you to be on the platform as much as possible.
+If you do that, they reward you.</p>
+<p>If you are on the platform, provide content, like content from others, comment publications and being active, your own content becomes more relevant. As simple as that.</p>
+<h1 id="social-networking-apocalypse">Social networking apocalypse:</h1>
+<p>We all have heard the expression “if you are not paying for the product, you are the product”. It is actually a little bit more sophisticated than that. The business model goes something like this: you provide data, some is voluntary in form of your own posts and publications, data on your profile etc. Some other is involuntary (but accepted in the terms of service) so they can provide value to their clients. Their clients are the companies that pay to show you adds, not you. You are the asset.</p>
+<p>So, they need to provide value to their clients by selling them their unique assets. Their assets are very sophisticated because you only provide pretty raw data that it is not that useful by itself. They use mathematical models and artificial intelligence to extract meaningful insight from the enormous amount of data they collect. That sounds easy but it is one of the most interesting use cases that you can study from an engineering point of view. The machine learning algorithms and models are extremely interesting.</p>
+<p>But, since you are not their client, they don&rsquo;t necessary have your best interest in mind. They want to keep the platform engaging, interesting and attractive so you keep using it but they guard the interests of their real clients. There is where the business model become a bit tricky because in order to provide value to their clients, they may been creating a nasty secondary effect.</p>
+<p>The algorithms controlling what you see on your timeline provide a unique personalised feed, made on the fly just for you. One of the goals of that algorithm is to capture your <strong>attention</strong> so you keep <strong>engaged</strong> to the platform. The more you are on the platform, the more adds you consume, the more revenue they get. Turns out that what keeps you engaged is outrage, polarised opinions and easy click baits. I don&rsquo;t think that this is intentional, I believe that this is just a secondary effect. The algorithm taps into our most basic needs, to your lizard brain maybe. No matter the reason, that is what it works: you are most likely to participate, click, like, retweet and be engaged if you are feed with what you already actually believe again and again.</p>
+<p>This creates a polarised conversation. Everyone is sorted out into a cluster and the clusters are more and more far apart as the time goes by. As a consequence, the conversation tends to radicalise and the algorithm is doing nothing to revert that, because radical conversation creates more engagement. Welcome to the social network induced end of the world.</p>
+<p>Obviously, I am exaggerating for effect.</p>
+<h1 id="the-repetition-nuance-the-confirmation-bias-served-on-a-silver-platter">The repetition nuance, the confirmation bias served on a silver platter:</h1>
+<p>From Wikipedia:</p>
+<blockquote>
+<p><strong>Confirmation bias</strong> is the tendency to search for, interpret, favour, and recall information in a way that confirms or supports one&rsquo;s prior beliefs or values. It is an important type of cognitive bias that has a significant effect on the proper functioning of society by distorting evidence-based decision-making.</p>
+</blockquote>
+<p>Let&rsquo;s say you like rock music. You go to YouTube and play some rock clips. Nice. Next day you log in again and&hellip; voila, what appears on your timeline? <strong>Another</strong> rock music clip. Why? Because that is what creates engagement. You click on that because you like rock of course. Do that for a couple of weeks and the world is turned rock for you. That is ok, you like rock music after all. But what about reggae? or pop? What about other flavours so you can <strong>expand</strong> and increase your music knowledge and appreciation? YouTube has eliminated the nuance of the music discourse for you.</p>
+<p>Now image you have certain political view. Nothing radical, just the natural tendency that everyone has because of education, upbringing and social environment. Well, you go to Twitter and see an opinion that agrees what you already believe, you click on that article. Then you click on another one with the same view, then you do a retweet&hellip; and the snow ball keeps growing. You are pushed more and more to whatever political view you started with. And of course, what it is at the end of any political view? Radicalism. Twitter is depriving you from the other point of view, the other side of the story, from what it used to be a &ldquo;normal&rdquo; conversation. The confirmation bias is really hard to avoid because it&rsquo;s what works for them.</p>
+<p>The ultimate twist is the bunch of people, users like you and me, who are interested in radicalise the conversation on purpose, just because it amuses them (trolls) or to push the public opinion to fit their agenda. They deliberately are going to fill these platform with content that facilitates that polarisation. No matter if it&rsquo;s accurate or even true, cue to the infamous &ldquo;fake news&rdquo;.</p>
+<p>Take a look at what happened on the 2016 USA elections: <a href="https://en.wikipedia.org/wiki/Russian_interference_in_the_2016_United_States_elections">https://en.wikipedia.org/wiki/Russian_interference_in_the_2016_United_States_elections</a></p>
+<p>Actual &ldquo;trolls farms&rdquo; where created to flood the social networks and pollute the discourse. If you don&rsquo;t think that this can be made, take a minute to consider 
+
+    
+        
+    
+
+    <a href="https://www.tfes.org" target='_blank'>The flat earth society</a>
+
+
+</p>
+<p>There are a bunch of people (a lot actually) running around convinced that the earth is flat. Think about it&hellip; no single scientific evidence to support their wacky theories and they have been able to successfully sell their point of view to a lot of people. This people wasn&rsquo;t ever even showed any evidence pointing to the other direction. They enter what it is called a 
+
+    
+        
+    
+
+    <a href="https://www.dictionary.com/e/slang/rabbit-hole/" target='_blank'>rabbit hole</a>
+
+
+ (thanks to Alice and Lewis Carroll), and down and down you go.</p>
+<p>If the flat earth society can convince grown adults, how is not going to work with a more subtle political opinion? The result: public opinion seems to be easy to manipulate using this new modern tools.</p>
+<h1 id="hold-your-horses-dont-burn-facebook-just-yet">Hold your horses, don&rsquo;t burn Facebook just yet</h1>
+<p>Facebook recently issued a response to the Netflix documentary 
+
+    
+        
+    
+
+    <a href="https://www.netflix.com/es-en/title/81254224" target='_blank'>The social dilemma</a>
+
+
+, where some of this issues are exposed. It is true that the documentary sometimes seems a bit biases (at least from my point of view), but the fact that a company like Facebook has taken the time and resources to issue an official response speaks by itself. Please take a look at what they have to say: 
+
+    
+        
+    
+
+    <a href="https://www.netflix.com/es-en/title/81254224" target='_blank'>What The social dilemma gets wrong</a>
+
+
+</p>
+<p>To be fair, there is a lot of good that comes from these social networks. Entire business have been created and are thriving thanks to social networking. New niches have been discovered and people imagination is unstoppable finding new ways to take advantage of this revolutionary way of communicate and keep in contact with each other.</p>
+<p>Besides, you can find your old buddies from high school.</p>
+<p>I don&rsquo;t think that this companies are evil or have some ill interest at hearth. It happens with any new technology ever invented, nobody knows what the consequences of that invention will bring. Henry Ford was trying to sell cars when he invented the 
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Assembly_line" target='_blank'>assembly line</a>
+
+
+, turns out he end up changing the world. 
+
+    
+        
+    
+
+    <a href="http://www.eyewitnesstohistory.com/ford.htm" target='_blank'>Literally</a>
+
+
+.</p>
+<p>We just have to learn how to deal with these unexpected consequences of these new technologies.</p>
+<h1 id="take-over">Take over</h1>
+<p>I would like to finish with a quote by comedian George Carlin. To my taste, one of the very best. Take a look at his thoughts about the primate, mammalian and reptilian brain&hellip; Let&rsquo;s be aware of that and don&rsquo;t allow others poke around our most basic instincts.</p>
+<blockquote>
+<p>I realised some time ago that I’m not separate from nature just because I have a primate brain - an upper brain - because underneath the primate brain, there’s a mammalian brain, and beneath the mammalian brain, there’s a reptilian brain; and it’s those two lower brains that made the upper brain possible in the first place. Here’s the way it works: The primate brain says, “Give peace a chance.” The mammalian brain says, “Give peace a chance, but first let’s kill this motherfucker.” And the reptilian brain says, “Let’s just kill the motherfucker, go to the peace rally and get laid.&rdquo;</p>
+</blockquote>
+<p>George Carlin (May 12, 1937 – June 22, 2008)</p>
+<h1 id="annex-list-of-total-publications-made">Annex: List of total publications made:</h1>
+<p>This is the list of total publications that I made, one every day. The order was random, not exactly the one in here.</p>
+<ul>
+<li>Straight forward and easy way to deal with JSON in Java #java #json <a href="http://www.joantolos.com/blog/dealing_with_json_in_java/">http://www.joantolos.com/blog/dealing_with_json_in_java/</a></li>
+<li>Commitment vs involvement to your #agile team <a href="http://www.joantolos.com/blog/either_lead_follow_or_get_out_of_the_way/">http://www.joantolos.com/blog/either_lead_follow_or_get_out_of_the_way/</a></li>
+<li>A simple example of TDD technique with Typescript #typescript #tdd <a href="http://www.joantolos.com/blog/tablemanager/">http://www.joantolos.com/blog/tablemanager/</a></li>
+<li>Working from home with children in pandemic times #covid19 #wfh <a href="http://www.joantolos.com/blog/lockdown/">http://www.joantolos.com/blog/lockdown/</a></li>
+<li>A bunch of errors that I made the first time a had the chance to lead a team #management #leading <a href="http://www.joantolos.com/blog/teamlead/">http://www.joantolos.com/blog/teamlead/</a></li>
+<li>A hashtag generator for social networks #tdd #java <a href="http://www.joantolos.com/blog/katahashtaggenerator/">http://www.joantolos.com/blog/katahashtaggenerator/</a></li>
+<li>Simple Java API with Spring #java #tdd <a href="http://www.joantolos.com/blog/katasongsapi/">http://www.joantolos.com/blog/katasongsapi/</a></li>
+<li>You can be better at thinking by… well, thinking #accountability <a href="http://www.joantolos.com/blog/fumes/">http://www.joantolos.com/blog/fumes/</a></li>
+<li>Do more by doing smart. Stop your action bias #accountability <a href="http://www.joantolos.com/blog/actionbias/">http://www.joantolos.com/blog/actionbias/</a></li>
+<li>The sense of mastery: one basic human psychological need #productivity <a href="http://www.joantolos.com/blog/imposter/">http://www.joantolos.com/blog/imposter/</a></li>
+<li>Merging two objects in Java #java #tdd <a href="http://www.joantolos.com/blog/mergeobject/">http://www.joantolos.com/blog/mergeobject/</a></li>
+<li>Good code is easy to test: a case for test-driven development #java #tdd <a href="http://www.joantolos.com/blog/tddcasestudy/">http://www.joantolos.com/blog/tddcasestudy/</a></li>
+<li>There are no bad teams, only bad leaders #extremeownership <a href="http://www.joantolos.com/blog/extremeownership/">http://www.joantolos.com/blog/extremeownership/</a></li>
+<li>Is “quick and easy” always a good option? Maybe sometimes we need to struggle  <a href="http://www.joantolos.com/blog/quickfix/">http://www.joantolos.com/blog/quickfix/</a></li>
+<li>NodeJS microservice seed, TDD ready #nodejs #tdd <a href="http://www.joantolos.com/blog/javascripttrifecta/">http://www.joantolos.com/blog/javascripttrifecta/</a></li>
+<li>A bunch of easy coding problems to practice and keep your skills sharp #kata <a href="http://www.joantolos.com/blog/katacodejam/">http://www.joantolos.com/blog/katacodejam/</a></li>
+<li>Take advantage of podcast, audiobooks, ebooks and be productive #productivity <a href="http://www.joantolos.com/blog/doit/">http://www.joantolos.com/blog/doit/</a></li>
+<li>You are responsible of your career #productivity #accountability <a href="http://www.joantolos.com/blog/hatejob/">http://www.joantolos.com/blog/hatejob/</a></li>
+<li>How I use the code coverage report to inspire refactor #xp #tdd <a href="http://www.joantolos.com/blog/katamarsrover/">http://www.joantolos.com/blog/katamarsrover/</a></li>
+<li>TDD in action: an implementation of the tennis kata #xp #tdd <a href="http://www.joantolos.com/blog/katatennis/">http://www.joantolos.com/blog/katatennis/</a></li>
+<li>Extra mile on the Angular tutorial #angular #heroku #tdd <a href="http://www.joantolos.com/blog/angulartutorial/">http://www.joantolos.com/blog/angulartutorial/</a></li>
+<li>A simple introduction to the basic formal concepts of artificial intelligence #ai <a href="http://www.joantolos.com/blog/ai/">http://www.joantolos.com/blog/ai/</a></li>
+<li>TDD in action: a social networking kata suggested by @codurance #tdd #kata <a href="http://www.joantolos.com/blog/kata/">http://www.joantolos.com/blog/kata/</a></li>
+<li>The day I decided to go all in with TDD #tdd <a href="http://www.joantolos.com/blog/tddallin/">http://www.joantolos.com/blog/tddallin/</a></li>
+<li>How to configure different types of tasks in gradle building projects #gradle <a href="http://www.joantolos.com/blog/gradletask/">http://www.joantolos.com/blog/gradletask/</a></li>
+<li>Deleted code has no bugs #cleancode <a href="http://www.joantolos.com/blog/thecodethatshouldnotbe/">http://www.joantolos.com/blog/thecodethatshouldnotbe/</a></li>
+<li>Less is more… but really? #xp #cleancode <a href="http://www.joantolos.com/blog/readability/">http://www.joantolos.com/blog/readability/</a></li>
+</ul>
+<h3 id="references">References:</h3>
+<ul>
+<li><em>Photo by 
+
+    
+        
+    
+
+    <a href="https://www.freepik.es/vectores/negocios" target='_blank'>Vector de Negocios creado por stories - www.freepik.es</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Network_effect" target='_blank'>Network effect</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" target='_blank'>Jeff Bezos</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://www.netflix.com/es-en/title/81254224" target='_blank'>The social dilemma</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Confirmation_bias" target='_blank'>Wikipedia: confirmation bias</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Russian_interference_in_the_2016_United_States_elections" target='_blank'>Russian interference in the 2016 United States elections</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://www.tfes.org" target='_blank'>The flat earth society</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://www.dictionary.com/e/slang/rabbit-hole/" target='_blank'>Rabbit hole</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://www.npr.org/sections/health-shots/2012/09/18/161358304/the-facebook-effect-on-organ-donation?t=1600958039015" target='_blank'>The &#39;Facebook Effect&#39; On Organ Donation</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Assembly_line" target='_blank'>Assembly line</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="http://www.eyewitnesstohistory.com/ford.htm" target='_blank'>Henry Ford Changes the World</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://georgecarlin.com" target='_blank'>George Carlin</a>
+
+
+</em></li>
+<li><em>
+
+    
+        
+    
+
+    <a href="https://fygeorgecarlin.tumblr.com/post/4393036948/i-realized-some-time-ago-that-im-not-separate" target='_blank'>Fuck yeah George Carlin!</a>
+
+
+</em></li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/productivity'>productivity</a></li>
+    
+        <li><a href='/categories/psychology'>psychology</a></li>
+    
+        <li><a href='/categories/ethics'>ethics</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/dealing_with_json_in_java/"
+                class="button big previous">Dealing with JSON in Java</a></li>
+    
+
+    
+        <li><a href="http://www.joantolos.com/blog/conflict_solving_tip/"
+                class="button big next">Conflict resolution tip</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

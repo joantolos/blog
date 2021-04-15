@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maven on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/maven/</link>
+    <description>Recent content in Maven on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/maven/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cobertura and Maven</title>
+      <link>http://www.joantolos.com/blog/cobertura/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cobertura/</guid>
+      <description>The problem Most of developers have used or heard about Cobertura tool to calculate test coverage on Java code. The main problem with that tool is that is difficult to use inside a multi-module maven project, where some module contains tests that uses java classes on several other modules. The result on that cases is a poor coverage or zero percent, just because is not taking into account all the modules implies.</description>
+    </item>
+    
+  </channel>
+</rss>

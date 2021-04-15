@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/</link>
+    <description>Recent content in Categories on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>apple</title>
+      <link>http://www.joantolos.com/categories/apple/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>http://www.joantolos.com/categories/java/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://www.joantolos.com/categories/metadata/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/metadata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photos</title>
+      <link>http://www.joantolos.com/categories/photos/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TDD</title>
+      <link>http://www.joantolos.com/categories/tdd/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>http://www.joantolos.com/categories/video/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>http://www.joantolos.com/categories/angular/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>http://www.joantolos.com/categories/cli/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>http://www.joantolos.com/categories/html/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kata</title>
+      <link>http://www.joantolos.com/categories/kata/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/kata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ethics</title>
+      <link>http://www.joantolos.com/categories/ethics/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>http://www.joantolos.com/categories/productivity/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psychology</title>
+      <link>http://www.joantolos.com/categories/psychology/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>http://www.joantolos.com/categories/heroku/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hibernate</title>
+      <link>http://www.joantolos.com/categories/hibernate/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/hibernate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>http://www.joantolos.com/categories/postgres/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>http://www.joantolos.com/categories/spring/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://www.joantolos.com/categories/test/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conflict</title>
+      <link>http://www.joantolos.com/categories/conflict/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/conflict/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gradle</title>
+      <link>http://www.joantolos.com/categories/gradle/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/gradle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>json</title>
+      <link>http://www.joantolos.com/categories/json/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://www.joantolos.com/categories/javascript/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>http://www.joantolos.com/categories/typescript/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>http://www.joantolos.com/categories/goals/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/goals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meditation</title>
+      <link>http://www.joantolos.com/categories/meditation/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/meditation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stoicism</title>
+      <link>http://www.joantolos.com/categories/stoicism/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/stoicism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>http://www.joantolos.com/categories/leadership/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>http://www.joantolos.com/categories/conference/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JBCNConf</title>
+      <link>http://www.joantolos.com/categories/jbcnconf/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/jbcnconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.joantolos.com/categories/talks/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursion</title>
+      <link>http://www.joantolos.com/categories/recursion/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/recursion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflection</title>
+      <link>http://www.joantolos.com/categories/reflection/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/reflection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>antlr4</title>
+      <link>http://www.joantolos.com/categories/antlr4/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/antlr4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://www.joantolos.com/categories/tutorial/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clean Code</title>
+      <link>http://www.joantolos.com/categories/clean-code/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/clean-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Refactoring</title>
+      <link>http://www.joantolos.com/categories/refactoring/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/refactoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEAL</title>
+      <link>http://www.joantolos.com/categories/seal/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/seal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>http://www.joantolos.com/categories/nodejs/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>http://www.joantolos.com/categories/algorithm/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exercise</title>
+      <link>http://www.joantolos.com/categories/exercise/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/exercise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>http://www.joantolos.com/categories/podcast/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Craftsmanship</title>
+      <link>http://www.joantolos.com/categories/craftsmanship/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/craftsmanship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code Coverage</title>
+      <link>http://www.joantolos.com/categories/code-coverage/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/code-coverage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mars</title>
+      <link>http://www.joantolos.com/categories/mars/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/mars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tennis</title>
+      <link>http://www.joantolos.com/categories/tennis/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/tennis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>http://www.joantolos.com/categories/ai/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Long Read</title>
+      <link>http://www.joantolos.com/categories/long-read/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/long-read/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UOC</title>
+      <link>http://www.joantolos.com/categories/uoc/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/uoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>http://www.joantolos.com/categories/architecture/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BDD</title>
+      <link>http://www.joantolos.com/categories/bdd/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/bdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>http://www.joantolos.com/categories/design/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://www.joantolos.com/categories/git/</link>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Readability</title>
+      <link>http://www.joantolos.com/categories/readability/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/readability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>http://www.joantolos.com/categories/devops/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://www.joantolos.com/categories/ssh/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>http://www.joantolos.com/categories/tool/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XP</title>
+      <link>http://www.joantolos.com/categories/xp/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/xp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cobertura</title>
+      <link>http://www.joantolos.com/categories/cobertura/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/cobertura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maven</title>
+      <link>http://www.joantolos.com/categories/maven/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/categories/maven/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

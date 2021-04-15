@@ -1,0 +1,2564 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Artificial Intelligence</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.71.0" />
+        
+
+
+        
+            <meta name="author" content="Joan Tolos">
+        
+        
+            <meta name="description" content="An introduction to AI">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Artificial Intelligence"/>
+<meta name="twitter:description" content="An introduction to AI"/>
+<meta name="twitter:site" content="@JoanTolos"/>
+
+        <meta property="og:title" content="Artificial Intelligence" />
+<meta property="og:description" content="An introduction to AI" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.joantolos.com/blog/ai/" />
+<meta property="article:published_time" content="2017-12-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-12-05T00:00:00+00:00" />
+
+        <meta itemprop="name" content="Artificial Intelligence">
+<meta itemprop="description" content="An introduction to AI">
+<meta itemprop="datePublished" content="2017-12-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="4136">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Joan Tolos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/podcast">
+                        Podcast
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/books">
+                        Books
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/store">
+                        Store
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://www.joantolos.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://www.joantolos.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/podcast">
+                            <h3>
+                                
+                                Podcast
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/books">
+                            <h3>
+                                
+                                Books
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/store">
+                            <h3>
+                                
+                                Store
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/"><p>Fixing date on exported videos from Apple&#39;s Photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/single_page_seed_with_angular/"><p>Single page seed with Angular</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/"><p>The road to digital redemption</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/"><p>Java, Spring and Hibernate microservice seed</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.joantolos.com/blog/iteration_over_repetition/"><p>Iteration over repetition</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f&text=Artificial%20Intelligence&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f&title=Artificial%20Intelligence" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f&title=Artificial%20Intelligence" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://www.joantolos.com/blog/ai/">Artificial Intelligence</a></h1>
+            
+        
+        
+            <p>An introduction to AI</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-05'>
+            December 5, 2017</time>
+        <span class="author">Joan Tolos</span>
+        
+            <p>20 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f&text=Artificial%20Intelligence&via=JoanTolos" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f&title=Artificial%20Intelligence" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f&title=Artificial%20Intelligence" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joan%20Tolos&body=http%3a%2f%2fwww.joantolos.com%2fblog%2fai%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://www.joantolos.com/blog/ai/" class="image featured">
+            <img src="/img/ai//ai.png" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <p>I have done an introduction to Artificial Intelligence (AI) course and I want to share my learning experience. This post covers my notes and summaries of the content of the course.</p>
+<h1 id="history">History</h1>
+<p>On the early sixties, there was a gathering between several investigators interested on artificial intelligence, neural networks and automats theory as a consequence of the first works made on the field.</p>
+<p>The following years there was a lot of progress on the field and several programs were design to solve numerous problems:</p>
+<ul>
+<li>Geometric problems</li>
+<li>Algebraic problems</li>
+<li><em>Checkers</em> players</li>
+<li>LISP programming language was invented</li>
+</ul>
+<p>These programs were successful on limited domains, known as <em>micro-worlds</em>, but failed on the adaptation to real environments because of the following three factors:</p>
+<ol>
+<li>Lack of knowledge on the application domain consistent only on a few syntactic manipulations.</li>
+<li>Most of the problem had <strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/NP_%28complexity%29" target='_blank'>NP complexity class</a>
+
+
+</strong>. With low input knowledge, the problems could be solved, but with bigger input data, they were unsolvable.</li>
+<li>The basic structures used to generate an intelligent conduct, had big limitations. The neuronal network couldn&rsquo;t learn the XOR function.</li>
+</ol>
+<p>The problem resolution was based on a general purpose search engine with high cost. To lower that cost, the first search algorithms were developed, like <strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Heuristic_%28computer_science%29" target='_blank'>Heuristic Search</a>
+
+
+</strong> and <strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Alpha%e2%80%93beta_pruning" target='_blank'>Alpha Beta Search.</a>
+
+
+</strong> Some kind of logic was starting to be developed to represent the knowledge domain of the application.</p>
+<p>Other works were focused on add some kind of learning process to the applications:</p>
+<ul>
+<li>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/ID3_algorithm" target='_blank'>The ID3 decision tree was created</a>
+
+
+</li>
+<li>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Version_space_learning" target='_blank'>Version space learning</a>
+
+
+</li>
+<li>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Backpropagation" target='_blank'>Backpropagation</a>
+
+
+</li>
+</ul>
+<p>Concepts like <em>uncertainty</em> and <em>non precision</em> started to be taken into account. With all those development, at the eighties, the first commercial systems where launched.</p>
+<h1 id="definitions-and-points-of-view">Definitions and points of view</h1>
+<p>There is not a single definition of AI but a lot of them according different points of view. We are going to consider AI as a computer science field and how the different programs and applications define it.</p>
+<p>The goals of the different programs will lead to different definitions:</p>
+<ul>
+<li>The goal of the program can be obtain an specific <strong>conduct</strong> or to obtain an specific <strong>reasoning</strong>. This <strong>conduct/reasoning</strong> pair makes the <em>first dimension</em>.</li>
+<li>On the other hand, it is required that the programs are <strong>correct</strong>. You can measure this correction comparing the performance with the performance on actual people or compared against an ideal concept of intelligence. This ideal is named <em><strong>rationality.</strong></em> The way we measure the correction is the <em>second dimension</em>.</li>
+</ul>
+<p>Using these two dimensions, there are four possible visions for the goals and so, four possible definitions:</p>
+<ol>
+<li><strong>Act like people: The Turing test.</strong> This definition is based on the proposal by <strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Turing_test" target='_blank'>Alan Turing</a>
+
+
+</strong> defining intelligence as an operational way: A conduct is intelligence when has enough level to confuse a human interlocutor.</li>
+<li><strong>Reason like people: The cognitive model.</strong> In this definition, not only the result is important but also how it is obtained. The goal is for the process to be similar to the one made by humans. <strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/General_Problem_Solver" target='_blank'>The General Problem Solver.</a>
+
+
+</strong></li>
+<li><strong>Reason rationally: The thoughts laws.</strong> This point of view is based on considering what it means to think correctly or, what is equivalent, know when a new fact can be deduced logically from the knowledge of what is available.</li>
+<li><strong>Act rationally: The rational agent.</strong> What it is important is to reach the correct conclusions, not if the conclusions were obtained using logic deductions.</li>
+</ol>
+<p>Considering the follow hypothesis:</p>
+<ul>
+<li>
+
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Physical_symbol_system" target='_blank'>The physical symbol system hypothesis</a>
+
+
+
+</li>
+<li>
+
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Heuristic_%28computer_science%29#Newell_and_Simon:_heuristic_search_hypothesis" target='_blank'>Heuristic search hypothesis</a>
+
+
+
+</li>
+</ul>
+<p>We can achieve <em>intelligent activity</em> with the use of:</p>
+<ul>
+<li><strong>Symbols:</strong> The meaningful elements of a system.</li>
+<li><strong>Operations:</strong> Operations between the symbols allowing us to generate solutions.</li>
+<li><strong>Search:</strong> To select a solution from the possible ones generated from the operations.</li>
+</ul>
+<p>This hypothesis explains the two most important elements on the development of AI applications:</p>
+<ol>
+<li>Define the symbolic structures and operations to solve problems.</li>
+<li>Define search strategies to find the potential solutions generated by these structures and operations.</li>
+</ol>
+<h2 id="three-alternatives">Three alternatives</h2>
+<p>This definition is challenged by other authors and other systems had been build following different hypothesis. These are based on different hypothesis:</p>
+<ol>
+<li>
+<p><strong>Biologic models based systems:</strong></p>
+<p>This alternative is based on <em>neuronal networks</em>. These networks represent the world thought the weight associated to each connection (or neuron), no symbols required.</p>
+</li>
+<li>
+<p><strong>Emergent systems:</strong></p>
+<p>The solution to a problem is not obtained from a single individual system but emerges from the activities of independent agents (and relatively simple though usually specialists).</p>
+</li>
+<li>
+<p><strong>Situated action theory:</strong></p>
+<p>The theories of the action argue that intelligence should not be seen as a process of building and evaluating models of the world, but rather as a less structured process of acting in the world and responding to results obtained. Therefore, more importance is given to the ability to act than when explaining these actions.</p>
+</li>
+</ol>
+<h2 id="some-applications">Some applications</h2>
+<ul>
+<li>
+<p><strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Logic_TheoristLogic" target='_blank'>Theorist (Newell, Shaw, Simon, 1957):</a>
+
+
+</strong> An automatic theorem prover.</p>
+</li>
+<li>
+<p><strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Mycin" target='_blank'>Mycin (Shortliffe i Buchanan, 1975):</a>
+
+
+</strong> Designed to help on the recommendations of therapies fitted for a patients with bacterial infections.</p>
+</li>
+<li>
+<p><strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Automated_Mathematician" target='_blank'>AM (Lenat, 1977):</a>
+
+
+</strong> Experimental program to build theories on the mathematics field. From a group of arithmetic concepts, the software builds new concepts.</p>
+</li>
+<li>
+<p><strong>Prospector (Duda, 1979):</strong> Helps locate minerals like copper and uranium. It was a huge success at the eighties when it recommended the excavation on a place where a large deposit of 
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Molybdenum" target='_blank'>molybdenum</a>
+
+
+ was found.</p>
+</li>
+<li>
+<p><strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/William_McCune" target='_blank'>EQP (McCune, 1997):</a>
+
+
+</strong> The EQP system proved the robbing problem. It is a well known problem on boolean algebraic unsolved until then.</p>
+</li>
+<li>
+<p><strong>
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Deep_Blue_%28chess_computer%29" target='_blank'>Deep Blue (IBM, 1997):</a>
+
+
+</strong> The first computer that won a human on chess. It won the world champion G. Kasparov. The program has knowledge of the domain included on the function used to evaluate the different games. Also, it included a large database with final-game data that allowed it to play a perfect game once achieved that stage.</p>
+</li>
+</ul>
+<h1 id="characteristics">Characteristics</h1>
+<p>There are a lot of intelligent systems applied to several different environments but there are some commons elements on all of them:</p>
+<ol>
+<li><strong>Use of symbolic information:</strong> The information to process is <em>symbolic</em>. They have to reason about facts, abstract concepts and obtain conclusions.</li>
+<li><strong>Use of domain description:</strong> In order to find a solution, the systems have to know the problem environment.</li>
+<li><strong>Use of incomplete, inaccurate or conflict data:</strong> There is some level of uncertainty with the data to be processed.</li>
+<li><strong>Use heuristic methods:</strong> On the AI applications, we implement how to find the solution instead of a list of steps to follow. The heuristic methods, help to do that but don&rsquo;t grant success. Most of the times, there isn&rsquo;t a better solution, but they can found a good one enough to keep going.</li>
+<li><strong>Are adaptive:</strong> When the environment changes, the system has to be able to change it&rsquo;s behaviour.</li>
+</ol>
+<h1 id="problem-solving-and-search">Problem solving and search</h1>
+<p>We have stablished that intelligent activity is reached thought the use of <strong>symbols</strong> to represent the problem domain, <strong>operations</strong> over this patterns and <strong>search</strong> to select a solution from the possibilities.</p>
+<p>At that point, we can see how to <strong>formulate a problem</strong> defining the <em>state space</em>.</p>
+<h1 id="state-space-and-problem-representation">State space and problem representation</h1>
+<p>We have to create a model of the problem. This process will usually follow the steps:</p>
+<ol>
+<li>Environment modeling
+We define an <strong>STATE</strong> as the world representation in a specific state.
+We have to deduce on our system&hellip;
+<ul>
+<li>What is an state?</li>
+<li>What are the possible states?</li>
+<li>How do we represent an state?</li>
+</ul>
+</li>
+<li>Actions modeling
+We call <strong>ACTIONS</strong> as the way to move from an state to another and the <strong>BRANCHING FACTOR</strong> as the number of actions that can be applied on an specific state.
+Then we can define the <strong>STATE SPACE</strong> which is the group of possible states and the group of actions.</li>
+</ol>
+<p>Here an STATE SPACE representation for the linear jigsaw puzzle problem:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//stateSpace.png" alt="Module layout" />
+        </span></p>
+    
+
+
+<ol start="3">
+<li>Problem definition
+We can define the problem as the <strong>initial state</strong> and the <strong>goal function</strong>.</li>
+</ol>
+<h1 id="building-a-solution">Building a solution</h1>
+<p>We define the <strong>solution</strong> as the road through the <em>space state</em> graph where, given an <em>initial state</em>, it will satisfy the <em>goal function.</em></p>
+<p>The search algorithm chooses a node and consider the possible actions that can be applied. Each one of this actions creates a new steps group. This made the representation of the data structure as a tree, a searching tree.</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//tree.png" alt="Tree layout" />
+        </span></p>
+    
+
+
+<p>For the implementation we need the <em>data structure</em> for the tree and the <em>functions</em> for build and operate with the tree, that will define the following steps:</p>
+<ol>
+<li>
+<p><strong>Node Representation</strong></p>
+<p>A node will contain:</p>
+</li>
+</ol>
+<ul>
+<li>id</li>
+<li>parent id</li>
+<li>how is generated</li>
+<li>state</li>
+<li>additional info</li>
+</ul>
+<ol>
+<li><strong>Data Structure</strong></li>
+</ol>
+<ul>
+<li>Already expanded nodes (List)</li>
+<li>Nodes to expand (Queue with priority)
+<ul>
+<li>Apply selection operation</li>
+<li>Add nodes to the structure</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li><strong>Algorithm</strong>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//algorithm.png" alt="Tree layout" />
+        </span></p>
+    
+
+</li>
+</ol>
+<h1 id="not-informed-search-strategies">Not informed search strategies</h1>
+<p>The search strategy is defined by the following questions:</p>
+<ul>
+<li>Which node we have to expand?</li>
+<li>How to sort the not-expanded nodes?</li>
+</ul>
+<ol>
+<li><strong>Amplitude search</strong>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//amplitudeSearch.png" alt="Amplitude search" />
+        </span></p>
+    
+
+</li>
+<li><strong>Deep search</strong>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//deepSearch.png" alt="Deep search" />
+        </span></p>
+    
+
+</li>
+<li><strong>Uniform Cost search</strong>
+The uniform cost search introduces the concept of the <em>cost</em> of it&rsquo;s path from the initial state. We call that <em>g(h)</em>. This search is complete and optimal when that cost function is always positive.</li>
+</ol>
+<p>We can consider the uniform cost search as a <strong>generalisation of the amplitude search</strong> when the cost of all operators are the same.</p>
+<h1 id="heuristic-searches">Heuristic searches</h1>
+<p>In general, we can not know how close is a state from the solution. We will use a function that give us an <em>estimation</em> from the node to the solution. That is called <strong>heuristic function</strong>.</p>
+<p>An heuristic function is a function that applied to a node, estimates the cost of the best path between that node and a solution node. This function are represented as <em>h(n)</em></p>
+<ol>
+<li><strong>Avid Search</strong>
+The uniform cost search consider the cost only from the initial state. It does not take into consideration that the next node has to lead to a solution. Using an heuristic function <em>h(n)</em> as a criterion to order the nodes on the ready to expand list, defines the avid search.</li>
+<li><em><em>A</em> Algorithm</em>*
+The **avid search** uses an heuristic function to estimate the node that correspond to the minimum cost from a node to the goal node. That choosing thought, makes the search not optimal nor complete. On the other hand, the **uniform cost search** minimises the cost of the path to origin node to current node.</li>
+</ol>
+<p>The two algorithms are complementary, we can define a function:</p>
+<p><strong><em>f(n) = g(n) + h(n)</em></strong></p>
+<p>Where:</p>
+<ul>
+<li><strong>g(n)</strong> is the cost from the initial state to n</li>
+<li><strong>h(n)</strong> is the estimation from this node to the solution</li>
+</ul>
+<p>We can establish that <em>f(n)</em> is an estimation of the cost of the path going from an initial state to another state solution going through the current node <em>n</em></p>
+<p>The selection of the node to expand according to this function is what it is called <em><em>algorithm A</em>:</em>*</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//algorithmA.png" alt="Amplitude search" />
+        </span></p>
+    
+
+
+<p>The completion and optimality of the algorithm A* depends on the heuristic function. An algorithm A* is optimal and complete when the heuristic function does not over-estimate the cost to reach the goal. If the heuristic function covers that case, it is an admissible heuristic function.</p>
+<p>This is a representation of the A* algorithm on pseudo-code:</p>
+<pre><code>begin
+    input the start node S and the set of GOALS of goal nodes;
+    OPEN &lt;- {S}
+    G[S] &lt;- 0;
+    PRED[S] &lt;- null;
+    found &lt;- false;
+
+    while OPEN is not empty and found is false do
+        begin
+            L &lt;- the set of nodes OPEN for which F is the least;
+
+            if L is a singleton then let X be its sole element
+            else if there are any goal nodes in L
+                then let X be one of them;
+                else let X be any element of L;
+
+            remove X from OPEN and put X into CLOSED;
+
+            if X is a goal node then found &lt;- true
+                else begin
+                    generate the set SUCCESSORS of successors of X;
+                    for each Y in SUCCESSORS do
+                        if Y is not already on OPEN or on CLOSED then
+                            begin
+                                G[Y] &lt;- G[X] + distance(X,Y);
+                                F[Y] &lt;- G[Y] + h(Y);
+                                PRED[Y] &lt;- X;
+                                insert Y on OPEN;
+                            end
+                        else
+                            begin
+                                Z &lt;- PRED[Y];
+                                temp &lt;- F[Y]-G[Z] - distance(Z,Y) + G[X] + distance(X,Y);
+                                if temp &lt; F[Y] then
+                                    begin
+                                        G[Y] &lt;- G[Y] - F[Y] + temp;
+                                        F[Y] &lt;- temp;
+                                        PRED[Y] &lt;- X;
+                                        if Y is on CLOSED then
+                                            insert Y on OPEN and remove Y from CLOSED;
+                                    end;
+                            end;
+                end;
+        end;
+
+    if found is false then output &quot;Failure&quot;;
+    else trace the pointers in the PRED fields from X back to S, &quot;CONSing&quot; each node onto the growing list of nodes to get the path from S to X;
+end;
+</code></pre>
+<h1 id="knowledge-systems">Knowledge systems</h1>
+<p>The knowledge system solve the problems using an intense knowledge of the application field. The knowledge base, the inference system and the user interface are the components associated.</p>
+<p>Building that kind of a system requires a big investment in time and resources and it has to be carefully evaluated if it is worth it.</p>
+<p>You should only build a knowledge system when:</p>
+<ul>
+<li>The usual programming techniques can not solve the problem.</li>
+<li>There are experts that have a good structured knowledge of the system domain.</li>
+<li>We don´t always have human experience on the environments where the knowledge is needed.</li>
+</ul>
+<p>If there is a point to build a knowledge system, then you have to build a <strong>model.</strong></p>
+<p>A model is an abstraction used for specific goals. When we know the model goal, we can do an approximation of the phenomena we want to model. It represents a structured way to understand the entities and the processes that allows to build the solution on the real world.
+The model allows has to understand better the process and also be able to predict.</p>
+<h3 id="systems-based-on-rules">Systems based on rules</h3>
+<p>These systems are used mostly to solve problems of <em>classification</em> and <em>diagnose</em>. There are based on <strong>facts</strong> and <strong>rules</strong></p>
+<ul>
+<li>Facts: Knowledge about the objects of the system.</li>
+<li>Rules: Establish the relation between the objects.
+<ul>
+<li>Follow this format: <strong>IF</strong> [<em>premise</em>] <strong>THEN</strong> [<em>conclusion</em>] where both premise and conclusion are assertions of the facts.</li>
+</ul>
+</li>
+</ul>
+<p>Using the facts and rules, the inference system extract conclusions about the knowledge base which can be concluding new facts or assert the certainty of a fact.</p>
+<p><strong>Rule system architecture</strong></p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//ruleSystemArchitecture.png" alt="Rule system architecture" />
+        </span></p>
+    
+
+
+<ul>
+<li><strong>Rules base:</strong> First formal aspect of the representation. It contains de group of <strong>rules</strong>, the info of the domain.</li>
+<li><strong>Working memory:</strong> Second formal aspect of the representation. It contains the group of <strong>facts</strong> which are temporary and relative to the specific problem trying to solve.</li>
+<li><strong>Interpret:</strong> It is the inference aspect, it concludes new facts.</li>
+</ul>
+<p>About the cyclic system of inference:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//inference.png" alt="Inference" />
+        </span></p>
+    
+
+
+<ul>
+<li><strong>Recovery:</strong> Selects the rules that we can apply. The selected sub group is named <em>conflict set</em>.</li>
+<li><strong>Refinement:</strong> Selects a rule from the sub group.</li>
+<li><strong>Execution:</strong> Applies the rule.</li>
+</ul>
+<p>The cycle ends once it has been proven whatever it is we are trying to prove or the conflict set is empty. So, we have a goal (a solution state) and a search problem (the group of rules). We can apply the search strategies explained before.</p>
+<p><strong>Strategies for drive the search</strong></p>
+<ul>
+<li>Textual order</li>
+<li>Refractoriness</li>
+<li>Recency</li>
+<li>Specificity</li>
+</ul>
+<p><strong>Strategies for doing the inference</strong></p>
+<ul>
+<li>Forward reasoning</li>
+</ul>
+<p>We start from the knowledge and start applying the rules until the goal is reached. To know if we can apply a rule, we look to the <em>precedent</em>. If it is fulfilled, it is added to the work memory the rule conclusions.</p>
+<ul>
+<li>Backward reasoning</li>
+</ul>
+<p>We start from the goal and select the rules that fulfill the goal.</p>
+<h3 id="systems-with-structured-representation">Systems with structured representation</h3>
+<p>The structured representation allows to <em>relate</em> the units from which the knowledge is defined. This is accomplished modeling the interconnections between the objects of the domain. Some of this representations are:</p>
+<ul>
+<li>Frames</li>
+<li>Semantic networks</li>
+<li>Scripts</li>
+</ul>
+<p>The difference between them is blurry since their structure is similar: several concepts and relations between them. Using <strong>Frames</strong> as an example, it can represent concepts defining the situation and domain of the problem. It can take into account the typical values, the exceptions and the incomplete or redundant information. It also allows modifications, inclusions or suppressions of their properties, creating a frame restructure.</p>
+<h4 id="formal-aspects">Formal Aspects</h4>
+<p>From the formal point of view, a frame system is a network where each node represents an object, and the arcs mean the relations that can be establish between the objects. This representation structures the knowledge in a similar way than the object oriented programming paradigm.</p>
+<p>As so, the relation between the objects are the same of the OOP like:</p>
+<ul>
+<li>Class</li>
+<li>Sub Class</li>
+<li>Super Class</li>
+<li>Instance</li>
+<li>Inherence</li>
+</ul>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//frameExample.png" alt="Frame example" />
+        </span></p>
+    
+
+
+<p>There to fields types: member slot and own slot. Each instance of the class has a <em>copy</em> of the member slot and can be modified and the own slot are belong to the frame, so each instances share them. Some of the elements typically included on the fields are:</p>
+<ul>
+<li>Values of the domain</li>
+<li>Reference to another frame, the value indicates an object of the same system. Like on the example above, we have Maria as the owner of the frame car.</li>
+<li>Value restrictions</li>
+<li>Functions: The frame as a function associated that it is called every time there is a need of calculate the field.</li>
+<li>Demons: Procedures called as <em>secondary effect</em> of a relevant action on the knowledge base.</li>
+</ul>
+<h4 id="inferential-aspects">Inferential Aspects</h4>
+<p>When asking to a frame representation, the problem normally is to know if an object satisfies some property or to know the value that an specific field associates with the object. For doing that, the frame system uses inherence to find <em>the field</em> which is solution to the problem.</p>
+<dl>
+<dt>It can be a problem when there is multiple inherence (which happens most of the time). Depending of the order on which the relations are considered, the system will answer one thing or another. So, the multiple inherence is a <em>search problem</em> because to find a result, we have to consider different alternatives and not all of them lead to a solution.</dt>
+<dd>
+<p><em>In abstraction, the problem of finding the solution field is search on a graph since we find a node which satisfies the property. As so, we can use all the search strategies explained before.</em></p>
+</dd>
+</dl>
+<p>The algorithms must take into account the intersections where there are several paths: before considering what is in the object associated to the intersection, the nodes in the paths that carry it must have been taken into account from the origin.</p>
+<p>To solve that problem, we can use the 
+
+    
+        
+    
+
+    <a href="https://en.wikipedia.org/wiki/Topological_sorting" target='_blank'>topological sorting algorithm.</a>
+
+
+</p>
+<h3 id="case-based-systems">Case based Systems</h3>
+<p>The case based reasoning is formed on the idea of using previous experiences and solve new situations in a similar way that we solved the previous ones.</p>
+<p>There is a Case Data Base storing pass experiences in form of <em>cases</em>. Each case is composed by a situation and a solution. In order to solve the new situation, you try to adapt an old solution to the new problem.
+This kind of systems are suited for problems involving <em>design, diagnose and planning</em>. The definition is not made by rules or frameworks but by <strong>operations.</strong></p>
+<h4 id="inferential-aspects-1">Inferential Aspects</h4>
+<p>The inferential is composed by four steps:</p>
+<ul>
+<li>Retrieval</li>
+<li>Reuse</li>
+<li>Revision</li>
+<li>Retain</li>
+</ul>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//inferentialAspectCaseBased.png" alt="Inferential Aspect Case Based" />
+        </span></p>
+    
+
+
+<h3 id="model-based-systems-inferential-aspects">Model based Systems inferential Aspects</h3>
+<p>The model based systems knowledge is based on cause/effect relations.</p>
+<p>A model-based diagnostics system must find the set of failures most likely to explain the behaviour that is observed in the system.
+To do so, it raises different alternatives and rejects those that do not match with the model and maintain those that are corroborated by the model.</p>
+<h3 id="fuzzy-logic-systems">Fuzzy Logic Systems</h3>
+<p>Based on rules defined on <em>fuzzy groups</em> terms. Considering the rule system that we know:</p>
+<p><strong>IF</strong> [<em>premise</em>] <strong>THEN</strong> [<em>conclusion</em>] now both premise and conclusion are fuzzy groups.</p>
+<p>Fuzzy Groups:</p>
+<ul>
+<li>CERTAINLY YES</li>
+<li>POSSIBLY YES</li>
+<li>CANNOT SAY</li>
+<li>POSSIBLY NO</li>
+<li>CERTAINLY NO</li>
+</ul>
+<p>We can think of the fuzzy groups as a <em>generalization</em> of the regular groups, because the regular groups are boolean so a particular case of the fuzzy groups.</p>
+<p>To represent a fuzzy models, there are several ways, being the most important one the <strong>membership function</strong>. Which declare for each element of the domain, which are on the group and which are not.</p>
+<p>It is a boolean function that when applied to the elements of the domain, returns it&rsquo;s pertinence (or not) to the group.</p>
+<p>A visual example of membership function representing the fuzzy group <em>&ldquo;approximately zero&rdquo;</em> named <strong>μZ</strong></p>
+<pre><code>μZ(x)=1/(1+x2)
+</code></pre>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <span class="image left">
+            <img src="/img/ai//membershipFunction.png" alt="Membership function" />
+        </span>
+    
+
+
+<p>The fuzzy model allow you to define concepts in which it is not easy (or it is not possible) clearly define a point where to separate between those elements that are of the concept and those that are not. Some classic examples are those related with temperature (such as cold, hot or heat) or height (high or low).</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Another example. We can consider the threshold 1,79m to consider a person <em>tall</em>. The membership function to model the concept is:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//membershipFunctionHeight.png" alt="Membership function for height" />
+        </span></p>
+    
+
+
+<h4 id="operations-over-fuzzy-sets">Operations over fuzzy sets:</h4>
+<h5 id="negation">Negation</h5>
+<p>Considering the membership function μA(x), we can define the negation as: μnoA(x) = N(μA(x)) where N(1)=0 and N(0)=1</p>
+<p>But this is not enough, because the membership function is not boolean. We need to define N (named outline conditions) as N: [0,1] → [0,1]</p>
+<p>We can also consider that the negation of the negation must be the original: N(N(a))=a for all a values [0,1]</p>
+<p>Summing up:</p>
+<p>The negation function is N: [0,1] → [0,1] satisfying all these conditions:</p>
+<ol>
+<li><strong>OUTLINE CONDITION:</strong> N(0)=1 i N(1)=0</li>
+<li><strong>MONOTONY:</strong> for all a,b on [0,1], if a≤b then N(a)≥N(b)</li>
+<li><strong>INVOLUTION:</strong> for all a in [0,1], N(N(a))=a</li>
+</ol>
+<p>Using the height example:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//membershipFunctionNoHeight.png" alt="Membership function for height" />
+        </span></p>
+    
+
+
+<h5 id="union">Union</h5>
+<p>Now we have two sets each one of it with it&rsquo;s own membership function, so if we consider <strong>μA</strong> and <strong>μB</strong>, we want to calculate the union <strong>μA∪B</strong></p>
+<p>As we did with the negation function N in that case we are going to use the union function S which is named <strong>t-conorm</strong></p>
+<pre><code>μA ∪ B(x) = S(μA(x), μB(x))
+</code></pre>
+<p>μA ∪ B(x) is a membership function as well, so S is a function that due two values on the interval [0,1] returns another on the same interval, so:</p>
+<p>The t-conorm function S: [0,1] x [0,1] → [0,1] satisfying the conditions:</p>
+<ol>
+<li><strong>COMMUTATIVITY:</strong> S(a,b) = S(b,a)</li>
+<li><strong>ASSOCIATIVITY:</strong> S(a,S(b,c)) = S(S(a,b),c)</li>
+<li><strong>MONOTONY:</strong> if a≤c and b≤d then S(a,b) ≤ S(c,d)</li>
+<li><strong>NEUTRAL ELEMENT:</strong> S(a,0)=a</li>
+</ol>
+<p>where a, b, c and d are values on the interval [0,1]</p>
+<p>Using the height example:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//membershipFunctionUnionHeight.png" alt="Membership function for height" />
+        </span></p>
+    
+
+
+<h5 id="intersection">intersection</h5>
+<p>With a similar way we can define the intersection function:  μA ∩ B(x) = T(μA(x), μB(x))</p>
+<p>This time the T function is called <strong>t-norm:</strong></p>
+<p>T:[0,1] x [0,1] → [0,1] satisfying the conditions:</p>
+<ol>
+<li><strong>COMMUTATIVITY:</strong> T(a,b) = T(b,a)</li>
+<li><strong>ASSOCIATIVITY:</strong> T(a,T(b,c)) = T(T(a,b),c)</li>
+<li><strong>MONOTONY:</strong> if a≤c and b≤d then T(a,b) ≤ T(c,d)</li>
+<li><strong>NEUTRAL ELEMENT:</strong> T(a,0)=a</li>
+</ol>
+<p>where a, b, c and d are values on the interval [0,1]</p>
+<p>Again, with the height example:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <p><span class="image center-image">
+            <img src="/img/ai//membershipFunctionIntersectionHeight.png" alt="Membership function for height" />
+        </span></p>
+    
+
+
+<h4 id="building-a-fuzzy-system">Building a fuzzy system:</h4>
+<p>Any knowledge based system, should consider the group of <strong>rules</strong> to cover all the domain of the system. For that, we consider the Error <strong>(ε)</strong> and the Error Increment <strong>(Δε)</strong></p>
+<p>We will build the rules in a way that his premise be fulfilled only in the region that corresponds to him. To
+achieve this we must demand that the values of the error and of the increase of the error are in the corresponding portion of their domain. Thus, if A and B are sub-regions of the domain of ε i of Δε, then the rule:</p>
+<pre><code>if ε is A i Δε is B then the control variable...
+</code></pre>
+<p>Following that structure, generally:</p>
+<pre><code>if X1 is t1,a and X2 is t2,b and X3 is t3,c i ... i Xn is tn,z then Y is tY,o
+</code></pre>
+<h4 id="linguistic-variables">Linguistic variables:</h4>
+<p>A variable whose values are words or sentences in a natural or artificial language. Can be represented as:</p>
+<pre><code>&lt;X, LX, UX, SX&gt;
+</code></pre>
+<ul>
+<li><strong>X</strong> -&gt; Linguistic variable name</li>
+<li><strong>L</strong> -&gt; Linguistic values that variable X can have</li>
+<li><strong>U</strong> -&gt; Universe where the variable has values</li>
+<li><strong>S</strong> -&gt; Semantic function giving sense to the linguistic values</li>
+</ul>
+<p>Example:</p>
+<pre><code>&lt;temperature, Ltemperature=[cold,warm,hot], Utemperature=[-50,50], Stemperature&gt;
+</code></pre>
+<p>Where Stemperature is:</p>
+<pre><code>Stemperature (cold) = μcold
+Stemperature (warm) = μwarm
+Stemperature (hot) = μhot
+</code></pre>
+<p>Being <strong>μhot</strong>, <strong>μwarm</strong> and <strong>μcold</strong>:</p>
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <span class="image left">
+            <img src="/img/ai//membershipFunctionTemperature.png" alt="Membership function for temperature" />
+        </span>
+    
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+    
+        <span class="image left">
+            <img src="/img/ai//membershipFunctionTemperatureGraphic.png" alt="Membership function for temperature" />
+        </span>
+    
+
+
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h4 id="variable-selection-and-rules-construction">Variable selection and rules construction:</h4>
+<p>Considering what we just saw:</p>
+<ul>
+<li>Linguistic terms</li>
+<li>Membership Functions (with graphs)</li>
+<li>Rules</li>
+</ul>
+<p>We have to choose the input variables and the output variables. Then for each of these variables, it&rsquo;s linguistic terms, the universe and the fuzzy sets.</p>
+<p>If we have n input variables, X1,&hellip;, Xn, we build one rule for each tuple (t1,a, t2,b, t3,c, &hellip;, tn,z) where ti,j is a linguistic term of Xi (si ti,j ∈ LXi) a rule like:</p>
+<pre><code>if X1 is t1,a and X2 is t2,b and X3 is t3,c and ... and Xn is tn,z then Y is tY,o
+</code></pre>
+<h3 id="references">References:</h3>
+<ul>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="http://estudios.uoc.edu/es/asignaturas-libres/informatica-multimedia-telecomunicacion/inteligencia-artificial/presentacion#_euocuc322detallpreus_WAR_euocentrega2portlet_INSTANCE_MSj1_detallpreus" target='_blank'>UOC - Intel·ligència artificial</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>Vicenç Torra i Reventós. Què és la intel·ligència artificial</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://www.amazon.es/Lintelligence-artificielle-Haton/dp/2130455123/ref=sr_1_1?ie=UTF8&amp;qid=1505999369&amp;sr=8-1&amp;keywords=Haton&#43;L%e2%80%99intelligence&#43;Artificielle" target='_blank'>Haton, J.P.; Haton, M.C. (1993). L’intelligence Artificielle. París: Presses Universitaires de France</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://amzn.to/2NvDS02" target='_blank'>Luger, G.F. (1995). Computation &amp; Intelligence. Menlo Park: MIT Press.</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>Vicenç Torra i Reventós. Resolució de problemes i cerca</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://amzn.to/2QXSZ4B" target='_blank'>Russell, S.; Norvig, P. (1995). Artificial Intelligence: A modern approach. Prentice-Hall.</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>Vicenç Torra i Reventós. Sistemes basats en el coneixement</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://amzn.to/3aewvDP" target='_blank'>Stefik, M. (1995). Introduction to Knowledge Systems. Morgan Kauffman.</a>
+
+
+</em></p>
+</li>
+<li>
+<p><em>Vicenç Torra i Reventós. Incertesa i raonament aproximat</em></p>
+</li>
+<li>
+<p><em>
+
+    
+        
+    
+
+    <a href="https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_fuzzy_logic_systems.htm" target='_blank'>Tutorial Point: Fuzzy Logic Systems</a>
+
+
+</em></p>
+</li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/ai'>AI</a></li>
+    
+        <li><a href='/categories/uoc'>UOC</a></li>
+    
+        <li><a href='/categories/long-read'>Long Read</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://www.joantolos.com/blog/kata/"
+                class="button big previous">Social Networking Kata</a></li>
+    
+
+    
+        <li><a href="http://www.joantolos.com/blog/angulartutorial/"
+                class="button big next">Angular tutorial extended</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-joantolos-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/joan2019.jpg" alt="Joan Tolos" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joan Tolos</h2>
+                    <p>Experiences and thoughts as a coder</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/fixing_apple_photos_metadata/">Fixing date on exported videos from Apple&#39;s Photos</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-04-15'>
+                                    April 15, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/single_page_seed_with_angular/">Single page seed with Angular</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-03-10'>
+                                    March 10, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/the_road_to_digital_redemption/">The road to digital redemption</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-02-19'>
+                                    February 19, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/java_spring_hibernate_postgres/">Java, Spring and Hibernate microservice seed</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2021-01-04'>
+                                    January 4, 2021</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://www.joantolos.com/blog/iteration_over_repetition/">Iteration over repetition</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2020-12-17'>
+                                    December 17, 2020</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/productivity/">productivity</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tdd/">tdd</a>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/psychology/">psychology</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">java</a>
+                                <span style="float:right;">11</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ethics/">ethics</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/kata/">kata</a>
+                                <span style="float:right;">7</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/refactoring/">refactoring</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/architecture/">architecture</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/bdd/">bdd</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/clean-code/">clean-code</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/goals/">goals</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/gradle/">gradle</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/jbcnconf/">jbcnconf</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cobertura/">cobertura</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/code-coverage/">code-coverage</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conference/">conference</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/design/">design</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/git/">git</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/heroku/">heroku</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/meditation/">meditation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/spring/">spring</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/talks/">talks</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tutorial/">tutorial</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/typescript/">typescript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ai/">ai</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/algorithm/">algorithm</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/antlr4/">antlr4</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/apple/">apple</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/cli/">cli</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conflict/">conflict</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">devops</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/exercise/">exercise</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/hibernate/">hibernate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">html</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/json/">json</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/long-read/">long-read</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mars/">mars</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/maven/">maven</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/metadata/">metadata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">nodejs</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photos/">photos</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/postgres/">postgres</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/readability/">readability</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/recursion/">recursion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/reflection/">reflection</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/seal/">seal</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ssh/">ssh</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/stoicism/">stoicism</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tennis/">tennis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tool/">tool</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/uoc/">uoc</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/video/">video</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xp/">xp</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Experiences and thoughts as a coder</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joantolos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@joantolos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joantolos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/JoanTolos" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+<li><a href="//soundcloud.com/joantolos" target="_blank" title="SoundCloud" class="fa fa-soundcloud"></a></li>
+
+
+
+
+
+<li><a href="//www.goodreads.com/user/show/126756201-joan" target="_blank" title="GoodReads" class="fa fa-goodreads"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joan Tolos. </p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

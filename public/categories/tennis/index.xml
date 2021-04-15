@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tennis on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/tennis/</link>
+    <description>Recent content in Tennis on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/tennis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tennis Kata</title>
+      <link>http://www.joantolos.com/blog/katatennis/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katatennis/</guid>
+      <description>For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+  </channel>
+</rss>

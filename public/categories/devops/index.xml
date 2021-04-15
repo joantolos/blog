@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/devops/</link>
+    <description>Recent content in Devops on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cluster SSH tool using MacOS-X</title>
+      <link>http://www.joantolos.com/blog/clusterssh/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/clusterssh/</guid>
+      <description>CSSHX is a tool to allow simultaneous control of multiple ssh sessions. host1, host2, etc. are either remote hostnames or remote cluster names. csshX will attempt to create an ssh session to each remote host in separate Terminal.app windows. A master window will also be created.
+All keyboard input in the master will be sent to all the slave windows. To specify the username for each host, the hostname can be prepended by user@.</description>
+    </item>
+    
+  </channel>
+</rss>

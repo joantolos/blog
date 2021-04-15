@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Craftsmanship on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/craftsmanship/</link>
+    <description>Recent content in Craftsmanship on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why do you hate your job?</title>
+      <link>http://www.joantolos.com/blog/hatejob/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/hatejob/</guid>
+      <description>“Between 2011 and 2012 the polling company Gallup conducted the most detailed study ever carried out of how people across the world feel about their work. They studied millions of workers across 142 countries. They found that 13 percent of people say they are engaged in their jobs, which means they are &amp;lsquo;enthusiastic about, and committed to their work and contribute to their organisation in a positive manner.&amp;rsquo; Against them, 63 percent say they are not engaged, which is defined as &amp;lsquo;sleepwalking through their workday, putting time (but not energy or passion) into their work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XP on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/xp/</link>
+    <description>Recent content in XP on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/xp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test driven architecture</title>
+      <link>http://www.joantolos.com/blog/testdrivenarchitecture/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/testdrivenarchitecture/</guid>
+      <description>I have been revisiting the classic by Kent Beck, “Extreme Programming Explained”, and I found a very interesting thought about one of the roles on the XP team: architects.
+Communicating architectural intent According to his definition:
+[…] architects on and XP team look for and execute large-scale refactoring, write system-level tests that stress the architecture, and also implement stories. […]
+What I find interesting about that, is the system level tests as they can communicate architectural intent.</description>
+    </item>
+    
+  </channel>
+</rss>

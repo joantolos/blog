@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TDD on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/tdd/</link>
+    <description>Recent content in TDD on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/tdd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing date on exported videos from Apple&#39;s Photos</title>
+      <link>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/fixing_apple_photos_metadata/</guid>
+      <description>I have been dealing with an annoying problem when using the app Photos on Mac OS.
+I sort my photos and videos by years and Photos has a nice feature to create &amp;ldquo;smart albums&amp;rdquo; where you can sort the content by different criteria like &amp;ldquo;file name contains&amp;hellip;&amp;rdquo; and things like that. At the end of the year, I make an export of all the content for the last year and store it as an archive in a remote hard drive in case Photos stops working, or I have to reset the computer or something, so I don&amp;rsquo;t loose the photos and videos.</description>
+    </item>
+    
+    <item>
+      <title>Java, Spring and Hibernate microservice seed</title>
+      <link>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/java_spring_hibernate_postgres/</guid>
+      <description>I am frequently doing posts about TDD and trying to facilitate code seeds with everything in place to work with TDD, for example here or here .
+This time I want to provide a step by step guide for a microservice that will work with Java, Spring, Hibernate and Postgres that will be TDD ready from localhost all the way up to production. The challenge here, is to set up a comfortable way to test when dealing with a database and Spring.</description>
+    </item>
+    
+    <item>
+      <title>How to sort and paginate your table with Typescript</title>
+      <link>http://www.joantolos.com/blog/tablemanager/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tablemanager/</guid>
+      <description>You should always delegate your sorting and pagination needs to the data retriever engine that you are using. For example, if it is a classical relational database you should use ORDER BY, OFFSET, FETCH, LIMIT and whatever mechanisms you have available. Same thing with NoSQL databases. These things are designed to perform well when asking for this kind of sorting and pagination features. So, you should always go for them.</description>
+    </item>
+    
+    <item>
+      <title>Kata hashtag generator</title>
+      <link>http://www.joantolos.com/blog/katahashtaggenerator/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katahashtaggenerator/</guid>
+      <description>Our community manager needs a software to generate a single text sentence containing all the desired hashtags. The main feature is that it has to be quick and easy to use. Just copy from the software and paste into the social media post.
+Requirements Given a static finite list of words, we want a single string containing a random sub set of said words, separated by spaces and preceded with the character #.</description>
+    </item>
+    
+    <item>
+      <title>6 tools to help you do TDD with Java and Spring Cloud</title>
+      <link>http://www.joantolos.com/blog/katasongsapi/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katasongsapi/</guid>
+      <description>I am always trying to manifest the benefits of TDD (see: The real reason why you don&amp;#39;t like TDD and TDD: All in ). Most of the times when I find colleges that “can’t” do it right away it is because their software is not “TDD ready” meaning that it is difficult to test. Solving that pitfall alone is going to improve your software because good code is easy to test, generally speaking.</description>
+    </item>
+    
+    <item>
+      <title>The real reason why you don&#39;t like TDD</title>
+      <link>http://www.joantolos.com/blog/tddcasestudy/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tddcasestudy/</guid>
+      <description>Have you ever read somebody&amp;rsquo;s code and thought: &amp;ldquo;that is just beautiful, I wish I could code like this&amp;rdquo;? The answer is simple: nobody codes like this at first attempt. Good code is always the result of several refactoring, iterations, reviews and improvements. Most of the time made by more than one person.
+So the goal as developers should be to write the best code that we can. In order to do that we should consider has many tools and techniques as possible.</description>
+    </item>
+    
+    <item>
+      <title>6 tools to help you do TDD with NodeJS</title>
+      <link>http://www.joantolos.com/blog/javascripttrifecta/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/javascripttrifecta/</guid>
+      <description>I am using NodeJS more and more to implement middleware services instead of Java. That means that I am dealing with Javascript on a daily basis. In order to add features with guaranties, I code with TDD ( and only TDD ) and that means that I need a few tools to code comfortably:
+ Some BDD or asserting framework Some Code Coverage framework ( I use code coverage to inspire refactors ) Some mocking device  Mocha  Mocha is a feature-rich JavaScript test framework running on Node.</description>
+    </item>
+    
+    <item>
+      <title>Code Jam Kata</title>
+      <link>http://www.joantolos.com/blog/katacodejam/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katacodejam/</guid>
+      <description>A few days ago, I was struggling at work with a simple implementation of sorting a couple of arrays. I was coding it in a language that I am not so good at: Javascript. I asked for help to one of my peers, we shared the pain for a little while and finally we got it.
+Since it was such a simple &amp;ldquo;exercise looking&amp;rdquo; problem, I remember saying: this looks like the typical exercise they ask you to solve on an interview, and both of us struggled for a while with such a simple problem.</description>
+    </item>
+    
+    <item>
+      <title>Code coverage as a tool</title>
+      <link>http://www.joantolos.com/blog/katamarsrover/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katamarsrover/</guid>
+      <description>I want to explain how I use the code coverage as a tool when I code. I don&amp;rsquo;t really care for the final number of test coverage, if you code using TDD this number will be very high anyway. I don&amp;rsquo;t think that we can trust the quality of our code by some test coverage percentage, we all know that figures can be easily hacked, so there is no point on taking much attention at the final count.</description>
+    </item>
+    
+    <item>
+      <title>Tennis Kata</title>
+      <link>http://www.joantolos.com/blog/katatennis/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/katatennis/</guid>
+      <description>For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>Social Networking Kata</title>
+      <link>http://www.joantolos.com/blog/kata/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/kata/</guid>
+      <description>Introducing katas  For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>TDD: All in</title>
+      <link>http://www.joantolos.com/blog/tddallin/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/tddallin/</guid>
+      <description>The setup We faced a complicated release to production on our team. We had to include a brand new feature that will stress the application on different levels: user interface, backend and data. We had also a small window to release it so the pressure was high. Let&amp;rsquo;s establish a little bit the requirements, on a high level (without revealing details of the business).
+
+We had to implement the new feature using the green boxes.</description>
+    </item>
+    
+    <item>
+      <title>Test driven architecture</title>
+      <link>http://www.joantolos.com/blog/testdrivenarchitecture/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/testdrivenarchitecture/</guid>
+      <description>I have been revisiting the classic by Kent Beck, “Extreme Programming Explained”, and I found a very interesting thought about one of the roles on the XP team: architects.
+Communicating architectural intent According to his definition:
+[…] architects on and XP team look for and execute large-scale refactoring, write system-level tests that stress the architecture, and also implement stories. […]
+What I find interesting about that, is the system level tests as they can communicate architectural intent.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber, Java and BDD</title>
+      <link>http://www.joantolos.com/blog/cucumber/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/cucumber/</guid>
+      <description>Some context Behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). It combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development.
+BDD tools Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialised software tools to support the development process.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEAL on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/seal/</link>
+    <description>Recent content in SEAL on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/seal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My thoughts on Extreme Leadership</title>
+      <link>http://www.joantolos.com/blog/extremeownership/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/extremeownership/</guid>
+      <description>Extreme leadership is a book by Jocko Willink and Leif Babin about how U.S. Navy SEALs lead and win.
+The premise of this book is very interesting. The authors are two former Navy SEALs:
+The navy SEALs are the U.S. Navy&amp;rsquo;s primary special operations force and a component of the Naval Special Warfare Command. Among the SEALs&amp;rsquo; main functions are conducting small-unit maritime military operations that originate from, and return to, a river, ocean, swamp, delta, or coastline.</description>
+    </item>
+    
+  </channel>
+</rss>

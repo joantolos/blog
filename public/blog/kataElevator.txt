@@ -1,0 +1,23 @@
++++
+author = "Joan Tolos"
+categories = ["Kata","TDD","Elevator","Test","Code Coverage","BDD","Cucumber","Java"]
+date = "2018-03-26"
+description = "The hospital elevator kata"
+featured = "pic01.png"
+featuredalt = ""
+featuredpath = "/img/kataElevator/"
+linktitle = ""
+title = "New baby, new kata"
+type = "post"
++++
+
+I just had my second child, a beautiful girl named Olivia. As other parents may recall, this means I was going in and out the hospital room for a few days: attending visits, shopping silly things for the mom, going home to grab stuff etc.
+The room was on the seventh floor so lots of elevator rides. While waiting for the elevator, my code-monkey brain started wandering... “how would it be the algorithm to run the elevator?”
+Two elevator, seven floors and two under grounds, with one button to call them. How it is decided which one of the elevators should move? What is it taking into account?
+The current floor
+The rides asked inside the elevator,
+The rides requested by people waiting at the floors...
+
+Cool stuff right? Well... not really but this is what happens when you don’t sleep enough and you tend to think about code.
+
+In any case, I thought of the idea of a kata to implement the elevator algorithm. Because the use case has many combination, I think it is a good example for using some Behaviour Driven Development framework and see how to combine it with the unit tests. Let’s see how I did.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBCNConf on Joan Tolos</title>
+    <link>http://www.joantolos.com/categories/jbcnconf/</link>
+    <description>Recent content in JBCNConf on Joan Tolos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.joantolos.com/categories/jbcnconf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JBCN Conf 2019</title>
+      <link>http://www.joantolos.com/blog/jbcnconf2019/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/jbcnconf2019/</guid>
+      <description>The conference This conference has been growing year by year and now is one of the referents. I have been lucky enough to be able to attend to all the editions until now.
+The JBCNConf is a meeting point for programmers, developers and development professionals, who meet to do networking and learn about the Java world and its latest developments.
+The event is organised by Barcelona JUG (Barcelona Java Users Group) , a non-profit association made up of programmers, engineers and other technology lovers.</description>
+    </item>
+    
+    <item>
+      <title>JBCN Conf 2018</title>
+      <link>http://www.joantolos.com/blog/jbcnconf2018/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/jbcnconf2018/</guid>
+      <description>I attended the Java Barcelona Conference again for the forth time now and I want to share some of my experiences.
+About the Conference The JBCNConf is a meeting point for programmers, developers and development professionals, who meet to do networking and learn about the Java world and its latest developments. Among the Java experts who will speak at the conferences are figures from the universe of programming such as Simon Maple, Marcus Biel and Rustam Mehmandarov.</description>
+    </item>
+    
+    <item>
+      <title>Social Networking Kata</title>
+      <link>http://www.joantolos.com/blog/kata/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.joantolos.com/blog/kata/</guid>
+      <description>Introducing katas  For those not familiar with the concept of kata in programming, I can not make a better definition that the one on Code Kata:   A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long). Some involve programming, and can be coded in many different ways.</description>
+    </item>
+    
+  </channel>
+</rss>
