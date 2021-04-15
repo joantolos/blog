@@ -19,6 +19,7 @@ These are the latest ten episodes of the podcast. Don't forget to subscribe on t
 # Subscribe to the podcast below
 
 {{< rawhtml >}}
-<a href="http://example.com/" target="_blank"><img src="/img/nadaNuevoBajoElSol/applePodcast.png" alt="Listen on Apple Podcast"></a>
-<a href="http://example.com/" target="_blank"><img src="/img/nadaNuevoBajoElSol/spotifyPodcast.png" alt="Listen on Spotify"></a>
+<a href="http://example.com/" target="_blank"><img src="/img/nadaNuevoBajoElSol/apple.png" alt="Listen on Apple Podcast"></a>
+<a href="http://example.com/" target="_blank"><img src="/img/nadaNuevoBajoElSol/spotify.png" alt="Listen on Spotify"></a>
+<a href="http://example.com/" target="_blank"><img src="/img/nadaNuevoBajoElSol/youtube.png" alt="Listen on Youtube"></a>
 {{< /rawhtml >}}
