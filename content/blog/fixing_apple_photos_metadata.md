@@ -177,7 +177,7 @@ Everything in order. Now if I import this files into a new Photos library, every
 
 # Take over
 
-This is the final program: https://github.com/joantolos/kata-meta-data you can find the use instructions on the README 
+This is the final program: https://github.com/joantolos/kata-meta-data you can find the use instructions on the README
 
 Anyway, this is a very specific  program that solves a very specific problem. But I am pretty happy that I have been able to use my coding skills to solve a day to day problem that was bugging me for a long time. Kind of what I did {{< url-link "here" "https://github.com/drewnoakes/metadata-extractor" >}} with my Lazy Oven app.
 

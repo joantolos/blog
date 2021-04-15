@@ -13,7 +13,7 @@ type = "post"
 
 I don't usually do book reviews, I do put a little review on {{< url-link "GoodReads" "https://www.goodreads.com/user/show/126756201-joan" >}} now and then but it is not really my thing. {{< url-link "I did it before on this blog" "http://www.joantolos.com/blog/extremeownership/" >}} talking about the book {{< url-link "Extreme ownership" "https://amzn.to/2Rl15mS" >}}. I really like the military context when talking about leadership or how to manage a team because the stakes are so high. If I fail leading at my job, somebody loses money (maybe me), but if a military leader fails, people die.
 
-For this post, I want to talk about another example of leadership on a military context. The book is: {{< url-link "Turn the Ship Around!: A True Story of Turning Followers into Leaders by Lieutenant David Marquet." "https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/ref=sr_1_1?crid=YM03EALB5N3J&dchild=1&keywords=turn+the+ship+around&qid=1615808636&sprefix=turn+the+ship%2Caps%2C229&sr=8-1" >}}  
+For this post, I want to talk about another example of leadership on a military context. The book is: {{< url-link "Turn the Ship Around!: A True Story of Turning Followers into Leaders by Lieutenant David Marquet." "https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/ref=sr_1_1?crid=YM03EALB5N3J&dchild=1&keywords=turn+the+ship+around&qid=1615808636&sprefix=turn+the+ship%2Caps%2C229&sr=8-1" >}}
 
 This is a case where two books together work better that each of them in isolation. I really think that if you like the topic (leadership in the military and how to transform those skills into civilian life), you should read both of them.
 
@@ -87,6 +87,28 @@ The book tells a very nice example of how a minor detail specific to your domain
 This is not going to happen in my domain, I mean, it is not that dramatically important to take care of any single word when communicating. Blowing a valve can be a matter of life and death on a nuclear submarine but may not have any significant impact on some other domains. The take over here is... look for your very specific domain details because even the minor thing that you think is not THAT important, can have a huge impact at the end. The crew of the submarine were refining their communication iterating again and again to remove any confusion and chance of mistake possible, to the point of having a guideline about how you are suppose to communicate the close a valve. What specific word you should use. That level of detail matters.
 
 Find the level of detail that is relevant on your job, on your team and tackle it. Every minor improvement for minuscule that can be, it is a step forward to excellence.
+
+# Avoiding mistakes and culture of fear
+
+“A mode in which avoiding mistakes became the primary driver for all actions”
+
+“Is your organization spending more energy trying to avoid errors than achieving excellence? We were.”
+“Going into survival mode”
+“The best way not to make a mistake is not to do anything or make any decisions”
+
+The goal must be something NOBLE
+
+“The laws of nature govern a submarine, and those laws are uncaring. With physics, you don’t have problems; you only have the consequences of your actions.”
+
+“USS Santa Fe Creed
+ 
+What do we do on a day-to-day basis?
+We learn.
+Why is “learning” a better word than “training”?
+Training implies passivity; it is done to us. We are trained; we attend training. Learning is active; it is something we do.
+What do we learn?
+We learn how to prepare a submarine for success in combat.”
+
 
 # Take over
 
