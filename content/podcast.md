@@ -8,8 +8,6 @@ In my _Nada nuevo bajo el sol_ podcast, I will talk about my day to day as a dev
 
 You can submit your questions on the contact form of this very web or sending an email at: info@joantolos.com
 
-For over a decade I’ve been writing about work, technology and the deep life in my bestselling books and national publications such as the New Yorker and New York Times. Now it’s your turn to drive the conversation!
-
 These are the latest ten episodes of the podcast. Don't forget to subscribe on the channel of your choice if you want to keep track.
 
 {{< rawhtml >}}
