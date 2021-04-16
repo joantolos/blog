@@ -1,6 +1,18 @@
 +++
 title = "Podcast"
 +++
+{{< rawhtml >}}
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* .image-link {
+    border: none !important;
+}
+</style>
+</head>
+</html>
+{{< /rawhtml >}}
 
 I've been writing about my work, technology and the life as a software development for quite a few years. Now I want to include you in the conversation.
 
@@ -17,8 +29,8 @@ These are the latest ten episodes of the podcast. Don't forget to subscribe on t
 # Subscribe to the podcast below
 
 {{< rawhtml >}}
-<a href="http://example.com/" target="_blank"><img src="/img/nadaNuevoBajoElSol/apple.png" alt="Listen on Apple Podcast"></a>
-<a href="https://open.spotify.com/show/6BcHhm3wO3cvSIMZL6ssG8" target="_blank"><img src="/img/nadaNuevoBajoElSol/spotify.png" alt="Listen on Spotify"></a>
-<a href="http://youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank"><img src="/img/nadaNuevoBajoElSol/youtube.png" alt="Listen on Youtube"></a>
-<a href="https://feeds.buzzsprout.com/1758642.rss" target="_blank"><img src="/img/nadaNuevoBajoElSol/rss.png" alt="Get the RSS feed"></a>
+<a href="http://example.com/" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/apple.png" alt="Listen on Apple Podcast"></a>
+<a href="https://open.spotify.com/show/6BcHhm3wO3cvSIMZL6ssG8" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/spotify.png" alt="Listen on Spotify"></a>
+<a href="http://youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/youtube.png" alt="Listen on Youtube"></a>
+<a href="https://feeds.buzzsprout.com/1758642.rss" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/rss.png" alt="Get the RSS feed"></a>
 {{< /rawhtml >}}
