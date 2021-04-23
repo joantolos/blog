@@ -3,6 +3,15 @@ title = "Books"
 +++
 
 {{< rawhtml >}}
+  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=1937785467&linkId=0cc3ca3deb652dbc2f40e7bdaab01532&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+  </iframe>
+{{< /rawhtml >}}
+
+Mentioned on {{< url-link "episode 14." "https://www.youtube.com/watch?v=jgBqhzOyr50" >}} This is an excellent book by {{< url-link "Venkat Subramaniam" "https://twitter.com/venkat_s?lang=es" >}} where you can learn how to do functional programming with Java 8. Although the examples on this book are in Java, the principles are solid and easy to extrapolate to whatever functional language you want to try.
+
+---
+
+{{< rawhtml >}}
   <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=tf_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS2=1&asins=0465025277&linkId=615b3fc9fdb98d5c86561ca3c55952a8&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
   </iframe>
 {{< /rawhtml >}}
