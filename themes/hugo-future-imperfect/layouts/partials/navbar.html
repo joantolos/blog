@@ -25,13 +25,6 @@
                 <a class="fa-share-alt" href="#share-menu">Share</a>
             </li>
             {{ end }}
-            <li class="search">
-                <a class="fa-search" href="#search">Search</a>
-                <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
-                </form>
-            </li>
             <li class="menu">
                 <a class="fa-bars" href="#menu">Menu</a>
             </li>
@@ -41,14 +34,6 @@
 
 <!-- Menu -->
 <section id="menu">
-
-    <!-- Search -->
-        <section>
-            <form class="search" method="get" action="//google.com/search">
-                <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
-            </form>
-        </section>
 
     <!-- Links -->
         <section>
