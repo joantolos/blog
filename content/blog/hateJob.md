@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["ethics","Craftsmanship"]
+categories = ["life","business"]
 date = "2018-02-10"
 description = "Complaining attitude at the job place"
 featured = "pic01.jpg"

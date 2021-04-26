@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Angular", "Tutorial", "Heroku", "Typescript"]
+categories = ["code"]
 date = "2018-01-05"
 description = "Deploying the Angular 'Tour of heroes' tutorial on Heroku with tests"
 featured = "pic01.png"

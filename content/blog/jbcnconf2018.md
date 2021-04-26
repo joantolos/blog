@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Java","JBCNConf","Talks","Conference"]
+categories = ["code"]
 date = "2018-06-13"
 description = "My take aways from the last Java BCN Conference"
 featured = "pic01.jpg"

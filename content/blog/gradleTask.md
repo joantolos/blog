@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Gradle", "Refactoring", "Git"]
+categories = ["code"]
 date = "2017-09-16"
 description = "Dealing with order on Gradle tasks"
 featured = "pic01.jpg"

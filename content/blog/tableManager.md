@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["typescript", "javascript", "tdd", "test"]
+categories = ["code"]
 date = "2020-05-03"
 description = "A possible implementation for sort and paginate an array"
 featured = "pic01.png"

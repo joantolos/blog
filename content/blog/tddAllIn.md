@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["TDD","BDD","Architecture", "Test", "Design"]
+categories = ["code"]
 date = "2017-11-02"
 description = "Using TDD on a critical point of the project"
 featured = "pic01.jpg"

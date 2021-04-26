@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["ethics","productivity","psychology"]
+categories = ["life"]
 date = "2018-05-09"
 description = "3 reasons why you shouldn't read this post"
 featured = "pic01.png"

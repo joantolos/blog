@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Kata","TDD","Exercise","Algorithm"]
+categories = ["code"]
 date = "2018-04-26"
 description = "Several code exercises solved by simple algorithms."
 featured = "pic01.png"

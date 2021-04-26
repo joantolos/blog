@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["TDD","Architecture", "Test", "XP"]
+categories = ["code"]
 date = "2016-04-10"
 description = "Architect role as read on 'Extreme Programming'"
 featured = "pic01.jpg"

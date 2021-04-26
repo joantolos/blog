@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["productivity", "psychology", "ethics", "leadership"]
+categories = ["business","life"]
 date = "2021-05-09"
 description = "Changing a bad performance team into an excellent one"
 featured = "pic01.png"

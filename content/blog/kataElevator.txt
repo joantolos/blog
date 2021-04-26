@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Kata","TDD","Elevator","Test","Code Coverage","BDD","Cucumber","Java"]
+categories = ["code"]
 date = "2018-03-26"
 description = "The hospital elevator kata"
 featured = "pic01.png"

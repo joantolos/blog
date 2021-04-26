@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["leadership", "goals", "psychology", "productivity", "ethics"]
+categories = ["business"]
 date = "2020-02-26"
 description = "Ups and downs on a new role"
 featured = "pic01.png"

@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Java", "Reflection", "Recursion"]
+categories = ["code"]
 date = "2019-01-23"
 description = "Using reflection and a bit of recursion to merge two objects using Java"
 featured = "pic01.png"

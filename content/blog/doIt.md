@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["psychology", "Goals", "productivity", "Podcast", "Meditation"]
+categories = ["life"]
 date = "2018-03-10"
 description = "How I make time for everything I want to do"
 featured = "pic01.png"

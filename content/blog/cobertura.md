@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Maven","Cobertura","Code Coverage", "Test"]
+categories = ["code"]
 date = "2015-08-26"
 description = "Using Cobertura tool on multi-module maven projects"
 featured = "pic01.jpg"
@@ -24,15 +24,15 @@ I have written a very simple POC using Cobertura tool into a multi-module projec
 {{< url-link "Cobertura plus POC" "https://github.com/joantolos/cobertura-plus" >}}
 
 On the **README.md** file you will find all the steps needed to execute the tests and check the report.
- 
+
 On that example whe have two modules with code (product and enum), a module containing two tests and a module to collect all the Cobertura scripts and results.
- 
+
 {{< img-post path="/img/cobertura/" file="cobertura-module-layout.png" alt="Module layout" type="center" >}}
- 
+
 If you follow the steps detailed on the README.md file on GIT, you will obtain a Cobertura report like this:
- 
+
 {{< img-post path="/img/cobertura/" file="cobertura-report.png" alt="Coverage report" type="center" >}}
- 
-With that POC you have all the necessary information to include the Cobertura capabilities in your multi-module project. 
- 
+
+With that POC you have all the necessary information to include the Cobertura capabilities in your multi-module project.
+
 Hope this post helps other developers to improve the code checking the final reports.

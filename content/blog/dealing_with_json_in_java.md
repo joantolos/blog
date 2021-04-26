@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["java", "gradle", "test", "json"]
+categories = ["code"]
 date = "2020-09-03"
 description = "Get away with simple JSON transformation and manipulation in Java"
 featured = "pic01.png"

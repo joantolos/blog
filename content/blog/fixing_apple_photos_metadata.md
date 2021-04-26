@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["java", "tdd", "metadata", "photos", "video", "apple"]
+categories = ["code"]
 date = "2021-04-15"
 description = "Update video metadata according to proper order"
 featured = "pic01.png"

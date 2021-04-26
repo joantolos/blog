@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["productivity", "psychology", "ethics"]
+categories = ["life","business"]
 date = "2020-12-17"
 description = "How to consistently build relevant skills throughout your career"
 featured = "pic01.png"

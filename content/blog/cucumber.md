@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Cobertura", "Test", "TDD", "BDD"]
+categories = ["code"]
 date = "2015-08-26"
 description = "Using Cucumber tool for Behavior Driven Development"
 featured = "pic01.png"

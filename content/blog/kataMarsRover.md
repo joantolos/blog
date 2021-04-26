@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Kata","TDD","Mars","Test","Code Coverage","Java"]
+categories = ["code"]
 date = "2018-02-06"
 description = "How I use the code coverage report to inspire refactors"
 featured = "pic01.png"

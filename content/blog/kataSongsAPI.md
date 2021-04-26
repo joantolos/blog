@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["TDD","Java","Spring","Test","kata"]
+categories = ["code"]
 date = "2019-09-06"
 description = "Java, Spring Boot, Mock Server"
 featured = "pic01.png"

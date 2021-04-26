@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["AI","UOC","Long Read"]
+categories = ["code"]
 date = "2017-12-05"
 description = "An introduction to AI"
 featured = "ai.png"

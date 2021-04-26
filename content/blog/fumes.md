@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["productivity", "psychology"]
+categories = ["life"]
 date = "2019-08-09"
 description = "Avoid complacency, aim for more"
 featured = "pic01.jpg"

@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["antlr4", "Tutorial", "Gradle"]
+categories = ["code"]
 date = "2019-01-18"
 description = "Different Gradle modules, on of them creating a grammar"
 featured = "pic01.png"

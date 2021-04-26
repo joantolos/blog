@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["Clean Code", "Readability", "Refactoring"]
+categories = ["code"]
 date = "2017-08-29"
 description = "Sometimes more... is more"
 featured = "pic01.jpg"

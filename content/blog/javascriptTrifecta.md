@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["TDD","Javascript","Test","NodeJS"]
+categories = ["code"]
 date = "2018-05-03"
 description = "Mocha, Chai, Istanbul, Nock, Mock-Require and Lint explained"
 featured = "pic01.png"

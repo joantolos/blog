@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["angular", "html", "cli", "kata"]
+categories = ["code"]
 date = "2021-03-10"
 description = "Angular client tutorial deployed"
 featured = "pic01.png"

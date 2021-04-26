@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["kata", "tdd", "java"]
+categories = ["code"]
 date = "2020-02-22"
 description = "Simple tool for community managers"
 featured = "pic01.png"

@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["productivity", "psychology", "ethics"]
+categories = ["life"]
 date = "2020-10-19"
 description = "A naive approach to social networking"
 featured = "pic02.png"

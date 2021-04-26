@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["java", "spring", "hibernate", "postgres", "heroku", "tdd", "test"]
+categories = ["code"]
 date = "2021-01-04"
 description = "TDD ready service with database interaction configured out of the box"
 featured = "pic01.png"
