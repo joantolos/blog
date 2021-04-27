@@ -1,6 +1,6 @@
 baseurl = "http://www.joantolos.com"
 languageCode = "en-us"
-title = "Joan Tolos"
+title = "Joan Tolós"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 5
@@ -11,7 +11,7 @@ googleAnalytics = ""
     # Sets the meta tag description, usually reserved for the main page
     description          = "coding, blogging, podcasting"
     # This will appear on the top left of the navigation bar
-    navbarTitle          = "Joan Tolos"
+    navbarTitle          = "Joan Tolós"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
@@ -41,7 +41,7 @@ googleAnalytics = ""
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "Joan Tolos"
+    header    = "Joan Tolós"
 
     paragraph = "coding, blogging, podcasting"
 
@@ -57,7 +57,7 @@ googleAnalytics = ""
     circle    = false
     imperfect = true
     width     = ""
-    alt       = "Joan Tolos"
+    alt       = "Joan Tolós"
 
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
