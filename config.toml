@@ -51,7 +51,7 @@ googleAnalytics = ""
 # A width of less than 100px is recommended
 # This is optional
 [params.intro.pic]
-    src       = "/img/main/joan2021.jpg"
+    src       = "/img/main/joan2021.jpeg"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
     circle    = true
