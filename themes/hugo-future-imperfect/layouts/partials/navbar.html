@@ -35,7 +35,23 @@
 <!-- Menu -->
 <section id="menu">
 
-
+    <!-- Links -->
+    <section>
+        <ul class="links">
+            {{ range .Site.Menus.main }}
+            <li>
+                <a href="{{ .URL }}">
+                    <h3>
+                        {{ with .Identifier }}
+                        <i class="{{ . }}">&nbsp;</i>
+                        {{ end }}
+                        {{ .Name }}
+                    </h3>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
 
     <!-- Recent Posts -->
         <section>
