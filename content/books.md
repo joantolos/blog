@@ -3,6 +3,16 @@ title = "Books"
 +++
 
 {{< rawhtml >}}
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=8499899854&linkId=29eef2bdd108938cb5687bf8fc864227&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+    </iframe>
+  </iframe>
+{{< /rawhtml >}}
+
+Mentioned on {{< url-link "episode 17." "https://www.youtube.com/watch?v=263KD2t7bxM" >}} This is one of the simplest, beautiful and profound books ever written. Settled on traditional India, it tells the life of Siddharta, a brahman prince that leaves it's home in search of enlightment.
+
+---
+
+{{< rawhtml >}}
   <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=1937785467&linkId=0cc3ca3deb652dbc2f40e7bdaab01532&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
   </iframe>
 {{< /rawhtml >}}
