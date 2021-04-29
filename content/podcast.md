@@ -14,7 +14,7 @@ title = "Podcast"
 </html>
 {{< /rawhtml >}}
 
-I've been writing about my work, technology and the life as a software development for quite a few years. Now I want to include you in the conversation.
+I've been writing about my work, technology and the life as a software developer for quite a few years. Now I want to include you in the conversation.
 
 In my _Nada nuevo bajo el sol_ podcast, I will talk about my day to day as a developer. I will attend your questions and comments and address them on the air.
 
