@@ -83,7 +83,8 @@ googleAnalytics = ""
 
 [[menu.main]]
     name = "Store"
-    url = "/store"
+    target = "_blank"
+    url = "https://shop.spreadshirt.es/nadanuevobajoelsol/"
     weight = 4
 
 [[menu.main]]

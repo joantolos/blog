@@ -16,6 +16,6 @@ min_version = 0.15
 
 # If porting an existing theme
 [original]
-  name = "Future Imperfect"
-  homepage = "http://html5up.net/future-imperfect"
+  name = "Joan Tolos"
+  homepage = "https://www.joantolos.com"
   repo = ""
