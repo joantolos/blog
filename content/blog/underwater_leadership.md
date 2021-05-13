@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["business","life"]
-date = "2021-05-09"
+date = "2021-05-12"
 description = "Changing a bad performance team into an excellent one"
 featured = "pic01.png"
 featuredalt = ""
@@ -90,29 +90,13 @@ Find the level of detail that is relevant on your job, on your team and tackle i
 
 # Avoiding mistakes and culture of fear
 
-“A mode in which avoiding mistakes became the primary driver for all actions”
+There was a moment on the submarine where everyone was more focused on not doing any more mistakes than actually doing a good job. The reputation was so bad that the crew didn't want to risk it anymore.
 
-“Is your organization spending more energy trying to avoid errors than achieving excellence? We were.”
-“Going into survival mode”
-“The best way not to make a mistake is not to do anything or make any decisions”
-
-The goal must be something NOBLE
-
-“The laws of nature govern a submarine, and those laws are uncaring. With physics, you don’t have problems; you only have the consequences of your actions.”
-
-“USS Santa Fe Creed
- 
-What do we do on a day-to-day basis?
-We learn.
-Why is “learning” a better word than “training”?
-Training implies passivity; it is done to us. We are trained; we attend training. Learning is active; it is something we do.
-What do we learn?
-We learn how to prepare a submarine for success in combat.”
-
+When you reach that point you enter into "survival mode", and this is a mode that is fairly usual on the workplace. People are afraid of making mistakes and practically paralysed by fear. Of course, the best way not to make a mistake is not to do anything or make any decisions.
 
 # Take over
 
-These are just two examples of insight I gathered from the book. Overall is a very nice read. Again, the use case of the submarine it is very entertaining and I have enjoyed a lot learning about specifics of such complicated machine.
+These are just examples of insight I gathered from the book. Overall is a very nice read. Again, the use case of the submarine it is very entertaining and I have enjoyed a lot learning about specifics of such complicated machine.
 
 If you like these kinds of books, you will enjoy it.
 
