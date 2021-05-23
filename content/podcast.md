@@ -26,12 +26,18 @@ These are the latest ten episodes of the podcast. Don't forget to subscribe on t
 <div id='buzzsprout-large-player-1758642-limit-10'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1758642.js?player=large&limit=10&container_id=buzzsprout-large-player-1758642-limit-10'></script>
 {{< /rawhtml >}}
 
+This is a video podcast that you can also find in YouTube. Please consider to subscribe and share if you find it interesting:
+
+{{< rawhtml >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lNtODHKPhvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /rawhtml >}}
+
 
 # Subscribe to the podcast below
 
 {{< rawhtml >}}
 <a href="https://podcasts.apple.com/es/podcast/nada-nuevo-bajo-el-sol/id1563220961 " target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/apple.png" alt="Listen on Apple Podcast"></a>
 <a href="https://open.spotify.com/show/6BcHhm3wO3cvSIMZL6ssG8" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/spotify.png" alt="Listen on Spotify"></a>
-<a href="http://youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/youtube.png" alt="Listen on Youtube"></a>
+<a href="http://youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg?sub_confirmation=1" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/youtube.png" alt="Listen on Youtube"></a>
 <a href="https://feeds.buzzsprout.com/1758642.rss" target="_blank" class="image-link"><img src="/img/nadaNuevoBajoElSol/rss.png" alt="Get the RSS feed"></a>
 {{< /rawhtml >}}
