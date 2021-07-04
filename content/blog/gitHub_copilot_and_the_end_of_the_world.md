@@ -82,7 +82,7 @@ And this other one of a monkey playing Pong with his brain. Yes, with his brain,
 
 Now, is this the proper change of paradigm that can render our profession obsolete? Well, I don't know... someone has to create the software running on those chips maybe? I am not sure, but if that happens, it's going to be thanks to a revolution like that one. {{< url-link "GitHub copilot" "https://copilot.github.com" >}} does not look like this, actually a copilot always needs a pilot.
 
-In any case, these are exciting times... our profession is growing and changing at a vertiginous rate, and that is exiting.
+In any case, these are exciting times... our profession is growing and changing at a vertiginous rate, and that is exciting.
 
 I can’t wait to see what this tool (or others similar) are going to be able to do once people start using them massively. Even if that means that I don’t have a job anymore, the spectacle will be awesome.
 
