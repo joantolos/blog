@@ -1,6 +1,6 @@
 +++
 author = "Joan Tolos"
-categories = ["business"]
+categories = ["code"]
 date = "2021-07-04"
 description = "Is this the end of the programming world as we know it?"
 featured = "pic01.png"
