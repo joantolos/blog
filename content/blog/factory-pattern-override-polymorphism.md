@@ -2,7 +2,7 @@
 author = "Joan Tolos"
 categories = ["code"]
 date = "2021-08-14"
-description = "A detailed example with code for both techniques implemented"
+description = "An example with code for both techniques implemented"
 featured = "pic01.png"
 featuredalt = ""
 featuredpath = "/img/overridePolymorphism/"
