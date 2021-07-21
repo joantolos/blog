@@ -3,6 +3,24 @@ title = "Books"
 +++
 
 {{< rawhtml >}}
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=0241250943&linkId=4e5f735837eff1e66aee82d84e35cadc&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+</iframe>
+{{< /rawhtml >}}
+
+Mentioned on {{< url-link "episode 28" "https://www.youtube.com/watch?v=dFL-23r3Fmo&t=103s" >}}, in this book a new extremme form of leadership is explained. A nuclear submarine is the tool needed for the job so the stakes are really high. Another example of great leadership in action.
+
+---
+
+{{< rawhtml >}}
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=1250183863&linkId=f147ced0984d21804c5452d890e35e82&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+</iframe>
+{{< /rawhtml >}}
+
+Mentioned on {{< url-link "episode 28" "https://www.youtube.com/watch?v=dFL-23r3Fmo&t=103s" >}}, Extremme ownership offers a vision of leadership on extremme circumstances as it is a war. Specifically the Irak war.
+
+---
+
+{{< rawhtml >}}
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=8499899854&linkId=29eef2bdd108938cb5687bf8fc864227&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
     </iframe>
   </iframe>

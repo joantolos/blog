@@ -3,6 +3,24 @@ title = "Books"
 +++
 
 {< rawhtml >}}
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=0201633612&linkId=662de67fc7a8127a1c31dbbd902f9d7b&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+</iframe>
+{{< /rawhtml >}}
+
+blah
+
+---
+
+{{< rawhtml >}}
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=8420669873&linkId=e36773466b5579df41be233c9f2c40c3&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+</iframe>
+{{< /rawhtml >}}
+
+blah
+
+---
+
+{< rawhtml >}}
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=1544512279&linkId=363be9a5ab70eaa28953bd007180f6a7&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
 </iframe>
 {{< /rawhtml >}}
@@ -10,7 +28,7 @@ title = "Books"
 blah
 
 ---
-    
+
 {< rawhtml >}}
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=0393541495&linkId=c076594c903de39ab5bf53e9b55dc844&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
 </iframe>
@@ -68,33 +86,6 @@ blah
 
 {{< rawhtml >}}
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=8430601031&linkId=87832ceb595febd2f99be831bb8143fa&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
-</iframe>
-{{< /rawhtml >}}
-
-blah
-
----
-
-{{< rawhtml >}}
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=8420669873&linkId=e36773466b5579df41be233c9f2c40c3&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
-</iframe>
-{{< /rawhtml >}}
-
-blah
-
----
-
-{{< rawhtml >}}
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=0241250943&linkId=4e5f735837eff1e66aee82d84e35cadc&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
-</iframe>
-{{< /rawhtml >}}
-
-blah
-
----
-
-{{< rawhtml >}}
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=nadanuevobajo-21&m=amazon&o=30&p=8&l=as1&IS1=1&asins=1250183863&linkId=f147ced0984d21804c5452d890e35e82&bc1=FFFFFF&amp;lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
 </iframe>
 {{< /rawhtml >}}
 
