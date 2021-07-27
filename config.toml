@@ -77,11 +77,6 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
-  name = "Books"
-  url = "/books"
-  weight = 3
-
-[[menu.main]]
     name = "Store"
     target = "_blank"
     url = "http://store.joantolos.com"
