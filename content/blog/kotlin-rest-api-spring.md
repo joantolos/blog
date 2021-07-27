@@ -1,11 +1,11 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2021-10-15"
+date = "2021-09-03"
 description = "Using Kotlin and Spring to build a REST API"
 featured = "pic01.png"
 featuredalt = ""
-featuredpath = "/img/restAPI/"
+featuredpath = "/img/kotlinRestAPI/"
 linktitle = ""
 title = "REST API seed with Kotlin and Spring"
 type = "post"
