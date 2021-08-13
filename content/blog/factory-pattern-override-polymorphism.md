@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2021-08-14"
+date = "2021-08-12"
 description = "An example with code for both techniques implemented"
 featured = "pic01.png"
 featuredalt = ""
