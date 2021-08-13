@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2022-02-10"
+date = "2022-02-13"
 description = "Several writing tips that are easily extrapolated to coding"
 featured = "pic01.png"
 featuredalt = ""
@@ -11,22 +11,39 @@ title = "Writing will make you a better programmer"
 type = "post"
 +++
 
-Les cuento cuentos a los niños
-Cuento con cuento, y cuento "sin cuento"
-Me invento historias, me pierdo, el niño siempre se acuerda de todo
-Acabo con un follón... Tengo varios universos alternativos y un pitufo viajando en el tiempo. Riete tu de Christopher Nolan
-Para evitar eso he decidido escribir un cuento.
-Cuento de piratas que sigue el arquetipo del heroe.
-Me he dado cuenta que al tener mas practica escribiendo, escribo mejor codigo.
-Tambien me he dado cuenta de que escribir es dificilisimo.
+I tell stories to my children at bedtime, I suppose every parent does that more or less. We have two different versions: **story with book** and **story without book**. For the first option, I read from a children book and on the second option, I tell a story just with my voice, not from a book.
 
-Code simplicity by Max Kanat-Alexander
-El codigo se lee mas veces que se escribe
-Escribimos codigo para ojos humanos, no para las maquinas
-Tu código es mejor cuanto mejor se lea
-Si esta bien escrito, se lee bien
+The thing is, when I tell stories I use to invent adventures or things related with the day to day of my kids and they really love that. Also, I try to inject some kind of "lesson", for example, if one of them did something wrong during the day, I try to introduce something similar on the story and the protagonist of the story does the right thing and so I hope my kids get the message and don't do it again. I believe it works.
 
-Episodio de Code[ish]: Why writting matters for engineers
+Anyway, when I invent stories, I don't remember any minor detail... in fact I can't remember practically anything from the day before story. But they do... specially the older one... He gets really upset when I mess up some detail from the story because he remembers everything! He says _tell us again the story about the elephant..._ and I can't remember for the life of me what elephant is he talking about.
+
+I tried to keep some kind of track and I ended up with a complex multiverse with a couple of Smurfs traveling on time... the story got more and more complicated and I lost myself easily.
+
+{{< img-post path="/img/writing/" file="smurf.png" alt="Smurfs" type="center" >}}
+
+In short... It's a mess...
+
+To avoid this mess, I decided some time ago to write an actual story so I can go to it if I forget something and also so I have a base schema to build from. I have been writing a pirates story where the protagonists are actually my children and they love it. To me, it's really easy to remember because I have read so many stories like that when I was little and I know the arc stories by heart. Also, if I loose myself I always go to the hero archetype and then it's easy to keep going.
+
+When I started to write the story, I realised how difficult it is to write fiction but more important... since I write that story... I write better code. I have seen with my own eyes how **writing is making me a better programmer.**
+
+## Code simplicity by Max Kanat-Alexander
+
+I can't recommend this book enough:
+
+{{< img-post path="/img/writing/" file="codeSimplicity.png" alt="Code simplicity" type="center" >}}
+
+It is really good, it reads easy, it is short and on point. Everything is gold but I remember one concept that stuck with me: **_code is more times read than written_**
+
+Meaning, we write code for others humans beings to read, not for the machine. The compiler (or interpret) will eat almost anything that you trow at it (if it doesn't have syntax errors), but that the code compiles does not mean that it is good code. We all know that.
+
+Do not write code for the machine, write code for your fellow peer that will have to understand that code a year from now (or yourself for that matter).
+
+The most important lesson I took from that book is that your code is better the better it is read. If it is well written, it reads easily.
+
+## Why writing matters for engineers
+
+
 Ilussion of explanatory depth bias
 La creencia que entendemos mas del mundo de lo que realmente entendemos.
 Ejemplo del cielo azul
