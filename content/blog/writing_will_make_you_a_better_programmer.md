@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2021-08-13"
+date = "2022-02-15"
 description = "Several writing tips that are easily extrapolated to coding"
 featured = "pic01.png"
 featuredalt = ""
