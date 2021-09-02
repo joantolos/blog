@@ -92,8 +92,7 @@ Imagine the first and last step as a bullet point list. You are stressing the id
 
 6. Practice, practice, practice. Imagine playing the violin... no matter how much you read about it, you will have to spend a thousand hours to be able to play at a certain level.
 
-> “How do you get to Carnegie Hall?”
-“Practice, practice, practice”?
+> {{< url-link "'How do you get to Carnegie Hall?' 'Practice, practice, practice'" "https://www.nytimes.com/2009/11/29/nyregion/29fyi.html" >}}
 
 ## Conclusion
 
