@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2022-02-15"
+date = "2022-02-14"
 description = "Several writing tips that are easily extrapolated to coding"
 featured = "pic01.png"
 featuredalt = ""
@@ -63,32 +63,46 @@ If you overflow the reader with details, it is easy to loose focus of the point 
 2. Take into consideration the curse of knowledge, there is no way to get rid of it. It states something like: **"once you know something, you can't unknown it"**. All your knowledge will be build upon your previous one, even if the previous one is wrong, you will never "unknown it". You can learn that it is wrong, but you will always build on it.
 That makes you explain things with the assumption that everyone knows what you know. And that premise is, of course, false. So, you have to have some kind of idea of what your audience is and adjust your explanation. If you want to explain how a operative system works, you can start by threads and processes, or computers and transistors, or... you can start from the Big Bang.
 
-> Once upon a time, a monkey grabbed a stick and some millions of years later... operative systems happened.
+> Once upon a time, a monkey grabbed a stick and some millions years later... operative systems happened.
 
 3. Avoid jargon or complex language. This is another difficult one... as common as it is the temptation to provide unnecessary details, it is the temptation to use jargon and very specific language. It makes perfect sense when you write it, but it is easier to understand even if you have to make a longer path using common language.
 
-2. Intenta evitar la jerga o lenguaje complejo
-3. Intenta escribir un par de niveles por debajo de lo que puedes escribir
-Las novelas populares estan escritas para un nivel de lectura de niño de 7 años
-Estamos mas comodos asi
-4. Intentar contar una historia, somos cuenta cuentos (eposidio 36)
-Crear una narrativa
-Las historias hacen hasta un 20% mas comprensible lo que escribes
-El diablo de los numeros de Hans Magnus Enzensberger
-5. Ser conciso, evitar la redundancia a la vez que necesitas repetición para que una idea se quede en la mente.
-Dices lo que vas a decir
-Lo dices
-Dices lo que has dicho
-6. Practica, practica, practica... Imagina tocar el violin... por mucho que alguien te diga como tiene que hacerse, hasta que no te pases mil horas...
+4. Try to write a couple of levels below of what you can actually write.
 
-Esto son consejos de escritura generica, o para escribir documentación tecnica.
-Vamos a ver cuantos de ellos se pueden aplicar a la escritura de software...
+> {{< url-link "The average American reads at the 7th- to 8th-grade level. — The Literacy Project" "https://www.wyliecomm.com/2021/08/whats-the-latest-u-s-literacy-rate/#_ftn2" >}}
 
-Conclusion: escribid! Escribid un blog, escribid cuentos, escribid un diario, lo que querais, pero escribir os hara mejor programadores.
+Part of the key to success to big "best sellers" novels is there are actually written aiming at that 7th grade level. I am not saying that in a pejorative way, I really enjoy "page turners" novels. They require a high skill level to write them.
+Simplify. Simplicity is the key. Even when you have to be a bit more verbose, trying to make the point a cross with simplicity is always a safe bet.
+
+5. Try to tell a story. Stories make 20% more comprehensive what you are trying to say. It does not have to be like a fiction story, but try to maintain a certain structure as if it was (introduction, body and conclusion).
+
+This has been used with children for ages. Take this book for example, {{< url-link "The Number Devil: A Mathematical Adventure" "https://en.wikipedia.org/wiki/The_Number_Devil" >}}:
+
+{{< img-post path="/img/writing/" file="numberDevil.jpg" alt="Number Devil" type="center" >}}
+
+It tries to expose the fun part of mathematics to children by means of telling a story.
+
+5. Be concise. Avoid redundancy when possible even thought repetition is a well known tool to make a point. You have to be able to repeat your idea enough so it stays on the reader mind but without being redundant. A simple way to do that is follow these simple three steps:
+
+- Expose what you are going to say
+- Say it
+- Expose what you just said
+
+Imagine the first and last step as a bullet point list. You are stressing the idea three times without being redundant and on the last step you can add nuance and details because the theme has already been explained.
+
+6. Practice, practice, practice. Imagine playing the violin... no matter how much you read about it, you will have to spend a thousand hours to be able to play at a certain level.
+
+> “How do you get to Carnegie Hall?”
+“Practice, practice, practice”?
+
+## Conclusion
+
+Write. Write a blog, write stories for your children, write a journal... whatever it is you like. What it is certain is that writing will make you a better programmer.
 
 ### References:
 
 * _Photo by {{< url-link "Sara Madden" "https://pixabay.com/users/angelos212-8762104/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3544946" >}} on {{< url-link "Pixabay" "https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3544946" >}}_
 * _{{< url-link "Code Simplicity by Max Kanat-Alexander" "https://amzn.to/3xIMC7a" >}}_
 * _{{< url-link "Edge: The Illusion of Explanatory Depth " "https://www.edge.org/response-detail/27117" >}}_
-* _{{< url-link "El diablo de los números by Hans Magnus Enzensberger" "https://amzn.to/3lYte3Q" >}}_
+* _{{< url-link "The Number Devil: A Mathematical Adventure" "https://en.wikipedia.org/wiki/The_Number_Devil" >}}_
+* _{{< url-link "What’s the latest U.S. literacy rate?" "https://www.wyliecomm.com/2021/08/whats-the-latest-u-s-literacy-rate/#_ftn2" >}}_
