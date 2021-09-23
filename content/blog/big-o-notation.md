@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2022-04-15"
+date = "2021-11-15"
 description = "A basic knowledge for a day to day developer"
 featured = "pic01.png"
 featuredalt = ""
@@ -19,9 +19,9 @@ Let's say we want to go from Paris to Amsterdam and I ask you for an algorithm t
 
 You have solved the problem on the most efficient way. You can go from Paris to Amsterdam by car but it wouldn't be efficient at all. The intelligence we extract from solving this problem is: _*The plane is the fastest way of traveling*_. Which is true, of course... or is it?
 
-Let's say now I ask you for an algorithm to go from your home to the gym. This is the same kind of problem _I need to go from point A to point B_. I am pretty sure that your answer is not going to be: *take a plane!*
+Let's say now I ask you for an algorithm to go from your home to the gym. This is the same kind of problem: _I need to go from point A to point B_. I am pretty sure that your answer is not going to be: *take a plane!*
 
-This obvious difference between the two examples is telling us that even the plane is the most efficient way to travel, it is not always the correct answer. Or put it in another words... the plane is the fastest way to travel in absolute terms but it is not on relative terms.
+This obvious difference between these two examples is telling us that even the plane is the most efficient way to travel, it is not always the correct answer. Or put it in another words... the plane is the fastest way to travel in **absolute** terms but it is not on **relative terms.**
 
 We know that there are several algorithms to do the same thing and intuitively, we must asume than maybe one is better than the other. So, how do we determine which one is the best? Is there an absolute answer?
 
@@ -70,9 +70,9 @@ Consider an algorithm to find the number of characters on a string. One easy way
     o -> totalLength = totalLength + 1
     g -> totalLength = totalLength + 1
 
-    totalLength = 3;
+    solution = totalLength = 3;
 
-This algorithm runs in linear time in respect the number of characters. If the number of character of the string is named "n", we have that this algorithm runs in **O(n)**, pronounced _Big O of n_
+This algorithm runs in lineal time in respect the number of characters. If the number of character of the string is named "n", we have that this algorithm runs in **O(n)**, pronounced _Big O of n_
 
 What this notation is telling us is that the time it takes to go through the entire string is proportional to the number of characters and this will be maintained as the number of characters grows.
 
@@ -132,19 +132,41 @@ Now, this is a pretty efficient algorithm that will allow you to find an element
 
 If we have an algorithm that runs at O(log(n)), and the n is 64 as the example before, it will take 6 steps to finish the algorithm in the worst case scenario (that is why the big O notation is called "the upper bound"). In the best case scenario, the algorithm will take 1 step. The first step of the algorithm is check the middle element of the array, imagine that your element is just there in the middle. For that case, your algorithm will take O(1) and that is called the "lower bound".
 
-# Example O(n log n) Logarithmic time
+# Another example O(log n) Logarithmic time
 
-There are a bunch of well known algorithm that are pretty efficient and I want to put just one more example: the quick sort algorithm. Again, a nice animation from Wikipedia of this algorithm in action:
+There are a bunch of well known algorithm that are pretty efficient and I want to add just one more example: the quick sort algorithm. Again, a nice animation from Wikipedia of this algorithm in action:
 
 > Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
 {{< img-post path="/img/bigO/" file="quickSort.gif" alt="Quick sort graphical representation" type="center" >}}
 
-The asymptotic notation for the quick sort algorithm is **O(n log n)**. This is a very efficient algorithm.
+The asymptotic notation for the quick sort algorithm is, again **O(log n)**. This is a very efficient algorithm.
 
 # What all of this means for my day to day
 
-All right
+What you need to know is that any algorithm you use, has a big o notation associated. That notation will tell you an approximation of how efficient this algorithm is, so you need to know the different big O notations most used and match the algorithm you are using with it. Once you now that, you need to know the boundaries of your input, an approximation of the maximum size that you could have.
+
+If you are 100% sure that your input is really small, you can risk with not so efficient algorithm. Again: **be really sure.** But, to be on the safe side, you should always try to use the most efficient algorithm in order to save machine resources.
+
+What it is most important is to know the usual different Big O notation available and learn them sorted from the better performance to the worst. Follow this table:
+
+{{< img-post path="/img/bigO/" file="bigOsSorted.png" alt="Big O notations sorted from better to worst" type="center" >}}
+
+Another representation:
+
+# Big-O complexity chart
+
+{{< img-post path="/img/bigO/" file="bigOsChart.png" alt="Big O notations sorted from better to worst" type="center" >}}
+
+Finally, it is also very useful know the big o notation for the most common data structures and array sorting methods:
+
+# Common Data Structure Operations
+
+{{< img-post path="/img/bigO/" file="dataStructure.png" alt="Big O notations sorted from better to worst" type="center" >}}
+
+# Array Sorting Algorithms
+
+{{< img-post path="/img/bigO/" file="arraySorting.png" alt="Big O notations sorted from better to worst" type="center" >}}
 
 # Do I need to calculate the Big O notation for my own algorithms?
 
@@ -188,3 +210,4 @@ That is the Big O notation of your algorithm... your pride and joy or your highw
 * _{{< url-link "Wikipedia: Big O notation" "https://en.wikipedia.org/wiki/Big_O_notation" >}}_
 * _{{< url-link "Big O, how do you calculate/approximate it?" "https://stackoverflow.com/questions/3255/big-o-how-do-you-calculate-approximate-it" >}}_
 * _{{< url-link "How To Calculate Time Complexity With Big O Notation" "https://medium.com/dataseries/how-to-calculate-time-complexity-with-big-o-notation-9afe33aa4c46" >}}_
+* _{{< url-link "Know Thy Complexities!" "https://www.bigocheatsheet.com/" >}}_

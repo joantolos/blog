@@ -32,7 +32,7 @@ Happiness is like a soap bubble. You know those people sometimes at parks that m
 
 {{< img-post path="/img/happiness/" file="bubble.png" alt="Logo" type="center" >}}
 
-But we do that sometimes with other things in our life that are supposed to make us happy. We are angry when specially happy periods of life ends, when circles end. Why that sensation should last forever? That is not how happiness works. Happiness is like a a bubble... You should be able to grab while it last, enjoy it as much as you can and then be able to just let go.
+But we do that sometimes with other things in our life that are supposed to make us happy. We are angry when specially happy periods of life ends, when cicles end. Why that sensation should last forever? That is not how happiness works. Happiness is like a a bubble... You should be able to grab while it last, enjoy it as much as you can and then be able to just let go.
 
 Can’t spend your life making bubbles, that is a recipe for disaster, frustration and stress. That moments of happiness come, and you have to be on a right state of mind to be able to enjoy them. Enjoy them and let them go... don't hung up on the sensation because you can end up on a hamster wheel, running without an end.
 
