@@ -45,7 +45,7 @@ This is the formal definition of the Big O notation:
 
 A function _f(x)_ runs on the order of _g(x)_ if there exists some value _{{< rawhtml >}}x<sub>0</sub>{{< /rawhtml >}}_ and some constant _C_ for which _f(x)_ is less or equals that the constant time _g({{< rawhtml >}}x<sub>0</sub>{{< /rawhtml >}})_.
 
-On asymptotic notation, this function f(x) represents the obtained running time of an analysed algorithm. In another words, we want a function such as there exists two constants C and _{{< rawhtml >}}C<sub>0</sub>{{< /rawhtml >}}_ where f(x) is almost C time g(x) for every x greater than zero.
+On asymptotic notation, this function f(x) represents the obtained running time of an analysed algorithm. In another words, we want a function such as there exists two constants C and _{{< rawhtml >}}x<sub>0</sub>{{< /rawhtml >}}_ where f(x) is almost C time g(x) for every x greater than zero.
 
 That is exactly our Big O notation: **f(x) = O(g(x))**
 
