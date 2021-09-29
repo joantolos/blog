@@ -77,8 +77,56 @@ This is the code in Java:
 
 The only mystery is the if condition: the sum of the two elements must be the target and also, they must be different elements of the array, of course.
 
+This algorithm has a complexity of O({{< rawhtml >}}n<sup>2</sup>{{< /rawhtml >}}) because of the two loops. This has a very bad performance, {{< url-link "as we know" "http://www.joantolos.com/blog/big_o_notation" >}}, since the number of operations will rapidly increase as the size of the array grows to infinity.
 
+The beauty of Leet Code is that when you submit your answer, it responds with a series of nice statistics about your solution. For this case:
+
+{{< img-post path="/img/bigO2/" file="exponential1.png" alt="Exponential performance one" type="center" >}}
+
+{{< img-post path="/img/bigO2/" file="exponential2.png" alt="Exponential performance two" type="center" >}}
+
+On this last graph you can see that most of the solutions submitted perform a lot better that this one. Thanks to Big O Notation we can understand better why. Algorithms that run on exponential time are not good ones.
+
+# The refined approach
+
+If we want to avoid the exponent, we need to start thinking in ways to solve this looping through the array just **one time**. Meaning, just one loop. In order to do that, you have to have a "bag of tricks" that you will collect while you solve this kind of exercises. In my case, when I need to use one loop instead of two, the kind of things that work are...
+
+- Try to divide the array into smaller ones
+- Think about a solution involving recursion
+- Try to use an extra data structure to store intermediate results
+
+For this case, the last trick will do the idem. We use a map storing the already "visited" numbers of the array for each loop iteration. Then we calculate the subtraction of the target and the current one (since {{< url-link "commutative property" "https://en.wikipedia.org/wiki/Commutative_property" >}}). If the subtraction is already on the map of "visited", we have our solution, if not, we just add it.
+
+This is the new solution, again, in Java:
+
+    public int[] linealAlgorithm(int[] nums, int target) {
+        Map<Integer, Integer> lookedUpNums = new HashMap<>();
+        for (int i = 0; i < nums.length; i++){
+            int subtracted = target - nums[i];
+            if (lookedUpNums.containsKey(subtracted)) {
+                return new int[] { lookedUpNums.get(subtracted), i };
+            } else {
+                lookedUpNums.put(nums[i], i);
+            }
+        }
+        return null;
+    }
+
+Pretty clever right? This is the performance of this new algorithm according to Leet Code:
+
+{{< img-post path="/img/bigO2/" file="lineal1.png" alt="Lineal performance one" type="center" >}}
+
+{{< img-post path="/img/bigO2/" file="lineal2.png" alt="Lineal performance two" type="center" >}}
+
+See how it goes from 100 ms to 1 ms and the runtime distribution it way better than the last one.
+
+# Take over
+
+This is fun, isn't it? I am going to continue trying new Leet Code exercises in order to improve myself. It is very challenging for me to think of a problem in a different way **once it is already solved**. So, this little game is useful to me, personally.
+
+Let's take into account Big O Notation more and extract intelligence from it.
 
 ### References:
 * _Photo by {{< url-link "John Barkiple" "https://unsplash.com/@barkiple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >}} on {{< url-link "Unsplash" "https://unsplash.com/s/photos/complexity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >}}_
 * _{{< url-link "LeetCode" "https://leetcode.com/problems/two-sum" >}}_
+* _{{< url-link "Commutative property" "https://en.wikipedia.org/wiki/Commutative_property" >}}_
