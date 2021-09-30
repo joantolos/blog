@@ -130,3 +130,4 @@ Yo he tardado unos 5 minutos en explicar un solo ciclo, soy el peor procesador d
 * _{{< url-link "Registers and RAM" "https://youtu.be/fpnE6UAfbtU" >}}_
 * _{{< url-link "The Central Processing Unit" "https://youtu.be/FZGugFqdr60" >}}_
 * _{{< url-link "Instructions and Programs" "https://youtu.be/zltgXvg6r3k" >}}_
+* _{{< url-link "Wikipedia: 74181" "https://en.wikipedia.org/wiki/74181" >}}_
