@@ -58,70 +58,100 @@ Just remember: The ALU is the basic element of a CPU. It performs arithmetic and
 
 # Registers and RAM
 
-Registros y RAM
-Vale, ya tenemos nuestra unidad aritmetico logica con capacidad para hacer estas operaciones
-Queremos hacer algo con ellas no? Encadenarlas a otras o guardar sus resultados
-RAM -> Random Access Memory / Consistent memory
-Se trata de diseñar un circuito que nos permita almacenar un bit... esto se hace con una puerta AND o OR cuya salida se retroalimenta a una de sus dos entradas. Este circuito logico se llama AND-OR-LATCH, con un nivel de abstraccion mas alto, se consigue el circuito que se llama "Gated latch", que funciona: tienes 2 inputs, el bit que quieres guardar y un bit que habilitara o no el guardado. Habilitas el guardado, metes un uno, desabilitas el guardado, y siempre te devolvera un uno... has almacenado un 1 en memoria!
-Un grupo de latches se llama un register, un registro de memoria
-Hay varias maneras de acumular latches para almecenar mas de un bit, por ejemplo, una matriz, Latch Matrix asi podemos almacenar 8 bits, 16 bits, 256 bits...
-Esto nos llevaria al siguiente nivel de abstraccion que es un multiplexor... (definicion?)
-Que es a su vez una matriz de esas matrices que hemos visto anteriormente...
-Un nuevo nivel de abstraccion y a todo este conjunto se le llama: RAM!
-Random access memory... o memoria a corto plazo (que he comido este mediodia vs recordar las vacaiones cuando tenias 15 años)
-Este ejemplo seria SRAM, static... pero hay otros... DRAM. Flash Memory o NVRAM... lo que cambia es el circuito basico que es el latch.
-Es como el juego de las muñecas rusas
+Now that we have this unit with the capability to perform those operations, we want to be able to do something with them. Chain them together, store the outputs... This is where the RAM memory becomes relevant (Random access memory)
 
-CPU (Central processing unit)
-ALU -> Ejecuta calculos con numeros binarios
+We need to design a circuit that allows us to store one bit. You can do that with an AND, OR logic gate which output retro feeds into one of its inputs.
 
-RAM -> Capacidad de guardar estos calculos en memoria, persistidos, ni que sea temporalmente
+{{< img-post path="/img/cpu/" file="basicLatch.png" alt="Basic Latch" type="center" >}}
 
-Con esto ya podemos introducir el concepto de CPU -> Central Process Unit
-Su trabajo es ejecutar programas, o mejor dicho, ejecutar instrucciones de programas
-CPU necesita comunicarse con la memoria RAM
-Necesita una serie de registros que dependeran del tipo de CPU y esos registros van a contener los datos necesarios para ejecutar una instruccion. Pero sea cual sea la arquitectura del procesador, hay dos registros que siempre existen:
-- Instruction addres register
-- Instruction register
+This circuit will "stuck" a bit in a way that no matter what the input is, it will always returns that bit. The actual circuit has a reset mechanism but it is easier to understand with this simplified version. The sophisticated version is called a _gated latch_ and works like this:
 
-A partir de aqui empieza el ciclo del microprocesador: FETCH-DECODE-EXECUTE
+- Enable the storage
+- Store the bit (a one for example)
+- Disable the storage
+- Will always return the one until enabling storage again
 
-Nuestro procesador tiene asociada una tabla de instrucciones de todas las cosas que puede hacer (load, store, write...)
+Congratulations! You have successfully stored a one in memory.
 
-FETCH:
-address register es 0
-vamos a la ram a la posicion 0
-colocamos su contenido en el instruction register
-Ya hemos hecho el fetch, hemos ido a buscar nuestra primera instruccion en la memoria
+A group of latches is named a memory register. There are several different ways to accumulate latches to store more than one bit, for example a matrix, a latch matrix so we can store 8 bits, 16 bits, 256 bits...
 
-DECODE:
-Que es esa instruccion para poder ejecutarla y no descartarla
-La instruccion se va a componer de dos partes, el codigo de operacion (load, store, write, add, etc) y la direccion de memoria de los datos a la que se tiene que aplicar esa operacion
-Ya sabemos que operacion es, y que datos tiene implicados, ya hemos hecho el decode
+Adding a new level of abstraction with multiplexors and the new block is what we call RAM memory.
 
-EXECUTE:
-Si por ejemplo en nuestro decode tenemos en los primeros 4 bits un LOAD y los ultimos 4 bits un 3. Para ejecutar esta instruccion usaremos otro de los registros disponibles para cargar ese tres.
-Voila! Ya hemos cargado el 3, por lo que hemos terminado la instruccion que era precisamente, cargar el 3
-Ahora lo que toca es incrementar el registro de instruccion address para volver a empezar con otro ciclo FETCH-DECODE-EXECUTE
+> Random-access memory can be read and changed in any order, typically used to store working data and machine code. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory.
 
-Las diferentes opciones que te da un procesador para trabajar con las instrucciones estas embedidas en la arquitectura del propio procesador. Por eso, un procesador Intel es diferente de un procesador AMD. Por esto mismo, la manera que tiene de ejecutar las instrucciones sera diferente.
-Algunos son mas eficientes en un sentido, otros en otro.
+The example with the latch is called SRAM (S from static), but there are others... DRAM, Flash Memory, NVRAM
+Este ejemplo seria SRAM, static... pero hay otros... DRAM. Flash Memory o NVRAM... the idea is the same but the basic circuit (the latch), changes.
 
-Por ejemplo, queremos hacer una suma:
-Cargar numero a
-Cargar numero b
-Sumar numero a y numero b
-Guardar el resultado en memoria
-(esto lo podrias hacer en ensamblador por ejemplo)
+# Central process Unit
 
-4 instrucciones, cada una de ellas va a tener su ciclo completo de FETCH-DECODE-EXECUTE
+With these two elements (ALU and RAM) we can introduce the concept of CPU (Central Process Unit). Its work is execute programas, or better said, execute program instructions, one by one.
 
-La velocidad a la que la CPU puede hacer cada una de esas pequeñas operaciones del ciclo se llama la velocidad de reloj de la CPU, los famosos herzios de un microprocesador.
-Intel The Core i7 tiene una velocidad de reloj de 2.9GHz Hertz es una unidad de frecuencia
-1 herz es un ciclo por segundo
-2,9 billones de ciclos por segundo
-Yo he tardado unos 5 minutos en explicar un solo ciclo, soy el peor procesador de la historia
+The CPU needs communication with the RAM memory and a series of registers. The definition and design of those registers will depend on the type of CPU and its architecture and they will be used to store the data needed in order to execute an instruction. No matter what architecture, there are two registers that need to be there:
 
+- Instruction address register: Starts at zero, contains the memory address to the instruction to execute.
+- Instruction register: Contains the instruction to execute.
+
+Also, each CPU has a table of instructions of all the operations it can made (load, store, write...). For example:
+
+{{< img-post path="/img/cpu/" file="instructionsTable.png" alt="Basic Latch" type="center" >}}
+
+Now the **cicle** of the CPU starts. The cicle has three phases: FETCH - DECODE - EXECUTE
+
+## Fetch
+
+The address register starts at zero, so we are fetching the content of the RAM memory at the zero position. We put the content of that position on the instruction register.
+
+This is the fetch phase of the cicle, we have reached our first instruction from memory.
+
+## Decode
+
+On this phase, we are going to look at the instruction so we can execute it or discard it. The instruction is going to be composed by two parts:
+
+- The operation code
+- The memory address of the data associated
+
+Using the instruction table, you can match the operation code with the proper operation and you can reach the data neede for this instruction. We have successfully decoded the instruction.
+
+## Execute
+
+Now it's time to execute the decoded instruction. For example, the first four bits of the instructions tells us that we have to perform a LOAD operation, and the other four bits is the representation for the number three. So... "load the number three". We use the proper free register on the cpu to load that number three. Now it's time to increment the instruction address register and start a new cicle again.
+
+## Example
+
+The different options that you have on the CPU to work with the instructions are embedded on the CPU itself, in its architecture. That is why an Intel CPU is different than an AMD one, the architecture is different. Some operations will be more efficient, some others, not so much. That will vary from architecture to architecture.
+
+For example, we want to make a simple addition. This will be split into four instructions:
+
+- Load number A
+- Load number B
+- Add
+- Store the output
+
+This four lines remind a lot to Assembly Language which is a **low-level** programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Makes sense right?
+
+Each one of this four instructions will have its own complete cicle of fetch, decode and execute.
+
+## CPU clock
+
+In order to finalise the CPU, it also needs a clock. The clock will define the speed it can perform each one of this cicle operations. It is measured on Hertz, a measure of frequency.
+
+A 1 Hertz clock CPU means that it can perform a CPU cicle in one second. A Intel Core i7 with a clock speed of 2.9GHz which means it can perform 2,9 billions of cicles per second.
+
+I have spend a least twenty minutes trying to explain just one cicle... that would probably makes me the worst CPU in history...
+
+# Follow the yellow brick path of abstraction
+
+It's a bit like the Russian dolls. If you look at one element by itself, it is not that complicated... but usually this element is part of a much more bigger element and if you try to understand the specifics it can be difficult. Then you add a new level of abstraction, and end up with a bigger doll that it is easy to understand.
+
+{{< img-post path="/img/cpu/" file="russianDolls.png" alt="Basic Latch" type="center" >}}
+
+Our day to day level of abstraction is so high that when we type an if statement, we don't think on all these terms. But we should have into account, that at the very end, the CPU will perform instruction by instruction of your if statement. Even more, we know for sure that the key operation that the CPU will do for each instruction will pass necessarily by the ALU, so your high level if statement can be reduced to a bunch of arithmetic and logic operations.
+
+Now think of something really cool instead of an if statement, like a recursive method to calculate Fibonacci's series... All that work reduced to a bunch of simple arithmetic operations. Impressive, right?
+
+Our beloved computers (and phones, watches...) are very good at performing very simple operations (like addition) very very fast. Just the opposite as us, humans, that we can perform very complex operations but we take our time. We also really suck at doing the same single task over and over again... Humans are good using creativity, thinking in high-level terms and machines are really good repeating simple things very fast. We are really made for each other.
+
+That is why sometimes we struggle to solve certain problems with algorithms, because we humans think of them with a high level of abstraction, and we need to reduce them to operations that a machine can perform. If you design an algorithm that mimics the way a human will solve the problem it is probably a very poor algorithm. The key, the mind blowing, mind changing step, is always something that a human "wouldn't do" and that is usually the key of the algorithm.
 
 ### References:
 * _Photo by {{< url-link "Niek Doup" "https://unsplash.com/@niekdoup?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >}} on {{< url-link "Unsplash" "https://unsplash.com/s/photos/cpu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >}}_
@@ -131,3 +161,4 @@ Yo he tardado unos 5 minutos en explicar un solo ciclo, soy el peor procesador d
 * _{{< url-link "The Central Processing Unit" "https://youtu.be/FZGugFqdr60" >}}_
 * _{{< url-link "Instructions and Programs" "https://youtu.be/zltgXvg6r3k" >}}_
 * _{{< url-link "Wikipedia: 74181" "https://en.wikipedia.org/wiki/74181" >}}_
+* _{{< url-link "Random access memory" "https://en.wikipedia.org/wiki/Random-access_memory" >}}_
