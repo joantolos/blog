@@ -11,6 +11,7 @@ title = "Big O notation and asymptotic complexity"
 type = "post"
 +++
 
+
 Let's say we want to go from Paris to Amsterdam and I ask you for an algorithm to solve that problem. The problem being _I need to go from point A to point B_. You can answer... "well, you take a plane". Ok, a little more specific... "You take your car from your home to the airport, then take a plane, and when in Paris, rent a car from the airport to the hotel". That is good enough, let's say that the steps for the algorithm are:
 
 1. Car to the airport
