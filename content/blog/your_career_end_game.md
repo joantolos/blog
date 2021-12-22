@@ -15,7 +15,7 @@ This is a weird post. I am having a weird time. Not bad, I am more than good, bu
 
 What is the ultimate goal of my career? What is the end game? When I was a younger I had this almost "automatic" thought about how you should live your live. Got it from culture, education and who knows what else. What was the goal back then? Oh, yes, study, get a good job, figure out a stable way to live so finally you can... what?... **kick back and relax?** But the train of thought is like a stair... one accomplishment after another and you never run out of steps. Always following the next goal.
 
-At this point I question myself... what should be the next step on my career? Switch jobs again and pursue another salary, another promotion? Or maybe start a company on my own? So I can finally what... **kick back and relax?**
+At this point I question myself... what should be the next step on my career? Switch jobs again and pursue another salary, another promotion? Or maybe start a company of my own? So I can finally what... **kick back and relax?**
 
 Looks a little like a rat race to me, always looking for the cheese at the end of the maze.
 
