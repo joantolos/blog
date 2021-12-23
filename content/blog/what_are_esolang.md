@@ -29,6 +29,14 @@ Most of programming languages are Turing complete, sometimes are referred as "un
 
 **Big picture:** if the language contains loops, some form of functions, recursion, variable assignment... all the perks of a regular language, it probably is Turing complete. In fact, if you try to design a language right now, it would probably end up being Turing complete.
 
+## What are stack based languages?
+
+Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. Some stack-oriented languages operate in postfix or Reverse Polish notation. Any arguments or parameters for a command are stated before that command. For example, postfix notation would be written 2, 3, multiply instead of multiply, 2, 3
+
+Stack-based algorithms consider data, by utilising one piece of data from atop the stack, and returning data back atop the stack. The need for stack manipulation operators, allow for the stack to manipulate data. To emphasise the effect of a statement, a comment is used showing the top of the stack before and after the statement. This is known as the stack effect diagram. The most notorious example are **assembly languages.**
+
+Stack based languages are often verbose and difficult to read, but they provide a good framework to experiment if you want to create a brand new language by yourself. You have to substitute the table commands and operations to manipulate the stacks with whatever is your idea for the language.
+
 # Classes of Esolangs
 
 There is a little but very active community online designing these new languages for all kind of purposes:
@@ -128,30 +136,172 @@ The {{< url-link "Shakespeare" "https://esolangs.org/wiki/Shakespeare" >}} Progr
 
 This program prints "Hello world" when you run it with the Shakespeare interpreter. It uses a very complex way to evaluate the weight of the adjectives and other key words to work the program stack. But the great think about this is... you can represent the play...
 
-## Recipe
-Hello world, not eatable
-Chocolate cake
-Done it
-Eat it
-http://www.mike-worth.com/2013/03/31/baking-a-hello-world-cake/
+## Chef
+
+Chef is a stack-based language where programs look like cooking recipes. Chef was designed by David Morgan-Mar in 2002.
+
+This is hello world in Chef:
+
+	Ingredients.
+	72 g haricot beans
+	101 eggs
+	108 g lard
+	111 cups oil
+	32 zucchinis
+	119 ml water
+	114 g red salmon
+	100 g dijon mustard
+	33 potatoes
+
+	Method.
+	Put potatoes into the mixing bowl.
+	Put dijon mustard into the mixing bowl.
+	Put lard into the mixing bowl.
+	Put red salmon into the mixing bowl.
+	Put oil into the mixing bowl.
+	Put water into the mixing bowl.
+	Put zucchinis into the mixing bowl.
+	Put oil into the mixing bowl.
+	Put lard into the mixing bowl.
+	Put lard into the mixing bowl.
+	Put eggs into the mixing bowl.
+	Put haricot beans into the mixing bowl.
+	Liquefy contents of the mixing bowl. P
+	our contents of the mixing bowl into the baking dish.
+
+	Serves 1.
+
+As you can see, it really looks like a recipe but if you try to eat that you will probably end up in the emergency room. So, {{< url-link "Mike Worth" "http://www.mike-worth.com/2013/03/31/baking-a-hello-world-cake/" >}} wrote a hello world program that can be followed as a functional (if slightly odd) recipe for a chocolate cake:
+
+	Ingredients.
+	33 g chocolate chips
+	100 g butter
+	54 ml double cream
+	2 pinches baking powder
+	114 g sugar
+	111 ml beaten eggs
+	119 g flour
+	32 g cocoa powder
+	0 g cake mixture
+
+	Cooking time: 25 minutes.
+
+	Pre-heat oven to 180 degrees Celsius.
+
+	Method.
+	Put chocolate chips into the mixing bowl.
+	Put butter into the mixing bowl.
+	Put sugar into the mixing bowl.
+	Put beaten eggs into the mixing bowl.
+	Put flour into the mixing bowl.
+	Put baking powder into the mixing bowl.
+	Put cocoa  powder into the mixing bowl.
+	Stir the mixing bowl for 1 minute.
+	Combine double cream into the mixing bowl.
+	Stir the mixing bowl for 4 minutes.
+	Liquefy the contents of the mixing bowl.
+	Pour contents of the mixing bowl into the baking dish.
+	bake the cake mixture.
+	Wait until baked.
+	Serve with chocolate sauce.
+
+	chocolate sauce.
+
+	Ingredients.
+	111 g sugar
+	108 ml hot water
+	108 ml heated double cream
+	101 g dark chocolate
+	72 g milk chocolate
+
+	Method.
+	Clean the mixing bowl.
+	Put sugar into the mixing bowl.
+	Put hot water into the mixing bowl.
+	Put heated double cream into the mixing bowl.
+	dissolve the sugar.
+	agitate the sugar until dissolved.
+	Liquefy the dark chocolate.
+	Put dark chocolate into the mixing bowl.
+	Liquefy the milk chocolate.
+	Put milk chocolate into the mixing bowl.
+	Liquefy contents of the mixing bowl.
+	Pour contents of the mixing bowl into the baking dish.
+	Refrigerate for 1 hour.
+
+This looks a little bit more like a reasonable recipe, so he baked it:
+
+{{< img-post path="/img/esolangs/" file="helloWorldChef1.png" type="center" >}}
+
+And eat it:
+
+{{< img-post path="/img/esolangs/" file="helloWorldChef2.png" type="center" >}}
+
+You just have to love that.
 
 ## Piet
-Piet_Mondrian
-https://en.wikipedia.org/wiki/Piet_Mondrian
-Couple of Piet pictures
-https://www.dangermouse.net/esoteric/piet.html
 
+Piet is my favourite one. It is a stack-based language in which programs look like abstract paintings. It uses 20 colors, of which 18 are related cyclically through a lightness cycle and a hue cycle. A single stack is used for data storage, together with some unusual operations.
 
-Hello world in piet
-http://www.bertnase.de/npiet/
-Show it
-Execute it
-Show the physical picture
+Piet was invented by David Morgan-Mar and is named after geometric abstract art pioneer Piet Mondrian.
+
+>Piet Mondrian was a Dutch painter and art theoretician who is regarded as one of the greatest artists of the 20th century. He is known for being one of the pioneers of 20th-century abstract art, as he changed his artistic direction from figurative painting to an increasingly abstract style, until he reached a point where his artistic vocabulary was reduced to simple geometric elements.
+
+You may be familiar with some of his later paintings:
+
+{{< img-post path="/img/esolangs/" file="mondrian.png" type="center" >}}
+
+Well, Piet programs looks like that, this is hello world:
+
+{{< img-post path="/img/esolangs/" file="hello_world.png" type="center" >}}
+
+And another version, a bit more artistic of, again, hello world:
+
+{{< img-post path="/img/esolangs/" file="hello_world_artistic.png" type="center" >}}
+
+This program prints "Piet" on the console and it **really** looks like a Mondrian painting:
+
+{{< img-post path="/img/esolangs/" file="pietPiet.png" type="center" >}}
 
 ## Sonic Pi
-Show the code for FizzBuzz
-Make it sound
+
+{{< url-link "Sonic Pi" "https://sonic-pi.net" >}} it's just an endless stream of fun. This is a language that uses familiar syntax to generate sounds using synths. The point is to create music with code... or make sound your code.
+
+This is FizzBuzz implemented in SonicPi:
+
+	# Welcome to Sonic Pi
+	use_bpm 244
+
+	live_loop :main do
+	  use_synth :dark_ambience
+	  i = 1
+	  16.times do
+	    if factor?(i, 15)
+	      play :G4
+	    elsif factor?(i, 5)
+	      play :D5
+	    elsif factor?(i, 3)
+	      play :C5
+	    else
+	      play :A4
+	    end
+	    i = i + 1
+	    sleep 1
+	  end
+	end
+
+And it sounds (yes, **sounds**) like this:
+
+{{< rawhtml >}}
+<audio controls="controls">
+  <source type="audio/wav" src="/img/esolangs/fizzBuzz.wav"></source>
+</audio>
+{{< /rawhtml >}}
+
+I got this idea from a wonderful talk by {{< url-link "Dylan Beattie" "https://www.youtube.com/watch?v=6avJHaC3C2U" >}} called "The art of code"
 
 ### References:
 * _Photo by {{< url-link "Pixabay" "https://pixabay.com/photos/craft-tarot-divination-2728227/" >}}_
 * _{{< url-link "Wikipedia: Turing machine" "https://en.wikipedia.org/wiki/Turing_machine" >}}_
+* _{{< url-link "Wikipedia: Piet Mondrian" "https://en.wikipedia.org/wiki/Piet_Mondrian" >}}_
+* _{{< url-link "The Art of Code - Dylan Beattie" "https://www.youtube.com/watch?v=6avJHaC3C2U" >}}_
