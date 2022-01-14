@@ -265,7 +265,7 @@ This program prints "Piet" on the console and it **really** looks like a Mondria
 
 ## Sonic Pi
 
-{{< url-link "Sonic Pi" "https://sonic-pi.net" >}} it's just an endless stream of fun. This is a language that uses familiar syntax to generate sounds using synths. The point is to create music with code... or make sound your code.
+{{< url-link "Sonic Pi" "https://sonic-pi.net" >}} it's just an endless stream of fun. This is a language that uses familiar syntax to generate sounds using synths. The point is to create music with code... or make your code sound.
 
 This is FizzBuzz implemented in SonicPi:
 
