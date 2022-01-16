@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["life"]
-date = "2022-01-15"
+date = "2022-01-16"
 description = "Humble reflection about happiness inspired on stoic philosophy"
 featured = "pic01.png"
 featuredalt = ""
