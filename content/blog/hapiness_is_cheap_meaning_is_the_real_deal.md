@@ -62,7 +62,7 @@ Happiness is a feeling “by default”. If you start removing negative feelings
 
 I want to share an ultimate moment of happiness that I had in my life. I was in the park with my son which was three years old at the moment. It was getting late and the sky was clear so I could see the moon which was full moon at the time. I made him look at the sky and told him "Look! the moon is here already saying hi to us". My child asked me to carry him in order to touch the moon. “Grab me, grab me so I can touch it”... You can imagine the smile in my face and how much I enjoyed this moment.
 
-If I had been stressed out of worried about something or having any other negative feelings I would have missed that. And I would never forgive me for that. Why do you even have children if not to make them touch the moon? It doesn’t get better than that.
+If I had been stressed out of worried about something or having any other negative feelings I would had missed that. And I would never forgive me for that. Why do you even have children if not to make them touch the moon? It doesn’t get better than that.
 
 And I grabbed him, of course, and we tried to touch the moon for a while.
 
