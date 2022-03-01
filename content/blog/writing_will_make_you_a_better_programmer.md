@@ -15,7 +15,7 @@ I tell stories to my children at bedtime, I suppose every parent does that more 
 
 The thing is, when I tell stories I use to invent adventures or things related with the day to day of my kids and they really love that. Also, I try to inject some kind of "lesson", for example, if one of them did something wrong during the day, I try to introduce something similar on the story and the protagonist of the story does the right thing and so I hope my kids get the message and don't do it again. I believe it works.
 
-Anyway, when I invent stories, I don't remember any minor detail... in fact I can't remember practically anything from the day before story. But they do... specially the older one... He gets really upset when I mess up some detail from the story because he remembers everything! He says _tell us again the story about the elephant..._ and I can't remember for the life of me what elephant is he talking about.
+Anyway, when I invent stories, I don't remember any minor detail... in fact I can't remember practically anything from the day before story. But **they do**... specially the older one... He gets really upset when I mess up some detail from the story because he remembers everything! He says _tell us again the story about the elephant..._ and I can't remember for the life of me what elephant is he talking about.
 
 I tried to keep some kind of track and I ended up with a complex multiverse with a couple of Smurfs traveling on time... the story got more and more complicated and I loose myself easily.
 

@@ -17,7 +17,7 @@ I remember making a mental note at that moment because although I answered the q
 
 ## What is an exception
 
-An exception is an unexpected event during a program execution that disrupts the normal instructions flow. This definition is common for pretty much any programming language and each one of them will hace it's own nuances and ways to deal with exceptions. It is important to know the ways the language deals with exceptions, and be wise enough to choose well. A good exception treatment will really make a difference in a piece of software.
+An exception is an unexpected event during a program execution that disrupts the normal instructions flow. This definition is common for pretty much any programming language and each one of them will have it's own nuances and ways to deal with exceptions. It is important to know the ways the language deals with exceptions, and be wise enough to choose well. A good exception treatment will really make a difference in a piece of software.
 
 The concept of checked and unchecked exception is introduced by the Java compiler. Checked and unchecked exceptions are part of the basics of the language.
 
@@ -46,7 +46,7 @@ Java compiler won't check them so they appear in what it's called execution time
 
 These are exceptions that don't go against the correct program execution, in principle... an arithmetic exception, an array growing uncontrollably or the famous (infamous) null pointer exception.
 
-They can also be used to explicit your program domain like sending a User not found exception if you are trying to search for an user, or more specific logics. Used in that sense, these exceptions provide intent and context to the code, making it more easy to read and follow.
+They can also be used to explicit your program domain like sending a "user not found exception" if you are trying to search for an user, or more specific logics. Used in that sense, these exceptions provide intent and context to the code, making it more easy to read and follow.
 
 ## Diferences
 
@@ -64,7 +64,7 @@ General rule is: If the consumer or the client of the method can recover from th
 
 Dealing with exceptions is not trivial. In fact, error managing on software it's a whole art in itself. A good error managing in your software can make the difference between a nice software and a really good piece of software.
 
-Theoretically, the only point where a program can interrupt it's execution is on startup because it lacks some resources... files, external connections or wathever it is. If the program can start, the rest of problems must be able to be dealt during execution without any need to stop or disrupt the program.
+Theoretically, the only point where a program can interrupt it's execution is on startup because it lacks some resources... files, external connections or whatever it is. If the program can start, the rest of problems must be able to be dealt during execution without any need to stop or disrupt the program.
 
 ### References:
 

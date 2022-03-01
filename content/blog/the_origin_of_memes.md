@@ -29,9 +29,9 @@ Dawkins is also famous for being one of the big promoters of the new atheism. Fr
 
 > The term New Atheism was coined by the journalist Gary Wolf in 2006 to describe the positions promoted by some atheists of the twenty-first century. This modern-day atheism is advanced by a group of thinkers and writers who advocate the view that superstition, religion and irrationalism should not simply be tolerated but should be countered, criticised, and challenged by rational argument wherever they exert undue influence, such as in government, education, and politics.
 
->New Atheism describes a period of time when atheistic, anti-religious, humanist, and antitheist talking points were highly visible in the media landscape. New Atheism often criticised what writers such as Richard Dawkins described as the indoctrination of children and the social harms caused by perpetuating ideologies founded on belief in the supernatural. At the time, critics of the movement deployed pejorative terms such as militant atheism and fundamentalist atheism to malign vocal atheists.
+>New Atheism describes a period of time when atheistic, anti-religious, humanist, and anti-theist talking points were highly visible in the media landscape. New Atheism often criticised what writers such as Richard Dawkins described as the indoctrination of children and the social harms caused by perpetuating ideologies founded on belief in the supernatural. At the time, critics of the movement deployed pejorative terms such as militant atheism and fundamentalist atheism to malign vocal atheists.
 
-Being a firm atheist, Dawkins explains the idea or concept of God as one of the successful memes of human history. This idea brings stability and an answer to profound problems. It also suggest that the injustices of this world will be resolved in the next one. This big cultural meme serves as a _pillow to rest our troubled heads_.
+Being a firm atheist, Dawkins explains the idea or concept of God as one of the most successful memes of human history. This idea brings stability and an answer to profound problems. It also suggest that the injustices of this world will be resolved in the next one. This big cultural meme serves as a _pillow to rest our troubled heads_.
 
 ## Problems of memes
 
@@ -51,7 +51,7 @@ This type of mockery was very popular on the early internet:
 
 {{< img-post path="/img/memes/" file="mockMeme.png" alt="Classic motivational poster" type="center" >}}
 
-See how they copied the original intention, the typo etc...
+See how they copied the original intention, the font etc...
 
 After that, the social networks came along and the rest is history.
 
