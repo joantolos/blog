@@ -23,7 +23,7 @@ You can submit your questions on the contact form of this very web or sending an
 These are the latest ten episodes of the podcast. Don't forget to subscribe on the channel of your choice if you want to keep track.
 
 {{< rawhtml >}}
-<div id='buzzsprout-large-player-1758642-limit-10'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1758642.js?player=large&limit=10&container_id=buzzsprout-large-player-1758642-limit-10'></script>
+<div id='buzzsprout-large-player-1758642-limit-10'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1758642.js?player=large&container_id=buzzsprout-large-player-1758642-limit-10'></script>
 {{< /rawhtml >}}
 
 This is a video podcast that you can also find in YouTube. Please consider to subscribe and share if you find it interesting:
