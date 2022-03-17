@@ -26,12 +26,6 @@ These are the latest ten episodes of the podcast. Don't forget to subscribe on t
 <div id='buzzsprout-large-player-1758642-limit-10'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1758642.js?player=large&container_id=buzzsprout-large-player-1758642-limit-10'></script>
 {{< /rawhtml >}}
 
-This is a video podcast that you can also find in YouTube. Please consider to subscribe and share if you find it interesting:
-
-{{< rawhtml >}}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNtODHKPhvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{{< /rawhtml >}}
-
 
 # Subscribe to the podcast below
 
