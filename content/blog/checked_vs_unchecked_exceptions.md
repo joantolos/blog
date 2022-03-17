@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["code"]
-date = "2022-03-15"
+date = "2022-03-16"
 description = "Definition and examples"
 featured = "pic01.png"
 featuredalt = ""
