@@ -48,7 +48,7 @@ These are exceptions that don't go against the correct program execution, in pri
 
 They can also be used to explicit your program domain like sending a "user not found exception" if you are trying to search for an user, or more specific logics. Used in that sense, these exceptions provide intent and context to the code, making it more easy to read and follow.
 
-## Diferences
+## Differences
 
 The exception itself has nothing special that makes it checked or unchecked. The same exception can be checked in some context and unchecked on another. It's the way it is treated on the code that will define it's nature.
 

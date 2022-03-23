@@ -90,7 +90,7 @@ Why use setters and getters if I can access and modify the data anyway? Why don'
 4. Debugging can be much simpler, because breakpoint can be placed inside one method not near many references of that given field.
 5. They can hide implementation changes. You can change the field name for example, and not affect the rest of the code.
 
-But, and this is a big but, regarding **accessibility** and **mutability**, it is the same thing at the end of the day. So, from an extrictly practical point of view, you can modify a private field.
+But, and this is a big but, regarding **accessibility** and **mutability**, it is the same thing at the end of the day. So, from an strictly practical point of view, you can modify a private field.
 
 If what we want to achieve is immutability, in order to write functional code, we may want to explore other alternatives.
 
@@ -181,7 +181,7 @@ That way you can compile several entities on the same interface and makes the co
 
 ## Take away
 
-Choose your types wisely. This new record type offers a bunch of benefits. Be aware of accessibility and mutability of your data. I personally prefer to work with immutable data becasuse is less prone to errors and it's easier to debug.
+Choose your types wisely. This new record type offers a bunch of benefits. Be aware of accessibility and mutability of your data. I personally prefer to work with immutable data because is less prone to errors and it's easier to debug.
 
 ## References:
 
