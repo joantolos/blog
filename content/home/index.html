@@ -11,7 +11,48 @@
   <script src="https://kit.fontawesome.com/4ed8b0c0a9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
-  <script type="text/javascript" src="/public/js/menu.js"></script>
+  <script>
+    function openHamburguerMenu() {
+      var x = document.getElementById("links");
+      if (x.style.display === "block") {
+        closeMenu(x);
+      } else {
+        openMenu(x);
+      }
+
+      var x = document.getElementById("hamburger-icon");
+      if (x.style.display === "block") {
+        closeMenu(x);
+      } else {
+        openMenu(x);
+      }
+
+      var x = document.getElementById("hamburger-close");
+      if (x.style.display === "block") {
+        closeMenu(x);
+      } else {
+        openMenu(x);
+      }
+
+    }
+
+    function closeMenu(x) {
+      x.style.display = "none";
+      window.onscroll = function () { };
+    }
+
+    function openMenu(x) {
+      x.style.display = "block";
+      // Get the current page scroll position
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+
+        // if any scroll is attempted, set this to the previous value
+        window.onscroll = function () {
+          window.scrollTo(scrollLeft, scrollTop);
+        };
+    }
+  </script>
 </head>
 
 <style>
@@ -236,11 +277,11 @@
 <body>
 
   <nav class="menu">
-    <a href="blog.html">BLOG</a>
-    <a href="podcast.html">PODCAST</a>
+    <a href="/blog">BLOG</a>
+    <a href="/podcast">PODCAST</a>
     <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
-    <a href="about.html">ABOUT</a>
-    <a href="contact.html">CONTACT</a>
+    <a href="/about">ABOUT</a>
+    <a href="/contact">CONTACT</a>
   </nav>
 
   <nav class="hamburger">
@@ -251,11 +292,11 @@
   </nav>
 
   <div id="links" class="links">
-    <a href="blog.html">BLOG</a>
-    <a href="podcast.html">PODCAST</a>
+    <a href="/blog">BLOG</a>
+    <a href="/podcast">PODCAST</a>
     <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
-    <a href="about.html">ABOUT</a>
-    <a href="contact.html">CONTACT</a>
+    <a href="/about">ABOUT</a>
+    <a href="/contact">CONTACT</a>
   </div>
 
   <div class="bg">
