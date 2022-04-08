@@ -84,7 +84,7 @@ googleAnalytics = "https://www.googletagmanager.com/gtag/js?id=G-YKJLQYED7N"
 
 [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "../about/about.html"
     weight = 5
 
 [[menu.main]]

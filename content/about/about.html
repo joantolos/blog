@@ -1,16 +1,14 @@
-
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <title>Joan Tolós</title>
   <link rel="shortcut icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://kit.fontawesome.com/4ed8b0c0a9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
+  <link rel="stylesheet" href="public/css/site.css">
+  <link rel="stylesheet" href="public/css/menu.css">
+  <script src="https://kit.fontawesome.com/4ed8b0c0a9.js" crossorigin="anonymous"></script>
   <script>
     function openHamburguerMenu() {
       var x = document.getElementById("links");
@@ -62,6 +60,8 @@
     margin: 0;
     font-family: 'Lato', Arial;
     background: #ddd;
+    display:flex; 
+    flex-direction:column; 
   }
 
   .bg {
@@ -77,30 +77,20 @@
   footer {
     padding: 20px;
     background: #ddd;
-    padding-bottom: 35px;
-  }
-
-  .title {
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-bottom: 3%;
-    text-align: left;
-    font-family: 'Comforter Brush';
-    font-size: 100px;
-  }
-
-  .subtitle {
-    padding-left: 10%;
-    padding-right: 50%;
-    text-align: left;
-    line-height: 30px;
-    font-size: 20px;
+    padding-top: 115px;
+    padding-bottom: 15px;
+    margin-top:auto; 
   }
 
   main {
-    background-color: #333;
-    color: #ddd;
-    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  article {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
   }
 
   /* Style the top navigation bar */
@@ -137,21 +127,6 @@
     padding-top: 5%;
   }
 
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  ul>li {
-    text-align: center;
-    padding-bottom: 3%;
-  }
-
-  ul>li>p {
-    margin-right: 25%;
-    margin-left: 25%;
-  }
-
   img {
     border-radius: 50%;
     width: 10%;
@@ -159,27 +134,53 @@
     background-color: #ddd;
     color: #333;
   }
+  
+  .bar {
+    overflow: hidden;
+    top: 0;
+    float: left;
+    display: block;
+  }
+
+  .fa-twitter {
+    border-radius: 50%;
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    border-radius: 50%;
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube {
+    border-radius: 50%;
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-github {
+    border-radius: 50%;
+    background: #171515;
+    color: white;
+  }
+
+  .fa-spotify {
+    border-radius: 50%;
+    background: #1DB954;
+    color: rgb(0, 0, 0);
+  }
+
+  .fa-podcast {
+    border-radius: 50%;
+    background: #ddd;
+    color: #171515;
+  }
 
   @media screen and (max-width: 1000px) {
     .bg {
       background-image: url("joan2021_bg_small.png");
-    }
-
-    .title {
-      padding-top: 5%;
-      padding-left: 0;
-      padding-bottom: 5%;
-      text-align: center;
-      font-family: 'Comforter Brush';
-      font-size: 60px;
-    }
-
-    .subtitle {
-      padding-left: 15%;
-      padding-right: 10%;
-      text-align: center;
-      line-height: 30px;
-      font-size: 15px;
     }
 
     @keyframes expand {
@@ -277,6 +278,7 @@
 <body>
 
   <nav class="menu">
+    <a href="../home/index.html">Joan Tolós</a>
     <a href="/blog">BLOG</a>
     <a href="/podcast">PODCAST</a>
     <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
@@ -299,51 +301,50 @@
     <a href="/contact">CONTACT</a>
   </div>
 
-  <div class="bg">
-    <div class="title">Joan Tolós</div>
-    <div class="subtitle">Hey, welcome to my site. I am passionate about programming and technology. Take a look to my
-      latest blog post or podcast episode.</div>
-  </div>
-
   <main>
-    <ul>
-      <li>
-        <a href="/blog"><img src="blog.svg"></a>
-        <h1>Blog</h1>
-        <p>I write about programming, technology and software development. I do technical post covering the basics of topics
-          at an entry level. I also write about several non technical aspect of the business like leadership, ethics and way
-          way of life.
-        </p>
-      </li>
-      <li>
-        <a href="/podcast"><img src="podcast.svg"></a>
-        <h1>Podcast</h1>
-        <p>"Nada nuevo bajo el sol" it's a video podcast where I talk about my day to day as a developer. I cover topics like
-          functional programming, test driven development, big O notation and a large variety of non technology related topics
-          like ethics in the software industry.
-        </p>
-      </li>
-      <li>
-        <a href="../about/about.html"><img src="about.svg"></a>
-        <h1>About</h1>
-        <p>I'm a computer science engineer based in Barcelona.
-          I've been writing about coding, the ethics and the business side of my craft for a while.
-          In addition to that, I host my own podcast talking about my day to day as developer.
-        </p>
-      </li>
-      <li>
-        <a href="/contact"><img src="contact.svg"></a>
-        <h1>Contact</h1>
-        <p>Drop me a line if you like to be in contact. I will try to answer as soon as possible.
-          You can also propose topics and I will write about them or adress them on the podcast.</p>
-      </li>
-    </ul>
+    <article>
+      I'm a software developer. I enjoy every day the overwhelming energy and will of my son and daughter. I am passionate about coding and reading. I like to share with others, learn and try new things whenever I have the chance. As a software developer I believe in:
+    </article>
+
+    <article>
+      <li>Responsibility and accountability</li>
+      <li>Not hiding things under the rug</li>
+      <li>Proposing improvements and solutions instead of complaining</li>
+      <li>Pursuing excellence</li>
+    </article>
+
+    <article>
+      I deliver. I may enjoy thoughtful conversations about problems and perfecting designs, but in the end, I know that what matters is delivering a manufacturable solution that works every time.
+    </article>
+
+    <article>
+      This blog intends to compile my thoughts as I learn and discover new things. I share interesting articles, write some of my own and give back to the software community.
+    </article>
+
+    <article>
+      Contact me if you like and I will be happy to answer.
+    </article>
+
+    <article>
+      <ul style="list-style-type: none; overflow: hidden; height: 100%; width: 100%;">
+        <li style="float: left;"><a style="text-decoration: none; padding: 16px; display: block;" class="fa fa-twitter" target="_blank" href="http://twitter.com/JoanTolos"></a></li>
+        <li style="float: left;"><a style="text-decoration: none; padding: 16px; display: block;" class="fa fa-youtube" target="_blank" href="http://youtube.com/channel/UC4wf7OriE3f08dmbVvHykQg"></a></li>
+        <li style="float: left;"><a style="text-decoration: none; padding: 16px; display: block;" class="fa fa-podcast" target="_blank" href="http://podcasts.apple.com/es/podcast/nada-nuevo-bajo-el-sol/id1563220961"></a></li>
+        <li style="float: left;"><a style="text-decoration: none; padding: 16px; display: block;" class="fa fa-spotify" target="_blank" href="http://open.spotify.com/show/6BcHhm3wO3cvSIMZL6ssG8"></a></li>
+        <li style="float: left;"><a style="text-decoration: none; padding: 16px; display: block;" class="fa fa-linkedin" target="_blank" href="http://linkedin.com/in/joantolos"></a></li>
+        <li style="float: left;"><a style="text-decoration: none; padding: 16px; display: block;" class="fa fa-github" target="_blank" href="http://github.com/joantolos"></a></li>
+      </ul>
+    </article>
+
+    <article>
+      Thanks for reading!
+    </article>
   </main>
 
-  <footer>
-    copyright &copy; 2022 Joan Tolós. All rights reserved.
-  </footer>
+<footer>
+  <p>copyright &copy; 2022 Joan Tolós. All rights reserved.</p>
+</footer>
 
 </body>
-
 </html>
+
