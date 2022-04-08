@@ -5,7 +5,7 @@ theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 5
 disqusShortname = "www-joantolos-com"
-googleAnalytics = ""
+googleAnalytics = "https://www.googletagmanager.com/gtag/js?id=G-YKJLQYED7N"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
