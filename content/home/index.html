@@ -2,93 +2,307 @@
 <!DOCTYPE HTML>
 
 <html>
-  <head>
-    <title>Joan Tolós</title>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content="Hugo 0.71.0" />
-    <meta name="description" content="coding, blogging, podcasting">
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Joan Tolós"/>
-    <meta name="twitter:description" content="coding, blogging, podcasting"/>
-    <meta name="twitter:site" content="@JoanTolos"/>
-    <meta property="og:title" content="Joan Tolós" />
-    <meta property="og:description" content="coding, blogging, podcasting" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.joantolos.com/" />
-    <meta property="og:updated_time" content="2018-02-28T00:00:00+00:00" />
-    <meta itemprop="name" content="Joan Tolós">
-    <meta itemprop="description" content="coding, blogging, podcasting">
+<head>
+  <meta charset="UTF-8">
+  <title>Joan Tolós</title>
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/4ed8b0c0a9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
+  <script type="text/javascript" src="/public/js/menu.js"></script>
+</head>
 
-    <link rel="stylesheet" href="/css/google-font.css" />
-    <link rel="stylesheet" href="/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/add-on.css" />
-    <link rel="stylesheet" href="/css/monokai-sublime.css">
-  </head>
-  <style type="text/css">
-    body {
-      /* background-image: url("joantolos.jpg"); */
-      background-color: #cccccc;
+<style>
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', Arial;
+    background: #ddd;
+  }
+
+  .bg {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background-image: url("joan2021_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer {
+    padding: 20px;
+    background: #ddd;
+    padding-bottom: 35px;
+  }
+
+  .title {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    text-align: left;
+    font-family: 'Comforter Brush';
+    font-size: 100px;
+  }
+
+  .subtitle {
+    padding-left: 10%;
+    padding-right: 50%;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  main {
+    background-color: #333;
+    color: #ddd;
+    padding-bottom: 0px;
+  }
+
+  /* Style the top navigation bar */
+  nav {
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+  }
+
+  /* Style the topnav links */
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 21px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+
+  main {
+    padding-top: 5%;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul>li {
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  ul>li>p {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 10%;
+    object-fit: contain;
+    background-color: #ddd;
+    color: #333;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .bg {
+      background-image: url("joan2021_bg_small.png");
     }
-  </style>
-  <body>
-    <div id="wrapper">
-      <header id="header">
-        <h1><a href="/">Joan Tolós</i></a></h1>
-        <nav class="links">
-          <ul>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/podcast">Podcast</a></li>
-            <li><a href="http://store.joantolos.com" target="_blank">Store</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav>
-        <nav class="main">
-        <ul>
-          <li id="share-nav" class="share-menu" style="display:none;">
-            <a class="fa-share-alt" href="#share-menu">Share</a>
-          </li>
-          <li class="menu">
-            <a class="fa-bars" href="#menu">Menu</a>
-          </li>
-        </ul>
-        </nav>
-      </header>
 
-      <section id="menu">
-        <section>
-          <ul class="links">
-            <li><a href="/blog"><h3>Blog</h3></a></li>
-            <li><a href="/podcast"><h3>Podcast</h3></a></li>
-            <li><a href="http://store.joantolos.com" target="_blank"><h3>Store</h3></a></li>
-            <li><a href="/about"><h3>About</h3></a></li>
-            <li><a href="/contact"><h3>Contact</h3></a></li>
-          </ul>
-        </section>
-      </section>
+    .title {
+      padding-top: 5%;
+      padding-left: 0;
+      padding-bottom: 5%;
+      text-align: center;
+      font-family: 'Comforter Brush';
+      font-size: 60px;
+    }
 
-      <section id="buttons">
-        <a href="/blog/" class="button">Blog</a>
-        <a href="/podcast/" class="button">Podcast</a>
-        <a href="http://store.joantolos.com" target="_blank" class="button">Store</a>
-      </section>
+    .subtitle {
+      padding-left: 15%;
+      padding-right: 10%;
+      text-align: center;
+      line-height: 30px;
+      font-size: 15px;
+    }
 
-      <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
-
-      <script src="/js/jquery.min.js"></script>
-      <script src="/js/skel.min.js"></script>
-      <script src="/js/util.js"></script>
-      <script src="/js/main.js"></script>
-      <script src="/js/backToTop.js"></script>
-      <script src="/js/highlight.pack.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script>
-    </body>
-    <style>
-      div {
-        background-image: url('joantolos.jpg');
+    @keyframes expand {
+      0% {
+        height: 0px
       }
-    </style>
+
+      0% {
+        height: 0px
+      }
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    nav a {
+      float: right;
+    }
+
+    .home-button {
+      float: left;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .links {
+      display: none;
+      background-color: #333;
+      position: fixed;
+      top: 44px;
+      height: 100%;
+      width: 100%;
+      z-index: 99;
+      animation: expand 1s;
+    }
+
+    .links a {
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 60px;
+      text-decoration: none;
+      animation: fadein 1.5s;
+    }
+
+    .links a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    nav a:hover {
+      background-color: #333;
+      color: #f2f2f2;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul>li {
+      text-align: center;
+      padding-bottom: 3%;
+    }
+
+    ul>li>p {
+      padding-bottom: 15%;
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 30%;
+      object-fit: contain;
+      background-color: #ddd;
+      color: #333;
+    }
+  }
+</style>
+
+<body>
+
+  <nav class="menu">
+    <a href="blog.html">BLOG</a>
+    <a href="podcast.html">PODCAST</a>
+    <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <nav class="hamburger">
+    <a href="javascript:void(0);" class="icon" onclick="openHamburguerMenu()">
+      <i id="hamburger-icon" style="text-align: right; display: block" class="fas fa-bars"></i>
+      <i id="hamburger-close" style="text-align: right; display: none" class="fas fa-times"></i>
+    </a>
+  </nav>
+
+  <div id="links" class="links">
+    <a href="blog.html">BLOG</a>
+    <a href="podcast.html">PODCAST</a>
+    <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+
+  <div class="bg">
+    <div class="title">Joan Tolós</div>
+    <div class="subtitle">Hey, welcome to my site. I am passionate about programming and technology. Take a look to my
+      latest blog post or podcast episode.</div>
+  </div>
+
+  <main>
+    <ul>
+      <li>
+        <img src="blog.svg">
+        <h1>Blog</h1>
+        <p>I write about programming, technology and software development. I do technical post covering the basics of topics
+          at an entry level. I also write about several non technical aspect of the business like leadership, ethics and way
+          way of life.
+        </p>
+      </li>
+      <li>
+        <img src="podcast.svg">
+        <h1>Podcast</h1>
+        <p>"Nada nuevo bajo el sol" it's a video podcast where I talk about my day to day as a developer. I cover topics like
+          functional programming, test driven development, big O notation and a large variety of non technology related topics
+          like ethics in the software industry.
+        </p>
+      </li>
+      <li>
+        <img src="about.svg">
+        <h1>About</h1>
+        <p>I'm a computer science engineer based in Barcelona.
+          I've been writing about coding, the ethics and the business side of my craft for a while.
+          In addition to that, I host my own podcast talking about my day to day as developer.
+        </p>
+      </li>
+      <li>
+        <img src="contact.svg">
+        <h1>Contact</h1>
+        <p>Drop me a line if you like to be in contact. I will try to answer as soon as possible.
+          You can also propose topics and I will write about them or adress them on the podcast.</p>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    copyright &copy; 2022 Joan Tolós. All rights reserved.
+  </footer>
+
+</body>
+
 </html>
