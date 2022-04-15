@@ -1,7 +1,7 @@
 +++
 author = "Joan Tolos"
 categories = ["life"]
-date = "2022-04-15"
+date = "2022-04-14"
 description = "Where the term came from?"
 featured = "pic01.png"
 featuredalt = ""
